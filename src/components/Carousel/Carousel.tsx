@@ -8,7 +8,8 @@ import {
   DotsContainer,
   Dot,
 } from "./styles";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+// import { FaArrowLeft, FaArrowRight, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import {FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const photos = [
   "/images/photo_5456500184721778858_y.jpg",
@@ -41,7 +42,8 @@ const Carousel: React.FC = () => {
     <>
       <CarouselContainer>
         <NavButton onClick={prevSlide}>
-          <FaArrowLeft style={{ color: "white" }} />
+          {/* <FaArrowLeft style={{ color: "white" }} /> */}
+          <FaChevronLeft style={{ color: "white" }} />
         </NavButton>
 
         <SideImagesContainer>
@@ -63,14 +65,15 @@ const Carousel: React.FC = () => {
         </SideImagesContainer>
 
         <NavButton onClick={nextSlide}>
-          <FaArrowRight style={{ color: "white" }} />
+          {/* <FaArrowRight style={{ color: "white" }} /> */}
+          <FaChevronRight style={{ color: "white" }} />
         </NavButton>
       </CarouselContainer>
       <DotsContainer>
         {photos.map((_, index) => (
           <Dot
             key={index}
-            isActive={index === currentIndex}
+            $isActive={index === currentIndex}
             onClick={() => setCurrentIndex(index)}
           />
         ))}

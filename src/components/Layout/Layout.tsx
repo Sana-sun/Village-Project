@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import { LayoutWrapper, MainContent, ScrollButton } from "./styles";
+// import { FaChevronUp, FaArrowUp } from "react-icons/fa";
 import { FaChevronUp } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
@@ -42,6 +43,7 @@ const Layout = ({ children }: LayoutProps) => {
       {isVisible && (
         <ScrollButton onClick={scrollToTop}>
           <FaChevronUp />
+          {/* <FaArrowUp /> */}
         </ScrollButton>
       )}
 

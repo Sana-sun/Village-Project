@@ -17,6 +17,9 @@ export const MainContent = styled.main`
 `;
 
 export const ScrollButton = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   bottom: 20px; 
   right: 20px; 
@@ -27,7 +30,11 @@ export const ScrollButton = styled.button`
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
-  font-size: 24px;
+  /* font-size: 18px; */
+  /* font-size: 1.2rem; */
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
 
   &:hover {
     background-color: #ff3385;
@@ -36,5 +43,17 @@ export const ScrollButton = styled.button`
 
   &:focus {
     outline: none; 
+  }
+
+    @media (max-width: 768px) {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 480px) {
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
   }
 `;

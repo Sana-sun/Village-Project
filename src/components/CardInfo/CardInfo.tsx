@@ -1,5 +1,6 @@
 import ReactMarkdown from "react-markdown";
 import { FotoContainer, MainInfoContainer, SloganText, TextContainer } from "./styles";
+import Carousel from "../Carousel/Carousel";
 
 interface CardTextProps {
   slogan?: string;
@@ -23,6 +24,7 @@ function CardInfo({ mainText, slogan }: CardTextProps) {
           {/* <div>
             Gallery
           </div> */}
+          <Carousel />
 
        </div>
     </>

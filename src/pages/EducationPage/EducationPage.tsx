@@ -34,7 +34,7 @@ function EducationPage() {
     text: extractSection(rawMd, `${key}_TEXT_START`, `${key}_TEXT_END`),
   }));
 
-  // приклад використання
+  // приклад використання - text
 
   const introText = extractSection(rawMd, "INTRO_TEXT_START", "INTRO_TEXT_END");
   const separateText = extractSection(
@@ -43,16 +43,8 @@ function EducationPage() {
     "SEPARATE_TEXT_END"
   );
 
-  // console.log("Kita slogan:", sections[0].slogan);
-  // console.log("Schule slogan:", sections[1].slogan);
-  // console.log("Mini-Bibliotek slogan:", sections[2].slogan);
-
   return (
     <>
-{/* 
-      <IntroWrapper>
-        <ReactMarkdown>{sections[2].slogan}</ReactMarkdown>
-      </IntroWrapper> */}
 
       <YourAreHere />
 

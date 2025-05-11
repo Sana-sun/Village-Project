@@ -7,8 +7,9 @@ export const CarouselContainer = styled.div`
   width: 100%;
   position: relative;
   height: 450px;
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   padding: 30px;
+  margin-top: 20px;
 
   @media (max-width: 1240px) {
     height: 300px;
@@ -30,11 +31,11 @@ export const CarouselContainer = styled.div`
   @media (max-width: 540px) {
     width: 100%;
     height: 350px;
+    padding: 0; // new padding for small screen
   }
 
   @media (max-width: 430px) {
     height: 300px;
-    padding: 10px 20px;
   }
 `;
 
@@ -49,16 +50,16 @@ export const MainImageContainer = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: transform 8s ease-in-out, opacity 3s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 
     @media (max-width: 768px) {
-      border-radius: 8px;
+      /* border-radius: 8px; */
     }
 
     @media (max-width: 480px) {
-      border-radius: 5px;
+      /* border-radius: 5px; */
     }
 
     @media (max-width: 430px) {
@@ -100,7 +101,7 @@ export const SideImage = styled.img`
   width: 100%;
   height: 70%;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 20px;
   opacity: 0.7;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 
@@ -116,6 +117,7 @@ export const SideImage = styled.img`
 export const NavButton = styled.div`
   background-color: #9ceef1;
   background-color: #7a2141;
+  background-color:  #66b3ff;
   border: none;
   color: white;
   font-size: 1.5rem;
@@ -129,12 +131,13 @@ export const NavButton = styled.div`
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1;
+  /* z-index: 1; */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
   &:hover {
     background-color: #88d4e6;
     background-color: #641230;
+    background-color: #338bff;
   }
 
   &:nth-child(1) {
@@ -185,6 +188,7 @@ export const NavButton = styled.div`
     &:nth-child(5) {
       right: -10px;
     }
+    display: none;
   }
 `;
 
@@ -203,18 +207,16 @@ export const DotsContainer = styled.div`
   }
 `;
 
-export const Dot = styled.div<{ isActive: boolean }>`
+export const Dot = styled.div<{ $isActive: boolean }>`
   width: 10px;
   height: 10px;
-  background-color: ${(props) => (props.isActive ? "#7a2141;" : "#d3d3d3")};
+  background-color: ${(props) => (props.$isActive ? "#66b3ff;" : "#d3d3d3")};
   border-radius: 50%;
   margin: 0 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: #88d4e6;
-    background-color: #7a2141;
-    background-color: #641230;
+    background-color: #338bff;
   }
 `;
