@@ -19,8 +19,13 @@ Und wer Lust auf neue Geschichten hat, kann jederzeit in unserer **Mini-Biblioth
 Kita
 <!-- KITA_NAME_END -->
 <!-- KITA_PHOTO_START -->
-public/images/Bildung_Gemeinschaft/Kita/mainPhoto.jpg
+/images/Bildung_Gemeinschaft/Kita/mainPhoto.jpg
 <!-- KITA_PHOTO_END -->
+<!-- KITA_IMAGES_START -->
+/images/Bildung_Gemeinschaft/Kita/1.jpg
+/images/Bildung_Gemeinschaft/Kita/2.jpg
+/images/Bildung_Gemeinschaft/Kita/3.jpg
+<!-- KITA_IMAGES_END -->
 <!-- KITA_SLOGAN_START -->
 Ein liebevoller Ort zum Spielen, Lernen und Wachsen
 <!-- KITA_SLOGAN_END -->
@@ -44,8 +49,15 @@ Monatlich findet ein offener Babytreff statt – ideal für Familien, die unsere
 Grundschule
 <!-- GRUNDSCHULE_NAME_END -->
 <!-- GRUNDSCHULE_PHOTO_START -->
-public/images/Bildung_Gemeinschaft/Schule/mainPhoto.jpg
+/images/Bildung_Gemeinschaft/Schule/mainPhoto.jpg
 <!-- GRUNDSCHULE_PHOTO_END -->
+<!-- GRUNDSCHULE_IMAGES_START -->
+/images/Bildung_Gemeinschaft/Schule/1.jpg
+/images/Bildung_Gemeinschaft/Schule/2.jpg
+/images/Bildung_Gemeinschaft/Schule/3.jpg
+/images/Bildung_Gemeinschaft/Schule/4.jpg
+/images/Bildung_Gemeinschaft/Schule/5.jpg
+<!-- GRUNDSCHULE_IMAGES_END -->
 <!-- GRUNDSCHULE_SLOGAN_START -->
 Lernen, wachsen und die Welt entdecken
 <!-- GRUNDSCHULE_SLOGAN_END -->
@@ -71,8 +83,13 @@ Regelmäßige Projekte, Sportangebote und ein aktiver Förderverein machen unser
 Mini - Bibliotek
 <!-- MINIBIBLIOTEK_NAME_END -->
 <!-- MINIBIBLIOTEK_PHOTO_START -->
-public/images/Bildung_Gemeinschaft/Bibliotek/mainFoto.jpg
+/images/Bildung_Gemeinschaft/Bibliotek/mainFoto.jpg
 <!-- MINIBIBLIOTEK_PHOTO_END -->
+<!-- MINIBIBLIOTEK_IMAGES_START -->
+/images/Bildung_Gemeinschaft/Bibliotek/1.jpg
+/images/Bildung_Gemeinschaft/Bibliotek/2.jpg
+/images/Bildung_Gemeinschaft/Bibliotek/3.jpg
+<!-- MINIBIBLIOTEK_IMAGES_END -->
 <!-- MINIBIBLIOTEK_SLOGAN_START -->
 Lesefreude zum Mitnehmen – von Nachbarn für Nachbarn
 <!-- MINIBIBLIOTEK_SLOGAN_END -->

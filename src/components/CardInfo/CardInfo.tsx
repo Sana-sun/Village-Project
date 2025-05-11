@@ -6,9 +6,10 @@ interface CardTextProps {
   slogan?: string;
   mainText?: string;
   mainPhoto?: string;
+  images?: string[];
 }
 
-function CardInfo({ mainText, slogan, mainPhoto }: CardTextProps) {
+function CardInfo({ mainText, slogan, mainPhoto, images }: CardTextProps) {
 
   return (
     <>
@@ -25,7 +26,7 @@ function CardInfo({ mainText, slogan, mainPhoto }: CardTextProps) {
             
           </MainInfoContainer>
 
-          <Carousel />
+          <Carousel images={images} />
 
        </div>
     </>

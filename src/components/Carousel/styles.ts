@@ -6,36 +6,25 @@ export const CarouselContainer = styled.div`
   justify-content: center;
   width: 100%;
   position: relative;
-  height: 450px;
+  height: 500px;
+  height: 650px;
   /* background-color: #f8f8f8; */
   padding: 30px;
   margin-top: 20px;
 
   @media (max-width: 1240px) {
-    height: 300px;
-    padding: 20px;
-  }
-
-  @media (max-width: 1024px) {
-    height: 250px;
-    padding: 20px;
-  }
-
-  //
-
-  @media (max-width: 1024px) {
     height: 500px;
+    padding: 20px;
+  } 
+
+  @media (max-width: 1024px) {
     padding: 10px 30px;
   }
 
-  @media (max-width: 540px) {
+  @media (max-width: 768px) {
     width: 100%;
     height: 350px;
-    padding: 0; // new padding for small screen
-  }
-
-  @media (max-width: 430px) {
-    height: 300px;
+    padding: 0; 
   }
 `;
 
@@ -53,25 +42,6 @@ export const MainImageContainer = styled.div`
     border-radius: 20px;
     transition: transform 8s ease-in-out, opacity 3s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-
-    @media (max-width: 768px) {
-      /* border-radius: 8px; */
-    }
-
-    @media (max-width: 480px) {
-      /* border-radius: 5px; */
-    }
-
-    @media (max-width: 430px) {
-      width: 100%;
-      height: 100%;
-    }
-
-    //
-    @media (max-width: 1024px) {
-      width: 100%;
-      height: 100%;
-    }
   }
 `;
 

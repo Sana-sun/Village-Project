@@ -1,90 +1,3 @@
-import React, { useEffect, useState } from "react";
-import {
-  CarouselContainer,
-  MainImageContainer,
-  SideImagesContainer,
-  SideImage,
-  NavButton,
-  DotsContainer,
-  Dot,
-} from "./styles";
-// import { FaArrowLeft, FaArrowRight, FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import {FaChevronLeft, FaChevronRight } from "react-icons/fa";
-
-const photos = [
-  "/images/photo_5456500184721778858_y.jpg",
-  "/images/photo_5456500184721778860_y.jpg",
-  "/images/photo_5456500184721778861_y.jpg",
-  "/images/photo_5456500184721778863_y.jpg",
-];
-
-const Carousel: React.FC = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % photos.length);
-    }, 6000);
-    return () => clearInterval(interval);
-  }, []);
-
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % photos.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? photos.length - 1 : prevIndex - 1
-    );
-  };
-
-  return (
-    <>
-      <CarouselContainer>
-        <NavButton onClick={prevSlide}>
-          {/* <FaArrowLeft style={{ color: "white" }} /> */}
-          <FaChevronLeft style={{ color: "white" }} />
-        </NavButton>
-
-        <SideImagesContainer>
-          <SideImage
-            src={photos[(currentIndex - 1 + photos.length) % photos.length]}
-            alt="Previous Image"
-          />
-        </SideImagesContainer>
-
-        <MainImageContainer>
-          <img src={photos[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
-        </MainImageContainer>
-        
-        <SideImagesContainer>
-          <SideImage
-            src={photos[(currentIndex + 1) % photos.length]}
-            alt="Next Image"
-          />
-        </SideImagesContainer>
-
-        <NavButton onClick={nextSlide}>
-          {/* <FaArrowRight style={{ color: "white" }} /> */}
-          <FaChevronRight style={{ color: "white" }} />
-        </NavButton>
-      </CarouselContainer>
-      <DotsContainer>
-        {photos.map((_, index) => (
-          <Dot
-            key={index}
-            $isActive={index === currentIndex}
-            onClick={() => setCurrentIndex(index)}
-          />
-        ))}
-      </DotsContainer>
-    </>
-  );
-};
-
-export default Carousel;
-
-
 // import React, { useEffect, useState } from "react";
 // import {
 //   CarouselContainer,
@@ -172,90 +85,87 @@ export default Carousel;
 // export default Carousel;
 
 
-// import React, { useEffect, useState } from "react";
-// import {
-//   CarouselContainer,
-//   MainImageContainer,
-//   SideImagesContainer,
-//   SideImage,
-//   NavButton,
-//   DotsContainer,
-//   Dot,
-// } from "./styles";
-// // import { FaArrowLeft, FaArrowRight, FaChevronLeft, FaChevronRight } from "react-icons/fa";
-// import {FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import React, { useEffect, useState } from "react";
+import {
+  CarouselContainer,
+  MainImageContainer,
+  SideImagesContainer,
+  SideImage,
+  NavButton,
+  DotsContainer,
+  Dot,
+} from "./styles";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-// // const photos = [
-// //   "/images/Bildung_Gemeinschaft/herz.jpg",
-// // ];
+interface CarouselProps {
+  images?: string[];
+}
 
-// interface CarouselFotosProps {
-//   photos?: string[];
-// }
+const Carousel: React.FC<CarouselProps> = ({ images }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
+  useEffect(() => {
+    if (!images || images.length === 0) return;
 
-// const Carousel: React.FC = ({ photos }: CarouselFotosProps) => {
-//   const [currentIndex, setCurrentIndex] = useState(0);
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 6000);
+    return () => clearInterval(interval);
+  }, [images]);
 
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       setCurrentIndex((prevIndex) => (prevIndex + 1) % photos.length);
-//     }, 6000);
-//     return () => clearInterval(interval);
-//   }, []);
+  if (!images || images.length === 0) return null;
 
-//   const nextSlide = () => {
-//     setCurrentIndex((prevIndex) => (prevIndex + 1) % photos.length);
-//   };
+  const nextSlide = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
 
-//   const prevSlide = () => {
-//     setCurrentIndex((prevIndex) =>
-//       prevIndex === 0 ? photos.length - 1 : prevIndex - 1
-//     );
-//   };
+  const prevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
 
-//   return (
-//     <>
-//       <CarouselContainer>
-//         <NavButton onClick={prevSlide}>
-//           {/* <FaArrowLeft style={{ color: "white" }} /> */}
-//           <FaChevronLeft style={{ color: "white" }} />
-//         </NavButton>
+  return (
+    <>
+      <CarouselContainer>
+        <NavButton onClick={prevSlide}>
+          <FaChevronLeft style={{ color: "white" }} />
+        </NavButton>
 
-//         <SideImagesContainer>
-//           <SideImage
-//             src={photos[(currentIndex - 1 + photos.length) % photos.length]}
-//             alt="Previous Image"
-//           />
-//         </SideImagesContainer>
+        <SideImagesContainer>
+          <SideImage
+            src={images[(currentIndex - 1 + images.length) % images.length]}
+            alt="Previous Image"
+          />
+        </SideImagesContainer>
 
-//         <MainImageContainer>
-//           <img src={photos[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
-//         </MainImageContainer>
-        
-//         <SideImagesContainer>
-//           <SideImage
-//             src={photos[(currentIndex + 1) % photos.length]}
-//             alt="Next Image"
-//           />
-//         </SideImagesContainer>
+        <MainImageContainer>
+          <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+        </MainImageContainer>
 
-//         <NavButton onClick={nextSlide}>
-//           {/* <FaArrowRight style={{ color: "white" }} /> */}
-//           <FaChevronRight style={{ color: "white" }} />
-//         </NavButton>
-//       </CarouselContainer>
-//       <DotsContainer>
-//         {photos.map((_, index) => (
-//           <Dot
-//             key={index}
-//             $isActive={index === currentIndex}
-//             onClick={() => setCurrentIndex(index)}
-//           />
-//         ))}
-//       </DotsContainer>
-//     </>
-//   );
-// };
+        <SideImagesContainer>
+          <SideImage
+            src={images[(currentIndex + 1) % images.length]}
+            alt="Next Image"
+          />
+        </SideImagesContainer>
 
-// export default Carousel;
+        <NavButton onClick={nextSlide}>
+          <FaChevronRight style={{ color: "white" }} />
+        </NavButton>
+      </CarouselContainer>
+
+      <DotsContainer>
+        {images.map((_, index) => (
+          <Dot
+            key={index}
+            $isActive={index === currentIndex}
+            onClick={() => setCurrentIndex(index)}
+          />
+        ))}
+      </DotsContainer>
+    </>
+  );
+};
+
+export default Carousel;
