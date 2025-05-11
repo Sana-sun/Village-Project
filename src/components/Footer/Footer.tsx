@@ -58,7 +58,8 @@ function Footer() {
           </CenterTextTrio>
 
           <Links>
-            Mehr von uns auf:
+            {/* Mehr von uns auf: */}
+            Mehr auf:
             <a
               href="https://www.instagram.com/explore/locations/700885431/schonwalde-brandenburg-germany/"
               target="_blank"

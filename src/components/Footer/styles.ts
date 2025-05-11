@@ -19,9 +19,24 @@ export const FooterWrapper = styled.div`
 
 export const LogoBtn = styled.button`
   width: 200px;
+  /* width: 150px; */
+  margin-left: 100px;
+
   cursor: pointer;
   border: none;
   background-color: transparent;
+
+  /* @media (max-width: 1024px) {
+      margin-left: 0;
+  } */
+
+  @media (max-width: 880px) {
+    margin-left:70px;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+  }
 `;
 
 export const LogoImage = styled.img`
@@ -58,7 +73,7 @@ export const CenterTextTrio = styled.div`
     margin-right: 4px;
   }
 
-   a:hover {
+  a:hover {
     text-decoration: underline;
   }
 `;
