@@ -9,7 +9,7 @@ function YourAreHere() {
     "/": "Startseite",
     "/education": "Bildung & Gemeinschaft",
     "/municipality": "Gemeinde & Verwaltung",
-    "/tradeServices": "Wirtschaft & Dienstleistungen",
+    "/tradeServices": "Handel & Dienstleistungen",
     "/leisure": "Natur & Freizeit",
     "/transport": "Verkehr & Infrastruktur",
     "/bauLand": "Baugrundstücke",

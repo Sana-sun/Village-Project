@@ -56,6 +56,3 @@ export const LogoImage = styled.img`
   width: 100%;
 `;
 
-export const LanguageBox = styled.div`
-  font-size: 24px;
-`;

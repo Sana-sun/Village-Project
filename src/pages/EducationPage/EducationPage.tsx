@@ -7,6 +7,8 @@ import rawMd from "./text.md?raw";
 import MoreInfoBtn from "../../components/MoreInfoBtn/MoreInfoBtn";
 import CardInfo from "../../components/CardInfo/CardInfo";
 
+import rawMdFotos from "./fotos.md?raw";
+
 function EducationPage() {
   const categories = [
     { key: "KITA" },
@@ -31,15 +33,28 @@ function EducationPage() {
     const name = extractSection(rawMd, `${key}_NAME_START`, `${key}_NAME_END`);
     return {
       name,
-      id: name.replace(/\s+/g, "-").toLowerCase(),
+      // id: name.replace(/\s+/g, "-").toLowerCase(),
+      // id: name.replace(/\s*-\s*/g, "-").replace(/\s+/g, "-").toLowerCase(),
+      id: name
+        .toLowerCase()
+        .normalize("NFD") // Розбиває умляути на базові літери + діакритику
+        .replace(/[\u0300-\u036f]/g, "") // Прибирає діакритику
+        .replace(/ä/g, "ae")
+        .replace(/ö/g, "oe")
+        .replace(/ü/g, "ue")
+        .replace(/ß/g, "ss")
+        .replace(/\s*-\s*/g, "-")
+        .replace(/[^a-z0-9]+/g, "-") // Усе, що не буква/цифра → "-"
+        .replace(/^-+|-+$/g, ""), // Прибирає дефіси на краях
+
       slogan: extractSection(rawMd, `${key}_SLOGAN_START`, `${key}_SLOGAN_END`),
       text: extractSection(rawMd, `${key}_TEXT_START`, `${key}_TEXT_END`),
       mainPhoto: extractSection(
-        rawMd,
+        rawMdFotos,
         `${key}_PHOTO_START`,
         `${key}_PHOTO_END`
       ),
-      images: extractSection(rawMd, `${key}_IMAGES_START`, `${key}_IMAGES_END`)
+      images: extractSection(rawMdFotos, `${key}_IMAGES_START`, `${key}_IMAGES_END`)
         .split("\n")
         .map((line) => line.trim())
         .filter(Boolean),

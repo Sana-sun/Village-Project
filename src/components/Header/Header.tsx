@@ -1,6 +1,6 @@
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
-import { LanguageBox, LogoBtn, LogoImage, MenuWrapper } from "./styles";
-import { FaGlobe } from "react-icons/fa";
+import IconSearch from "../IconSearch/IconSearch";
+import { LogoBtn, LogoImage, MenuWrapper } from "./styles";
 
 function Header() {
   const handleHomePage = () => {
@@ -21,7 +21,7 @@ function Header() {
           />
         </LogoBtn>
 
-        <LanguageBox><FaGlobe /></LanguageBox>
+        <IconSearch />
         
       </MenuWrapper>
     </>
