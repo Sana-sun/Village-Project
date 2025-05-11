@@ -34,7 +34,6 @@ export const CardWrapper = styled.div`
 /* margin: 20px; */
 width: 650px;
 height: 500px;
-width: 650px;
 border-radius: 20px;
 
 `

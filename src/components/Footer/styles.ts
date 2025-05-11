@@ -54,7 +54,12 @@ export const CenterTextTrio = styled.div`
   line-height: 1.4;
 
   a {
+    text-decoration: none;
     margin-right: 4px;
+  }
+
+   a:hover {
+    text-decoration: underline;
   }
 `;
 

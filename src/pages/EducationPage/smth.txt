@@ -63,3 +63,301 @@
 // export default EducationPage;
 
 // without timer
+
+// try 2 to get info from g.s.
+// import { useEffect, useState } from "react";
+// import MoreInfoBtn from "../../components/MoreInfoBtn/MoreInfoBtn";
+// import introText from "./intro.md?raw";
+// import ReactMarkdown from "react-markdown";
+// import { FaChevronLeft } from "react-icons/fa";
+// import YourAreHere from "../../components/YourAreHere/YouAreHere";
+// import { 
+//   ArrowButton, 
+//   ButtonGrid, 
+//   IntroWrapper, 
+//   SloganText,
+//   MainInfoContainer,
+//   FotoContainer,
+//   TextContainer,
+
+// } from "./styles";
+
+// function EducationPage() {
+//   const [data, setData] = useState<string[]>([]);
+//   const [data1, setData1] = useState<string[]>([]);
+//   const CACHE_KEY = "educationPageData";
+
+//   useEffect(() => {
+//     const cached = localStorage.getItem(CACHE_KEY);
+//     if (cached) {
+//       const { values } = JSON.parse(cached);
+//       setData(values);
+//       // console.log("✅ Downloaded from cache");
+//     }
+
+//     const fetchData = async () => {
+//       try {
+//         const sheetId = import.meta.env.VITE_GOOGLE_SHEET_ID;
+//         const apiKey = import.meta.env.VITE_GOOGLE_API_KEY;
+//         const range = "EducationPage!A2:A10";
+
+//         const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
+//         const response = await fetch(url);
+//         const result = await response.json();
+
+//         const values = result.values?.flat() || [];
+//         setData(values);
+
+//         localStorage.setItem(
+//           CACHE_KEY,
+//           JSON.stringify({
+//             timestamp: new Date().getTime(),
+//             values,
+//           })
+//         );
+
+//         // console.log("🌐 Updated from API and saved to cache");
+//       } catch (error) {
+//         console.error("Error by loading:", error);
+//       }
+//     };
+
+//     fetchData();
+//   }, []);
+
+//   useEffect(() => {
+//   const cached = localStorage.getItem(CACHE_KEY);
+//   if (cached) {
+//     const { values } = JSON.parse(cached);
+//     setData1(values);
+//     // console.log("✅ Downloaded from cache");
+//   }
+
+//   const fetchData = async () => {
+//     try {
+//       const sheetId = import.meta.env.VITE_GOOGLE_SHEET_ID;
+//       const apiKey = import.meta.env.VITE_GOOGLE_API_KEY;
+//       const range = "EducationPage!A15"; 
+
+//       const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
+//       const response = await fetch(url);
+//       const result = await response.json();
+
+//       const values = result.values?.flat() || [];
+//       setData1(values); 
+
+//       localStorage.setItem(
+//         CACHE_KEY,
+//         JSON.stringify({
+//           timestamp: new Date().getTime(),
+//           values,
+//         })
+//       );
+
+//       // console.log("🌐 Updated from API and saved to cache");
+//     } catch (error) {
+//       console.error("Error by loading:", error);
+//     }
+//   };
+
+//   fetchData();
+// }, []);
+
+
+//   return (
+//     <>
+//         <YourAreHere /> 
+        
+//         <IntroWrapper>
+//           <ReactMarkdown>{introText}</ReactMarkdown>
+//         </IntroWrapper>
+
+//         <ButtonGrid>
+//           {data.map((item, index) => (
+//             <MoreInfoBtn key={index} title={item} />
+//           ))}
+//         </ButtonGrid>
+
+//         <ArrowButton onClick={() => (window.location.href = "/")}>
+//           <FaChevronLeft /> Zur vorherigen Seite
+//         </ArrowButton>
+ 
+//        <div>
+//           <SloganText> Ein liebevoller Ort zum Spielen, Lernen und Wachsen
+//           </SloganText>
+//           <MainInfoContainer>
+//             <FotoContainer>Photo</FotoContainer>
+//             <TextContainer>Text</TextContainer>
+//           </MainInfoContainer>
+//           <div>
+//             Gallery
+//           </div>
+
+//           <IntroWrapper>
+//           {data1.length > 0 && <ReactMarkdown>{data1[0]}</ReactMarkdown>}
+//         </IntroWrapper>
+
+//        </div>
+//     </>
+//   );
+// }
+
+// export default EducationPage;
+
+
+import { useEffect, useState } from "react";
+import MoreInfoBtn from "../../components/MoreInfoBtn/MoreInfoBtn";
+import introText from "./intro.md?raw";
+import ReactMarkdown from "react-markdown";
+import { FaChevronLeft } from "react-icons/fa";
+import YourAreHere from "../../components/YourAreHere/YouAreHere";
+import {
+  ArrowButton,
+  ButtonGrid,
+  IntroWrapper,
+  SloganText,
+  MainInfoContainer,
+  FotoContainer,
+  TextContainer,
+} from "./styles";
+import Priklad from "./Priklad";
+
+function EducationPage() {
+  const [data, setData] = useState<string[]>([]);
+  const [data1, setData1] = useState<string[]>([]);
+  const [isEditing, setIsEditing] = useState(false);
+  const [editedText, setEditedText] = useState("");
+  const CACHE_KEY = "educationPageData";
+
+  // Загальний текст
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const sheetId = import.meta.env.VITE_GOOGLE_SHEET_ID;
+        const apiKey = import.meta.env.VITE_GOOGLE_API_KEY;
+        const range = "EducationPage!A2:A10";
+
+        const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
+        const response = await fetch(url);
+        const result = await response.json();
+
+        const values = result.values?.flat() || [];
+        setData(values);
+      } catch (error) {
+        console.error("Error by loading:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  // Markdown A15
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const sheetId = import.meta.env.VITE_GOOGLE_SHEET_ID;
+        const apiKey = import.meta.env.VITE_GOOGLE_API_KEY;
+        const range = "EducationPage!A2:B2";
+
+        const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?key=${apiKey}`;
+        const response = await fetch(url);
+        const result = await response.json();
+
+        const values = result.values?.flat() || [];
+        setData1(values);
+        setEditedText(values[0] || "");
+      } catch (error) {
+        console.error("Error loading B2:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const handleSave = async () => {
+    try {
+      const sheetId = import.meta.env.VITE_GOOGLE_SHEET_ID;
+      const apiKey = import.meta.env.VITE_GOOGLE_API_KEY;
+      const range = "EducationPage!A15";
+
+      const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${range}?valueInputOption=RAW&key=${apiKey}`;
+
+      const body = {
+        range,
+        majorDimension: "ROWS",
+        values: [[editedText]],
+      };
+
+      const response = await fetch(url, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+
+      if (!response.ok) throw new Error("Failed to update sheet");
+      const result = await response.json();
+      console.log("✅ Updated:", result);
+      setIsEditing(false);
+      setData1([editedText]);
+    } catch (error) {
+      console.error("❌ Save error:", error);
+    }
+  };
+
+  return (
+    <>
+      <YourAreHere />
+
+      <IntroWrapper>
+        <ReactMarkdown>{introText}</ReactMarkdown>
+      </IntroWrapper>
+
+      <ButtonGrid>
+        {data.map((item, index) => (
+          <MoreInfoBtn key={index} title={item} />
+        ))}
+      </ButtonGrid>
+
+      <ArrowButton onClick={() => (window.location.href = "/")}>
+        <FaChevronLeft /> Zur vorherigen Seite
+      </ArrowButton>
+
+      <div>
+        <SloganText>
+          Ein liebevoller Ort zum Spielen, Lernen und Wachsen
+        </SloganText>
+
+        <MainInfoContainer>
+          <FotoContainer>Photo</FotoContainer>
+          <TextContainer>Text</TextContainer>
+        </MainInfoContainer>
+
+        <div>Gallery</div>
+
+        <IntroWrapper>
+          {isEditing ? (
+            <>
+              <textarea
+                style={{ width: "100%", height: "200px" }}
+                value={editedText}
+                onChange={(e) => setEditedText(e.target.value)}
+              />
+              <br />
+              <button onClick={handleSave}>💾 Зберегти</button>
+              <button onClick={() => setIsEditing(false)}>❌ Скасувати</button>
+            </>
+          ) : (
+            <>
+              <ReactMarkdown>{data1[0]}</ReactMarkdown>
+              <button onClick={() => setIsEditing(true)}>✏️ Редагувати</button>
+            </>
+          )}
+        </IntroWrapper>
+      </div>
+
+      <Priklad />
+    </>
+  );
+}
+
+export default EducationPage;

@@ -34,7 +34,8 @@ function Footer() {
 
         <LogoBtn onClick={handleHomePage}>
           <LogoImage
-            src="public/images/OtherPictures/Logos/Logo.png"
+            // src="public/images/OtherPictures/Logos/Logo.png"
+            src="/images/OtherPictures/Logos/Logo.png"
             alt="Logo"
             title="Klicken Sie auf mich, um zur Startseite zu gelangen"
           />

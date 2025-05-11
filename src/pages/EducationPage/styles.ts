@@ -39,9 +39,8 @@ export const NavWrapper = styled.div`
 `;
 
 export const ArrowBox = styled.div`
-   margin-top: 6px;
+  margin-top: 6px;
 `;
-
 
 export const ArrowButton = styled.div`
   /* background-color: #4caf50; */
@@ -60,5 +59,52 @@ export const ArrowButton = styled.div`
 
   svg {
     margin-right: 10px;
+  }
+`;
+
+// card info
+export const SloganText = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  background-color: #0033a0;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+  }
+`;
+
+export const MainInfoContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+  }
+`;
+
+export const FotoContainer = styled.div`
+  background-color: lightgray;
+  padding: 20px;
+  width: 650px;
+  height: 500px;
+  border-radius: 20px;
+
+  @media (max-width: 768px) {
+  }
+`;
+
+export const TextContainer = styled.div`
+  padding: 20px;
+  width: 650px;
+  height: 500px;
+  border-radius: 20px;
+  border: 2px solid #0033a0;
+
+  @media (max-width: 768px) {
   }
 `;

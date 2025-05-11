@@ -1,5 +1,3 @@
-## Impressum
-
 
 Seiteninhaber / Verantwortlich im Sinne des § 5 Digitale-Dienste-Gesetz (DDG) und § 18 **Medienstaatsvertrag** (MStV):
 Projekt Schönwalde entdecken

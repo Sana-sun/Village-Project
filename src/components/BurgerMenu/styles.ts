@@ -25,7 +25,8 @@ export const CloseButton = styled(BurgerButton)`
 
 export const ModalOverlay = styled.div`
   position: fixed;
-  top: 0;
+  /* top: 0; */
+  top: 100px;
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -44,8 +45,19 @@ export const ModalContent = styled.div`
   width: 90%;
   max-width: 400px;
   position: absolute;
-  top: 120px;
+  /* top: 120px; */
+  top: 40px;
   left: 60px;
+
+  @media (max-width: 768px) {
+     left: 30px;
+  top: 20px;
+
+  }
+
+  @media (max-width: 433px) {
+     left: 20px;
+  }
 `;
 
 export const MenuList = styled.ul`
