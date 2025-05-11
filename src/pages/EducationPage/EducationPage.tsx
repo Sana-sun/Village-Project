@@ -27,17 +27,24 @@ function EducationPage() {
     return match ? match[1].trim() : "";
   };
 
-  const sections = categories.map(({ key }) => ({
-    name: extractSection(rawMd, `${key}_NAME_START`, `${key}_NAME_END`),
-    slogan: extractSection(rawMd, `${key}_SLOGAN_START`, `${key}_SLOGAN_END`),
-    text: extractSection(rawMd, `${key}_TEXT_START`, `${key}_TEXT_END`),
-    mainPhoto: extractSection(rawMd, `${key}_PHOTO_START`, `${key}_PHOTO_END`),
-    // images: extractSection(rawMd, `${key}_IMAGES_START`, `${key}_IMAGES_END`)
-    images: extractSection(rawMd, `${key}_IMAGES_START`, `${key}_IMAGES_END`)
-    .split('\n')                     // розбиваємо на рядки
-    .map((line) => line.trim())     // прибираємо зайві пробіли
-    .filter(Boolean),    
-  }));
+  const sections = categories.map(({ key }) => {
+    const name = extractSection(rawMd, `${key}_NAME_START`, `${key}_NAME_END`);
+    return {
+      name,
+      id: name.replace(/\s+/g, "-").toLowerCase(),
+      slogan: extractSection(rawMd, `${key}_SLOGAN_START`, `${key}_SLOGAN_END`),
+      text: extractSection(rawMd, `${key}_TEXT_START`, `${key}_TEXT_END`),
+      mainPhoto: extractSection(
+        rawMd,
+        `${key}_PHOTO_START`,
+        `${key}_PHOTO_END`
+      ),
+      images: extractSection(rawMd, `${key}_IMAGES_START`, `${key}_IMAGES_END`)
+        .split("\n")
+        .map((line) => line.trim())
+        .filter(Boolean),
+    };
+  });
 
   const introText = extractSection(rawMd, "INTRO_TEXT_START", "INTRO_TEXT_END");
   const separateText = extractSection(
@@ -56,7 +63,21 @@ function EducationPage() {
 
       <ButtonGrid>
         {sections.map((item, index) => (
-          <MoreInfoBtn key={index} title={item.name} />
+          <MoreInfoBtn
+            key={index}
+            title={item.name}
+            onClick={() => {
+              const target = document.getElementById(item.id);
+              if (target) {
+                const yOffset = -120; // піднімає на 100px вище
+                const y =
+                  target.getBoundingClientRect().top +
+                  window.pageYOffset +
+                  yOffset;
+                window.scrollTo({ top: y, behavior: "smooth" });
+              }
+            }}
+          />
         ))}
       </ButtonGrid>
 
@@ -64,27 +85,18 @@ function EducationPage() {
         <ReactMarkdown>{separateText}</ReactMarkdown>
       </IntroWrapper>
 
-      <CardInfo
-        mainText={sections[0].text}
-        slogan={sections[0].slogan}
-        mainPhoto={sections[0].mainPhoto}
-        images={sections[0].images}
-      />
-      <CardInfo
-        mainText={sections[1].text}
-        slogan={sections[1].slogan}
-        mainPhoto={sections[1].mainPhoto}
-        images={sections[1].images}
-      />
-      <CardInfo
-        mainText={sections[2].text}
-        slogan={sections[2].slogan}
-        mainPhoto={sections[2].mainPhoto}
-        images={sections[2].images}
-      />
+      {sections.map((item, index) => (
+        <div key={index} id={item.id}>
+          <CardInfo
+            mainText={item.text}
+            slogan={item.slogan}
+            mainPhoto={item.mainPhoto}
+            images={item.images}
+          />
+        </div>
+      ))}
 
       <ArrowButton onClick={() => (window.location.href = "/")}>
-        {/* <FaChevronLeft /> Zur vorherigen Seite */}
         <FaChevronLeft /> Zur Startseite
       </ArrowButton>
     </>
