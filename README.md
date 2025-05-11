@@ -12,6 +12,6 @@ Instalatuions:
 8) npm install vite-plugin-string
 9) npm install react-markdown
 10) npm install react-quill --legacy-peer-deps
-11) 
-12) 
+11) npm install marked
+12) npm install gapi-script
 13) 

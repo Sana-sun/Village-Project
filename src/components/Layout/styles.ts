@@ -15,3 +15,26 @@ export const MainContent = styled.main`
     margin: 40px 30px;
   }
 `;
+
+export const ScrollButton = styled.button`
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  background-color:  #ff66b2;
+  background-color:  #66b3ff;
+  color: white; 
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+
+  &:hover {
+    background-color: #ff3385;
+    background-color: #338bff;
+  }
+
+  &:focus {
+    outline: none; 
+  }
+`;

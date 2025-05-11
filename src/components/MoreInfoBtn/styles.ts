@@ -10,5 +10,16 @@ export const BtnWrapper = styled.button`
   border: none;
   cursor: pointer;
   width: 100%;
+  /* max-width: 500px; */
   box-sizing: border-box;
+
+  &:hover {
+    background-color: #002080;
+  }
+
+   &:active {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    transform: scale(0.98);
+  }
 `;

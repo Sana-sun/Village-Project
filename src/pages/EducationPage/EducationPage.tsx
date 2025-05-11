@@ -1,139 +1,82 @@
-// import introText from "./intro.md?raw";
-// import ReactMarkdown from "react-markdown";
-// import YourAreHere from "../../components/YourAreHere/YouAreHere";
-// import {
-//   IntroWrapper,
-// } from "./styles";
-
-// function EducationPage() {
-
-//   return (
-//     <>
-//       <YourAreHere />
-
-//       <IntroWrapper>
-//         <ReactMarkdown>{introText}</ReactMarkdown>
-//       </IntroWrapper>
-
-//     </>
-//   );
-// }
-
-// export default EducationPage;
-
-// import YourAreHere from "../../components/YourAreHere/YouAreHere";
-// import { IntroWrapper } from "./styles";
-
-// function EducationPage() {
-//   return (
-//     <>
-//       <YourAreHere />
-
-//       <IntroWrapper>
-//         Text here
-//       </IntroWrapper>
-//     </>
-//   );
-// }
-
-// export default EducationPage;
-
-
-
-// 3
-// import { useEffect, useState } from "react";
-// import YourAreHere from "../../components/YourAreHere/YouAreHere";
-// import { IntroWrapper } from "./styles";
-
-// function EducationPage() {
-//   const [text, setText] = useState("");
-
-//   // Читання з localStorage при завантаженні
-//   useEffect(() => {
-//     const savedText = localStorage.getItem("educationPageText");
-//     if (savedText) {
-//       setText(savedText);
-//     }
-//   }, []);
-
-//   // Збереження в localStorage при зміні
-//   useEffect(() => {
-//     localStorage.setItem("educationPageText", text);
-//   }, [text]);
-
-//   return (
-//     <>
-//       <YourAreHere />
-
-//       <IntroWrapper>
-//         <textarea
-//           value={text}
-//           onChange={(e) => setText(e.target.value)}
-//           rows={6}
-//           style={{ width: "100%", padding: "1rem", fontSize: "16px" }}
-//         />
-//         <div style={{ marginTop: "1rem", whiteSpace: "pre-wrap" }}>
-//           {text}
-//         </div>
-//       </IntroWrapper>
-//     </>
-//   );
-// }
-
-// export default EducationPage;
-
-
-// 4
-import { useEffect, useState } from "react";
+import ReactMarkdown from "react-markdown";
+import { FaChevronLeft } from "react-icons/fa";
 import YourAreHere from "../../components/YourAreHere/YouAreHere";
-import { IntroWrapper } from "./styles";
+import { ArrowButton, ButtonGrid, IntroWrapper } from "./styles";
+
+import rawMd from "./text.md?raw";
+import MoreInfoBtn from "../../components/MoreInfoBtn/MoreInfoBtn";
+import CardInfo from "../../components/CardInfo/CardInfo";
 
 function EducationPage() {
-  const [text, setText] = useState("");
-  const [isEditing, setIsEditing] = useState(false);
+ 
+  const categories = [
+    { key: "KITA" },
+    { key: "GRUNDSCHULE" },
+    { key: "MINIBIBLIOTEK" },
+  ];
 
-  // Читаємо з localStorage при завантаженні сторінки
-  useEffect(() => {
-    const savedText = localStorage.getItem("educationPageText");
-    if (savedText) {
-      setText(savedText);
-    }
-  }, []);
-
-  // Зберігаємо в localStorage вручну
-  const handleSave = () => {
-    localStorage.setItem("educationPageText", text);
-    setIsEditing(false);
+  const extractSection = (
+    text: string,
+    startMarker: string,
+    endMarker: string
+  ) => {
+    const regex = new RegExp(
+      `<!-- ${startMarker} -->([\\s\\S]*?)<!-- ${endMarker} -->`,
+      "m"
+    );
+    const match = text.match(regex);
+    return match ? match[1].trim() : "";
   };
+
+  const sections = categories.map(({ key }) => ({
+    name: extractSection(rawMd, `${key}_NAME_START`, `${key}_NAME_END`),
+    slogan: extractSection(rawMd, `${key}_SLOGAN_START`, `${key}_SLOGAN_END`),
+    text: extractSection(rawMd, `${key}_TEXT_START`, `${key}_TEXT_END`),
+  }));
+
+  // приклад використання
+
+  const introText = extractSection(rawMd, "INTRO_TEXT_START", "INTRO_TEXT_END");
+  const separateText = extractSection(
+    rawMd,
+    "SEPARATE_TEXT_START",
+    "SEPARATE_TEXT_END"
+  );
+
+  // console.log("Kita slogan:", sections[0].slogan);
+  // console.log("Schule slogan:", sections[1].slogan);
+  // console.log("Mini-Bibliotek slogan:", sections[2].slogan);
 
   return (
     <>
+{/* 
+      <IntroWrapper>
+        <ReactMarkdown>{sections[2].slogan}</ReactMarkdown>
+      </IntroWrapper> */}
+
       <YourAreHere />
 
       <IntroWrapper>
-        <textarea
-          value={text}
-          onChange={(e) => setText(e.target.value)}
-          disabled={!isEditing}
-          rows={6}
-          style={{
-            width: "100%",
-            padding: "1rem",
-            fontSize: "16px",
-            backgroundColor: isEditing ? "white" : "#f0f0f0",
-            border: "1px solid #ccc",
-            resize: "vertical"
-          }}
-        />
-
-        <div style={{ marginTop: "1rem", display: "flex", gap: "1rem" }}>
-          {!isEditing ? (
-            <button onClick={() => setIsEditing(true)}>Редагувати</button>
-          ) : (
-            <button onClick={handleSave}>Зберегти</button>
-          )}
-        </div>
+        <ReactMarkdown>{introText}</ReactMarkdown>
       </IntroWrapper>
+
+      <ButtonGrid>
+        {sections.map((item, index) => (
+          <MoreInfoBtn key={index} title={item.name} />
+        ))}
+      </ButtonGrid>
+
+      <IntroWrapper>
+        <ReactMarkdown>{separateText}</ReactMarkdown>
+      </IntroWrapper>
+      
+       <CardInfo mainText={sections[0].text} slogan={sections[0].slogan} />
+       <CardInfo mainText={sections[1].text} slogan={sections[1].slogan} />
+       <CardInfo mainText={sections[2].text} slogan={sections[2].slogan} />
+
+      <ArrowButton onClick={() => (window.location.href = "/")}>
+        <FaChevronLeft /> Zur vorherigen Seite
+      </ArrowButton>
     </>
   );
 }

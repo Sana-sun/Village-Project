@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const IntroWrapper = styled.div`
   white-space: pre-wrap;
-  /* font-size: 1.125rem; */
   line-height: 1.6;
   /* margin-bottom: 24px; */
   color: #333;
+  /* border-radius: 12px; */
   /* background-color: #f9f9f9; */
-  border-radius: 12px;
   /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
 `;
 
@@ -15,7 +14,7 @@ export const ButtonGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 16px;
-  margin-top: 20px;
+  margin: 20px 0;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;

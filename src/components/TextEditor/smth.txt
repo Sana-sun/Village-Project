@@ -1,0 +1,282 @@
+
+// 3
+// import { useEffect, useState } from "react";
+// import YourAreHere from "../../components/YourAreHere/YouAreHere";
+// import { IntroWrapper } from "./styles";
+
+// function EducationPage() {
+//   const [text, setText] = useState("");
+
+//   // Читання з localStorage при завантаженні
+//   useEffect(() => {
+//     const savedText = localStorage.getItem("educationPageText");
+//     if (savedText) {
+//       setText(savedText);
+//     }
+//   }, []);
+
+//   // Збереження в localStorage при зміні
+//   useEffect(() => {
+//     localStorage.setItem("educationPageText", text);
+//   }, [text]);
+
+//   return (
+//     <>
+//       <YourAreHere />
+
+//       <IntroWrapper>
+//         <textarea
+//           value={text}
+//           onChange={(e) => setText(e.target.value)}
+//           rows={6}
+//           style={{ width: "100%", padding: "1rem", fontSize: "16px" }}
+//         />
+//         <div style={{ marginTop: "1rem", whiteSpace: "pre-wrap" }}>
+//           {text}
+//         </div>
+//       </IntroWrapper>
+//     </>
+//   );
+// }
+
+// export default EducationPage;
+
+// 4
+// import { useEffect, useState } from "react";
+// import YourAreHere from "../../components/YourAreHere/YouAreHere";
+// import { IntroWrapper } from "./styles";
+
+// function EducationPage() {
+//   const [text, setText] = useState("");
+//   const [isEditing, setIsEditing] = useState(false);
+
+//   // Читаємо з localStorage при завантаженні сторінки
+//   useEffect(() => {
+//     const savedText = localStorage.getItem("educationPageText");
+//     if (savedText) {
+//       setText(savedText);
+//     }
+//   }, []);
+
+//   // Зберігаємо в localStorage вручну
+//   const handleSave = () => {
+//     localStorage.setItem("educationPageText", text);
+//     setIsEditing(false);
+//   };
+
+//   return (
+//     <>
+//       <YourAreHere />
+
+//       <IntroWrapper>
+//         <textarea
+//           value={text}
+//           onChange={(e) => setText(e.target.value)}
+//           disabled={!isEditing}
+//           rows={6}
+//           style={{
+//             width: "100%",
+//             padding: "1rem",
+//             fontSize: "16px",
+//             backgroundColor: isEditing ? "white" : "#f0f0f0",
+//             border: "1px solid #ccc",
+//             resize: "vertical"
+//           }}
+//         />
+
+//         <div style={{ marginTop: "1rem", display: "flex", gap: "1rem" }}>
+//           {!isEditing ? (
+//             <button onClick={() => setIsEditing(true)}>Редагувати</button>
+//           ) : (
+//             <button onClick={handleSave}>Зберегти</button>
+//           )}
+//         </div>
+//       </IntroWrapper>
+//     </>
+//   );
+// }
+
+// export default EducationPage;
+
+// 5
+// import React, { useState, useEffect } from 'react';
+// import { Editor } from '@tinymce/tinymce-react';
+// import { IntroWrapper } from './styles';
+
+// function EducationPage() {
+//   const [editorContent, setEditorContent] = useState<string>(''); // Статус для збереження контенту
+
+//   // Функція для обробки зміни контенту
+//   const handleEditorChange = (content: string) => {
+//     setEditorContent(content);
+//     localStorage.setItem('editorContent', content); // Збереження в localStorage
+//   };
+
+//   // Завантаження збереженого контенту при завантаженні сторінки
+//   useEffect(() => {
+//     const savedContent = localStorage.getItem('editorContent');
+//     if (savedContent) {
+//       setEditorContent(savedContent);
+//     }
+//   }, []);
+
+//   return (
+//     <>
+//       <IntroWrapper>
+//         <h1>Education Page</h1>
+//       </IntroWrapper>
+
+//       <div>
+//         <h2>Редактор</h2>
+//         <Editor
+//           apiKey="ur260kccsj6g3gtzlru2kxd4xgg2t8hurpal85lofea815kr"
+//           value={editorContent}
+//           init={{
+//             height: 500,
+//             menubar: true,
+//             plugins: ['lists', 'link', 'image', 'textcolor', 'codesample'],
+//             toolbar:
+//               'undo redo | bold italic underline | forecolor | alignleft aligncenter alignright | bullist numlist | link image | codesample',
+//             setup: (editor) => {
+//               editor.on('change', () => {
+//                 handleEditorChange(editor.getContent());
+//               });
+//             },
+//           }}
+//         />
+//       </div>
+//     </>
+//   );
+// }
+
+// export default EducationPage;
+
+
+// 6 - tiny worked
+// import React from 'react';
+// import { Editor } from '@tinymce/tinymce-react';
+
+// export default function App() {
+//   return (
+//     <Editor
+//       apiKey='ur260kccsj6g3gtzlru2kxd4xgg2t8hurpal85lofea815kr'
+//       init={{
+//         plugins: [
+//           // Core editing features
+//           'anchor', 'autolink', 'charmap', 'codesample', 'emoticons', 'image', 'link', 'lists', 'media', 'searchreplace', 'table', 'visualblocks', 'wordcount',
+//           // Your account includes a free trial of TinyMCE premium features
+//           // Try the most popular premium features until May 25, 2025:
+//           'checklist', 'mediaembed', 'casechange', 'formatpainter', 'pageembed', 'a11ychecker', 'tinymcespellchecker', 'permanentpen', 'powerpaste', 'advtable', 'advcode', 'editimage', 'advtemplate', 'ai', 'mentions', 'tinycomments', 'tableofcontents', 'footnotes', 'mergetags', 'autocorrect', 'typography', 'inlinecss', 'markdown','importword', 'exportword', 'exportpdf'
+//         ],
+//         toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+//         tinycomments_mode: 'embedded',
+//         tinycomments_author: 'Author name',
+//         mergetags_list: [
+//           { value: 'First.Name', title: 'First Name' },
+//           { value: 'Email', title: 'Email' },
+//         ],
+//         ai_request: (request, respondWith) => respondWith.string(() => Promise.reject('See docs to implement AI Assistant')),
+//       }}
+//       initialValue="Welcome to TinyMCE!"
+//     />
+//   );
+// }
+
+
+// new
+// import introText from "./intro.md?raw";
+// import ReactMarkdown from "react-markdown";
+// import YourAreHere from "../../components/YourAreHere/YouAreHere";
+// import {
+//   IntroWrapper,
+// } from "./styles";
+
+// export default function EducationPage() {
+
+//   return (
+//     <>
+//       <YourAreHere />
+
+//       <IntroWrapper>
+//         <ReactMarkdown>{introText}</ReactMarkdown>
+//       </IntroWrapper>
+
+//     </>
+//   );
+// }
+
+// export default EducationPage;
+
+// 2 - мале
+// import YourAreHere from "../../components/YourAreHere/YouAreHere";
+// import { IntroWrapper } from "./styles";
+// import introText from "./intro.md?raw";
+// import ReactMarkdown from "react-markdown";
+
+// function EducationPage() {
+//   return (
+//     <>
+//       <YourAreHere />
+
+//       <IntroWrapper>
+//         <ReactMarkdown>{introText}</ReactMarkdown>
+//       </IntroWrapper>
+//     </>
+//   );
+// }
+
+// export default EducationPage;
+
+// 3 - велике
+import { useState } from "react";
+import YourAreHere from "../../components/YourAreHere/YouAreHere";
+import { IntroWrapper } from "./styles";
+import introText from "./intro.md?raw";
+import ReactMarkdown from "react-markdown";
+import TextEditor from "../../components/TextEditor/TextEditor";
+import { marked } from "marked";
+
+function EducationPage() {
+  const [isEditorOpen, setIsEditorOpen] = useState(false);
+
+  const htmlText = marked.parse(introText);
+
+  return (
+    <>
+      <YourAreHere />
+
+      <IntroWrapper>
+        <ReactMarkdown>{introText}</ReactMarkdown>
+      </IntroWrapper>
+
+      <div style={{ marginTop: "1.5rem", textAlign: "right", paddingRight: "1rem" }}>
+        <button
+          onClick={() => setIsEditorOpen(!isEditorOpen)}
+          style={{
+            backgroundColor: "#0033A0",
+            color: "#fff",
+            border: "none",
+            padding: "10px 16px",
+            borderRadius: "8px",
+            cursor: "pointer",
+            fontSize: "16px",
+          }}
+        >
+          {isEditorOpen ? "Bearbeiten schließen" : "Bearbeiten öffnen"}
+        </button>
+      </div>
+
+      {isEditorOpen && (
+        <div style={{ marginTop: "2rem" }}>
+          {/* <TextEditor initialValue={introText} /> */}
+          {/* <TextEditor  /> */}
+          <TextEditor initialValue={htmlText as string} />
+          {/* <TextEditor initialValue={marked(introText) as string} /> */}
+
+        </div>
+      )}
+    </>
+  );
+}
+
+export default EducationPage;

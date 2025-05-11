@@ -361,3 +361,92 @@ function EducationPage() {
 }
 
 export default EducationPage;
+
+
+// first try to get all from md 1 File
+
+// import { useState } from "react";
+// import MoreInfoBtn from "../../components/MoreInfoBtn/MoreInfoBtn";
+
+
+// import kitaDe from "./Kita/kitaDe.md?raw";
+// import schuleDe from "./Grundschule/schuleDe.md?raw";
+// import bibliotekDe from "./MiniBibliotek/bibliotekDe.md?raw";
+
+// import ReactMarkdown from "react-markdown";
+// import { FaChevronLeft } from "react-icons/fa";
+// import YourAreHere from "../../components/YourAreHere/YouAreHere";
+// import { ArrowButton, ButtonGrid, IntroWrapper } from "./styles";
+// import CardInfo from "../../components/CardInfo/CardInfo";
+
+// import rawMd from './text.md?raw';
+
+// function EducationPage() {
+//   const [data] = useState<{ name: string; slogan: string }[]>([
+//     { name: "Kita", slogan: "Ein liebevoller Ort zum Spielen, Lernen und Wachsen" },
+//     { name: "Grundschule", slogan: "Klein, familiär und voller Lernfreude" },
+//     { name: "Mini - Bibliotek", slogan: "Lesefreude zum Mitnehmen – von Nachbarn für Nachbarn" },
+//   ]);
+
+//   // Grundschule - Lernen, wachsen und die Welt entdecken
+//   // Bibliotek - Ein Ort der Geschichten und Fantasie
+
+//   const extractSection = (text: string, startMarker: string, endMarker: string) => {
+//   const regex = new RegExp(`<!-- ${startMarker} -->([\\s\\S]*?)<!-- ${endMarker} -->`, 'm');
+//   const match = text.match(regex);
+//   return match ? match[1].trim() : '';
+// };
+
+// // приклад використання
+
+// const introText = extractSection(rawMd, 'INTRO_TEXT_START', 'INTRO_TEXT_END');
+// const separateText = extractSection(rawMd, 'SEPARATE_TEXT_START', 'SEPARATE_TEXT_END');
+
+// const kitaName = extractSection(rawMd, 'KITA_NAME_START', 'KITA_NAME_END');
+// const kitaSlogan = extractSection(rawMd, 'KITA_SLOGAN_START', 'KITA_SLOGAN_END');
+// const kitaText = extractSection(rawMd, 'KITA_TEXT_START', 'KITA_TEXT_END');
+
+// const schuleName = extractSection(rawMd, 'GRUNDSCHULE_NAME_START', 'GRUNDSCHULE_NAME_END');
+// const schuleSloga = extractSection(rawMd, 'GRUNDSCHULE_SLOGAN_START', 'GRUNDSCHUL_SLOGANE_END');
+// const schuleText = extractSection(rawMd, 'GRUNDSCHULE_TEXT_START', 'GRUNDSCHULE_TEXT_END');
+
+// const miniBbibliotekName = extractSection(rawMd, 'MINIBIBLIOTEK_NAME_START', 'MINIBIBLIOTEK_NAME_END');
+// const miniBbibliotekSloga = extractSection(rawMd, 'MINIBIBLIOTEK_SLOGAN_START', 'MINIBIBLIOTEK_SLOGANE_END');
+// const miniBbibliotekText = extractSection(rawMd, 'MINIBIBLIOTEK_TEXT_START', 'MINIBIBLIOTEK_TEXT_END');
+
+//   return (
+//     <>
+
+//       <YourAreHere />
+
+//       <IntroWrapper>
+//         <ReactMarkdown>{introText}</ReactMarkdown>
+//       </IntroWrapper>
+
+//       <ButtonGrid>
+//         {data.map((item, index) => (
+//           <MoreInfoBtn key={index} title={item.name} />
+//         ))}
+//       </ButtonGrid>
+
+//       <IntroWrapper>
+//         <ReactMarkdown>{separateText}</ReactMarkdown>
+//       </IntroWrapper>
+
+//       {/* <ArrowButton onClick={() => (window.location.href = "/")}>
+//         <FaChevronLeft /> Zur vorherigen Seite
+//       </ArrowButton> */}
+
+//       {/* Передаємо конкретні значення для кожної картки */}
+//       <CardInfo mainText={kitaDe} slogan={data[0].slogan} />
+//       <CardInfo mainText={schuleDe} slogan={data[1].slogan} />
+//       <CardInfo mainText={bibliotekDe} slogan={data[2].slogan} />
+
+//       <ArrowButton onClick={() => (window.location.href = "/")}>
+//         <FaChevronLeft /> Zur vorherigen Seite
+//       </ArrowButton>
+//     </>
+//   );
+// }
+
+// export default EducationPage;
