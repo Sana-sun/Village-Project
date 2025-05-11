@@ -17,74 +17,68 @@ export const SloganText = styled.div`
 `;
 
 export const MainInfoContainer = styled.div`
-  /* display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  @media (max-width: 1024px) {
-    flex-direction: column;
-  } */
-
-   display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
-
   gap: 16px;
-  /* margin-top: 20px; */
+  align-items: stretch; /* Вирівнювання по висоті */
 
-  @media (max-width: 1124px) {
+  @media (max-width: 1240px) {
     grid-template-columns: 1fr;
   }
 `;
 
 export const FotoContainer = styled.div`
-  background-color: lightgray;
-  padding: 20px;
-  /* width: 650px; */
-  /* height: 500px; */
-
-  height: 500px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
   border-radius: 20px;
+  overflow: hidden;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* ← це ключ */
 
-  @media (max-width: 768px) {
-    /* max-width: 100%; */
-    max-height: 300px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
   }
 `;
 
+
 export const TextContainer = styled.div`
   padding: 20px;
-  /* width: 650px; */
-  /* height: 500px; */
-
-  max-height: 500px;
+  height: 100%;
   border-radius: 20px;
   border: 2px solid #0033a0;
+  overflow-y: auto;
+
+  box-sizing: border-box; /* важливо, щоб padding не порушував height */
 
   scroll-behavior: smooth;
-  overflow-y: auto;
   scrollbar-color: gray transparent;
 
   white-space: pre-wrap;
+
   p {
     margin-bottom: 0.1em;
   }
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     margin-top: 1.2em;
     margin-bottom: 0.5em;
   }
 
-  ul, ol {
-    /* margin-left: 1.5em; */
-    /* margin-bottom: 1em; */
+  ul,
+  ol {
     margin: 0;
   }
 
-  /* white-space: normal; */
-
   @media (max-width: 768px) {
-    /* max-width: 100%; */
-    max-height: 300px;
+    height: auto; /* мобільна адаптація */
+    max-height: none;
   }
 `;
-

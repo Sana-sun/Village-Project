@@ -14,9 +14,13 @@ Und wer Lust auf neue Geschichten hat, kann jederzeit in unserer **Mini-Biblioth
 <!-- SEPARATE_TEXT_START -->
  Schönwalde setzt auf Bildung mit Herz! Lassen Sie uns Ihnen zeigen, wie Wissen, Kreativität und Gemeinschaft hier gelebt werden.
 <!-- SEPARATE_TEXT_END -->
+
 <!-- KITA_NAME_START -->
 Kita
 <!-- KITA_NAME_END -->
+<!-- KITA_PHOTO_START -->
+public/images/Bildung_Gemeinschaft/Kita/mainPhoto.jpg
+<!-- KITA_PHOTO_END -->
 <!-- KITA_SLOGAN_START -->
 Ein liebevoller Ort zum Spielen, Lernen und Wachsen
 <!-- KITA_SLOGAN_END -->
@@ -35,9 +39,13 @@ Monatlich findet ein offener Babytreff statt – ideal für Familien, die unsere
  
 🌐 Webseite: Kita Regenbogen Krippe und Kindergarten
 <!-- KITA_TEXT_END -->
+
 <!-- GRUNDSCHULE_NAME_START -->
 Grundschule
 <!-- GRUNDSCHULE_NAME_END -->
+<!-- GRUNDSCHULE_PHOTO_START -->
+public/images/Bildung_Gemeinschaft/Schule/mainPhoto.jpg
+<!-- GRUNDSCHULE_PHOTO_END -->
 <!-- GRUNDSCHULE_SLOGAN_START -->
 Lernen, wachsen und die Welt entdecken
 <!-- GRUNDSCHULE_SLOGAN_END -->
@@ -58,9 +66,13 @@ Regelmäßige Projekte, Sportangebote und ein aktiver Förderverein machen unser
 
 🌐 **Webseite:** Startseite - Grundschule Schönwalde
 <!-- GRUNDSCHULE_TEXT_END -->
+
 <!-- MINIBIBLIOTEK_NAME_START -->
 Mini - Bibliotek
 <!-- MINIBIBLIOTEK_NAME_END -->
+<!-- MINIBIBLIOTEK_PHOTO_START -->
+public/images/Bildung_Gemeinschaft/Bibliotek/mainFoto.jpg
+<!-- MINIBIBLIOTEK_PHOTO_END -->
 <!-- MINIBIBLIOTEK_SLOGAN_START -->
 Lesefreude zum Mitnehmen – von Nachbarn für Nachbarn
 <!-- MINIBIBLIOTEK_SLOGAN_END -->
@@ -79,3 +91,4 @@ Der Bücherschrank wurde liebevoll von Freiwilligen eingerichtet und wird regelm
 Kommen Sie vorbei, stöbern Sie – und lassen Sie sich inspirieren.
 **Schön, was unsere Dorfgemeinschaft gemeinsam schafft!**
 <!-- MINIBIBLIOTEK_TEXT_END -->
+

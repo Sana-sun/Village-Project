@@ -8,7 +8,6 @@ import MoreInfoBtn from "../../components/MoreInfoBtn/MoreInfoBtn";
 import CardInfo from "../../components/CardInfo/CardInfo";
 
 function EducationPage() {
- 
   const categories = [
     { key: "KITA" },
     { key: "GRUNDSCHULE" },
@@ -32,10 +31,12 @@ function EducationPage() {
     name: extractSection(rawMd, `${key}_NAME_START`, `${key}_NAME_END`),
     slogan: extractSection(rawMd, `${key}_SLOGAN_START`, `${key}_SLOGAN_END`),
     text: extractSection(rawMd, `${key}_TEXT_START`, `${key}_TEXT_END`),
+    mainPhoto: extractSection(rawMd, `${key}_PHOTO_START`, `${key}_PHOTO_END`),
   }));
 
   // приклад використання - text
 
+  console.log("mainfoto", sections[0].mainPhoto);
   const introText = extractSection(rawMd, "INTRO_TEXT_START", "INTRO_TEXT_END");
   const separateText = extractSection(
     rawMd,
@@ -45,7 +46,6 @@ function EducationPage() {
 
   return (
     <>
-
       <YourAreHere />
 
       <IntroWrapper>
@@ -61,10 +61,27 @@ function EducationPage() {
       <IntroWrapper>
         <ReactMarkdown>{separateText}</ReactMarkdown>
       </IntroWrapper>
-      
-       <CardInfo mainText={sections[0].text} slogan={sections[0].slogan} />
-       <CardInfo mainText={sections[1].text} slogan={sections[1].slogan} />
-       <CardInfo mainText={sections[2].text} slogan={sections[2].slogan} />
+
+      <CardInfo
+        mainText={sections[0].text}
+        slogan={sections[0].slogan}
+        mainPhoto={sections[0].mainPhoto}
+        // photos={photosKita}
+      />
+      <CardInfo
+        mainText={sections[1].text}
+        slogan={sections[1].slogan}
+        mainPhoto={sections[1].mainPhoto}
+
+        // photos={photosSchuleKita}
+      />
+      <CardInfo
+        mainText={sections[2].text}
+        slogan={sections[2].slogan}
+        mainPhoto={sections[2].mainPhoto}
+
+        // photos={photosBibliotek}
+      />
 
       <ArrowButton onClick={() => (window.location.href = "/")}>
         <FaChevronLeft /> Zur vorherigen Seite
