@@ -75,7 +75,7 @@ export const SideImage = styled.img`
   border-radius: 20px;
   border-radius: 10px;
   /* opacity: 0.7; */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
   @media (max-width: 768px) {
     height: 60%;

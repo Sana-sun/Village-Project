@@ -55,20 +55,28 @@ export const LogoBtn = styled.button`
   cursor: pointer;
   border: none;
   background-color: transparent;
-  color: white;
 `;
-
 
 export const LogoText = styled.div`
   cursor: pointer;
   border: none;
   background-color: transparent;
   color: white;
+  color: #ffffffeb;
+  color: #fdfdfe;
   font-weight: bold;
   font-size: 1.1rem;
   letter-spacing: 1px;
+
+  @media (max-width: 430px) {
+    font-size: 0.8rem;
+  }
 `;
 
 export const LogoImage = styled.img`
   width: 120px;
+
+   @media (max-width: 430px) {
+    width: 80px;
+  }
 `;

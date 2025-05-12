@@ -4,6 +4,8 @@ export const subcategories = [
     name: "Startseite",
     category: "Schönwalde entdecken",
     path: "/",
+    pathMain: "/",
+
   },
 
   // Bildung & Gemeinschaft
@@ -11,6 +13,7 @@ export const subcategories = [
     name: "Kita Regenbogen",
     category: "Bildung & Gemeinschaft",
     path: "/education#kita",
+    pathMain: "/education",
   },
   {
     name: "Grundschule",
@@ -97,8 +100,8 @@ export const subcategories = [
 
   // Handel & Dienstleistungen
   {
-    // name: "Agrargemeinschaft Freiwalde/Schönwalde",
-    name: "Agrargemeinschaft",
+    name: "Agrargemeinschaft Freiwalde/Schönwalde",
+    // name: "Agrargemeinschaft",
     category: "Handel & Dienstleistungen",
     path: "/tradeServices#agrargemeinschaft-freiwalde-schoenwalde",
   },

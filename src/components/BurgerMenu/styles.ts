@@ -1,4 +1,3 @@
-// import styled from "@emotion/styled";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
@@ -13,7 +12,6 @@ export const BurgerButton = styled.button`
   font-size: 28px;
   color: white;
   cursor: pointer;
-
   display: flex;
   padding: 8px;
 
@@ -23,18 +21,11 @@ export const BurgerButton = styled.button`
   }
 `;
 
-export const CloseButton = styled(BurgerButton)`
-  background: transparent;
-  border: none;
-  font-size: 28px;
-  color: white;
-  cursor: pointer;
-`;
+export const CloseButton = styled(BurgerButton)``;
 
 export const ModalOverlay = styled.div`
   position: fixed;
   top: 0;
-  /* top: 100px; */
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -50,29 +41,22 @@ export const ModalContent = styled.div`
   padding: 30px;
   border-radius: 12px;
   width: 90%;
-  max-width: 400px;
   max-width: 450px;
   position: absolute;
-  top: 120px;
-  top: 40px;
   top: 100px;
   left: 60px;
   overflow-y: auto;
   scrollbar-color: gray transparent;
-
   max-height: 80vh;
 
   @media (max-width: 768px) {
     left: 30px;
-    top: 20px;
   }
 
   @media (max-width: 433px) {
     left: 20px;
   }
 `;
-
-export const MenuContainer = styled.div``;
 
 export const MenuList = styled.ul`
   list-style: none;
@@ -82,37 +66,22 @@ export const MenuList = styled.ul`
 
 export const MenuItem = styled.li<{ $active?: boolean }>`
   margin-bottom: 20px;
-  /* display: flex; */
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
   border-radius: 40px;
-  border: 1px solid ${({ $active }) => ($active ? "white" : "transparent")};
   background: ${({ $active }) => ($active ? "white" : "transparent")};
-  color: ${({ $active }) => ($active ? "#0033A0" : "white")};
   transition: all 0.3s ease;
-    /* background: rgba(255, 255, 255, 0.1); */
-
 `;
 
 export const MenuItemName = styled(Link)<{ $active?: boolean }>`
-  flex-grow: 1;
+  display: block;
   text-decoration: none;
   color: ${({ $active }) => ($active ? "#0033A0" : "white")};
   font-size: 18px;
-  transition: color 0.3s ease;
-  padding: 10px;
-
-  border: 1px solid transparent;
-  border-radius: 20px;
+  padding: 10px 16px;
+  border-radius: 40px;
+  transition: all 0.3s ease;
 
   &:hover {
     background: rgba(255, 255, 255, 0.1);
-  }
-
-  @media (max-width: 768px) {
-    list-style: none;
-    padding-left: 0;
   }
 `;
 
@@ -125,29 +94,85 @@ export const MenuItemArrow = styled.span<{ $active?: boolean }>`
   transition: color 0.2s ease;
 `;
 
-export const MenuSubList = styled.ul`
-  list-style: disc;
-  list-style-position: outside;
-  margin-top: 20px;
+// export const MenuSubList = styled.ul`
+//   list-style: none;
 
-  @media (max-width: 768px) {
-    list-style: none;
-    padding-left: 20px;
-  }
+//   /* list-style-position: inside; */
+//   margin-top: 10px;
+//   padding-left: 20px;
+// `;
+
+// export const MenuSubItem = styled.li<{ $active?: boolean }>`
+
+//   font-size: 16px;
+//   margin-bottom: 10px;
+//   border-radius: 20px;
+//   background: ${({ $active }) => ($active ? "white" : "transparent")};
+//   transition: all 0.2s ease;
+
+//   a {
+//     display: block;
+//     color: ${({ $active }) => ($active ? "#0033A0" : "white")};
+//     padding: 8px 12px;
+//     border-radius: 20px;
+//     text-decoration: none;
+
+//     &:hover {
+//       background: rgba(255, 255, 255, 0.1);
+//       background: rgba(242, 255, 4, 0.1);
+//     }
+//   }
+// `;
+
+export const MenuSubList = styled.ul`
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0;
 `;
 
 export const MenuSubItem = styled.li<{ $active?: boolean }>`
+  position: relative;
   font-size: 16px;
-  color: white;
-  padding: 10px 0;
-  border: 1px solid transparent;
+  margin-bottom: 10px;
   border-radius: 20px;
+  background: ${({ $active }) => ($active ? "white" : "transparent")};
   transition: all 0.2s ease;
+  padding-left: 28px;
+  margin-left: 8px;
 
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 17px;
+    width: 8px;
+    height: 8px;
+
+    width: 6px;
+    height: 6px;
+
+    background-color: ${({ $active }) => ($active ? "#0033A0" : "white")};
+    border-radius: 50%;
+  }
+
+  a {
+    display: block;
+    color: ${({ $active }) => ($active ? "#0033A0" : "white")};
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+`;
+
+export const FaItem = styled.div`
+  padding: 6px 20px;
+  border-radius: 20px;
 
   &:hover {
-    border: 1px solid transparent;
+    background: rgba(255, 255, 255, 0.1);
   }
 `;

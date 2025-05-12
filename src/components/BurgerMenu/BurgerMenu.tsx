@@ -11,6 +11,7 @@ import {
   MenuItemArrow,
   MenuSubList,
   MenuSubItem,
+  FaItem,
 } from "./styles";
 import { FaBars, FaTimes, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
@@ -24,7 +25,9 @@ function BurgerMenu() {
 
   // Групуємо підкатегорії за категоріями
   const groupedCategories = subcategories.reduce((acc, subcategory) => {
-    const existingCategory = acc.find((cat) => cat.name === subcategory.category);
+    const existingCategory = acc.find(
+      (cat) => cat.name === subcategory.category
+    );
 
     if (existingCategory) {
       existingCategory.items.push(subcategory);
@@ -59,14 +62,21 @@ function BurgerMenu() {
           <ModalContent onClick={(e) => e.stopPropagation()}>
             <MenuList>
               {groupedCategories.map((category, index) => {
-                const isActive = location.pathname === category.items[0].path;
+                const isActive = location.pathname === category.items[0].path.split("#")[0];
+
                 const hasSub = category.items.length > 1;
 
                 return (
                   <MenuItem key={category.name} $active={isActive}>
-                    <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                      }}
+                    >
                       <MenuItemName
-                        to={category.items[0].path}
+                        to={category.items[0].path.split("#")[0]}
                         $active={isActive}
                         onClick={() => setIsOpen(false)}
                       >
@@ -81,7 +91,15 @@ function BurgerMenu() {
                             toggleExpand(index);
                           }}
                         >
-                          {expandedIndex === index ? <FaChevronUp /> : <FaChevronDown />}
+                          {expandedIndex === index ? (
+                            <FaItem>
+                              <FaChevronUp />{" "}
+                            </FaItem>
+                          ) : (
+                            <FaItem>
+                              <FaChevronDown />
+                            </FaItem>
+                          )}
                         </MenuItemArrow>
                       )}
                     </div>
@@ -89,8 +107,14 @@ function BurgerMenu() {
                     {expandedIndex === index && (
                       <MenuSubList>
                         {category.items.map((sub) => (
-                          <MenuSubItem key={sub.name} $active={location.pathname === sub.path}>
-                            <MenuItemName to={sub.path} $active={location.pathname === sub.path}>
+                          <MenuSubItem
+                            key={sub.name}
+                            $active={location.pathname === sub.path}
+                          >
+                            <MenuItemName
+                              to={sub.path}
+                              $active={location.pathname === sub.path}
+                            >
                               {sub.name}
                             </MenuItemName>
                           </MenuSubItem>

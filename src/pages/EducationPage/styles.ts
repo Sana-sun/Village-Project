@@ -4,7 +4,8 @@ export const IntroText = styled.h2`
 display: flex;
 justify-content: center;
 align-items: center;
-  margin-bottom: 24px;  
+  margin-bottom: 30px; 
+  text-align: center; 
   /* white-space: pre-wrap; */
   /* line-height: 1.6; */
   color: #333;

@@ -18,7 +18,7 @@ export const SloganText = styled.h3`
   /* border-radius: 12px;
   background-color: #f9f9f9;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 `;
 
 export const MainInfoContainer = styled.div`
@@ -44,7 +44,7 @@ export const FotoContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%; /* ← це ключ */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
   img {
     width: 100%;
@@ -67,7 +67,7 @@ export const TextContainer = styled.div`
   scrollbar-color: gray transparent;
 
   white-space: pre-wrap;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
   p {
     margin-bottom: 0.1em;
