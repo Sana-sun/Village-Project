@@ -83,7 +83,8 @@ export const LogoBtn = styled.button`
   background-color: transparent;
   color: white;
   /* text-shadow: 1px 1px 2px black; */
-  margin-left: 80px;
+  margin-left: 0;
+  margin-left: 40px;
 
   @media (max-width: 1024px) {
      display: none;

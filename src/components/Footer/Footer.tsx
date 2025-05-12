@@ -96,7 +96,7 @@ import {
   StyledRouterLink,
   LogoText,
 } from "./styles";
-
+import { FaEnvelope, FaPhone } from "react-icons/fa";
 function Footer() {
   const handleHomePage = () => {
     window.location.href = "/";
@@ -129,11 +129,14 @@ function Footer() {
 
           <CenterTextTrio>
             <span>
-              <a href="tel:0354742060">Tel: </a>035474 2060
+              {/* <a href="tel:0354742060">Tel: </a> */}
+              <a href="tel:0354742060"><FaPhone/></a>
+              035474 2060
             </span>
             <span>
-              <a href="mailto:amt@unterspreewald.de"> Email: </a>
-              amt@unterspreewald.de
+              {/* <a href="mailto:amt@unterspreewald.de"> Email: </a> */}
+              <a href="mailto:amt@unterspreewald.de"><FaEnvelope/></a>
+            amt@unterspreewald.de
             </span>
 
             <StyledRouterLink to="/impressum">
