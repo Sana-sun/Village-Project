@@ -46,7 +46,6 @@ export const FotoContainer = styled.div`
   }
 `;
 
-
 export const TextContainer = styled.div`
   padding: 20px;
   height: 100%;
@@ -55,7 +54,6 @@ export const TextContainer = styled.div`
   overflow-y: auto;
 
   box-sizing: border-box; /* важливо, щоб padding не порушував height */
-
   scroll-behavior: smooth;
   scrollbar-color: gray transparent;
 
@@ -78,7 +76,7 @@ export const TextContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    height: auto; /* мобільна адаптація */
-    max-height: none;
+    width: 100%;
+    aspect-ratio: 4 / 3; // додали новий рядок
   }
 `;

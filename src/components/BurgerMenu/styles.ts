@@ -13,6 +13,14 @@ export const BurgerButton = styled.button`
   font-size: 28px;
   color: white;
   cursor: pointer;
+
+   display: flex;
+   padding: 8px;
+
+  &:hover {
+    border-radius: 4px;
+    background: #002277;
+  }
 `;
 
 export const CloseButton = styled(BurgerButton)`
@@ -39,6 +47,7 @@ export const ModalOverlay = styled.div`
 
 export const ModalContent = styled.div`
   background: #0033a0;
+  /* background: red; */
   color: white;
   padding: 30px;
   border-radius: 12px;
@@ -48,6 +57,8 @@ export const ModalContent = styled.div`
   /* top: 120px; */
   top: 40px;
   left: 60px;
+  overflow-y: auto;
+  max-height: 80vh;
 
   @media (max-width: 768px) {
      left: 30px;
@@ -60,6 +71,10 @@ export const ModalContent = styled.div`
   }
 `;
 
+export const MenuContainer = styled.div`
+  
+`;
+
 export const MenuList = styled.ul`
   list-style: none;
   padding: 0;
@@ -68,12 +83,10 @@ export const MenuList = styled.ul`
 
 export const MenuItem = styled.li<{ $active?: boolean }>`
   margin-bottom: 20px;
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  /* padding: 10px 20px; */
-  /* padding: 8px 20px; */
   border-radius: 40px;
   border: 1px solid ${({ $active }) => ($active ? "white" : "transparent")};
   background: ${({ $active }) => ($active ? "white" : "transparent")};
@@ -85,13 +98,12 @@ export const MenuItem = styled.li<{ $active?: boolean }>`
   }
 `;
 
-export const MenuItemLabel = styled(Link)<{ $active?: boolean }>`
+export const MenuItemName = styled(Link)<{ $active?: boolean }>`
   flex-grow: 1;
   text-decoration: none;
   color: ${({ $active }) => ($active ? "#0033A0" : "white")};
   font-size: 18px;
   transition: color 0.3s ease;
-  /* background: red; */
   padding: 8px 20px;
 `;
 
@@ -115,9 +127,23 @@ export const MenuSubList = styled.ul`
   gap: 6px;
 `;
 
+// export const MenuSubList = styled.ul`
+//   list-style: none;
+//   margin: 0;
+//   padding: 0;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 6px;
+//   overflow-y: auto; /* Додаємо скрол для великої кількості підкатегорій */
+//   max-height: 200px; /* Обмежуємо висоту для плавного скролу */
+// `;
+
+
 export const MenuSubItem = styled.li`
   font-size: 16px;
   color: white;
+  color: green;
+  
   padding: 4px 12px;
   border-left: 2px solid transparent;
   transition: all 0.2s ease;

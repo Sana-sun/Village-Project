@@ -13,6 +13,14 @@ export const SearchButton = styled.button`
   font-size: 28px;
   color: white;
   cursor: pointer;
+
+   display: flex;
+   padding: 8px;
+  
+  &:hover {
+    border-radius: 4px;
+    background: #002277;
+  }
 `;
 
 export const CloseButton = styled(SearchButton)`
@@ -62,6 +70,8 @@ export const ModalContent = styled.div`
   @media (max-width: 768px) {
     left: 30px;
     top: 20px;
+  max-width: 350px;
+
   }
 
   @media (max-width: 433px) {

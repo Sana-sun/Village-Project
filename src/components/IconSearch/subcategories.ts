@@ -1,4 +1,11 @@
 export const subcategories = [
+  // Bauland
+  {
+    name: "Startseite",
+    category: "Schönwalde entdecken",
+    path: "/",
+  },
+
   // Bildung & Gemeinschaft
   {
     name: "Kita Regenbogen",
@@ -86,13 +93,6 @@ export const subcategories = [
     name: "Bahnhof",
     category: "Verkehr & Infrastruktur",
     path: "/transport#bahnhof",
-  },
-
-  // Bauland
-  {
-    name: "Baugrundstücke",
-    category: "Bauland",
-    path: "/bauLand#baugrundstuecke",
   },
 
   // Handel & Dienstleistungen
@@ -206,4 +206,12 @@ export const subcategories = [
     category: "Handel & Dienstleistungen",
     path: "/tradeServices#trocknungsservice-gefreiter-gmbh",
   },
+
+  // Bauland
+  {
+    name: "Baugrundstücke",
+    category: "Bauland",
+    path: "/bauLand#baugrundstuecke",
+  },
+
 ];
