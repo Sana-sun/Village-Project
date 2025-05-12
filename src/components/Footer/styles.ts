@@ -10,7 +10,7 @@ export const FooterWrapper = styled.div`
   padding: 20px 60px;
   gap: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     display: grid;
     grid-template-columns: 1fr;
     padding: 20px 30px;
@@ -20,7 +20,11 @@ export const FooterWrapper = styled.div`
 export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+
+  @media (max-width: 600px) {
+    text-align: center;
+  }
 `;
 
 export const BoldText = styled.div`
@@ -82,7 +86,6 @@ export const LogoBtn = styled.button`
   margin-left: 80px;
 
   @media (max-width: 1024px) {
-     flex-direction: column;
      display: none;
 
    }
@@ -90,10 +93,6 @@ export const LogoBtn = styled.button`
  @media (max-width: 768px) {
      margin-left: 50px;
      margin-left: 0;
-   }
-
-   @media (max-width: 768px) {
-     display: none;
    }
 `;
 
@@ -111,7 +110,8 @@ export const LogoText = styled.div`
 export const LogoImage = styled.img`
   width: 130px;
 
-   @media (max-width: 768px) {
+   @media (max-width: 1024px) {
      display: none;
    }
+
 `;
