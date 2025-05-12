@@ -83,11 +83,17 @@ export const LogoBtn = styled.button`
 
   @media (max-width: 1024px) {
      flex-direction: column;
+     display: none;
+
    }
 
  @media (max-width: 768px) {
      margin-left: 50px;
      margin-left: 0;
+   }
+
+   @media (max-width: 768px) {
+     display: none;
    }
 `;
 
@@ -104,4 +110,8 @@ export const LogoText = styled.div`
 
 export const LogoImage = styled.img`
   width: 130px;
+
+   @media (max-width: 768px) {
+     display: none;
+   }
 `;

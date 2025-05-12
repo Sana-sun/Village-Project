@@ -40,7 +40,7 @@ useEffect(() => {
     const id = location.hash.substring(1); // "#kita-regenbogen" → "kita-regenbogen"
     const target = document.getElementById(id);
     if (target) {
-      const yOffset = -120;
+      const yOffset = -100;
       const y =
         target.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: "smooth" });

@@ -87,7 +87,7 @@ function EducationPage() {
 
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
-      const yOffset = -120; // Враховуємо зміщення (щоб не закривав заголовок)
+      const yOffset = -100; // Враховуємо зміщення (щоб не закривав заголовок)
       const y =
         targetElement.getBoundingClientRect().top +
         window.pageYOffset +

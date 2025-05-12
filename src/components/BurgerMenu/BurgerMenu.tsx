@@ -15,7 +15,6 @@ import {
 } from "./styles";
 import { FaBars, FaTimes, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
-
 import { subcategories } from "../IconSearch/subcategories";
 
 function BurgerMenu() {
@@ -62,66 +61,66 @@ function BurgerMenu() {
           <ModalContent onClick={(e) => e.stopPropagation()}>
             <MenuList>
               {groupedCategories.map((category, index) => {
-                const isActive = location.pathname === category.items[0].path.split("#")[0];
-
+                const categoryPath = category.items[0].path.split("#")[0];
+                const isActive = location.pathname === categoryPath;
                 const hasSub = category.items.length > 1;
 
                 return (
-                  <MenuItem key={category.name} $active={isActive}>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      <MenuItemName
-                        to={category.items[0].path.split("#")[0]}
-                        $active={isActive}
-                        onClick={() => setIsOpen(false)}
+                  <div key={category.name}>
+                    {/* Категорія */}
+                    <MenuItem $active={isActive}>
+                      <div
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "space-between",
+                        }}
                       >
-                        {category.name}
-                      </MenuItemName>
-
-                      {hasSub && (
-                        <MenuItemArrow
+                        <MenuItemName
+                          to={categoryPath}
                           $active={isActive}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            toggleExpand(index);
-                          }}
+                          onClick={() => setIsOpen(false)}
                         >
-                          {expandedIndex === index ? (
-                            <FaItem>
-                              <FaChevronUp />{" "}
-                            </FaItem>
-                          ) : (
-                            <FaItem>
-                              <FaChevronDown />
-                            </FaItem>
-                          )}
-                        </MenuItemArrow>
-                      )}
-                    </div>
+                          {category.name}
+                        </MenuItemName>
 
+                        {hasSub && (
+                          <MenuItemArrow
+                            $active={isActive}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              toggleExpand(index);
+                            }}
+                          >
+                            <FaItem>
+                              {expandedIndex === index ? (
+                                <FaChevronUp />
+                              ) : (
+                                <FaChevronDown />
+                              )}
+                            </FaItem>
+                          </MenuItemArrow>
+                        )}
+                      </div>
+                    </MenuItem>
+
+                    {/* Підкатегорії */}
                     {expandedIndex === index && (
                       <MenuSubList>
-                        {category.items.map((sub) => (
-                          <MenuSubItem
-                            key={sub.name}
-                            $active={location.pathname === sub.path}
-                          >
-                            <MenuItemName
-                              to={sub.path}
-                              $active={location.pathname === sub.path}
-                            >
-                              {sub.name}
-                            </MenuItemName>
-                          </MenuSubItem>
-                        ))}
+                        {category.items.map((sub) => {
+                          const subActive =
+                            location.pathname + location.hash === sub.path;
+                          return (
+                            <MenuSubItem key={sub.name} $active={subActive}>
+                              <MenuItemName to={sub.path} $active={subActive} onClick={() => setIsOpen(false)}>
+                                {sub.name}
+                              </MenuItemName>
+                            </MenuSubItem>
+                          );
+                        })}
                       </MenuSubList>
                     )}
-                  </MenuItem>
+                  </div>
                 );
               })}
             </MenuList>

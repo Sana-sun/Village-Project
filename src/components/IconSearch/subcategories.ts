@@ -19,6 +19,7 @@ export const subcategories = [
     name: "Grundschule",
     category: "Bildung & Gemeinschaft",
     path: "/education#grundschule",
+    // path: "/education",
   },
   
   {
