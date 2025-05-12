@@ -93,11 +93,9 @@ import {
   FooterWrapper,
   LogoImage,
   LogoBtn,
-  Links,
   StyledRouterLink,
   LogoText,
 } from "./styles";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   const handleHomePage = () => {
