@@ -8,9 +8,6 @@ align-items: center;
   /* white-space: pre-wrap; */
   /* line-height: 1.6; */
   color: #333;
-  border-radius: 12px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 `;
 
 export const IntroWrapper = styled.div`
@@ -38,7 +35,6 @@ export const ButtonGrid = styled.div`
 `;
 
 export const NavWrapper = styled.div`
-  /* font-size: 1rem; */
   padding: 0 0 30px 0;
   display: flex;
   align-items: center;
@@ -58,19 +54,12 @@ export const ArrowBox = styled.div`
 `;
 
 export const ArrowButton = styled.div`
-  /* background-color: #4caf50; */
-  /* color: white; */
-  /* font-size: 1rem; */
   border-radius: 5px;
   display: flex;
   align-items: center;
   margin-top: 30px;
   cursor: pointer;
   color: #222;
-
-  &:hover {
-    /* background-color: #45a049; */
-  }
 
   svg {
     margin-right: 10px;

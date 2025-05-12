@@ -7,6 +7,7 @@ import {
   LogoBtn,
   Links,
   StyledRouterLink,
+  LogoText,
 } from "./styles";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
@@ -39,7 +40,7 @@ function Footer() {
             alt="Logo"
             title="Klicken Sie auf mich, um zur Startseite zu gelangen"
           />
-          <div>Schönwalde (Spreewald)</div>
+          <LogoText>Schönwalde (Spreewald)</LogoText>
 
         </LogoBtn>
 

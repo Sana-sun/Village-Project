@@ -1,6 +1,6 @@
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import IconSearch from "../IconSearch/IconSearch";
-import { LogoBtn, LogoImage, MenuWrapper } from "./styles";
+import { LogoBtn, LogoImage, LogoText, MenuWrapper } from "./styles";
 
 function Header() {
   const handleHomePage = () => {
@@ -18,7 +18,7 @@ function Header() {
             alt="Logo"
             title="Klicken Sie auf mich, um zur Startseite zu gelangen"
           />
-          <div>Schönwalde (Spreewald)</div>
+          <LogoText>Schönwalde (Spreewald)</LogoText>
         </LogoBtn>
 
         <IconSearch />

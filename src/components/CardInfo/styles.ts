@@ -14,7 +14,6 @@ export const SloganText = styled.h3`
   font-weight: bold;
   text-align: center;
 
-  border-radius: 20px;
   /* color: #333; */
   /* border-radius: 12px;
   background-color: #f9f9f9;
@@ -38,7 +37,6 @@ export const FotoContainer = styled.div`
   width: 100%;
   aspect-ratio: 4 / 3;
   border-radius: 20px;
-  border-radius: 10px;
 
   overflow: hidden;
   background-color: lightgray;
@@ -53,7 +51,6 @@ export const FotoContainer = styled.div`
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
-    border-radius: 10px;
   }
 `;
 
@@ -61,7 +58,6 @@ export const TextContainer = styled.div`
   padding: 20px;
   height: 100%;
   border-radius: 20px;
-  border-radius: 10px;
 
   border: 2px solid #0033a0;
   overflow-y: auto;
