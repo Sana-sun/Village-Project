@@ -14,8 +14,8 @@ export const BurgerButton = styled.button`
   color: white;
   cursor: pointer;
 
-   display: flex;
-   padding: 8px;
+  display: flex;
+  padding: 8px;
 
   &:hover {
     border-radius: 4px;
@@ -33,8 +33,8 @@ export const CloseButton = styled(BurgerButton)`
 
 export const ModalOverlay = styled.div`
   position: fixed;
-  /* top: 0; */
-  top: 100px;
+  top: 0;
+  /* top: 100px; */
   left: 0;
   width: 100vw;
   height: 100vh;
@@ -42,38 +42,37 @@ export const ModalOverlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: start;
-  padding-top: 80px;
 `;
 
 export const ModalContent = styled.div`
   background: #0033a0;
-  /* background: red; */
   color: white;
   padding: 30px;
   border-radius: 12px;
   width: 90%;
   max-width: 400px;
+  max-width: 450px;
   position: absolute;
-  /* top: 120px; */
+  top: 120px;
   top: 40px;
+  top: 100px;
   left: 60px;
   overflow-y: auto;
+  scrollbar-color: gray transparent;
+
   max-height: 80vh;
 
   @media (max-width: 768px) {
-     left: 30px;
-  top: 20px;
-
+    left: 30px;
+    top: 20px;
   }
 
   @media (max-width: 433px) {
-     left: 20px;
+    left: 20px;
   }
 `;
 
-export const MenuContainer = styled.div`
-  
-`;
+export const MenuContainer = styled.div``;
 
 export const MenuList = styled.ul`
   list-style: none;
@@ -92,10 +91,8 @@ export const MenuItem = styled.li<{ $active?: boolean }>`
   background: ${({ $active }) => ($active ? "white" : "transparent")};
   color: ${({ $active }) => ($active ? "#0033A0" : "white")};
   transition: all 0.3s ease;
+    /* background: rgba(255, 255, 255, 0.1); */
 
-  &:hover {
-    border: 1px solid white;
-  }
 `;
 
 export const MenuItemName = styled(Link)<{ $active?: boolean }>`
@@ -104,9 +101,20 @@ export const MenuItemName = styled(Link)<{ $active?: boolean }>`
   color: ${({ $active }) => ($active ? "#0033A0" : "white")};
   font-size: 18px;
   transition: color 0.3s ease;
-  padding: 8px 20px;
-`;
+  padding: 10px;
 
+  border: 1px solid transparent;
+  border-radius: 20px;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    list-style: none;
+    padding-left: 0;
+  }
+`;
 
 export const MenuItemArrow = styled.span<{ $active?: boolean }>`
   display: flex;
@@ -118,33 +126,28 @@ export const MenuItemArrow = styled.span<{ $active?: boolean }>`
 `;
 
 export const MenuSubList = styled.ul`
-  list-style: none;
-  margin-top: 8px;
-  margin-left: 20px;
-  padding-left: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+  list-style: disc;
+  list-style-position: outside;
+  margin-top: 20px;
+
+  @media (max-width: 768px) {
+    list-style: none;
+    padding-left: 20px;
+  }
 `;
 
-// export const MenuSubList = styled.ul`
-//   list-style: none;
-//   margin: 0;
-//   padding: 0;
-//   display: flex;
-//   flex-direction: column;
-//   gap: 6px;
-//   overflow-y: auto; /* Додаємо скрол для великої кількості підкатегорій */
-//   max-height: 200px; /* Обмежуємо висоту для плавного скролу */
-// `;
-
-
-export const MenuSubItem = styled.li`
+export const MenuSubItem = styled.li<{ $active?: boolean }>`
   font-size: 16px;
   color: white;
-  color: green;
-  
-  padding: 4px 12px;
-  border-left: 2px solid transparent;
+  padding: 10px 0;
+  border: 1px solid transparent;
+  border-radius: 20px;
   transition: all 0.2s ease;
+
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  &:hover {
+    border: 1px solid transparent;
+  }
 `;

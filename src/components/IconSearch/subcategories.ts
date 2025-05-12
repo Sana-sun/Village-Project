@@ -63,9 +63,9 @@ export const subcategories = [
     path: "/leisure#jugendclub",
   },
   {
-    name: "RingßTraining ß Center",
+    name: "Ring - Training - Center",
     category: "Natur & Freizeit",
-    path: "/leisure#ringstraining-ß-center",
+    path: "/leisure#ringstraining-center",
   },
   {
     name: "See",
@@ -97,7 +97,8 @@ export const subcategories = [
 
   // Handel & Dienstleistungen
   {
-    name: "Agrargemeinschaft Freiwalde/Schönwalde",
+    // name: "Agrargemeinschaft Freiwalde/Schönwalde",
+    name: "Agrargemeinschaft",
     category: "Handel & Dienstleistungen",
     path: "/tradeServices#agrargemeinschaft-freiwalde-schoenwalde",
   },
@@ -118,6 +119,7 @@ export const subcategories = [
   },
   {
     name: "Bäckerei & Konditorei Kuske",
+    // name: "Bäckerei Kuske",
     category: "Handel & Dienstleistungen",
     path: "/tradeServices#baeckerei-und-konditorei-kuske",
   },
@@ -138,6 +140,7 @@ export const subcategories = [
   },
   {
     name: "Hämmerling B. Häusliche Krankenpflege",
+    // name: "Häusliche Krankenpflege",
     category: "Handel & Dienstleistungen",
     path: "/tradeServices#haemmerling-b-haeusliche-krankenpflege",
   },
@@ -163,6 +166,7 @@ export const subcategories = [
   },
   {
     name: "Kampfmittelbergung & Sprengtechnik",
+    // name: "Sprengtechnik",
     category: "Handel & Dienstleistungen",
     path: "/tradeServices#kampfmittelbergung-und-sprengtechnik",
   },
@@ -187,7 +191,7 @@ export const subcategories = [
     path: "/tradeServices#morgner-haustechnik",
   },
   {
-    name: "MSD Baustoffrecycling Schönwalde",
+    name: "MSD Baustoffrecycling",
     category: "Handel & Dienstleistungen",
     path: "/tradeServices#msd-baustoffrecycling-schoenwalde",
   },
@@ -203,6 +207,7 @@ export const subcategories = [
   },
   {
     name: "Trocknungsservice Gefreiter GmbH",
+    // name: "Trocknungsservice Gefreiter",
     category: "Handel & Dienstleistungen",
     path: "/tradeServices#trocknungsservice-gefreiter-gmbh",
   },

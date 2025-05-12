@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const SearchMenuContainer = styled.div`
   position: relative;
-  z-index: 2;
+  z-index: 1;
 `;
 
 export const SearchButton = styled.button`
@@ -33,9 +33,8 @@ export const CloseButton = styled(SearchButton)`
 
 export const ModalOverlay = styled.div`
   position: fixed;
-  /* top: 0; */
-  top: 100px;
-  /* left: 0; */
+  top: 0;
+  /* top: 100px; */
   right: 0;
 
   width: 100vw;
@@ -60,7 +59,7 @@ export const ModalContent = styled.div`
   max-height: 400px;
   position: absolute;
   /* top: 120px; */
-  top: 40px;
+  top: 100px;
   right: 60px;
 
   overflow-y: auto;

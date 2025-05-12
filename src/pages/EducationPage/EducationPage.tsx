@@ -1,10 +1,9 @@
 import ReactMarkdown from "react-markdown";
 import { FaChevronLeft } from "react-icons/fa";
 import YourAreHere from "../../components/YourAreHere/YouAreHere";
-import { ArrowButton, ButtonGrid, IntroWrapper } from "./styles";
+import { ArrowButton, IntroText, IntroWrapper } from "./styles";
 
 import rawMd from "./text.md?raw";
-import MoreInfoBtn from "../../components/MoreInfoBtn/MoreInfoBtn";
 import CardInfo from "../../components/CardInfo/CardInfo";
 
 import rawMdFotos from "./fotos.md?raw";
@@ -54,7 +53,11 @@ function EducationPage() {
         `${key}_PHOTO_START`,
         `${key}_PHOTO_END`
       ),
-      images: extractSection(rawMdFotos, `${key}_IMAGES_START`, `${key}_IMAGES_END`)
+      images: extractSection(
+        rawMdFotos,
+        `${key}_IMAGES_START`,
+        `${key}_IMAGES_END`
+      )
         .split("\n")
         .map((line) => line.trim())
         .filter(Boolean),
@@ -68,36 +71,42 @@ function EducationPage() {
     "SEPARATE_TEXT_END"
   );
 
+  const handleLinkClick = (
+    event: React.MouseEvent<HTMLDivElement, MouseEvent>
+  ) => {
+    event.preventDefault(); // Запобігаємо стандартному переходу за посиланням
+
+    // Перевіряємо, що event.target є HTML елементом
+    const target = event.target as HTMLElement;
+    const href = target.closest("a")?.getAttribute("href"); // Отримуємо href, якщо клік був на лінку
+
+    if (!href) return;
+
+    const targetId = href.split("#")[1]; // Витягуємо ID секції
+    if (!targetId) return;
+
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      const yOffset = -120; // Враховуємо зміщення (щоб не закривав заголовок)
+      const y =
+        targetElement.getBoundingClientRect().top +
+        window.pageYOffset +
+        yOffset;
+
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
+  };
+
   return (
     <>
       <YourAreHere />
 
-      <IntroWrapper>
-        <ReactMarkdown>{introText}</ReactMarkdown>
-      </IntroWrapper>
-
-      <ButtonGrid>
-        {sections.map((item, index) => (
-          <MoreInfoBtn
-            key={index}
-            title={item.name}
-            onClick={() => {
-              const target = document.getElementById(item.id);
-              if (target) {
-                const yOffset = -120; // піднімає на 100px вище
-                const y =
-                  target.getBoundingClientRect().top +
-                  window.pageYOffset +
-                  yOffset;
-                window.scrollTo({ top: y, behavior: "smooth" });
-              }
-            }}
-          />
-        ))}
-      </ButtonGrid>
-
-      <IntroWrapper>
+      <IntroText>
         <ReactMarkdown>{separateText}</ReactMarkdown>
+      </IntroText>
+
+      <IntroWrapper onClick={handleLinkClick}>
+        <ReactMarkdown>{introText}</ReactMarkdown>
       </IntroWrapper>
 
       {sections.map((item, index) => (

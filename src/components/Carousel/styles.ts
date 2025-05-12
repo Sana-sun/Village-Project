@@ -7,7 +7,6 @@ export const CarouselContainer = styled.div`
   width: 100%;
   position: relative;
   height: 500px;
-  height: 650px;
   /* background-color: #f8f8f8; */
   padding: 30px;
   margin-top: 20px;
@@ -40,6 +39,8 @@ export const MainImageContainer = styled.div`
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+    border-radius: 10px;
+
     transition: transform 8s ease-in-out, opacity 3s ease-in-out;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   }
@@ -72,7 +73,8 @@ export const SideImage = styled.img`
   height: 70%;
   object-fit: cover;
   border-radius: 20px;
-  opacity: 0.7;
+  border-radius: 10px;
+  /* opacity: 0.7; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 
   @media (max-width: 768px) {

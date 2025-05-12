@@ -10,6 +10,7 @@ import {
   MenuItemName,
   MenuItemArrow,
   MenuSubList,
+  MenuSubItem,
 } from "./styles";
 import { FaBars, FaTimes, FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
@@ -88,11 +89,11 @@ function BurgerMenu() {
                     {expandedIndex === index && (
                       <MenuSubList>
                         {category.items.map((sub) => (
-                          <MenuItem key={sub.name} $active={location.pathname === sub.path}>
+                          <MenuSubItem key={sub.name} $active={location.pathname === sub.path}>
                             <MenuItemName to={sub.path} $active={location.pathname === sub.path}>
                               {sub.name}
                             </MenuItemName>
-                          </MenuItem>
+                          </MenuSubItem>
                         ))}
                       </MenuSubList>
                     )}

@@ -17,30 +17,57 @@ export const FooterWrapper = styled.div`
   }
 `;
 
-export const LogoBtn = styled.button`
-  width: 200px;
-  /* width: 150px; */
-  margin-left: 100px;
+// alt logo
+// export const LogoBtn = styled.button`
+//   width: 200px;
+//   /* width: 150px; */
+//   margin-left: 100px;
 
+//   cursor: pointer;
+//   border: none;
+//   background-color: transparent;
+
+//   /* @media (max-width: 1024px) {
+//       margin-left: 0;
+//   } */
+
+//   @media (max-width: 880px) {
+//     margin-left:70px;
+//   }
+
+//   @media (max-width: 768px) {
+//     margin-left: 0;
+//   }
+// `;
+
+// export const LogoImage = styled.img`
+//   width: 100%;
+// `;
+
+// new logo
+export const LogoBtn = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 200px;
+  width: 150px;
   cursor: pointer;
   border: none;
   background-color: transparent;
-
-  /* @media (max-width: 1024px) {
-      margin-left: 0;
-  } */
-
-  @media (max-width: 880px) {
-    margin-left:70px;
-  }
-
-  @media (max-width: 768px) {
-    margin-left: 0;
-  }
+  color: white;
+  font-weight: bold;
+  line-height: 1.2;
+  word-spacing: 2px;
+  text-align: center;
+  /* text-shadow: 1px 1px 2px black; */
+  letter-spacing: 2px;
+  margin-left: 70px;
 `;
 
 export const LogoImage = styled.img`
-  width: 100%;
+  width: 60px;
+  /* width: 80px; */
 `;
 
 export const InfoContainer = styled.div`

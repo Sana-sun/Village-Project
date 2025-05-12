@@ -5,6 +5,7 @@ export const MenuWrapper = styled.div`
   display: flex;
   color: white;
   height: 100px;
+  height: 80px;
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
@@ -42,17 +43,39 @@ export const CardWrapper = styled.div`
   border-radius: 20px;
 `;
 
-
 // logo
+// export const LogoBtn = styled.button`
+//   width: 200px;
+//   width: 150px;
+//   cursor: pointer;
+//   border: none;
+//   background-color: transparent;
+// `;
+
+// export const LogoImage = styled.img`
+//   width: 100%;
+// `;
+
+// new logo
 export const LogoBtn = styled.button`
-  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  /* width: 200px; */
   width: 150px;
   cursor: pointer;
   border: none;
   background-color: transparent;
+  color: white;
+  font-weight: bold;
+  line-height: 1.4;
+  word-spacing: 2px;
+  text-align: center;
+  /* text-shadow: 1px 1px 2px black; */
+  letter-spacing: 2px;
 `;
 
 export const LogoImage = styled.img`
-  width: 100%;
+  width: 60px;
 `;
-

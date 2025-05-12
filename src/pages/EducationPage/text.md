@@ -1,12 +1,11 @@
 
 <!-- INTRO_TEXT_START -->
-🎓 **Lernen im Herzen unseres Dorfes**
 
-In Schönwalde beginnt Bildung direkt vor der Haustür – persönlich, naturnah und gemeinschaftlich. Unsere Kleinsten entdecken die Welt spielerisch in der **Kita Regenbogen**, wo Kinder liebevoll betreut und individuell gefördert werden. Ein besonderer Schwerpunkt liegt hier auf der handwerklichen Bildung – spielerisch lernen die Kinder verschiedene Berufe aus dem Dorf kennen und entwickeln früh ein Gefühl für Kreativität und Heimatverbundenheit.
+In Schönwalde beginnt Bildung direkt vor der Haustür – persönlich, naturnah und gemeinschaftlich. Unsere Kleinsten entdecken die Welt spielerisch in der [**Kita Regenbogen**](/education#kita "Klick mich!"), wo Kinder liebevoll betreut und individuell gefördert werden. Ein besonderer Schwerpunkt liegt hier auf der handwerklichen Bildung – spielerisch lernen die Kinder verschiedene Berufe aus dem Dorf kennen und entwickeln früh ein Gefühl für Kreativität und Heimatverbundenheit.
 
-In der **Grundschule Schönwalde** wachsen die Kinder in kleinen Klassen mit direktem Kontakt zur Natur und einer starken Dorfgemeinschaft heran. Die Schule bietet einen vertrauten Lernort mit viel Engagement, Aktivitäten und lebendiger Beteiligung von Eltern und Förderverein.
+In der [**Grundschule Schönwalde**](/education#grundschule "Klick mich!") wachsen die Kinder in kleinen Klassen mit direktem Kontakt zur Natur und einer starken Dorfgemeinschaft heran. Die Schule bietet einen vertrauten Lernort mit viel Engagement, Aktivitäten und lebendiger Beteiligung von Eltern und Förderverein.
 
-Und wer Lust auf neue Geschichten hat, kann jederzeit in unserer **Mini-Bibliothek** am Dorfplatz stöbern – einem offenen Bücherschrank für Jung und Alt, ganz ohne Anmeldung. Einfach mitnehmen, tauschen, lesen.
+Und wer Lust auf neue Geschichten hat, kann jederzeit in unserer [**Mini-Bibliothek**](/education#mini-bibliotek "Klick mich!") am Dorfplatz stöbern – einem offenen Bücherschrank für Jung und Alt, ganz ohne Anmeldung. Einfach mitnehmen, tauschen, lesen.
 
 📖 Bildung in Schönwalde heißt: gemeinsam wachsen, lernen und entdecken.
 
@@ -14,7 +13,7 @@ Und wer Lust auf neue Geschichten hat, kann jederzeit in unserer **Mini-Biblioth
 <!-- INTRO_TEXT_END -->
 
 <!-- SEPARATE_TEXT_START -->
-Schönwalde setzt auf Bildung mit Herz! Lassen Sie uns Ihnen zeigen, wie Wissen, Kreativität und Gemeinschaft hier gelebt werden.
+🎓 **Lernen im Herzen unseres Dorfes**
 <!-- SEPARATE_TEXT_END -->
 
 <!-- KITA_NAME_START --> 
@@ -26,7 +25,7 @@ Ein liebevoller Ort zum Spielen, Lernen und Wachsen
 <!-- KITA_SLOGAN_END -->
 
 <!-- KITA_TEXT_START -->
-🎨 Kita Regenbogen – Krippe & Kindergarten  
+🎨 **Kita Regenbogen – Krippe & Kindergarten**
 
 In unserer Kindertagesstätte begleiten wir Kinder von 0 bis 5 Jahren liebevoll beim Wachsen, Entdecken und Spielen. Krippe und Kindergarten befinden sich zentral im Ort – mit direkter Nähe zur Schule und Amtsverwaltung.  
 

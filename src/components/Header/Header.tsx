@@ -18,6 +18,7 @@ function Header() {
             alt="Logo"
             title="Klicken Sie auf mich, um zur Startseite zu gelangen"
           />
+          <div>Schönwalde (Spreewald)</div>
         </LogoBtn>
 
         <IconSearch />

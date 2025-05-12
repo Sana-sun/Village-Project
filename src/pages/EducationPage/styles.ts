@@ -1,14 +1,30 @@
 import styled from "styled-components";
 
+export const IntroText = styled.h2`
+display: flex;
+justify-content: center;
+align-items: center;
+  margin-bottom: 24px;  
+  /* white-space: pre-wrap; */
+  /* line-height: 1.6; */
+  color: #333;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+`;
+
 export const IntroWrapper = styled.div`
   white-space: pre-wrap;
   line-height: 1.6;
-  /* margin-bottom: 24px; */
   color: #333;
-  /* border-radius: 12px; */
-  /* background-color: #f9f9f9; */
-  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
+
+  a {
+    /* text-decoration: none; */
+    color: #0033a0;
+    /* color: black; */
+  }
 `;
+
 
 export const ButtonGrid = styled.div`
   display: grid;
@@ -72,6 +88,8 @@ export const SloganText = styled.div`
   padding: 10px 20px;
   color: white;
   font-weight: bold;
+
+ 
 
   @media (max-width: 768px) {
   }
