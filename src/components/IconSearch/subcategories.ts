@@ -35,9 +35,9 @@ export const subcategories = [
     path: "/municipality#amt-unterspreewald",
   },
   {
-    name: "Feuerwehr",
+    name: "Feuerwehr Schoenwalde",
     category: "Gemeinde & Verwaltung",
-    path: "/municipality#feuerwehr",
+    path: "/municipality#feuerwehr-schoenwalde",
   },
   {
     name: "Feuerwehr Waldow",
