@@ -1,0 +1,5 @@
+<!-- DORFGEMEINSCHAFTSHAUS_IMAGES_START -->
+/images/Natur_Freizeit/Dorfgemeindschaftshaus/1.jpg
+/images/Natur_Freizeit/Dorfgemeindschaftshaus/2.jpeg
+/images/Natur_Freizeit/Dorfgemeindschaftshaus/3.crdownload
+<!-- DORFGEMEINSCHAFTSHAUS_IMAGES_END -->

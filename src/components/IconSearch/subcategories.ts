@@ -67,9 +67,14 @@ export const subcategories = [
     path: "/leisure#jugendclub",
   },
   {
-    name: "Ring - Training - Center",
+    name: "Muehlenverein",
     category: "Natur & Freizeit",
-    path: "/leisure#ringstraining-center",
+    path: "/leisure#muehlenverein",
+  },
+  {
+    name: "Spreewald Ring Training Center",
+    category: "Natur & Freizeit",
+    path: "/leisure#spreewald-ring-training-center",
   },
   {
     name: "See",
@@ -77,12 +82,12 @@ export const subcategories = [
     path: "/leisure#see",
   },
   {
-    name: "Spreewald Ring",
+    name: "Spreewald Ring Kart Center",
     category: "Natur & Freizeit",
-    path: "/leisure#spreewald-ring",
+    path: "/leisure#spreewald-ring-kart-center",
   },
   {
-    name: "Sportlerheim & Stadion",
+    name: "Sportlerheim und Stadion",
     category: "Natur & Freizeit",
     path: "/leisure#sportlerheim-und-stadion",
   },
