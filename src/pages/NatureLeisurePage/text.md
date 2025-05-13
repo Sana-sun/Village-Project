@@ -177,6 +177,7 @@ Spreewaldring Training Center - Geradeaus Kann Jeder
  <!-- RINGTRAININGCENTER_TEXT_START -->
 
 🏎️ **Spreewaldring – Motorsport trifft auf Adrenalin und Natur**
+
 Spüre die Perfektion des Rennsports, eingebettet in die atemberaubende Landschaft des Spreewalds. Jede Kurve fordert dich heraus, jede Gerade lässt dein Herz schneller schlagen. Ob du die Spannung der Strecke genießen willst oder dein Können auf ein neues Level bringen möchtest – hier erlebst du Motorsport in seiner reinsten Form.
 
 Die Rennstrecke wurde speziell als Trainingskurs für Fahrer aller Erfahrungsstufen konzipiert. Egal, ob Einsteiger oder Profi – der Spreewaldring testet deine Grenzen und gibt dir die Möglichkeit, dich kontinuierlich zu verbessern.
