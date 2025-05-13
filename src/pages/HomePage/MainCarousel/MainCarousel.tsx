@@ -15,7 +15,9 @@ const MainCarousel: React.FC = () => {
     "/images/StartSeite/2.jpg",
     "/images/StartSeite/3.jpeg",
     "/images/StartSeite/4.jpg",
-    "/images/StartSeite/5.jpg",
+    "/images/StartSeite/9.jpeg",
+    "/images/StartSeite/10.jpeg",
+    "/images/StartSeite/11.jpeg",
   ];
 
   useEffect(() => {
