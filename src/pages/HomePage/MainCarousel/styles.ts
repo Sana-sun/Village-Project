@@ -78,10 +78,6 @@
 //3 
 import styled from "styled-components";
 
-export const MainContext = styled.div`
-  padding: 0px 60px 40px 60px;
-`;
-
 export const CarouselContainer = styled.div`
   width: 100%;
   position: relative;
