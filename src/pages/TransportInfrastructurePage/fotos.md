@@ -6,7 +6,6 @@
 /images/Verkehr_Infrastruktur/Bahnhof/1.jpg
 /images/Verkehr_Infrastruktur/Bahnhof/2.jpg
 /images/Verkehr_Infrastruktur/Bahnhof/3.jpg
-/images/Verkehr_Infrastruktur/Bahnhof/4.crdownload
 <!-- BAHNHOF_IMAGES_END -->
 
 <!-- AUTOBAHN_PHOTO_START -->
