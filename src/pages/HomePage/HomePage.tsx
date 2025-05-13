@@ -22,7 +22,6 @@ function HomePage() {
     "/images/OtherPictures/Center/7.jpg",
     "/images/OtherPictures/Center/8.jpg",
     "/images/OtherPictures/Center/9.jpg",
-    "/images/OtherPictures/Center/10.jpg",
   ];
 
   const extractSection = (

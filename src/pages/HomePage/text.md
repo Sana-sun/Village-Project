@@ -14,9 +14,7 @@ Brandenburg. Im Jahr 2023 zählt das Dorf etwa 1.207 Einwohner
 👤 **Bürgermeister**
 <!-- BUERGERMEISTER_NAME_END -->
 <!-- BUERGERMEISTER_TEXT_START -->
-Die Gemeinde wird von Roland Gefreiter geleitet, der seit 2003 im Amt ist.
-
-**Kontaktinformationen:**  r.gefreiter@schoenwalde
+Die Gemeinde wird von Roland Gefreiter geleitet, der seit 2003 im Amt ist. **Kontaktinformationen:**  r.gefreiter@schoenwalde
 -spreewald.de
 <!-- BUERGERMEISTER_TEXT_END -->
 <!-- BUERGERMEISTER_PHOTO_START -->
@@ -28,7 +26,7 @@ Die Gemeinde wird von Roland Gefreiter geleitet, der seit 2003 im Amt ist.
 💧 **Geschichte**
 <!-- GESCHICHTE_NAME_END -->
 <!-- GESCHICHTE_TEXT_START -->
-Schönwalde blickt auf eine lange Geschichte bis ins Mittelalter zurück.  Das Dorf ist bekannt für seine Traditionen und sein kulturelles Erbe.
+Schönwalde blickt auf eine lange Geschichte bis ins Mittelalter zurück. Das Dorf ist bekannt für seine Traditionen und sein kulturelles Erbe.
 <!-- GESCHICHTE_TEXT_END -->
 <!-- GESCHICHTE_PHOTO_START -->
 /images/OtherPictures/Geschichte/mainPhoto.jpg
