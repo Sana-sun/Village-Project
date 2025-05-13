@@ -30,6 +30,19 @@ export const MainInfoContainer = styled.div`
 
   @media (max-width: 1240px) {
     grid-template-columns: 1fr;
+    height: 1000px;
+  }
+
+   @media (max-width: 580px) {
+    height: 800px;
+  }
+
+  @media (max-width: 440px) {
+    height: 600px;
+  }
+
+   @media (max-width: 344px) {
+    height: 500px;
   }
 `;
 
@@ -89,4 +102,17 @@ export const TextContainer = styled.div`
     width: 100%;
     aspect-ratio: 4 / 3; // додали новий рядок
   }
+
+   a {
+    /* text-decoration: none; */
+    color: #0033a0;
+  }
+`;
+
+export const LoadingText = styled.div`
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border-radius: 8px;
 `;

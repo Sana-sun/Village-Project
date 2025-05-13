@@ -33,6 +33,7 @@ export const MainImageContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
+  /* background-color: lightgray; */
 
   img {
     width: 100%;
@@ -52,6 +53,7 @@ export const SideImagesContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 80%;
+  
   margin: 0 10px;
   transition: transform 2s ease-in-out, opacity 1s ease-in-out;
 
@@ -191,4 +193,15 @@ export const Dot = styled.div<{ $isActive: boolean }>`
   &:hover {
     background-color: #338bff;
   }
+`;
+
+
+export const LoadingText = styled.div`
+  position: absolute;
+  color: black;
+  color: white;
+  font-size: 2rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
 `;

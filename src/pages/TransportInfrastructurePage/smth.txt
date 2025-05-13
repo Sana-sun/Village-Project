@@ -1,0 +1,5 @@
+<!-- AUTOBAHN_IMAGES_START -->
+/images/Verkehr_Infrastruktur/Autobahn/1.jpg 
+/images/Verkehr_Infrastruktur/Autobahn/2.jpg
+/images/Verkehr_Infrastruktur/Autobahn/3.jpg
+<!-- AUTOBAHN_IMAGES_END -->
