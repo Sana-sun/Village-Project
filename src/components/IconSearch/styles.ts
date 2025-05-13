@@ -56,7 +56,10 @@ export const ModalContent = styled.div`
   border-radius: 12px;
   width: 90%;
   max-width: 400px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 500px;
+  /* max-height: 80vh; */
+
   position: absolute;
   /* top: 120px; */
   top: 100px;
@@ -159,6 +162,9 @@ export const IconBox = styled.div`
 `;
 
 export const SearchInput = styled.input`
+  position: sticky;
+  top: 0;
+  left: 0;
   width: 100%;
   padding: 12px 15px;
   font-size: 18px;

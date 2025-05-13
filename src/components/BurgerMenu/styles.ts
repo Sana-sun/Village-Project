@@ -41,12 +41,13 @@ export const ModalContent = styled.div`
   padding: 30px;
   border-radius: 12px;
   width: 90%;
-  max-width: 450px;
+  /* max-width: 450px; */
+  max-width: 500px;
   position: absolute;
   top: 100px;
   left: 60px;
   overflow-y: auto;
-  scrollbar-color: gray transparent;
+  scrollbar-color: #fff transparent;
   max-height: 80vh;
 
   @media (max-width: 768px) {
@@ -88,7 +89,7 @@ export const MenuItemName = styled(Link)<{ $active?: boolean }>`
 export const MenuItemArrow = styled.span<{ $active?: boolean }>`
   display: flex;
   align-items: center;
-  padding: 6px 20px;
+  /* padding: 6px 20px; */
   cursor: pointer;
   color: ${({ $active }) => ($active ? "#0033A0" : "lightgray")};
   transition: color 0.2s ease;

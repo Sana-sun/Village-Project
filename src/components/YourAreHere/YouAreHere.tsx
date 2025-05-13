@@ -6,10 +6,10 @@ function YourAreHere() {
   const location = useLocation();
 
   const pathNameMap: { [key: string]: string } = {
-    "/": "Startseite",
+    "/": "Schönwalde entdecken",
     "/education": "Bildung & Gemeinschaft",
     "/municipality": "Gemeinde & Verwaltung",
-    "/tradeServices": "Handel & Dienstleistungen",
+    "/tradeServices": "Handwerkgewerbe & Dienstleistungen",
     "/leisure": "Natur & Freizeit",
     "/transport": "Verkehr & Infrastruktur",
     "/bauLand": "Baugrundstücke",

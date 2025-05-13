@@ -77,7 +77,8 @@ export const TextContainer = styled.div`
 
   box-sizing: border-box; /* важливо, щоб padding не порушував height */
   scroll-behavior: smooth;
-  scrollbar-color: gray transparent;
+  /* scrollbar-color: gray transparent; */
+  scrollbar-color: #0033a0 transparent;
 
   white-space: pre-wrap;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

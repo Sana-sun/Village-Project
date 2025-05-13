@@ -486,7 +486,7 @@ export default EducationPage;
 //     subcategories: ["Bürgerbüro", "Formulare"],
 //   },
 //   {
-//     label: "Handel & Dienstleistungen",
+//     label: "Handwerkgewerbe & Dienstleistungen",
 //     // label: "Handwerkgewerbe & Dienstleistungen",
 //     path: "/tradeServices",
 //     subcategories: ["Lebensmittel", "Imkerei"],

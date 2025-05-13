@@ -1,10 +1,16 @@
 import YourAreHere from "../../components/YourAreHere/YouAreHere";
+import MainCarousel from "./MainCarousel/MainCarousel";
+import { MainContext } from "./MainCarousel/styles";
+
 
 function HomePage() {
     return (
       <>
-        <YourAreHere />
-
+      <MainCarousel />
+        <MainContext>
+          <YourAreHere />
+  
+        </MainContext>
       </>
     );
   }

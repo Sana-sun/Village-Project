@@ -1,11 +1,17 @@
 export const subcategories = [
-  // Bauland
+  // Schönwalde entdecken
   {
-    name: "Startseite",
+    name: "Schönwalde entdecken",
     category: "Schönwalde entdecken",
     path: "/",
     pathMain: "/",
+  },
 
+    // Bauland
+  {
+    name: "Baugrundstücke",
+    category: "Bauland",
+    path: "/bauLand#baugrundstuecke",
   },
 
   // Bildung & Gemeinschaft
@@ -35,7 +41,7 @@ export const subcategories = [
     path: "/municipality#amt-unterspreewald",
   },
   {
-    name: "Feuerwehr Schoenwalde",
+    name: "Feuerwehr Schönwalde",
     category: "Gemeinde & Verwaltung",
     path: "/municipality#feuerwehr-schoenwalde",
   },
@@ -48,6 +54,123 @@ export const subcategories = [
     name: "Kirche",
     category: "Gemeinde & Verwaltung",
     path: "/municipality#kirche",
+  },
+
+   // Handwerkgewerbe & Dienstleistungen
+  {
+    name: "Agrargemeinschaft Freiwalde/Schönwalde",
+    // name: "Agrargemeinschaft",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#agrargemeinschaft-freiwalde-schoenwalde",
+  },
+  {
+    name: "Autohaus Kunath",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#autohaus-kunath",
+  },
+  {
+    name: "Autohaus Vogler",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#autohaus-vogler",
+  },
+  {
+    name: "Autowerkstatt Waldow",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#autowerkstatt-waldow",
+  },
+  {
+    name: "Bäckerei & Konditorei Kuske",
+    // name: "Bäckerei Kuske",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#baeckerei-und-konditorei-kuske",
+  },
+  {
+    name: "Der Pflegedienst",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#der-pflegedienst",
+  },
+  {
+    name: "Fleischerei Tischler",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#fleischerei-tischler",
+  },
+  {
+    name: "Friseursalon",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#friseursalon",
+  },
+  {
+    name: "Hämmerling B. Häusliche Krankenpflege",
+    // name: "Häusliche Krankenpflege",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#haemmerling-b-haeusliche-krankenpflege",
+  },
+  {
+    name: "Hundesalon Schick Schick",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#hundesalon-schick-schick",
+  },
+  {
+    name: "Imkerei Morgner",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#imkerei-morgner",
+  },
+  {
+    name: "Imkerei Rippert",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#imkerei-rippert",
+  },
+  {
+    name: "Ingo Richter Dachdecker",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#ingo-richter-dachdecker",
+  },
+  {
+    name: "Kampfmittelbergung & Sprengtechnik",
+    // name: "Sprengtechnik",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#kampfmittelbergung-und-sprengtechnik",
+  },
+  {
+    name: "KOMPLETT Gerüstbau GmbH",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#komplett-geruestbau-gmbh",
+  },
+  {
+    name: "Lebendiges Schönwalde",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#lebendiges-schoenwalde",
+  },
+  {
+    name: "Malerbetrieb Dieter Ihl",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#malerbetrieb-dieter-ihl",
+  },
+  {
+    name: "Morgner Haustechnik",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#morgner-haustechnik",
+  },
+  {
+    name: "MSD Baustoffrecycling",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#msd-baustoffrecycling-schoenwalde",
+  },
+  {
+    name: "NOTUS energy",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#notus-energy",
+  },
+  {
+    name: "Tischlerei Schneider",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#tischlerei-schneider",
+  },
+  {
+    name: "Trocknungsservice Gefreiter GmbH",
+    // name: "Trocknungsservice Gefreiter",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices#trocknungsservice-gefreiter-gmbh",
   },
 
   // Natur & Freizeit
@@ -67,7 +190,7 @@ export const subcategories = [
     path: "/leisure#jugendclub",
   },
   {
-    name: "Muehlenverein",
+    name: "Mühlenverein",
     category: "Natur & Freizeit",
     path: "/leisure#muehlenverein",
   },
@@ -103,129 +226,4 @@ export const subcategories = [
     category: "Verkehr & Infrastruktur",
     path: "/transport#bahnhof",
   },
-
-  // Handel & Dienstleistungen
-  {
-    name: "Agrargemeinschaft Freiwalde/Schönwalde",
-    // name: "Agrargemeinschaft",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#agrargemeinschaft-freiwalde-schoenwalde",
-  },
-  {
-    name: "Autohaus Kunath",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#autohaus-kunath",
-  },
-  {
-    name: "Autohaus Vogler",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#autohaus-vogler",
-  },
-  {
-    name: "Autowerkstatt Waldow",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#autowerkstatt-waldow",
-  },
-  {
-    name: "Bäckerei & Konditorei Kuske",
-    // name: "Bäckerei Kuske",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#baeckerei-und-konditorei-kuske",
-  },
-  {
-    name: "Der Pflegedienst",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#der-pflegedienst",
-  },
-  {
-    name: "Fleischerei Tischler",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#fleischerei-tischler",
-  },
-  {
-    name: "Friseursalon",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#friseursalon",
-  },
-  {
-    name: "Hämmerling B. Häusliche Krankenpflege",
-    // name: "Häusliche Krankenpflege",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#haemmerling-b-haeusliche-krankenpflege",
-  },
-  {
-    name: "Hundesalon Schick Schick",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#hundesalon-schick-schick",
-  },
-  {
-    name: "Imkerei Morgner",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#imkerei-morgner",
-  },
-  {
-    name: "Imkerei Rippert",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#imkerei-rippert",
-  },
-  {
-    name: "Ingo Richter Dachdecker",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#ingo-richter-dachdecker",
-  },
-  {
-    name: "Kampfmittelbergung & Sprengtechnik",
-    // name: "Sprengtechnik",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#kampfmittelbergung-und-sprengtechnik",
-  },
-  {
-    name: "KOMPLETT Gerüstbau GmbH",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#komplett-geruestbau-gmbh",
-  },
-  {
-    name: "Lebendiges Schönwalde",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#lebendiges-schoenwalde",
-  },
-  {
-    name: "Malerbetrieb Dieter Ihl",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#malerbetrieb-dieter-ihl",
-  },
-  {
-    name: "Morgner Haustechnik",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#morgner-haustechnik",
-  },
-  {
-    name: "MSD Baustoffrecycling",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#msd-baustoffrecycling-schoenwalde",
-  },
-  {
-    name: "NOTUS energy",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#notus-energy",
-  },
-  {
-    name: "Tischlerei Schneider",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#tischlerei-schneider",
-  },
-  {
-    name: "Trocknungsservice Gefreiter GmbH",
-    // name: "Trocknungsservice Gefreiter",
-    category: "Handel & Dienstleistungen",
-    path: "/tradeServices#trocknungsservice-gefreiter-gmbh",
-  },
-
-  // Bauland
-  {
-    name: "Baugrundstücke",
-    category: "Bauland",
-    path: "/bauLand#baugrundstuecke",
-  },
-
 ];

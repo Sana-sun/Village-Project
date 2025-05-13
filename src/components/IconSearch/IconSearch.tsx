@@ -46,6 +46,8 @@ useEffect(() => {
       window.scrollTo({ top: y, behavior: "smooth" });
     }
   }
+  setSearchQuery("");
+  
 }, [location]);
 
 
