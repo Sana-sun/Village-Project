@@ -1,13 +1,8 @@
 <!-- INTRO_TEXT_START -->
 
-In Schönwald lebt die Wirtschaft von Menschen, die man kennt – ehrlich, persönlich und mit einem Gespür dafür, was gebraucht wird. Ob Ziegel, Honig oder ein fachkundiger Blick unter die Motorhaube – hier ist alles nah und verlässlich.
-Auch die Energiewende hat hier ihren Platz: Ein regionales Büro der Firma Notus Energy begleitet Projekte rund um erneuerbare Energien – direkt aus dem Ort.
+In Schönwald lebt die Wirtschaft von Menschen, die man kennt – ehrlich, persönlich und mit einem Gespür dafür, was gebraucht wird. Ob Ziegel, Honig oder ein fachkundiger Blick unter die Motorhaube – hier ist alles nah und verlässlich. Auch die Energiewende hat hier ihren Platz: Ein regionales Büro der Firma Notus Energy begleitet Projekte rund um erneuerbare Energien – direkt aus dem Ort. Frische und gute Produkte für den Alltag findet man ebenso – direkt, regional und mit Geschmack. Und wer Unterstützung braucht, findet sie bei sozialen Diensten oder in der Pflege – mit Herz und Einsatz. Unternehmen im Bereich Bau, Technik oder Sanierung sorgen für professionelle Hilfe bei kleinen und großen Vorhaben – kompetent, erreichbar und mit kurzen Wegen.
 
-Frische und gute Produkte für den Alltag findet man ebenso – direkt, regional und mit Geschmack. Und wer Unterstützung braucht, findet sie bei sozialen Diensten oder in der Pflege – mit Herz und Einsatz.
-
-Unternehmen im Bereich Bau, Technik oder Sanierung sorgen für professionelle Hilfe bei kleinen und großen Vorhaben – kompetent, erreichbar und mit kurzen Wegen.
-
-🛠️ **Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch, nah und gut zu wissen, wer da ist.**
+🛠️ Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch, nah und gut zu wissen, wer da ist.
 
 ➡️ **Mehr erfahren:**
 
@@ -16,263 +11,392 @@ Unternehmen im Bereich Bau, Technik oder Sanierung sorgen für professionelle Hi
 <!-- SEPARATE_TEXT_START -->
 🛍️ Regional, persönlich, zuverlässig – alles, was du brauchst
 <!-- SEPARATE_TEXT_END -->
-<!-- SEE_NAME_START -->
-See
-<!-- SEE_NAME_END -->
-<!-- SEE_SLOGAN_START -->
 
-Ein Ort zum Träumen und Entspannen
 
-<!-- SEE_SLOGAN_END -->
-<!-- SEE_TEXT_START -->
-
-🏖️ **Unser See – Natur, Erholung und Spiel direkt im Dorf**
-
-Ein liebevoll gepflegter Ort zum Entspannen, Toben und die Natur genießen: Unser Dorfsee ist ein echtes Juwel mitten in Schönwalde.
-
-Ob beim Baden an warmen Tagen, beim Picknick in der gemütlichen überdachten Sitzecke oder beim Faulenzen in mitgebrachten Hängematten – hier findet jeder seinen Platz.
-Für Kinder gibt es fest verankerte Autoreifen im Sand zum Klettern und Balancieren.
-
-Auch Sportbegeisterte kommen auf ihre Kosten: Die Volleyballpfosten stehen bereit – Netz und Ball können bei der Kontaktperson ausgeliehen werden.
-
-📍 Adresse: Krausnicker Weg 6, 15910 Schönwalde
-
-<!-- SEE_TEXT_END -->
-
-<!-- SPORTHEIM_NAME_START -->
-Sportlerheim und Stadion
-<!-- SPORTHEIM_NAME_END -->
-<!-- SPORTHEIM_SLOGAN_START -->
-
-Sportlerheim & Stadion – Treffpunkt für Sport, Spiel und Feiern
-
-<!-- SPORTHEIM_SLOGAN_END -->
-<!-- SPORTHEIM_TEXT_START -->
-
-⚽ Unser **Sportlerheim und Stadion** sind mehr als nur Orte für Fußballspiele – sie sind das Herz des gemeinschaftlichen Lebens im Dorf.
-
-Hier finden regelmäßig Fußballturniere, Dart- und Billardabende statt, in entspannter Atmosphäre für Jung und Alt. Besonders aktiv ist dabei unser Sportverein Wacker 21 Schönwalde e.V., der mit Leidenschaft den Fußball fördert und die Dorfgemeinschaft stärkt.
-
-Das Sportlerheim kann auch für Familienfeiern, Vereinsabende oder Dorftreffen gemietet werden – eine perfekte Gelegenheit, um gemeinsam schöne Stunden zu verbringen.
-
-📍 **Adresse:** Bahnhofstr. 1, 15910 Schönwald
-
-📞 **Kontakt & Vermietung:** 035474 735
-
-🅕 **Facebook:** [Sportlerheim Schönwalde](https://www.facebook.com/people/Sportlerheim-Sch%C3%B6nwalde/100049660796368/)
-
-🌐 **Info:** [Wacker 21 Schönwalde e.V.](https://wacker-schoenwalde.de/)
-
-<!-- SPORTHEIM_TEXT_END -->
-
-<!-- ALPAKAFARM_NAME_START -->
-
-Alpakafarm
-
-<!-- ALPAKAFARM_NAME_END -->
-<!-- ALPAKAFARM_SLOGAN_START -->
-
-Alpakafarm Schönwalde – Nähe spüren, Natur erleben
-
-<!-- ALPAKAFARM_SLOGAN_END -->
-<!-- ALPAKAFARM_TEXT_START -->
-
-🦙 Auf unserer liebevoll geführten Alpakafarm warten freundliche Alpakas auf kleine und große Besucher!
-
-Hier kann man sie bei einer geführten Wanderung durch die Natur kennenlernen. Auch ein Picknik auf der Weide ist ein unvergessliches Erlebnis.
-
-Im Hofladen gibt es handgefertigte Produkte aus Alpakawolle – von warmen Socken bis hin zu kuscheligen Decken / von Kopf bis Fuß.
-
-📍 **Adresse:** Bahnweg 10, 15910 Schönwalde
-
-📞 **Kontakt:** Carola Mielke / 01512 8253604
-
-🌐 **Website:** [Pakahara](https://www.pakahara.de/)
-
-<!-- ALPAKAFARM_TEXT_END -->
-
-<!-- JUGENDCLUB_NAME_START -->
-
-Jugendclub
-
-<!-- JUGENDCLUB_NAME_END -->
-<!-- JUGENDCLUB_SLOGAN_START -->
-
-Jugendclub Schönwalde – Treffpunkt für die Jugend
-
-<!-- JUGENDCLUB_SLOGAN_END -->
-<!-- JUGENDCLUB_TEXT_START -->
-
-🌳 Der Jugendclub in Schönwalde ist der ideale Ort für junge Menschen, um sich zu treffen, gemeinsam Zeit zu verbringen und ihre Freizeit kreativ zu gestalten. Der Jugendtreff bietet viele Möglichkeiten für Aktivitäten: von Spielen, Musik und Sport bis hin zu kreativen Workshops und Ausflügen.
-
-Der Club ist nicht nur ein Treffpunkt, sondern auch ein Raum, in dem sich Jugendliche untereinander austauschen und neue Ideen entwickeln können. Ob für spannende Freizeitgestaltungen oder als Ort zum Entspannen und Freunde treffen – der Jugendclub ist ein Herzstück der Gemeinschaft in Schönwalde.
-
-📍 **Adresse:** [Adresse des Jugendclubs]
-
-📞 **Kontakt:** [Telefonnummer des Jugendclubs]
-
-📧 **E-Mail:** [E-Mail-Adresse des Jugendclubs]
-
-**Kommen Sie vorbei, und entdecken Sie die vielseitigen Angebote des Jugendclubs – hier wird jeder fündig!**
-
-<!-- JUGENDCLUB_TEXT_END -->
-
- <!-- DORFGEMEINSCHAFTSHAUS_NAME_START -->
-
-Dorfgemeindschaftshaus
-
- <!-- DORFGEMEINSCHAFTSHAUS_NAME_END -->
- <!-- DORFGEMEINSCHAFTSHAUS_SLOGAN_START -->
-
-Dorfgemeinschaftshaus – Herzstück des Dorflebens
-
- <!-- DORFGEMEINSCHAFTSHAUS_SLOGAN_END -->
- <!-- DORFGEMEINSCHAFTSHAUS_TEXT_START -->
-
-🏠 Das Dorfgemeinschaftshaus bleibt ein fester Bestandteil unseres Dorflebens. Derzeit als Lernraum für Kinder genutzt, kehrt es im Sommer zu seiner ursprünglichen Bestimmung zurück – ein Treffpunkt für Jung und Alt.
-
-🤝 Vereinsleben & Kultur Hier finden kleine Veranstaltungen, Treffen und kulturelle Aktivitäten statt.
-
-📌 Ein Haus mit Geschichte, das die Dorfgemeinschaft verbindet und lebendig hält.
-
-📍 **Adresse:** Hauptstr. 48, 15910 Schönwald
-
-📞 **Telefon:** 035474 2060
-
-📧 **E-Mail:** r.gefreiter@schoenwalde-spreewald.de
-
- <!-- DORFGEMEINSCHAFTSHAUS_TEXT_END -->
-
- <!-- SPREEWALDRINGKARTCENTER_NAME_START -->
-
-Spreewald Ring Kart Center
-
- <!-- SPREEWALDRINGKARTCENTER_NAME_END -->
- <!-- SPREEWALDRINGKARTCENTER_SLOGAN_START -->
-
-Spreewaldring Kart Center – Adrenalin auf Rädern
-
- <!-- SPREEWALDRINGKARTCENTER_SLOGAN_END -->
- <!-- SPREEWALDRINGKARTCENTER_TEXT_START -->
-
-🏁 Bist du bereit für pure Geschwindigkeit und Nervenkitzel? Dann ab auf den Spreewaldring! Unsere 800 Meter lange Rennstrecke bietet alles, was das Motorsport-Herz begehrt – enge Kurven, schnelle Geraden und das Gefühl von Rennsport pur.
-
-Ob allein, mit Freunden, der Familie oder als Teamevent – hier erlebst du packenden Fahrspaß und unvergessliche Momente. Steig ein, gib Gas und spüre den echten Rennfieber!
-
-🚀 Spreewaldring – dein nächstes Abenteuer beginnt hier!
-
-🛑 Jetzt buchen & den Asphalt erobern!
-
-📍 **Adresse:** Waldhaus 1 · 15910 Schönwald
-
-📞 **Telefon:** 035477 4040
-
-🌐 **Website:** [Spreewaldring Kart Center](https://kart-center.de/)
-
- <!-- SPREEWALDRINGKARTCENTER_TEXT_END -->
-
- <!-- RINGTRAININGCENTER_NAME_START -->
-Spreewald Ring Training Center
- <!-- RINGTRAININGCENTER_NAME_END -->
- <!-- RINGTRAININGCENTER_SLOGAN_START -->
-
-Spreewaldring Training Center - Geradeaus Kann Jeder
-
- <!-- RINGTRAININGCENTER_SLOGAN_END -->
- <!-- RINGTRAININGCENTER_TEXT_START -->
-
-🏎️ **Spreewaldring – Motorsport trifft auf Adrenalin und Natur**
-Spüre die Perfektion des Rennsports, eingebettet in die atemberaubende Landschaft des Spreewalds. Jede Kurve fordert dich heraus, jede Gerade lässt dein Herz schneller schlagen. Ob du die Spannung der Strecke genießen willst oder dein Können auf ein neues Level bringen möchtest – hier erlebst du Motorsport in seiner reinsten Form.
-
-Die Rennstrecke wurde speziell als Trainingskurs für Fahrer aller Erfahrungsstufen konzipiert. Egal, ob Einsteiger oder Profi – der Spreewaldring testet deine Grenzen und gibt dir die Möglichkeit, dich kontinuierlich zu verbessern.
-
-🚀 Bereit für Nervenkitzel? Werde Teil der Community und erlebe echtes Rennsport-Feeling!
-
-📍 **Adresse:** Waldhaus 2, 15910 Schoenwald
-
-📞 **Telefon:** 035477 65911
-
-🌐 **Website:** [Spreewaldring Training Center](https://spreewaldring.de/)
-
- <!-- RINGTRAININGCENTER_TEXT_END -->
-
- <!-- MUEHLENVEREIN_NAME_START -->
-
-Muehlenverein
-
- <!-- MUEHLENVEREIN_NAME_END -->
- <!-- MUEHLENVEREIN_SLOGAN_START -->
-Mühlenverein Schönwalde Spreewald e. V. – Bewahren & Erleben
- <!-- MUEHLENVEREIN_SLOGAN_END -->
- <!-- MUEHLENVEREIN_TEXT_START -->
-
-🌾 Der Mühlenverein Schönwalde Spreewald e. V. setzt sich mit Leidenschaft für den Erhalt und die Pflege der historischen Mühle ein – ein Wahrzeichen der Region und ein Stück lebendige Geschichte. Hier verbinden sich Tradition und Handwerk, und die Mühle bleibt als kultureller Treffpunkt erhalten.
-
-Mit Veranstaltungen, Führungen und gemeinsamen Projekten bringt der Verein Interessierte zusammen, fördert das Bewusstsein für historische Baukunst und lädt dazu ein, ein Stück Spreewaldgeschichte hautnah zu erleben.
-
-📌 Verantwortlich & Ansprechpartner: Die Leitung des Vereins liegt in den Händen des Bürgermeisters, der sich aktiv für die Pflege und Weiterentwicklung des Mühlenvereins einsetzt.
-
-🚀 Mehr erfahren oder mitmachen? Kontaktiere uns direkt!
-
-📍 **Adresse:** Hauptstr. 48, 15910 Schönwalde
-
-📞 **Telefon:** 035474 2214
-
-📧 **E-Mail:** r.gefreiter@schoenwalde-spreewald.de
-
- <!-- MUEHLENVEREIN_TEXT_END -->
-
-<!-- LEBENDIGESSCHOENWALDE_NAME_START -->
-
-LEBENDIGESSCHOENWALDE
-
-<!-- LEBENDIGESSCHOENWALDE_NAME_END -->
-<!-- LEBENDIGESSCHOENWALDE_SLOGAN_START -->
-
-Ein Ort
-
-<!-- LEBENDIGESSCHOENWALDE_SLOGAN_END -->
-<!-- LEBENDIGESSCHOENWALDE_TEXT_START -->
-
-⛪ **Unsere LEBENDIGESSCHOENWALDE -**
-
-<!-- LEBENDIGESSCHOENWALDE_TEXT_END -->
-
-
-
-
-
-<!-- FEUERWEHRSCHOENWALDE_PHOTO_START -->
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/mainPhoto.jpg
-<!-- FEUERWEHRSCHOENWALDE_PHOTO_END -->
-
-<!-- FEUERWEHRSCHOENWALDE_IMAGES_START -->
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/1.jpg
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/2.jpeg
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/3.crdownload
-<!-- FEUERWEHRSCHOENWALDE_IMAGES_END -->
-
-<!-- FEUERWEHRWALDOW_PHOTO_START -->
-/images/Gemeinde_Verwaltung/FeuerwehrWaldow/mainPhoto.png
-<!-- FEUERWEHRWALDOW_PHOTO_END -->
-
-<!-- AMTUNTERSPREEWALD_PHOTO_START -->
-/images/Gemeinde_Verwaltung/Amt/mainPhoto.jpg
-<!-- AMTUNTERSPREEWALD_PHOTO_END -->
-Amt
-<!-- AMTUNTERSPREEWALD_IMAGES_START -->
-/images/Gemeinde_Verwaltung/Amt/1.jpg
-/images/Gemeinde_Verwaltung/Amt/2.jpg
-/images/Gemeinde_Verwaltung/Amt/3.jpg
-<!-- AMTUNTERSPREEWALD_IMAGES_END -->
-
-<!-- KIRCHE_PHOTO_START -->
-/images/Gemeinde_Verwaltung/Kirche/mainPhoto.jpg
-<!-- KIRCHE_PHOTO_END -->
-
-<!-- KIRCHE_IMAGES_START -->
-/images/Gemeinde_Verwaltung/Kirche/1.jpg
-/images/Gemeinde_Verwaltung/Kirche/2.jpg
-/images/Gemeinde_Verwaltung/Kirche/3.jpg
-<!-- KIRCHE_IMAGES_END -->
-
+<!-- LANDWIRTSCHAFT_SUBCATEGORY_START -->
+
+<!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_NAME_START -->
+Agrargemeinschaft Freiwalde/Schönwalde
+<!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_NAME_END -->
+<!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_SLOGAN_START -->
+Nachhaltige Landwirtschaft für unsere Region
+<!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_SLOGAN_END -->
+<!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_TEXT_START -->
+🌾 **Unser Betrieb – Tradition trifft Zukunft**  
+
+Die Agrargemeinschaft Freiwalde/Schönwalde verbindet moderne Landwirtschaft mit regionaler Verantwortung. Nachhaltige Produktion, artgerechte Tierhaltung und hochwertige Erzeugnisse stehen bei uns an erster Stelle.  
+
+📍 **Standort:** Freiwalde, Schönwalde  
+<!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_TEXT_END -->
+<!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_PHOTO_START -->
+/images/Landwirtschaft/agrargemeinschaft.jpg
+<!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_PHOTO_END -->
+
+<!-- LANDWIRTSCHAFT_SUBCATEGORY_END -->
+
+---
+
+<!-- KFZ_SUBCATEGORY_START -->
+
+<!-- AUTOHAUSKUNATH_NAME_START -->
+Autohaus Kunath
+<!-- AUTOHAUSKUNATH_NAME_END -->
+<!-- AUTOHAUSKUNATH_SLOGAN_START -->
+Dein zuverlässiger Partner für Mobilität
+<!-- AUTOHAUSKUNATH_SLOGAN_END -->
+<!-- AUTOHAUSKUNATH_TEXT_START -->
+🚗 **Autohaus Kunath – Kompetenz in der Region**  
+
+Wir bieten erstklassigen Service rund um dein Fahrzeug – von Wartung über Reparaturen bis zum Fahrzeugkauf. Bei uns steht Qualität und Kundenzufriedenheit an erster Stelle.  
+
+📍 **Adresse:** Krausnicker Weg 6, 15910 Schönwalde  
+<!-- AUTOHAUSKUNATH_TEXT_END -->
+<!-- AUTOHAUSKUNATH_PHOTO_START -->
+/images/Kfz/autohaus-kunath.jpg
+<!-- AUTOHAUSKUNATH_PHOTO_END -->
+
+<!-- AUTOHAUSVOGLER_NAME_START -->
+Autohaus Vogler
+<!-- AUTOHAUSVOGLER_NAME_END -->
+<!-- AUTOHAUSVOGLER_SLOGAN_START -->
+Mobilität mit Vertrauen
+<!-- AUTOHAUSVOGLER_SLOGAN_END -->
+<!-- AUTOHAUSVOGLER_TEXT_START -->
+🚗 **Autohaus Vogler – Fahrspaß und Qualität**  
+
+Unsere Leidenschaft ist dein Fahrzeug! Von modernen Autos bis hin zu klassischen Reparaturen – wir bringen dich sicher auf die Straße.  
+
+📍 **Adresse:** Krausnicker Weg 7, 15910 Schönwalde  
+<!-- AUTOHAUSVOGLER_TEXT_END -->
+<!-- AUTOHAUSVOGLER_PHOTO_START -->
+/images/Kfz/autohaus-vogler.jpg
+<!-- AUTOHAUSVOGLER_PHOTO_END -->
+
+
+<!-- AUTOHAUSWALDOW_NAME_START -->
+Autohaus WALDOW
+<!-- AUTOHAUSWALDOW_NAME_END -->
+<!-- AUTOHAUSWALDOW_SLOGAN_START -->
+Mobilität mit Vertrauen
+<!-- AUTOHAUSWALDOW_SLOGAN_END -->
+<!-- AUTOHAUSWALDOW_TEXT_START -->
+🚗 **Autohaus WALDOW – Fahrspaß und Qualität**  
+
+Unsere Leidenschaft ist dein Fahrzeug! Von modernen Autos bis hin zu klassischen Reparaturen – wir bringen dich sicher auf die Straße.  
+
+📍 **Adresse:** Krausnicker Weg 7, 15910 Schönwalde  
+<!-- AUTOHAUSWALDOW_TEXT_END -->
+<!-- AUTOHAUSWALDOW_PHOTO_START -->
+/images/Kfz/autohaus-vogler.jpg
+<!-- AUTOHAUSWALDOW_PHOTO_END -->
+
+<!-- KFZ_SUBCATEGORY_END -->
+
+---
+
+<!-- LEBENSMITTEL_SUBCATEGORY_START -->
+
+<!-- BAECKEREIKONDITOREIKUSKE_NAME_START -->
+Bäckerei & Konditorei Kuske
+<!-- BAECKEREIKONDITOREIKUSKE_NAME_END -->
+<!-- BAECKEREIKONDITOREIKUSKE_SLOGAN_START -->
+Traditionelles Handwerk für feinen Genuss
+<!-- BAECKEREIKONDITOREIKUSKE_SLOGAN_END -->
+<!-- BAECKEREIKONDITOREIKUSKE_TEXT_START -->
+🥖 **Frische Backwaren aus Meisterhand**  
+
+Die Bäckerei & Konditorei Kuske steht seit Generationen für traditionelle Backkunst und hochwertige Zutaten. Genieße unsere frischen Brote, Kuchen und Spezialitäten.  
+
+📍 **Adresse:** Dorfstraße 15, 15910 Schönwalde  
+<!-- BAECKEREIKONDITOREIKUSKE_TEXT_END -->
+<!-- BAECKEREIKONDITOREIKUSKE_PHOTO_START -->
+/images/Lebensmittel/baeckerei-kuske.jpg
+<!-- BAECKEREIKONDITOREIKUSKE_PHOTO_END -->
+
+<!-- FLEISCHEREITISCHLER_NAME_START -->
+Fleischerei Tischler
+<!-- FLEISCHEREITISCHLER_NAME_END -->
+<!-- FLEISCHEREITISCHLER_SLOGAN_START -->
+Qualität, die man schmeckt
+<!-- FLEISCHEREITISCHLER_SLOGAN_END -->
+<!-- FLEISCHEREITISCHLER_TEXT_START -->
+🍖 **Regionale Fleischspezialitäten mit Tradition**  
+
+Unsere Fleischerei Tischler bietet frische, regionale Fleisch- und Wurstwaren, hergestellt nach bewährten Rezepturen. Qualität und Geschmack sind unser Markenzeichen.  
+
+📍 **Adresse:** Marktstraße 2, 15910 Schönwalde  
+<!-- FLEISCHEREITISCHLER_TEXT_END -->
+<!-- FLEISCHEREITISCHLER_PHOTO_START -->
+/images/Lebensmittel/fleischerei-tischler.jpg
+<!-- FLEISCHEREITISCHLER_PHOTO_END -->
+
+<!-- LEBENSMITTEL_SUBCATEGORY_END -->
+
+---
+
+<!-- SOZIALDIENSTE_SUBCATEGORY_START -->
+
+<!-- DERPFLEGEDIENST_NAME_START -->
+Der Pflegedienst
+<!-- DERPFLEGEDIENST_NAME_END -->
+<!-- DERPFLEGEDIENST_SLOGAN_START -->
+Ihr Partner für Pflege und Betreuung
+<!-- DERPFLEGEDIENST_SLOGAN_END -->
+<!-- DERPFLEGEDIENST_TEXT_START -->
+Text
+<!-- DERPFLEGEDIENST_TEXT_END -->
+<!-- DERPFLEGEDIENST_PHOTO_START -->
+/images/Sozialdienste/der-pflegedienst.jpg
+<!-- DERPFLEGEDIENST_PHOTO_END -->
+
+<!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_NAME_START -->
+Hämmerling B. Häusliche Krankenpflege
+<!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_NAME_END -->
+<!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_SLOGAN_START -->
+Kompetente Pflege für Zuhause
+<!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_SLOGAN_END -->
+<!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_TEXT_START -->
+Text
+<!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_TEXT_END -->
+<!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_PHOTO_START -->
+/images/Sozialdienste/haemmerling-pflege.jpg
+<!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_PHOTO_END -->
+
+<!-- SOZIALDIENSTE_SUBCATEGORY_END -->
+
+---
+
+<!-- SCHÖNHEIT & PFLEGE_SUBCATEGORY_START -->
+
+<!-- FRISEURSALON_NAME_START -->
+Friseursalon
+<!-- FRISEURSALON_NAME_END -->
+<!-- FRISEURSALON_SLOGAN_START -->
+Ihr Style, unser Handwerk
+<!-- FRISEURSALON_SLOGAN_END -->
+<!-- FRISEURSALON_TEXT_START -->
+Text
+<!-- FRISEURSALON_TEXT_END -->
+<!-- FRISEURSALON_PHOTO_START -->
+/images/Schönheit_Pflege/friseursalon.jpg
+<!-- FRISEURSALON_PHOTO_END -->
+
+<!-- SCHÖNHEIT & PFLEGE_SUBCATEGORY_END -->
+
+---
+
+<!-- TIERE & PFLEGE_SUBCATEGORY_START -->
+
+<!-- HUNDESALONSCHICKSCHICK_NAME_START -->
+Hundesalon Schick Schick
+<!-- HUNDESALONSCHICKSCHICK_NAME_END -->
+<!-- HUNDESALONSCHICKSCHICK_SLOGAN_START -->
+Pflege für die besten Freunde
+<!-- HUNDESALONSCHICKSCHICK_SLOGAN_END -->
+<!-- HUNDESALONSCHICKSCHICK_TEXT_START -->
+Text
+<!-- HUNDESALONSCHICKSCHICK_TEXT_END -->
+<!-- HUNDESALONSCHICKSCHICK_PHOTO_START -->
+/images/Tiere_Pflege/hundesalon.jpg
+<!-- HUNDESALONSCHICKSCHICK_PHOTO_END -->
+
+<!-- TIERE & PFLEGE_SUBCATEGORY_END -->
+
+---
+
+<!-- IMKEREI_SUBCATEGORY_START -->
+
+<!-- IMKEREIMORGNER_NAME_START -->
+Imkerei Morgner
+<!-- IMKEREIMORGNER_NAME_END -->
+<!-- IMKEREIMORGNER_SLOGAN_START -->
+Natürlicher Honig aus der Region
+<!-- IMKEREIMORGNER_SLOGAN_END -->
+<!-- IMKEREIMORGNER_TEXT_START -->
+Text
+<!-- IMKEREIMORGNER_TEXT_END -->
+<!-- IMKEREIMORGNER_PHOTO_START -->
+/images/Imkerei/imkerei-morgner.jpg
+<!-- IMKEREIMORGNER_PHOTO_END -->
+
+<!-- IMKEREIRIPPERT_NAME_START -->
+Imkerei Rippert
+<!-- IMKEREIRIPPERT_NAME_END -->
+<!-- IMKEREIRIPPERT_SLOGAN_START -->
+Honiggenuss aus eigener Produktion
+<!-- IMKEREIRIPPERT_SLOGAN_END -->
+<!-- IMKEREIRIPPERT_TEXT_START -->
+Text
+<!-- IMKEREIRIPPERT_TEXT_END -->
+<!-- IMKEREIRIPPERT_PHOTO_START -->
+/images/Imkerei/imkerei-rippert.jpg
+<!-- IMKEREIRIPPERT_PHOTO_END -->
+
+<!-- IMKEREI_SUBCATEGORY_END -->
+
+
+---
+
+
+<!-- BAU & RENOVIERUNG_SUBCATEGORY_START -->
+
+<!-- INGORICHTERDACHDECKER_NAME_START -->
+Ingo Richter Dachdecker
+<!-- INGORICHTERDACHDECKER_NAME_END -->
+<!-- INGORICHTERDACHDECKER_SLOGAN_START -->
+Dacharbeiten mit Präzision und Qualität
+<!-- INGORICHTERDACHDECKER_SLOGAN_END -->
+<!-- INGORICHTERDACHDECKER_TEXT_START -->
+Text
+<!-- INGORICHTERDACHDECKER_TEXT_END -->
+<!-- INGORICHTERDACHDECKER_PHOTO_START -->
+/images/Bau_Renovierung/ingo-richter-dachdecker.jpg
+<!-- INGORICHTERDACHDECKER_PHOTO_END -->
+
+<!-- MALERBETRIEBDIETERIHL_NAME_START -->
+Malerbetrieb Dieter Ihl
+<!-- MALERBETRIEBDIETERIHL_NAME_END -->
+<!-- MALERBETRIEBDIETERIHL_SLOGAN_START -->
+Farbige Akzente für Ihr Zuhause
+<!-- MALERBETRIEBDIETERIHL_SLOGAN_END -->
+<!-- MALERBETRIEBDIETERIHL_TEXT_START -->
+Text
+<!-- MALERBETRIEBDIETERIHL_TEXT_END -->
+<!-- MALERBETRIEBDIETERIHL_PHOTO_START -->
+/images/Bau_Renovierung/malerbetrieb-ihl.jpg
+<!-- MALERBETRIEBDIETERIHL_PHOTO_END -->
+
+<!-- BAU & RENOVIERUNG_SUBCATEGORY_END -->
+
+---
+
+<!-- TECHNISCHE DIENSTLEISTUNGEN_SUBCATEGORY_START -->
+
+<!-- KAMPFMITTELBERGUNGSPRENGTECHNIK_NAME_START -->
+Kampfmittelbergung & Sprengtechnik
+<!-- KAMPFMITTELBERGUNGSPRENGTECHNIK_NAME_END -->
+<!-- KAMPFMITTELBERGUNGSPRENGTECHNIK_SLOGAN_START -->
+Sicherheit durch Fachkompetenz
+<!-- KAMPFMITTELBERGUNGSPRENGTECHNIK_SLOGAN_END -->
+<!-- KAMPFMITTELBERGUNGSPRENGTECHNIK_TEXT_START -->
+Text
+<!-- KAMPFMITTELBERGUNGSPRENGTECHNIK_TEXT_END -->
+<!-- KAMPFMITTELBERGUNGSPRENGTECHNIK_PHOTO_START -->
+/images/Technische_Dienstleistungen/kampfmittelbergung.jpg
+<!-- KAMPFMITTELBERGUNGSPRENGTECHNIK_PHOTO_END -->
+
+<!-- TECHNISCHE DIENSTLEISTUNGEN_SUBCATEGORY_END -->
+
+---
+
+<!-- GERÜSTBAU_SUBCATEGORY_START -->
+
+<!-- KOMPLETTGERUESTBAUGMBH_NAME_START -->
+KOMPLETT Gerüstbau GmbH
+<!-- KOMPLETTGERUESTBAUGMBH_NAME_END -->
+<!-- KOMPLETTGERUESTBAUGMBH_SLOGAN_START -->
+Stabilität auf höchstem Niveau
+<!-- KOMPLETTGERUESTBAUGMBH_SLOGAN_END -->
+<!-- KOMPLETTGERUESTBAUGMBH_TEXT_START -->
+Text
+<!-- KOMPLETTGERUESTBAUGMBH_TEXT_END -->
+<!-- KOMPLETTGERUESTBAUGMBH_PHOTO_START -->
+/images/Gerüstbau/komplett-geruestbau.jpg
+<!-- KOMPLETTGERUESTBAUGMBH_PHOTO_END -->
+
+<!-- GERÜSTBAU_SUBCATEGORY_END -->
+
+---
+
+<!-- HAUSTECHNIK_SUBCATEGORY_START -->
+
+<!-- MORGNERHAUSTECHNIK_NAME_START -->
+Morgner Haustechnik
+<!-- MORGNERHAUSTECHNIK_NAME_END -->
+<!-- MORGNERHAUSTECHNIK_SLOGAN_START -->
+Moderne Lösungen für Ihr Zuhause
+<!-- MORGNERHAUSTECHNIK_SLOGAN_END -->
+<!-- MORGNERHAUSTECHNIK_TEXT_START -->
+Text
+<!-- MORGNERHAUSTECHNIK_TEXT_END -->
+<!-- MORGNERHAUSTECHNIK_PHOTO_START -->
+/images/Haustechnik/morgner-haustechnik.jpg
+<!-- MORGNERHAUSTECHNIK_PHOTO_END -->
+
+<!-- HAUSTECHNIK_SUBCATEGORY_END -->
+
+---
+
+<!-- RECYCLING & ENTSORGUNG_SUBCATEGORY_START -->
+
+<!-- MSDBAUSTOFFRECYCLING_NAME_START -->
+MSD Baustoffrecycling
+<!-- MSDBAUSTOFFRECYCLING_NAME_END -->
+<!-- MSDBAUSTOFFRECYCLING_SLOGAN_START -->
+Nachhaltige Lösungen für Baustoffe
+<!-- MSDBAUSTOFFRECYCLING_SLOGAN_END -->
+<!-- MSDBAUSTOFFRECYCLING_TEXT_START -->
+Text
+<!-- MSDBAUSTOFFRECYCLING_TEXT_END -->
+<!-- MSDBAUSTOFFRECYCLING_PHOTO_START -->
+/images/Recycling/msd-baustoffrecycling.jpg
+<!-- MSDBAUSTOFFRECYCLING_PHOTO_END -->
+
+<!-- RECYCLING & ENTSORGUNG_SUBCATEGORY_END -->
+
+---
+
+<!-- ENERGIE & UMWELT_SUBCATEGORY_START -->
+
+<!-- NOTUSENERGY_NAME_START -->
+NOTUS energy
+<!-- NOTUSENERGY_NAME_END -->
+<!-- NOTUSENERGY_SLOGAN_START -->
+Innovative Energielösungen
+<!-- NOTUSENERGY_SLOGAN_END -->
+<!-- NOTUSENERGY_TEXT_START -->
+Text
+<!-- NOTUSENERGY_TEXT_END -->
+<!-- NOTUSENERGY_PHOTO_START -->
+/images/Energie_Umwelt/notus-energy.jpg
+<!-- NOTUSENERGY_PHOTO_END -->
+
+<!-- ENERGIE & UMWELT_SUBCATEGORY_END -->
+
+---
+
+<!-- HOLZVERARBEITUNG_SUBCATEGORY_START -->
+
+<!-- TISCHLEREISCHNEIDER_NAME_START -->
+Tischlerei Schneider
+<!-- TISCHLEREISCHNEIDER_NAME_END -->
+<!-- TISCHLEREISCHNEIDER_SLOGAN_START -->
+Maßarbeit aus Holz
+<!-- TISCHLEREISCHNEIDER_SLOGAN_END -->
+<!-- TISCHLEREISCHNEIDER_TEXT_START -->
+Text
+<!-- TISCHLEREISCHNEIDER_TEXT_END -->
+<!-- TISCHLEREISCHNEIDER_PHOTO_START -->
+/images/Holzverarbeitung/tischlerei-schneider.jpg
+<!-- TISCHLEREISCHNEIDER_PHOTO_END -->
+
+<!-- HOLZVERARBEITUNG_SUBCATEGORY_END -->
+
+---
+
+<!-- SANIERUNGSDIENSTE_SUBCATEGORY_START -->
+
+<!-- TROCKNUNGSSERVICEGEFREITERGMBH_NAME_START -->
+Trocknungsservice Gefreiter GmbH
+<!-- TROCKNUNGSSERVICEGEFREITERGMBH_NAME_END -->
+<!-- TROCKNUNGSSERVICEGEFREITERGMBH_SLOGAN_START -->
+Effektive Lösungen für Schadensanierung
+<!-- TROCKNUNGSSERVICEGEFREITERGMBH_SLOGAN_END -->
+<!-- TROCKNUNGSSERVICEGEFREITERGMBH_TEXT_START -->
+Text
+<!-- TROCKNUNGSSERVICEGEFREITERGMBH_TEXT_END -->
+<!-- TROCKNUNGSSERVICEGEFREITERGMBH_PHOTO_START -->
+/images/Sanierung/trocknungsservice-gefreiter.jpg
+<!-- TROCKNUNGSSERVICEGEFREITERGMBH_PHOTO_END -->
+
+<!-- SANIERUNGSDIENSTE_SUBCATEGORY_END -->

@@ -202,9 +202,9 @@ export const subcategories = [
     subCategory: "Kfz",
   },
   {
-    name: "Autowerkstatt Waldow",
+    name: "Autohaus Waldow",
     category: "Handwerkgewerbe & Dienstleistungen",
-    path: "/tradeServices#autowerkstatt-waldow",
+    path: "/tradeServices#autohaus-waldow",
     subCategory: "Kfz",
   },
   {
@@ -230,7 +230,8 @@ export const subcategories = [
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#friseursalon",
     subCategory: "Schönheit & Pflege",
-  },
+
+  }, 
   {
     name: "Hämmerling B. Häusliche Krankenpflege",
     category: "Handwerkgewerbe & Dienstleistungen",
@@ -242,6 +243,7 @@ export const subcategories = [
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#hundesalon-schick-schick",
     subCategory: "Tiere & Pflege",
+    // subCategory: "Tierpflege",
   },
   {
     name: "Imkerei Morgner",

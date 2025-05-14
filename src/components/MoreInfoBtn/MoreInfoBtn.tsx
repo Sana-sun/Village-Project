@@ -2,12 +2,13 @@ import { BtnWrapper } from "./styles";
 
 type MoreInfoBtnProps = {
   title: string;
-   onClick?: () => void;
+  onClick?: () => void;
+  active?: boolean;
 };
 
-function MoreInfoBtn({ title, onClick }: MoreInfoBtnProps) {
+function MoreInfoBtn({ title, onClick, active }: MoreInfoBtnProps) {
   return (
-    <BtnWrapper onClick={onClick}>
+    <BtnWrapper onClick={onClick} $active={active}>
       {title}
     </BtnWrapper>
   );

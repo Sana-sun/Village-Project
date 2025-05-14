@@ -29,8 +29,24 @@ export const MainInfoContainer = styled.div`
   height: 500px;
 
   @media (max-width: 1240px) {
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: 1fr 1fr; */
+    /* height: 1000px; */
+  }
+
+  @media (max-width: 1080px) {
+    grid-template-columns: 1fr;
+    height: 900px;
+  }
+    
+  /* @media (max-width: 1080px) {
     grid-template-columns: 1fr;
     height: 1000px;
+  } */
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    /* height: 1000px; */
   }
 
    @media (max-width: 580px) {
