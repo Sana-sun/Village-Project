@@ -9,12 +9,12 @@ export const ScrollButton = styled.button`
   right: 20px; 
   background-color:  #ff66b2;
   background-color:  #66b3ff;
-  background-color:  hsl(221, 86%, 52%);
-  background-color:  #0033a0;
+  /* background-color:  hsl(221, 86%, 52%); */
+  /* background-color:  #0033a0; */
   color: white; 
   border: none;
   /* border: 2px solid #0033a0; */
-  border: 2px solid white;
+  /* border: 2px solid white; */
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
@@ -27,8 +27,8 @@ export const ScrollButton = styled.button`
   &:hover {
     background-color: #ff3385;
     background-color: #338bff;
-    background-color: #002080;
-    background-color: #002080;
+    /* background-color: #002080; */
+    /* background-color: #002080; */
   }
 
   &:focus {
