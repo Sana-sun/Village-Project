@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const BtnWrapper = styled.button`
   background-color: #0033a0;
+  background-color: #0439ab;
   color: white;
   padding: 10px 20px;
   font-size: 1.125rem;

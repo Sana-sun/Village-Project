@@ -58,6 +58,7 @@ export const ModalContent = styled.div`
   max-width: 400px;
   max-width: 500px;
   max-height: 500px;
+  max-height: 430px;
   /* max-height: 80vh; */
 
   position: absolute;
@@ -112,11 +113,11 @@ export const MenuItemLabel = styled(Link)<{ $active?: boolean }>`
   color: ${({ $active }) => ($active ? "darkblue" : " #0033A0")};
   font-size: 18px;
   transition: color 0.3s ease;
-  /* background: red; */
   /* background: #d5e1fa; */
   /* background: #66b3ff; */
-  background: #e4f1fe;
+  /* background: #e4f1fe; */
   background: #e4f1fe9a;
+  /* background: #0033A0; */
   border-radius: 20px;
   padding: 8px 20px;
 `;

@@ -1,12 +1,15 @@
 import ReactMarkdown from "react-markdown";
 import { FaChevronLeft } from "react-icons/fa";
 import YourAreHere from "../../components/YourAreHere/YouAreHere";
-import { ArrowButton, IntroText, IntroWrapper } from "../EducationPage/styles";
+import { ArrowButton, ButtonGrid, IntroText, IntroWrapper } from "../EducationPage/styles";
 
 import rawMd from "./text.md?raw";
 import CardInfo from "../../components/CardInfo/CardInfo";
 
 import rawMdFotos from "./fotos.md?raw";
+// import { data } from "react-router-dom";
+import MoreInfoBtn from "../../components/MoreInfoBtn/MoreInfoBtn";
+import { useState } from "react";
 // тут ми "вмикаємо" всі категорії на сайт
 function TradeServicesPage() {
   const categories = [
@@ -100,6 +103,12 @@ function TradeServicesPage() {
     }
   };
 
+  const [data] = useState<{ name: string; slogan: string }[]>([
+    { name: "Kita", slogan: "Ein liebevoller Ort zum Spielen, Lernen und Wachsen" },
+    { name: "Grundschule", slogan: "Klein, familiär und voller Lernfreude" },
+    { name: "Mini - Bibliotek", slogan: "Lesefreude zum Mitnehmen – von Nachbarn für Nachbarn" },
+  ]);
+
   return (
     <>
       <YourAreHere />
@@ -111,6 +120,25 @@ function TradeServicesPage() {
       <IntroWrapper onClick={handleLinkClick}>
         <ReactMarkdown>{introText}</ReactMarkdown>
       </IntroWrapper>
+
+               {/* <ButtonGrid>
+           {data.map((item, index) => (
+            <MoreInfoBtn key={index} title={item} />
+          ))}
+        </ButtonGrid> */}
+
+       <ButtonGrid>
+          <MoreInfoBtn title="First" />
+          <MoreInfoBtn title="Secondt" />
+          <MoreInfoBtn title="Third" />
+          <MoreInfoBtn title="Fource" />
+          <MoreInfoBtn title="Fifth" />
+          <MoreInfoBtn title="First" />
+          <MoreInfoBtn title="Secondt" />
+          <MoreInfoBtn title="Third" />
+          <MoreInfoBtn title="Fource" />
+          <MoreInfoBtn title="Fifth" />
+       </ButtonGrid>
 
       {sections.map((item, index) => (
         <div key={index} id={item.id}>
