@@ -4,132 +4,94 @@ export const SloganText = styled.h3`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
-  background-color: #0033a0;
+  margin: 1.5rem 0;
   background-color: #0033a0e8;
-  /* background-color:#ff66b2; */
-  border-radius: 20px;
-  padding: 10px 20px;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 1.25rem;
   text-align: center;
-
-  /* color: #333; */
-  /* border-radius: 12px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); */
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 `;
 
 export const MainInfoContainer = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  align-items: stretch; /* Вирівнювання по висоті */
-  height: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: stretch;
+  width: 100%;
 
-  @media (max-width: 1240px) {
-    /* grid-template-columns: 1fr; */
-    /* grid-template-rows: 1fr 1fr; */
-    /* height: 1000px; */
-  }
-
-  @media (max-width: 1080px) {
-    grid-template-columns: 1fr;
-    height: 900px;
-  }
-    
-  /* @media (max-width: 1080px) {
-    grid-template-columns: 1fr;
-    height: 1000px;
-  } */
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    /* height: 1000px; */
-  }
-
-   @media (max-width: 580px) {
-    height: 800px;
-  }
-
-  @media (max-width: 440px) {
-    height: 600px;
-  }
-
-   @media (max-width: 344px) {
-    height: 500px;
+  @media (max-width: 1024px) {
+    flex-direction: column;
   }
 `;
 
 export const FotoContainer = styled.div`
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  border-radius: 20px;
-
+  flex: 1;
+  border-radius: 1rem;
   overflow: hidden;
-  background-color: lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%; /* ← це ключ */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #e0e0e0;
+  position: relative;
+  aspect-ratio: 4 / 3;
+  min-height: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
+    display: block;
   }
 `;
 
 export const TextContainer = styled.div`
-  padding: 20px;
-  height: 100%;
-  border-radius: 20px;
-
+  flex: 1;
+  padding: 1.25rem;
+  border-radius: 1rem;
   border: 2px solid #0033a0;
   overflow-y: auto;
-
-  box-sizing: border-box; /* важливо, щоб padding не порушував height */
-  scroll-behavior: smooth;
-  /* scrollbar-color: gray transparent; */
-  scrollbar-color: #0033a0 transparent;
-
-  white-space: pre-wrap;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   p {
-    margin-bottom: 0.1em;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    font-size: 1rem;
   }
 
   h1,
   h2,
   h3 {
-    margin-top: 1.2em;
-    margin-bottom: 0.5em;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   ul,
   ol {
-    margin: 0;
+    padding-left: 1.2rem;
+    margin: 0.5rem 0;
+  }
+
+  a {
+    color: #0033a0;
+    text-decoration: underline;
   }
 
   @media (max-width: 768px) {
-    width: 100%;
-    aspect-ratio: 4 / 3; // додали новий рядок
-  }
-
-   a {
-    /* text-decoration: none; */
-    color: #0033a0;
+    padding: 1rem;
   }
 `;
 
 export const LoadingText = styled.div`
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  font-size: 2rem;
-  padding: 10px 20px;
-  border-radius: 8px;
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
 `;
