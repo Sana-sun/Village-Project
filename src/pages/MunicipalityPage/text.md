@@ -40,6 +40,18 @@ Bahnhofstr. 101a
 🚑 **Im Notfall:** 📞 112
 
 <!-- FEUERWEHRSCHOENWALDE_TEXT_END -->
+<!-- FEUERWEHRSCHOENWALDE_PHOTO_START -->
+/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/mainPhoto.jpg
+<!-- FEUERWEHRSCHOENWALDE_PHOTO_END -->
+
+<!-- FEUERWEHRSCHOENWALDE_IMAGES_START -->
+/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/1.jpg
+/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/2.jpeg
+/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/3.crdownload
+<!-- FEUERWEHRSCHOENWALDE_IMAGES_END -->
+
+---
+
 
 <!-- FEUERWEHRWALDOW_NAME_START --> 
 Feuerwehr Waldow 
@@ -61,9 +73,15 @@ Dorfstraße 60
 15910 Schönwalde OT Waldow
 
 📞 **Im Notfall:** 112
-
-
 <!-- FEUERWEHRWALDOW_TEXT_END -->
+
+
+<!-- FEUERWEHRWALDOW_PHOTO_START -->
+/images/Gemeinde_Verwaltung/FeuerwehrWaldow/mainPhoto.png
+<!-- FEUERWEHRWALDOW_PHOTO_END -->
+
+---
+
 
 <!-- AMTUNTERSPREEWALD_NAME_START --> 
 Amt Unterspreewald
@@ -94,6 +112,19 @@ Hauptstr. 49
 📧 **Email:** amt@unterspreewald.de
 <!-- AMTUNTERSPREEWALD_TEXT_END -->
 
+<!-- AMTUNTERSPREEWALD_PHOTO_START -->
+/images/Gemeinde_Verwaltung/Amt/mainPhoto.jpg
+<!-- AMTUNTERSPREEWALD_PHOTO_END -->
+Amt
+<!-- AMTUNTERSPREEWALD_IMAGES_START -->
+/images/Gemeinde_Verwaltung/Amt/mainPhoto.jpg
+/images/Gemeinde_Verwaltung/Amt/2.jpg
+/images/Gemeinde_Verwaltung/Amt/3.jpg
+<!-- AMTUNTERSPREEWALD_IMAGES_END -->
+
+---
+
+
 <!-- KIRCHE_NAME_START --> 
 Kirche
 <!-- KIRCHE_NAME_END -->
@@ -119,3 +150,12 @@ Zudem werden regelmäßig Hochzeiten gefeiert – ein unvergesslicher Rahmen fü
 
 <!-- KIRCHE_TEXT_END -->
  
+ <!-- KIRCHE_PHOTO_START -->
+/images/Gemeinde_Verwaltung/Kirche/mainPhoto.jpg
+<!-- KIRCHE_PHOTO_END -->
+
+<!-- KIRCHE_IMAGES_START -->
+/images/Gemeinde_Verwaltung/Kirche/mainPhoto.jpg
+/images/Gemeinde_Verwaltung/Kirche/2.jpg
+/images/Gemeinde_Verwaltung/Kirche/3.jpg
+<!-- KIRCHE_IMAGES_END -->

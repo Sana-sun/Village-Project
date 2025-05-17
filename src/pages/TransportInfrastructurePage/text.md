@@ -36,6 +36,19 @@ Wer frühmorgens oder spätabends unterwegs ist, findet hier stets eine zuverlä
 🚉 **Fahrplan & Infos:** [bahn.de](https://www.bahn.de/)
 <!-- BAHNHOF_TEXT_END -->
 
+<!-- BAHNHOF_PHOTO_START -->
+/images/Verkehr_Infrastruktur/Bahnhof/mainPhoto.jpg
+<!-- BAHNHOF_PHOTO_END -->
+
+<!-- BAHNHOF_IMAGES_START -->
+/images/Verkehr_Infrastruktur/Bahnhof/1.jpg
+/images/Verkehr_Infrastruktur/Bahnhof/2.jpg
+/images/Verkehr_Infrastruktur/Bahnhof/3.jpg
+<!-- BAHNHOF_IMAGES_END -->
+
+---
+
+
 <!-- AUTOBAHN_NAME_START --> 
 Autobahn
 <!-- AUTOBAHN_NAME_END -->
@@ -57,3 +70,6 @@ Ein besonderes Extra: Der Parkplatz Bugkgraben / Krausnicker Berge entlang der A
 
  🌳 Umgebung: Natur- & Erholungsraum
 <!-- AUTOBAHN_TEXT_END -->
+<!-- AUTOBAHN_PHOTO_START -->
+/images/Verkehr_Infrastruktur/Autobahn/mainPhoto.png
+<!-- AUTOBAHN_PHOTO_END -->

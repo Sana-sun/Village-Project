@@ -33,6 +33,20 @@ Auch Sportbegeisterte kommen auf ihre Kosten: Die Volleyballpfosten stehen berei
 📍 Adresse: Krausnicker Weg 6, 15910 Schönwalde
 
 <!-- SEE_TEXT_END -->
+<!-- SEE_PHOTO_START -->
+/images/Natur_Freizeit/See/mainPhoto.jpeg
+<!-- SEE_PHOTO_END -->
+<!-- SEE_IMAGES_START -->
+/images/Natur_Freizeit/See/1.jpg
+/images/Natur_Freizeit/See/2.jpeg
+/images/Natur_Freizeit/See/3.jpeg
+/images/Natur_Freizeit/See/4.jpeg
+/images/Natur_Freizeit/See/5.jpg
+/images/Natur_Freizeit/See/6.jpeg
+<!-- SEE_IMAGES_END -->
+
+--- 
+
 
 <!-- SPORTHEIM_NAME_START -->
 Sportlerheim und Stadion
@@ -59,6 +73,18 @@ Das Sportlerheim kann auch für Familienfeiern, Vereinsabende oder Dorftreffen g
 🌐 **Info:** [Wacker 21 Schönwalde e.V.](https://wacker-schoenwalde.de/)
 
 <!-- SPORTHEIM_TEXT_END -->
+<!-- SPORTHEIM_PHOTO_START -->
+/images/Natur_Freizeit/Sportlerheim/mainPhoto.jpg
+<!-- SPORTHEIM_PHOTO_END -->
+<!-- SPORTHEIM_IMAGES_START -->
+/images/Natur_Freizeit/Sportlerheim/1.jpg
+/images/Natur_Freizeit/Sportlerheim/2.jpg
+/images/Natur_Freizeit/Sportlerheim/3.jpg
+/images/Natur_Freizeit/Sportlerheim/4.jpg
+<!-- SPORTHEIM_IMAGES_END -->
+
+---
+
 
 <!-- ALPAKAFARM_NAME_START -->
 
@@ -86,6 +112,18 @@ Im Hofladen gibt es handgefertigte Produkte aus Alpakawolle – von warmen Socke
 
 <!-- ALPAKAFARM_TEXT_END -->
 
+<!-- ALPAKAFARM_PHOTO_START -->
+/images/Natur_Freizeit/Alpaka-Farm/mainPhoto.png
+<!-- ALPAKAFARM_PHOTO_END -->
+<!-- ALPAKAFARM_IMAGES_START -->
+/images/Natur_Freizeit/Alpaka-Farm/1.jpg
+/images/Natur_Freizeit/Alpaka-Farm/2.png
+/images/Natur_Freizeit/Alpaka-Farm/3.jpg
+<!-- ALPAKAFARM_IMAGES_END -->
+
+---
+
+
 <!-- JUGENDCLUB_NAME_START -->
 
 Jugendclub
@@ -112,6 +150,13 @@ Der Club ist nicht nur ein Treffpunkt, sondern auch ein Raum, in dem sich Jugend
 
 <!-- JUGENDCLUB_TEXT_END -->
 
+<!-- JUGENDCLUB_PHOTO_START -->
+/images/Natur_Freizeit/Jugendclub/mainPhoto.png
+<!-- JUGENDCLUB_PHOTO_END -->
+
+---
+
+
  <!-- DORFGEMEINSCHAFTSHAUS_NAME_START -->
 
 Dorfgemeindschaftshaus
@@ -137,6 +182,14 @@ Dorfgemeinschaftshaus – Herzstück des Dorflebens
 📧 **E-Mail:** r.gefreiter@schoenwalde-spreewald.de
 
  <!-- DORFGEMEINSCHAFTSHAUS_TEXT_END -->
+
+<!-- DORFGEMEINSCHAFTSHAUS_PHOTO_START -->
+/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.jpg
+<!-- DORFGEMEINSCHAFTSHAUS_PHOTO_END -->
+
+
+---
+
 
  <!-- SPREEWALDRINGKARTCENTER_NAME_START -->
 
@@ -166,6 +219,18 @@ Ob allein, mit Freunden, der Familie oder als Teamevent – hier erlebst du pack
 
  <!-- SPREEWALDRINGKARTCENTER_TEXT_END -->
 
+<!-- SPREEWALDRINGKARTCENTER_PHOTO_START -->
+/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/mainPhoto.jpg
+<!-- SPREEWALDRINGKARTCENTER_PHOTO_END -->
+<!-- SPREEWALDRINGKARTCENTER_IMAGES_START -->
+/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/1.jpg
+/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/2.png
+/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/3.jpg
+<!-- SPREEWALDRINGKARTCENTER_IMAGES_END -->
+
+---
+
+
  <!-- RINGTRAININGCENTER_NAME_START -->
 Spreewald Ring Training Center
  <!-- RINGTRAININGCENTER_NAME_END -->
@@ -191,6 +256,19 @@ Die Rennstrecke wurde speziell als Trainingskurs für Fahrer aller Erfahrungsstu
 🌐 **Website:** [Spreewaldring Training Center](https://spreewaldring.de/)
 
  <!-- RINGTRAININGCENTER_TEXT_END -->
+
+<!-- RINGTRAININGCENTER_PHOTO_START -->
+/images/Natur_Freizeit/Spreewald_Ring_Training_Center/mainPhoto.png
+<!-- RINGTRAININGCENTER_PHOTO_END -->
+<!-- RINGTRAININGCENTER_IMAGES_START -->
+/images/Natur_Freizeit/Spreewald_Ring_Training_Center/1.png
+/images/Natur_Freizeit/Spreewald_Ring_Training_Center/2.png
+/images/Natur_Freizeit/Spreewald_Ring_Training_Center/3.png
+<!-- RINGTRAININGCENTER_IMAGES_END -->
+
+
+---
+
 
  <!-- MUEHLENVEREIN_NAME_START -->
 
@@ -218,57 +296,8 @@ Mit Veranstaltungen, Führungen und gemeinsamen Projekten bringt der Verein Inte
 
  <!-- MUEHLENVEREIN_TEXT_END -->
 
-<!-- LEBENDIGESSCHOENWALDE_NAME_START -->
+<!-- MUEHLENVEREIN_PHOTO_START -->
+/images/Natur_Freizeit/Muehlenverein/mainPhoto.png
+<!-- MUEHLENVEREIN_PHOTO_END -->
 
-LEBENDIGESSCHOENWALDE
-
-<!-- LEBENDIGESSCHOENWALDE_NAME_END -->
-<!-- LEBENDIGESSCHOENWALDE_SLOGAN_START -->
-
-Ein Ort
-
-<!-- LEBENDIGESSCHOENWALDE_SLOGAN_END -->
-<!-- LEBENDIGESSCHOENWALDE_TEXT_START -->
-
-⛪ **Unsere LEBENDIGESSCHOENWALDE -**
-
-<!-- LEBENDIGESSCHOENWALDE_TEXT_END -->
-
-
-
-
-
-<!-- FEUERWEHRSCHOENWALDE_PHOTO_START -->
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/mainPhoto.jpg
-<!-- FEUERWEHRSCHOENWALDE_PHOTO_END -->
-
-<!-- FEUERWEHRSCHOENWALDE_IMAGES_START -->
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/1.jpg
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/2.jpeg
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/3.crdownload
-<!-- FEUERWEHRSCHOENWALDE_IMAGES_END -->
-
-<!-- FEUERWEHRWALDOW_PHOTO_START -->
-/images/Gemeinde_Verwaltung/FeuerwehrWaldow/mainPhoto.png
-<!-- FEUERWEHRWALDOW_PHOTO_END -->
-
-<!-- AMTUNTERSPREEWALD_PHOTO_START -->
-/images/Gemeinde_Verwaltung/Amt/mainPhoto.jpg
-<!-- AMTUNTERSPREEWALD_PHOTO_END -->
-Amt
-<!-- AMTUNTERSPREEWALD_IMAGES_START -->
-/images/Gemeinde_Verwaltung/Amt/1.jpg
-/images/Gemeinde_Verwaltung/Amt/2.jpg
-/images/Gemeinde_Verwaltung/Amt/3.jpg
-<!-- AMTUNTERSPREEWALD_IMAGES_END -->
-
-<!-- KIRCHE_PHOTO_START -->
-/images/Gemeinde_Verwaltung/Kirche/mainPhoto.jpg
-<!-- KIRCHE_PHOTO_END -->
-
-<!-- KIRCHE_IMAGES_START -->
-/images/Gemeinde_Verwaltung/Kirche/1.jpg
-/images/Gemeinde_Verwaltung/Kirche/2.jpg
-/images/Gemeinde_Verwaltung/Kirche/3.jpg
-<!-- KIRCHE_IMAGES_END -->
-
+---

@@ -6,13 +6,22 @@ import { InfoCardsWrapper, MainContext } from "./styles";
 import rawMd from "./text.md?raw";
 
 function HomePage() {
-  const categories = [
-    { key: "UEBERDORF" },
-    { key: "BUERGERMEISTER" },
-    { key: "GESCHICHTE" },
-  ];
+  // Отримує всі ключі на основі блоків *_NAME_START
+  const extractKeysFromMarkdown = (markdown: string): string[] => {
+    const regex = /<!--\s*(\w+)_NAME_START\s*-->/g;
+    const keys = [];
+    let match;
+    while ((match = regex.exec(markdown)) !== null) {
+      keys.push(match[1]);
+    }
+    return keys;
+  };
 
-   const images = [
+  // Використовуємо цю функцію для формування categories
+  const keys = extractKeysFromMarkdown(rawMd);
+  const categories = keys.map((key) => ({ key }));
+
+  const images = [
     "/images/OtherPictures/Center/1.jpg",
     "/images/OtherPictures/Center/2.jpg",
     "/images/OtherPictures/Center/3.jpg",
@@ -21,7 +30,6 @@ function HomePage() {
     "/images/OtherPictures/Center/6.jpg",
     "/images/OtherPictures/Center/7.jpg",
     "/images/OtherPictures/Center/8.jpg",
-    "/images/OtherPictures/Center/9.jpg",
   ];
 
   const extractSection = (

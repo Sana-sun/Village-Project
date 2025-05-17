@@ -10,6 +10,8 @@ Brandenburg. Im Jahr 2023 zählt das Dorf etwa 1.207 Einwohner
 <!-- UEBERDORF_PHOTO_END -->
 
 
+---
+
 <!-- BUERGERMEISTER_NAME_START -->
 👤 **Bürgermeister**
 <!-- BUERGERMEISTER_NAME_END -->
@@ -22,6 +24,9 @@ Die Gemeinde wird von Roland Gefreiter geleitet, der seit 2003 im Amt ist. **Kon
 <!-- BUERGERMEISTER_PHOTO_END -->
 
 
+---
+
+
 <!-- GESCHICHTE_NAME_START -->
 💧 **Geschichte**
 <!-- GESCHICHTE_NAME_END -->
@@ -31,3 +36,4 @@ Schönwalde blickt auf eine lange Geschichte bis ins Mittelalter zurück. Das Do
 <!-- GESCHICHTE_PHOTO_START -->
 /images/OtherPictures/Geschichte/mainPhoto.jpg
 <!-- GESCHICHTE_PHOTO_END -->
+

@@ -22,16 +22,23 @@ Baugrundstücke & Immobilien in Schönwalde
 
 Amt Unterspreewald 
 
-📞Telefon: 035452 384-0 
-📠 Fax: 035452 384-24 
-📧 E-Mail: amt@unterspreewald.de 
-🌐 Web: [unterspreewald.de](https://www.unterspreewald.de/)
+📞Telefon: 035452 384-0   
+
+📠 Fax: 035452 384-24   
+
+📧 E-Mail: amt@unterspreewald.de   
+
+🌐 Web: [unterspreewald.de](https://www.unterspreewald.de/)  
 
 **Alternativ:** 
 
 Bürgermeister von Schönwalde
 Herr Roland Gefreiter 
 
-📞Telefon: +49 173 5883825
-📧 E-Mail: r.gefreiter@schoenwalde-spreewald.de
+📞Telefon: +49 173 5883825  
+
+📧 E-Mail: r.gefreiter@schoenwalde-spreewald.de  
 <!-- BAULAND_TEXT_END -->
+<!-- BAULAND_PHOTO_START -->
+/images/Bauland/mainPhoto.png
+<!-- BAULAND_PHOTO_END -->
