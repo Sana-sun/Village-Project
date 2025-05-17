@@ -104,7 +104,6 @@ function CardInfo({
   address,
   phone,
   email,
-  website,
   mainPhoto,
   images,
 }: CardTextProps) {

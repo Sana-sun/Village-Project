@@ -388,15 +388,15 @@
 import ReactMarkdown from "react-markdown";
 import { FaChevronLeft } from "react-icons/fa";
 import YourAreHere from "../../components/YourAreHere/YouAreHere";
-import {
-  ArrowButton,
-  ButtonGrid,
-  IntroText,
-  IntroWrapper,
-} from "../EducationPage/styles";
+// import {
+//   ArrowButton,
+//   ButtonGrid,
+//   IntroText,
+//   IntroWrapper,
+// } from "../EducationPage/styles";
 
 import rawMd from "./text.md?raw";
-import CardInfo from "../../components/CardInfo/CardInfo";
+// import CardInfo from "../../components/CardInfo/CardInfo";
 
 import MoreInfoBtn from "../../components/MoreInfoBtn/MoreInfoBtn";
 import { subcategories } from "../../components/IconSearch/subcategories";
@@ -404,6 +404,8 @@ import { useEffect, useState } from "react";
 
 import { FaChevronUp } from "react-icons/fa";
 import { ScrollButton } from "./styles";
+import { ArrowButton, ButtonGrid, IntroText } from "../../components/MarkdownPageTemplateProps/styles";
+import { IntroWrapper } from "../Impressum/styles";
 
 // тут ми "вмикаємо" всі категорії на сайт
 function TradeServicesPage() {
@@ -477,54 +479,54 @@ function TradeServicesPage() {
     }, [] as { name: string; items: typeof subcategories }[])
     .sort((a, b) => a.name.localeCompare(b.name)); // Сортуємо за назвою
 
-  const extractSubcategoryContent = (text: string, key: string) => {
-    const regex = new RegExp(
-      `<!-- ${key}_SUBCATEGORY_START -->([\\s\\S]*?)<!-- ${key}_SUBCATEGORY_END -->`,
-      "m"
-    );
-    const match = text.match(regex);
-    return match ? match[1].trim() : null;
-  };
+  // const extractSubcategoryContent = (text: string, key: string) => {
+  //   const regex = new RegExp(
+  //     `<!-- ${key}_SUBCATEGORY_START -->([\\s\\S]*?)<!-- ${key}_SUBCATEGORY_END -->`,
+  //     "m"
+  //   );
+  //   const match = text.match(regex);
+  //   return match ? match[1].trim() : null;
+  // };
 
-  const parseSubcategoryItems = (
-    content: string
-  ): {
-    id: string;
-    slogan: string;
-    text: string;
-    mainPhoto: string;
-  }[] => {
-    const entries: {
-      id: string;
-      slogan: string;
-      text: string;
-      mainPhoto: string;
-    }[] = [];
+  // const parseSubcategoryItems = (
+  //   content: string
+  // ): {
+  //   id: string;
+  //   slogan: string;
+  //   text: string;
+  //   mainPhoto: string;
+  // }[] => {
+  //   const entries: {
+  //     id: string;
+  //     slogan: string;
+  //     text: string;
+  //     mainPhoto: string;
+  //   }[] = [];
 
-    const nameRegex = /<!-- (\w+)_NAME_START -->[\s\S]*?<!-- \1_NAME_END -->/g;
-    const matches = [...content.matchAll(nameRegex)];
+  //   const nameRegex = /<!-- (\w+)_NAME_START -->[\s\S]*?<!-- \1_NAME_END -->/g;
+  //   const matches = [...content.matchAll(nameRegex)];
 
-    for (const match of matches) {
-      const id = match[1];
+  //   for (const match of matches) {
+  //     const id = match[1];
 
-      const getValue = (key: string) => {
-        const regex = new RegExp(
-          `<!-- ${id}_${key}_START -->([\\s\\S]*?)<!-- ${id}_${key}_END -->`
-        );
-        const res = content.match(regex);
-        return res ? res[1].trim() : "";
-      };
+  //     const getValue = (key: string) => {
+  //       const regex = new RegExp(
+  //         `<!-- ${id}_${key}_START -->([\\s\\S]*?)<!-- ${id}_${key}_END -->`
+  //       );
+  //       const res = content.match(regex);
+  //       return res ? res[1].trim() : "";
+  //     };
 
-      entries.push({
-        id,
-        slogan: getValue("SLOGAN"),
-        text: getValue("TEXT"),
-        mainPhoto: getValue("PHOTO"),
-      });
-    }
+  //     entries.push({
+  //       id,
+  //       slogan: getValue("SLOGAN"),
+  //       text: getValue("TEXT"),
+  //       mainPhoto: getValue("PHOTO"),
+  //     });
+  //   }
 
-    return entries;
-  };
+  //   return entries;
+  // };
 
   const handleScroll = () => {
     if (window.scrollY > 200) {
