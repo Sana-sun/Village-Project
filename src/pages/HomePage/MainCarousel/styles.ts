@@ -74,8 +74,7 @@
 //   }
 // `;
 
-
-//3 
+//3
 import styled from "styled-components";
 
 export const CarouselContainer = styled.div`
@@ -84,6 +83,18 @@ export const CarouselContainer = styled.div`
   height: 90vh;
   min-height: 300px;
   overflow: hidden;
+
+  /* @media (max-width: 768px) {
+      height: 70vh;
+  } */
+
+  @media (max-width: 768px) {
+    height: 50vh; /* або 60vh, залежно від бажаного розміру */
+  }
+
+  @media (max-width: 480px) {
+    height: 40vh;
+  }
 `;
 
 export const MainImageContainer = styled.div`
@@ -97,13 +108,17 @@ export const MainImageContainer = styled.div`
     object-fit: cover;
     object-position: center;
     transition: transform 6s ease-in-out, opacity 2s ease-in-out;
+
+    @media (max-width: 768px) {
+      object-position: top; /* або 30% 50% — грайся значеннями */
+    }
   }
 `;
 
 export const DotsContainer = styled.div`
   position: absolute;
-  bottom: 40px;
-  bottom: 20px;
+  bottom: 10px;
+  bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
   /* z-index: 1; */
@@ -125,12 +140,17 @@ export const Dot = styled.div<{ $isActive: boolean }>`
   &:hover {
     background-color: #338bff;
   }
+
+  @media (max-width: 768px) {
+    width: 10px;
+    height: 10px;
+  }
 `;
 
 export const FotoTextContainer = styled.div`
   position: absolute;
-  bottom: 80px;
-  bottom: 60px;
+  bottom: 30px;
+  bottom: 20px;
   right: 50%;
   transform: translateX(50%);
 
@@ -144,9 +164,16 @@ export const FotoTextContainer = styled.div`
   max-width: 90%;
   width: 100%;
 
-  @media (max-width: 768px) {
-    font-size: 1rem;
+  @media (max-width: 1024px) {
+    font-size: 1.2rem;
     padding: 12px 16px;
-    bottom: 60px;
+  }
+
+   @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 430px) {
+    font-size: 0.6rem;
   }
 `;

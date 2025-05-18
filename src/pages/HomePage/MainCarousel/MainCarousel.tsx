@@ -37,9 +37,7 @@ const MainCarousel: React.FC = () => {
         <MainImageContainer>
           <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
         </MainImageContainer>
-      </CarouselContainer>
-
-      <FotoTextContainer>
+        <FotoTextContainer>
         Willkommen in Schönwald Brandenburg - ein Ort, an dem Natur und
         Gemeinschaft im Einklang leben
       </FotoTextContainer>
@@ -53,6 +51,14 @@ const MainCarousel: React.FC = () => {
           />
         ))}
       </DotsContainer>
+      </CarouselContainer>
+
+      {/* <FotoTextContainer>
+        Willkommen in Schönwald Brandenburg - ein Ort, an dem Natur und
+        Gemeinschaft im Einklang leben
+      </FotoTextContainer> */}
+
+      
     </>
   );
 };

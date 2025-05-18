@@ -58,6 +58,13 @@ export const subcategories = [
   // Handwerkgewerbe & Dienstleistungen
 
   {
+    name: "Handwerkgewerbe & Dienstleistungen",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    path: "/tradeServices",
+    isCategoryLink: true, // спецпрапорець
+  },
+
+  {
     name: "Agrargemeinschaft Freiwalde/Schönwalde",
     category: "Handwerkgewerbe & Dienstleistungen",
     // path: "/tradeServices#autohaus-kunath",

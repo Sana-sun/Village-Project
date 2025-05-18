@@ -10,8 +10,10 @@ import ReactMarkdown from "react-markdown";
 function TradeServicesPage() {
   const location = useLocation(); // 🔹 Додаємо `useLocation()`
   const [myLocation, setMyLocation] = useState<string | undefined>(undefined);
+const [isScrollable, setIsScrollable] = useState<boolean>(false); // 🔹 Контроль скролу
 
   useEffect(() => {
+  if (isScrollable) {
     const target = document.getElementById("hr-section");
     if (target) {
       const yOffset = -100;
@@ -19,7 +21,10 @@ function TradeServicesPage() {
         target.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({ top: y, behavior: "smooth" });
     }
-  }, [location.pathname]);
+    setIsScrollable(true); // 🔹 Вимикаємо після одноразового використання
+  }
+}, [location.pathname, isScrollable]);
+
 
     const extractSection = (
     text: string,
@@ -42,6 +47,11 @@ function TradeServicesPage() {
     "SEPARATE_TEXT_END"
   );
 
+  const handleCategoryClick = (category: string) => {
+    setMyLocation(category);
+    setIsScrollable(true); // 🔹 Увімкнення скролу при виборі категорії
+  };
+
   return (
     <>
       <YourAreHere tradePageLocation={myLocation}/>
@@ -58,7 +68,7 @@ function TradeServicesPage() {
         <StyledNavLink
           to="all-services"
           $active={location.pathname.includes("all-services")}
-          onClick={() => setMyLocation("Alle")}
+          onClick={() => handleCategoryClick("Alle")}
         >
           Alle
         </StyledNavLink>
@@ -66,7 +76,7 @@ function TradeServicesPage() {
         <StyledNavLink
           to="bau-&-renovierung"
           $active={location.pathname.includes("bau-&-renovierung")}
-          onClick={() => setMyLocation("Bau & Renovierung")}
+          onClick={() => handleCategoryClick("Bau & Renovierung")}
         >
           Bau & Renovierung
         </StyledNavLink>
@@ -74,7 +84,7 @@ function TradeServicesPage() {
         <StyledNavLink
           to="energie-&-umwelt"
           $active={location.pathname.includes("energie-&-umwelt")}
-          onClick={() => setMyLocation("Energie & Umwelt")}
+          onClick={() => handleCategoryClick("Energie & Umwelt")}
         >
           Energie & Umwelt
         </StyledNavLink>
@@ -82,7 +92,7 @@ function TradeServicesPage() {
         <StyledNavLink 
           to="kfz" 
           $active={location.pathname.includes("kfz")}
-          onClick={() => setMyLocation("Kfz")}
+          onClick={() => handleCategoryClick("Kfz")}
           >
           Kfz
         </StyledNavLink>
@@ -90,7 +100,7 @@ function TradeServicesPage() {
         <StyledNavLink
           to="landwirtschaft-&-imkerei"
           $active={location.pathname.includes("landwirtschaft-&-imkerei")}
-          onClick={() => setMyLocation("Landwirtschaft & Imkerei")}
+          onClick={() => handleCategoryClick("Landwirtschaft & Imkerei")}
         >
           Landwirtschaft & Imkerei
         </StyledNavLink>
@@ -98,7 +108,7 @@ function TradeServicesPage() {
         <StyledNavLink
           to="lebensmittel-&-genuss"
           $active={location.pathname.includes("lebensmittel-&-genuss")}
-          onClick={() => setMyLocation("Lebensmittel & Genuss")}
+          onClick={() => handleCategoryClick("Lebensmittel & Genuss")}
         >
           Lebensmittel & Genuss
         </StyledNavLink>
@@ -106,7 +116,7 @@ function TradeServicesPage() {
         <StyledNavLink
           to="pflege-schoenheit-&-betreuung"
           $active={location.pathname.includes("pflege-schoenheit-&-betreuung")}
-          onClick={() => setMyLocation("Pflege, Schönheit & Betreuung")}
+          onClick={() => handleCategoryClick("Pflege, Schönheit & Betreuung")}
         >
           Pflege, Schönheit & Betreuung
         </StyledNavLink>
@@ -114,7 +124,7 @@ function TradeServicesPage() {
         <StyledNavLink
           to="technische-dienstleistungen"
           $active={location.pathname.includes("technische-dienstleistungen")}
-          onClick={() => setMyLocation(" Technische Dienstleistungen")}
+          onClick={() => handleCategoryClick(" Technische Dienstleistungen")}
         >
           Technische Dienstleistungen
         </StyledNavLink>

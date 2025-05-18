@@ -37,7 +37,7 @@ Die Agrargemeinschaft mit Sitz in Bersteland betreibt einen modernen Landwirtsch
 📞 Telefon: +49 35474 702
 <!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_TEXT_END -->
 <!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_PHOTO_START -->
-/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto.png
 <!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_PHOTO_END -->
 
 
@@ -77,7 +77,7 @@ Natürlich, nachhaltig, regional
 🍯 **Imkerei Haus 5** – Ein Ort, an dem Bienen in naturbelassener Umgebung hochwertigen Honig produzieren. Mit traditionellen Methoden und moderner Imkereitechnik wird der Honig nachhaltig geerntet, um die Qualität und Reinheit zu bewahren.  
 <!-- IMKEREIHAUS5_TEXT_END -->
 <!-- IMKEREIHAUS5_PHOTO_START -->
-/images/Handel_Dienstleistungen/Imkerei/Haus_5/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto.png
 <!-- IMKEREIHAUS5_PHOTO_END -->
 
 <!-- LANDWIRTSCHAFT & IMKEREI_SUBCATEGORY_END -->

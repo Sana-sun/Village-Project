@@ -85,23 +85,28 @@ export const TextContainer = styled.div`
   }
 
   @media (max-width: 768px) {
+  overflow-y: hidden;
+
     /* padding: 1rem; */
+    /* background-color: red; */
   }
 `;
 
-
 export const InnerText = styled.div`
   padding: 1.25rem;
-  aspect-ratio: 4 / 3;
-  min-height: 200px;
+  /* aspect-ratio: 4 / 3; */
+  /* min-height: 200px; */
   /* padding: 30px; */
-  /* background-color: red; */
-  /* height: 500px; */
-  /* overflow-y: auto; */
-  
+  /* background-color: green; */
+  /* max-height: 500px; */
+  overflow-y: auto;
+
+  @media (max-width: 768px) {
+    height: auto;
+  overflow-y: hidden;
+
+  }
 `;
-
-
 
 export const LoadingText = styled.div`
   position: absolute;

@@ -16,9 +16,10 @@ import { subcategories } from "./subcategories";
 import { useLocation } from "react-router-dom";
 
 // Сортуємо підкатегорії в алфавітному порядку
-const sortedSubcategories = [...subcategories].sort((a, b) =>
-  a.name.localeCompare(b.name)
-);
+const sortedSubcategories = subcategories
+  .filter((subcategory) => !subcategory.isCategoryLink) // ⛔️ Пропускаємо категорієві лінки
+  .sort((a, b) => a.name.localeCompare(b.name));
+
 
 function IconSearch() {
   const [isOpen, setIsOpen] = useState(false);
