@@ -28,7 +28,7 @@ Die Agrargemeinschaft mit Sitz in Bersteland betreibt einen modernen Landwirtsch
 
 🌾 Erzeugung von Lebensmitteln aus eigener Hand – von der Weide bis zum Feld
 
-📌 Adresse: Chausseestraße 4, 15910 Bersteland 
+📌 **Adresse:** Chausseestraße 4, 15910 Bersteland 
 
 📞 Telefon: +49 35474 702
 <!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_TEXT_END -->

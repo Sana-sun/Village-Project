@@ -29,7 +29,7 @@ Die Agrargemeinschaft mit Sitz in Bersteland betreibt einen modernen Landwirtsch
 
 Erzeugung von Lebensmitteln aus eigener Hand – von der Weide bis zum Feld
 
-📌 Adresse: Chausseestraße 4, 15910 Bersteland 
+📌 **Adresse:** Chausseestraße 4, 15910 Bersteland 
 
 📞 **Telefon:** +49 35474 702
 
@@ -66,6 +66,7 @@ Sa: 08:00–12:00 sowie nach Vereinbarung
 <!-- AUTOHAUSKUNATH_PHOTO_START -->
 /images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Kunath/mainPhoto.jpg
 <!-- AUTOHAUSKUNATH_PHOTO_END -->
+
 
 <!-- AUTOHAUSVOGLER_NAME_START -->
 Autohaus Vogler
