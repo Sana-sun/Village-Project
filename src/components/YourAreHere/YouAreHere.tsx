@@ -2,7 +2,12 @@ import { FaChevronRight } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 import { NavWrapper, ArrowBox } from "./styles";
 
-function YourAreHere() {
+type MoreLocationInfoProps = {
+  tradePageLocation?: string;
+};
+
+
+function YourAreHere({tradePageLocation}: MoreLocationInfoProps) {
   const location = useLocation();
 
   const pathNameMap: { [key: string]: string } = {
@@ -16,7 +21,7 @@ function YourAreHere() {
     "/impressum": "Impressum",
   };
 
-  const currentPage = pathNameMap[location.pathname] || "Unbekannt";
+  const currentPage = pathNameMap[location.pathname] || tradePageLocation || "Handwerkgewerbe & Dienstleistungen" || "Unbekannt";
 
   return (
     <NavWrapper>
