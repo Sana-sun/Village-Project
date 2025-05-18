@@ -7,7 +7,7 @@ In der [**Grundschule Schönwalde**](/education#grundschule "Klick mich!") wachs
 
 Und wer Lust auf neue Geschichten hat, kann jederzeit in unserer [**Mini-Bibliothek**](/education#mini-bibliotek "Klick mich!") am Dorfplatz stöbern – einem offenen Bücherschrank für Jung und Alt, ganz ohne Anmeldung. Einfach mitnehmen, tauschen, lesen.
 
-📖 Bildung in Schönwalde heißt: gemeinsam wachsen, lernen und entdecken.
+Bildung in Schönwalde heißt: gemeinsam wachsen, lernen und entdecken.
 
 ➡️ **Mehr erfahren:**
 <!-- INTRO_TEXT_END -->
@@ -33,8 +33,10 @@ Ein besonderer Schwerpunkt liegt auf der spielerischen Heranführung an das Hand
 
 Monatlich findet ein offener Babytreff statt – ideal für Familien, die unsere Kita kennenlernen möchten.  
 
-📍 **Adresse:** Hauptstraße 47, 15910 Schönwald OT Schönwalde  
+📌 **Adresse:** Hauptstraße 47, 15910 Schönwald OT Schönwalde   
+
 📞 **Telefon:** 035474 633  
+
 🌐 **Webseite:** Kita Regenbogen Krippe und Kindergarten  
 <!-- KITA_TEXT_END -->
 
@@ -68,10 +70,13 @@ Hier lernen Kinder in überschaubaren Klassen, mit individueller Förderung und 
 
 Regelmäßige Projekte, Sportangebote und ein aktiver Förderverein machen unsere Schule besonders lebendig.  
 
-📍 **Adresse:** Hauptstraße 50, 15910 Schönwalde  
+📌 **Adresse:** Hauptstraße 50, 15910 Schönwalde  
+
 📞 **Telefon:** 035474 36568  
+
 ✉️ **E-Mail:** grundschuleschoenwalde@unterspreewald.de  
-🌐 **Webseite:** Startseite - Grundschule Schönwalde  
+
+🌐 **Webseite:** [Startseite - Grundschule Schönwalde](https://www.grundschule-schoenwalde.de/)
 <!-- GRUNDSCHULE_TEXT_END -->
 
 <!-- GRUNDSCHULE_PHOTO_START -->
@@ -104,10 +109,10 @@ Mitten im Herzen von Schönwalde, direkt an der Bushaltestelle „Dorfplatz“, 
 
 Der Bücherschrank wurde liebevoll von Freiwilligen eingerichtet und wird regelmäßig mit neuen Büchern bestückt. Jeder darf bringen, was er nicht mehr braucht – und mitnehmen, was ihn interessiert.  
 
-📍 **Anfahrt:**
-· Buslinie 506, Haltestelle Schönwalde Dorfplatz
-· Parkplätze entlang der Dorfstraße
-· Direkt im Wartehäuschen  
+📌 **Anfahrt:**  
+· Buslinie 506, Haltestelle Schönwalde Dorfplatz  
+· Parkplätze entlang der Dorfstraße  
+· Direkt im Wartehäuschen    
 
 Kommen Sie vorbei, stöbern Sie – und lassen Sie sich inspirieren.  
 **Schön, was unsere Dorfgemeinschaft gemeinsam schafft!**  

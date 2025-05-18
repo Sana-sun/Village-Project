@@ -5,7 +5,7 @@ In Schönwalde engagieren sich Menschen Tag für Tag – für Sicherheit, Gemein
 
 Wer Hilfe, Beratung oder einen Termin mit der Verwaltung braucht, findet im [**Amt Unterspreewald**](/municipality#amt-unterspreewald) die richtige Anlaufstelle – direkt vor Ort im Feuerwehrgerätehaus Schönwalde. Und mitten im Dorf lädt unsere [**Kirche**](municipality#kirche) zu stillen Momenten, Kulturabenden und besonderen Feiern ein.
 
-🤝 Engagement vor Ort – mit Herz, Hand und Zusammenhalt.
+Engagement vor Ort – mit Herz, Hand und Zusammenhalt.
 
 ➡️ **Mehr erfahren:**
 <!-- INTRO_TEXT_END -->
@@ -27,17 +27,18 @@ Mut. Einsatz. Sicherheit – Feuerwehr Schönwalde ist bereit!
 
 Hier engagieren sich Aktive Wehr, Feuerwehrverein und Jugendfeuerwehr gemeinsam für Sicherheit, Gemeinschaft und Nachwuchs. Ihre zahlreichen Einsätze auf Straßen, in Wohngebieten und bei lokalen Veranstaltungen zeigen, dass Feuerwehrdienst mehr als nur Pflicht ist – es ist gelebte Gemeinschaft und Zusammenhalt.
 
-**Adresse:**
+📌 **Adresse:**
 Bahnhofstr. 101a
 15910 Schönwalde (Spreewald)
 
-**Telefon (nicht für Notfälle):** 035476 908774
+📞 **Im Notfall:** 112
 
-**E-Mail:** feuerwehr@schoenwalde-spreewald.de
+📞 **Telefon (nicht für Notfälle):** 035476 908774
+
+📧 **E-Mail:** feuerwehr@schoenwalde-spreewald.de
 
 🅕 **Facebook:** [FF Schönwalde-Spreewald | Schönwalde](https://www.facebook.com/feuerwehr.schoenwalde/)
 
-🚑 **Im Notfall:** 📞 112
 
 <!-- FEUERWEHRSCHOENWALDE_TEXT_END -->
 <!-- FEUERWEHRSCHOENWALDE_PHOTO_START -->
@@ -68,7 +69,7 @@ Die Freiwillige Feuerwehr Waldow ist fest im Dorfleben verwurzelt und steht für
 
 Mitten im Grünen, nah bei den Menschen, sorgt die Wehr nicht nur für Sicherheit, sondern auch für Zusammenhalt im Ortsteil Waldow.
 
-**Adresse:**
+📌 **Adresse:**
 Dorfstraße 60
 15910 Schönwalde OT Waldow
 
@@ -96,12 +97,12 @@ Lesefreude zum Mitnehmen – von Nachbarn für Nachbarn
 
 Hier können Bürger:innen viele Anliegen vor Ort klären – von Anträgen über Informationen bis zur persönlichen Beratung.
 
-**Öffnungszeiten:**
-Dienstag: 09:00 – 12:00 Uhr & 13:00 – 18:00 Uhr
-Donnerstag: 09:00 – 12:00 Uhr & 13:00 – 16:00 Uhr
-🕓 Termine außerhalb der Öffnungszeiten nach Vereinbarung
+🕓 **Öffnungszeiten:**  
+Dienstag: 09:00 – 12:00 Uhr & 13:00 – 18:00 Uhr  
+Donnerstag: 09:00 – 12:00 Uhr & 13:00 – 16:00 Uhr  
+Termine außerhalb der Öffnungszeiten nach Vereinbarung  
 
-**Adresse:**
+📌 **Adresse:**
 Hauptstr. 49 
 15910 Schönwalde
 
@@ -142,11 +143,11 @@ Hier finden nicht nur Gottesdienste und Taufen statt, sondern auch besondere Kon
 
 Zudem werden regelmäßig Hochzeiten gefeiert – ein unvergesslicher Rahmen für den schönsten Tag im Leben. Ein besonderes Highlight ist unser „Kino in der Kirche“ – kulturelle Filmabende in einzigartiger Atmosphäre, offen für alle Generationen.
 
-📍 **Adresse:** Hauptstr. 7, 15910 Schönwalde
+📌 **Adresse:** Hauptstr. 7, 15910 Schönwalde
 
 🕊️ **Besichtigung:** tagsüber offen für Besucher
 
-📞 **Info:** Schlüssel bei Bäckerei Kuske, Hauptstr. 9, Tel. 035474-613
+💡 **Info:** Schlüssel bei Bäckerei Kuske, Hauptstr. 9, Tel. 035474-613
 
 <!-- KIRCHE_TEXT_END -->
  

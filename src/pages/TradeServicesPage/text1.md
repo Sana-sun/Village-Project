@@ -2,7 +2,7 @@
 
 In Schönwald lebt die Wirtschaft von Menschen, die man kennt – ehrlich, persönlich und mit einem Gespür dafür, was gebraucht wird. Ob Ziegel, Honig oder ein fachkundiger Blick unter die Motorhaube – hier ist alles nah und verlässlich. Auch die Energiewende hat hier ihren Platz: Ein regionales Büro der Firma Notus Energy begleitet Projekte rund um erneuerbare Energien – direkt aus dem Ort. Frische und gute Produkte für den Alltag findet man ebenso – direkt, regional und mit Geschmack. Und wer Unterstützung braucht, findet sie bei sozialen Diensten oder in der Pflege – mit Herz und Einsatz. Unternehmen im Bereich Bau, Technik oder Sanierung sorgen für professionelle Hilfe bei kleinen und großen Vorhaben – kompetent, erreichbar und mit kurzen Wegen.
 
-🛠️ Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch, nah und gut zu wissen, wer da ist.
+ Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch, nah und gut zu wissen, wer da ist.
 
 ➡️ **Mehr erfahren:**
 
@@ -28,7 +28,7 @@ Die Agrargemeinschaft mit Sitz in Bersteland betreibt einen modernen Landwirtsch
 
 🌾 Erzeugung von Lebensmitteln aus eigener Hand – von der Weide bis zum Feld
 
-📍 Adresse: Chausseestraße 4, 15910 Bersteland 
+📌 Adresse: Chausseestraße 4, 15910 Bersteland 
 
 📞 Telefon: +49 35474 702
 <!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_TEXT_END -->
@@ -57,7 +57,7 @@ Direkt an der L71 – wir bieten fachgerechte Inspektionen, Reparaturen und indi
 Mo–Fr: 08:00–18:00 
 Sa: 08:00–12:00 sowie nach Vereinbarung
 
-📍 **Adresse:** Bahnhofstraße 89, 15910 Schönwald
+📌 **Adresse:** Bahnhofstraße 89, 15910 Schönwald
 
 📞 **Telefon:** 035474 / 696 oder 35144
 
@@ -86,7 +86,7 @@ Mo–Fr: 07:00–12:00 & 12:45–17:00
 Sa–So: geschlossen
 Sa: auch nach Vereinbarung
 
-📍 **Adresse:** Briesener Weg 26, 15910 Schönwald bei Lübben
+📌 **Adresse:** Briesener Weg 26, 15910 Schönwald bei Lübben
 
 📞 **Telefon:** 035474 / 520
 
@@ -110,7 +110,7 @@ Mobilität beginnt hier – Autohaus Waldow
 
 Unsere Leidenschaft ist dein Fahrzeug! Von modernen Autos bis hin zu klassischen Reparaturen – wir bringen dich sicher auf die Straße.  
 
-📍 **Adresse:** Krausnicker Weg 7, 15910 Schönwalde  
+📌 **Adresse:** Krausnicker Weg 7, 15910 Schönwalde  
 <!-- AUTOHAUSWALDOW_TEXT_END -->
 <!-- AUTOHAUSWALDOW_PHOTO_START -->
 /images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Waldow/mainPhoto.jpg
@@ -138,7 +138,7 @@ Di–Fr: 5:30–17:00 Uhr
 Sa: 5:30–11:00 Uhr 
 Mo - So: geschlossen
 
-📍 **Adresse:** Hauptstraße 9, 15910 Schönwald
+📌 **Adresse:** Hauptstraße 9, 15910 Schönwald
 
 📞 **Telefon:** 035474 / 613
 
@@ -166,7 +166,7 @@ Di–Fr: 08:00–17:00
 Sa: 08:00–11:00 
 Mo-So: geschlossen
 
-📍 **Adresse:** Hauptstraße 42, 15910 Schönwald
+📌 **Adresse:** Hauptstraße 42, 15910 Schönwald
 
 📞 **Telefon:** 0173 / 607 4869
 
@@ -198,7 +198,7 @@ Liebevolle Betreuung und Pflege in den eigenen vier Wänden – die zeitgemäße
 🕒 **Öffnungszeiten:** 
 24 Stunden Betreuung – immer für Sie da
 
-📍 **Adresse:**  Hauptstraße 20, 15910 Schönwalde
+📌 **Adresse:**  Hauptstraße 20, 15910 Schönwalde
 
 📞 **Telefon:** 03546 / 225586
 
@@ -224,7 +224,7 @@ Die Krankenpflege bietet individuelle Betreuung von Intensiv- und Heimbeatmungsp
 🕒 **Öffnungszeiten:** 
 24 Stunden Pflege
 
-📍 **Adresse:**  Kuschkower Str. 22, 15910 Schlepzig 
+📌 **Adresse:**  Kuschkower Str. 22, 15910 Schlepzig 
 
 📞 **Telefon:** 035472 322
 
@@ -257,7 +257,7 @@ Ob klassischer Schnitt, moderne Frisuren oder individuelle Farbberatung – hier
 Do–Fr: 12:00-18:00 Uhr 
 Sa–Mi: geschlossen
 
-📍 **Adresse:** Bahnhofstraße 89, 15910 Schönwalde
+📌 **Adresse:** Bahnhofstraße 89, 15910 Schönwalde
 
 📞 **Telefon:** 0151/75661488
 
@@ -286,7 +286,7 @@ Mit Erfahrung und Hingabe sorgen wir für eine sanfte Pflege, die nicht nur die 
 🕒 **Öffnungszeiten:** 
 nach Vereinbarung
 
-📍 **Adresse:** Bahnhofstraße 99, 15910 Schönwalde
+📌 **Adresse:** Bahnhofstraße 99, 15910 Schönwalde
 
 📞 **Telefon:** 035474 3448 oder 0172 / 5908956
 
@@ -366,7 +366,7 @@ Ob Neueindeckung, Reparatur oder Zimmerei – wir bieten fachgerechte Dacharbeit
 Mo–Fr: nach Vereinbarung 
 Sa–So: geschlossen
 
-📍 **Adresse:** Bahnhofstraße 105, 15910 Schönwald
+📌 **Adresse:** Bahnhofstraße 105, 15910 Schönwald
 
 📞 **Telefon:** 035474 3420
 
@@ -395,7 +395,7 @@ Mi: 07:30–12:00 & 14:00–17:00
 Fr: 07:30–14:00 
 Sa–So: geschlossen
 
-📍 **Adresse:** Bahnhofstraße 17 A, 15910 Schönwald
+📌 **Adresse:** Bahnhofstraße 17 A, 15910 Schönwald
 
 📞 **Telefon:** 035474 / 733 oder 35677
 
@@ -431,7 +431,7 @@ Unsere Arbeit erfolgt fachgerecht, sicher und individuell angepasst an jedes Pro
 🕒 **Öffnungszeiten:** 
 24 Stunden geöffnet
 
-📍 **Standort:** Hauptstraße 16, 15910 Schönwald
+📌 **Standort:** Hauptstraße 16, 15910 Schönwald
 
 📞 **Telefon:** 0354743397
 
@@ -462,7 +462,7 @@ Ob Fassaden-, Modulgerüste oder Bauaufzüge – wir liefern sichere, präzise u
 Mo–Fr: 07:00–19:00 
 Sa–So: geschlossen
 
-📍 **Adresse:** Bahnhofstraße 6, 15910 Schönwalde
+📌 **Adresse:** Bahnhofstraße 6, 15910 Schönwalde
 
 📞 **Telefon:** 035474 / 36766
 
@@ -496,7 +496,7 @@ Mo–Do: 08:00–16:30
 Fr: 07:00–16:00 
 Sa–So: geschlossen
 
-📍 **Adresse:** Hauptstraße 20, 15910 Schönwalde
+📌 **Adresse:** Hauptstraße 20, 15910 Schönwalde
 
 📞 **Telefon:** 035474 615
 
@@ -530,7 +530,7 @@ Mo–Fr: 07:00–17:00
 Sa: nach Vereinbarung 
 So: geschlossen
 
-📍 **Adresse:** Lubolzer Straße, 15910 Schönwald (Schönwalde)
+📌 **Adresse:** Lubolzer Straße, 15910 Schönwald (Schönwalde)
 
 📞 **Telefon:** 0176 84753864
 
@@ -560,7 +560,7 @@ Wind und Sonne – das ist die Energie von morgen. NOTUS energy plant und betreu
 🕒 **Öffnungszeiten:**
 nach Vereinbarung
 
-📍 **Adresse:** Hauptstraße 49, 15910 Schönwald OT Schönwalde
+📌 **Adresse:** Hauptstraße 49, 15910 Schönwald OT Schönwalde
 
 📞 **Telefon:** +49 35474 3673-43
 
@@ -594,7 +594,7 @@ Mo–Do: 07:00–17:00
 Fr:  07:00–12:00 
 Sa-So: geschlossen
 
-📍 **Adresse:** Hauptstraße 34, 15910 Schönwald
+📌 **Adresse:** Hauptstraße 34, 15910 Schönwald
 
 📞 **Telefon:** 035474/788
 
@@ -625,7 +625,7 @@ Ob Schimmel, Rohrbruch oder Brand – wir sanieren fachgerecht & schnell. Für P
 
 🕒 **24h Notfallservice** für Privatkunden, Versicherungen & Bauunternehmen
 
-📍 **Adresse:** Waldower Straße 16, 15910 Schönwald
+📌 **Adresse:** Waldower Straße 16, 15910 Schönwald
 
 📞 **Telefon:** 035474 / 568833    
 

@@ -478,7 +478,7 @@ function TradeServicesPage() {
       return acc;
     }, [] as { name: string; items: typeof subcategories }[])
     .sort((a, b) => a.name.localeCompare(b.name)); // Сортуємо за назвою
-
+// 🚀 🚑
   // const extractSubcategoryContent = (text: string, key: string) => {
   //   const regex = new RegExp(
   //     `<!-- ${key}_SUBCATEGORY_START -->([\\s\\S]*?)<!-- ${key}_SUBCATEGORY_END -->`,

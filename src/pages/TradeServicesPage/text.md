@@ -2,7 +2,7 @@
 
 In Schönwald lebt die Wirtschaft von Menschen, die man kennt – ehrlich, persönlich und mit einem Gespür dafür, was gebraucht wird. Ob Ziegel, Honig oder ein fachkundiger Blick unter die Motorhaube – hier ist alles nah und verlässlich. Auch die Energiewende hat hier ihren Platz: Ein regionales Büro der Firma Notus Energy begleitet Projekte rund um erneuerbare Energien – direkt aus dem Ort. Frische und gute Produkte für den Alltag findet man ebenso – direkt, regional und mit Geschmack. Und wer Unterstützung braucht, findet sie bei sozialen Diensten oder in der Pflege – mit Herz und Einsatz. Unternehmen im Bereich Bau, Technik oder Sanierung sorgen für professionelle Hilfe bei kleinen und großen Vorhaben – kompetent, erreichbar und mit kurzen Wegen. 
 
-🛠️ Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch, nah und gut zu wissen, wer da ist.
+Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch, nah und gut zu wissen, wer da ist.
 
 ➡️ **Mehr erfahren:**
 

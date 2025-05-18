@@ -30,7 +30,7 @@ Für Kinder gibt es fest verankerte Autoreifen im Sand zum Klettern und Balancie
 
 Auch Sportbegeisterte kommen auf ihre Kosten: Die Volleyballpfosten stehen bereit – Netz und Ball können bei der Kontaktperson ausgeliehen werden.
 
-📍 Adresse: Krausnicker Weg 6, 15910 Schönwalde
+📌 **Adresse:** Krausnicker Weg 6, 15910 Schönwalde
 
 <!-- SEE_TEXT_END -->
 <!-- SEE_PHOTO_START -->
@@ -64,13 +64,13 @@ Hier finden regelmäßig Fußballturniere, Dart- und Billardabende statt, in ent
 
 Das Sportlerheim kann auch für Familienfeiern, Vereinsabende oder Dorftreffen gemietet werden – eine perfekte Gelegenheit, um gemeinsam schöne Stunden zu verbringen.
 
-📍 **Adresse:** Bahnhofstr. 1, 15910 Schönwald
+📌 **Adresse:** Bahnhofstr. 1, 15910 Schönwald
 
 📞 **Kontakt & Vermietung:** 035474 735
 
 🅕 **Facebook:** [Sportlerheim Schönwalde](https://www.facebook.com/people/Sportlerheim-Sch%C3%B6nwalde/100049660796368/)
 
-🌐 **Info:** [Wacker 21 Schönwalde e.V.](https://wacker-schoenwalde.de/)
+🌐 **Webseite:** [Wacker 21 Schönwalde e.V.](https://wacker-schoenwalde.de/)
 
 <!-- SPORTHEIM_TEXT_END -->
 <!-- SPORTHEIM_PHOTO_START -->
@@ -104,7 +104,7 @@ Hier kann man sie bei einer geführten Wanderung durch die Natur kennenlernen. A
 
 Im Hofladen gibt es handgefertigte Produkte aus Alpakawolle – von warmen Socken bis hin zu kuscheligen Decken / von Kopf bis Fuß.
 
-📍 **Adresse:** Bahnweg 10, 15910 Schönwalde
+📌 **Adresse:** Bahnweg 10, 15910 Schönwalde
 
 📞 **Kontakt:** Carola Mielke / 01512 8253604
 
@@ -140,13 +140,11 @@ Jugendclub Schönwalde – Treffpunkt für die Jugend
 
 Der Club ist nicht nur ein Treffpunkt, sondern auch ein Raum, in dem sich Jugendliche untereinander austauschen und neue Ideen entwickeln können. Ob für spannende Freizeitgestaltungen oder als Ort zum Entspannen und Freunde treffen – der Jugendclub ist ein Herzstück der Gemeinschaft in Schönwalde.
 
-📍 **Adresse:** [Adresse des Jugendclubs]
+📌 **Adresse:** [Adresse des Jugendclubs]
 
-📞 **Kontakt:** [Telefonnummer des Jugendclubs]
+📞 **Telefon:** [Telefonnummer des Jugendclubs]
 
 📧 **E-Mail:** [E-Mail-Adresse des Jugendclubs]
-
-**Kommen Sie vorbei, und entdecken Sie die vielseitigen Angebote des Jugendclubs – hier wird jeder fündig!**
 
 <!-- JUGENDCLUB_TEXT_END -->
 
@@ -171,11 +169,11 @@ Dorfgemeinschaftshaus – Herzstück des Dorflebens
 
 🏠 Das Dorfgemeinschaftshaus bleibt ein fester Bestandteil unseres Dorflebens. Derzeit als Lernraum für Kinder genutzt, kehrt es im Sommer zu seiner ursprünglichen Bestimmung zurück – ein Treffpunkt für Jung und Alt.
 
-🤝 Vereinsleben & Kultur Hier finden kleine Veranstaltungen, Treffen und kulturelle Aktivitäten statt.
+Vereinsleben & Kultur Hier finden kleine Veranstaltungen, Treffen und kulturelle Aktivitäten statt.
 
-📌 Ein Haus mit Geschichte, das die Dorfgemeinschaft verbindet und lebendig hält.
+Ein Haus mit Geschichte, das die Dorfgemeinschaft verbindet und lebendig hält.
 
-📍 **Adresse:** Hauptstr. 48, 15910 Schönwald
+📌 **Adresse:** Hauptstr. 48, 15910 Schönwald
 
 📞 **Telefon:** 035474 2060
 
@@ -207,11 +205,11 @@ Spreewaldring Kart Center – Adrenalin auf Rädern
 
 Ob allein, mit Freunden, der Familie oder als Teamevent – hier erlebst du packenden Fahrspaß und unvergessliche Momente. Steig ein, gib Gas und spüre den echten Rennfieber!
 
-🚀 Spreewaldring – dein nächstes Abenteuer beginnt hier!
+Spreewaldring – dein nächstes Abenteuer beginnt hier!
 
-🛑 Jetzt buchen & den Asphalt erobern!
+Jetzt buchen & den Asphalt erobern!
 
-📍 **Adresse:** Waldhaus 1 · 15910 Schönwald
+📌 **Adresse:** Waldhaus 1 · 15910 Schönwald
 
 📞 **Telefon:** 035477 4040
 
@@ -247,9 +245,7 @@ Spüre die Perfektion des Rennsports, eingebettet in die atemberaubende Landscha
 
 Die Rennstrecke wurde speziell als Trainingskurs für Fahrer aller Erfahrungsstufen konzipiert. Egal, ob Einsteiger oder Profi – der Spreewaldring testet deine Grenzen und gibt dir die Möglichkeit, dich kontinuierlich zu verbessern.
 
-🚀 Bereit für Nervenkitzel? Werde Teil der Community und erlebe echtes Rennsport-Feeling!
-
-📍 **Adresse:** Waldhaus 2, 15910 Schoenwald
+📌 **Adresse:** Waldhaus 2, 15910 Schoenwald
 
 📞 **Telefon:** 035477 65911
 
@@ -284,11 +280,9 @@ Mühlenverein Schönwalde Spreewald e. V. – Bewahren & Erleben
 
 Mit Veranstaltungen, Führungen und gemeinsamen Projekten bringt der Verein Interessierte zusammen, fördert das Bewusstsein für historische Baukunst und lädt dazu ein, ein Stück Spreewaldgeschichte hautnah zu erleben.
 
-📌 Verantwortlich & Ansprechpartner: Die Leitung des Vereins liegt in den Händen des Bürgermeisters, der sich aktiv für die Pflege und Weiterentwicklung des Mühlenvereins einsetzt.
+Verantwortlich & Ansprechpartner: Die Leitung des Vereins liegt in den Händen des Bürgermeisters, der sich aktiv für die Pflege und Weiterentwicklung des Mühlenvereins einsetzt.
 
-🚀 Mehr erfahren oder mitmachen? Kontaktiere uns direkt!
-
-📍 **Adresse:** Hauptstr. 48, 15910 Schönwalde
+📌 **Adresse:** Hauptstr. 48, 15910 Schönwalde
 
 📞 **Telefon:** 035474 2214
 

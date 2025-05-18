@@ -2,7 +2,7 @@
 <!-- INTRO_TEXT_START -->
 Unser [**Bahnhof**](/transport#bahnhof "Klick mich!") verbindet das Dorf stündlich mit Berlin und Senftenberg direkt – ideal für Pendler, Ausflügler und Schulbesuche. Auch Cottbus ist gut erreichbar. Wer lieber mit dem Auto unterwegs ist, erreicht Schönwalde bequem über die nahegelegene [**Autobahn**](/transport#autobahn "Klick mich!") – schnell, flexibel und direkt ins Grüne.
 
-🛤️ **Mobilität in Schönwalde heißt:** verbunden bleiben – nachhaltig, zuverlässig und naturnah.
+Mobilität in Schönwalde heißt: verbunden bleiben – nachhaltig, zuverlässig und naturnah.
 
 ➡️ **Mehr erfahren:**
 <!-- INTRO_TEXT_END -->
@@ -21,7 +21,7 @@ Mit dem Zug stündlich nach Berlin – bequem ab unserem Bahnhof
 <!-- BAHNHOF_SLOGAN_END -->
 
 <!-- BAHNHOF_TEXT_START -->
-Unser kleiner, aber feiner Bahnhof verbindet Schönwalde stündlich mit Berlin – ideal für Pendler und Ausflügler. Die moderne Haltestelle ist gut beleuchtet und liegt in naturnaher Umgebung. 
+🚉 Unser kleiner, aber feiner Bahnhof verbindet Schönwalde stündlich mit Berlin – ideal für Pendler und Ausflügler. Die moderne Haltestelle ist gut beleuchtet und liegt in naturnaher Umgebung. 
 
 Direkt am Bahnhof befindet sich zudem eine überdachte Fahrradstation mit Solartechnik – sicher, umweltfreundlich und nachts automatisch beleuchtet.
 
@@ -33,7 +33,7 @@ Wer frühmorgens oder spätabends unterwegs ist, findet hier stets eine zuverlä
 
 🕐 **Züge Richtung Cottbus:** stündlich
 
-🚉 **Fahrplan & Infos:** [bahn.de](https://www.bahn.de/)
+❓ **Fahrplan & Infos:** [bahn.de](https://www.bahn.de/)
 <!-- BAHNHOF_TEXT_END -->
 
 <!-- BAHNHOF_PHOTO_START -->

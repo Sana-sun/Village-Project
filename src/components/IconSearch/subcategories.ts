@@ -54,11 +54,14 @@ export const subcategories = [
     category: "Gemeinde & Verwaltung",
     path: "/municipality#kirche",
   },
+
+  // Handwerkgewerbe & Dienstleistungen
+
   {
     name: "Agrargemeinschaft Freiwalde/Schönwalde",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#agrargemeinschaft-freiwalde-schoenwalde",
-    subCategory: "Landwirtschaft",
+    subCategory: "Landwirtschaft & Imkerei",
   },
   {
     name: "Autohaus Kunath",
@@ -82,57 +85,56 @@ export const subcategories = [
     name: "Bäckerei & Konditorei Kuske",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#baeckerei-und-konditorei-kuske",
-    subCategory: "Lebensmittel",
+    subCategory: "Lebensmittel & Genuss",
   },
   {
     name: "Der Pflegedienst",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#der-pflegedienst",
-    subCategory: "Sozialdienste",
+    subCategory: "Pflege, Schönheit & Betreuung",
   },
   {
     name: "Fleischerei Tischler",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#fleischerei-tischler",
-    subCategory: "Lebensmittel",
+    subCategory: "Lebensmittel & Genuss",
   },
   {
     name: "Friseursalon",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#friseursalon",
-    subCategory: "Schönheit & Pflege",
+    subCategory: "Pflege, Schönheit & Betreuung",
   },
   {
     name: "Hämmerling B. Häusliche Krankenpflege",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#haemmerling-b-haeusliche-krankenpflege",
-    subCategory: "Sozialdienste",
+    subCategory: "Pflege, Schönheit & Betreuung",
   },
   {
     name: "Hundesalon Schick Schick",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#hundesalon-schick-schick",
-    subCategory: "Tiere & Pflege",
+    subCategory: "Pflege, Schönheit & Betreuung",
     // subCategory: "Tierpflege",
   },
-   // Imlerei
   {
     name: "Imkerei Morgner",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#imkerei-morgner",
-    subCategory: "Imkerei",
+    subCategory: "Landwirtschaft & Imkerei",
   },
   {
     name: "Imkerei Rippert",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#imkerei-rippert",
-    subCategory: "Imkerei",
+    subCategory: "Landwirtschaft & Imkerei",
   },
   {
     name: "Imkerei Haus 5",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#imkerei-haus5",
-    subCategory: "Imkerei",
+    subCategory: "Landwirtschaft & Imkerei",
   },
   {
     name: "Ingo Richter Dachdecker",
@@ -150,8 +152,7 @@ export const subcategories = [
     name: "KOMPLETT Gerüstbau GmbH",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#komplett-geruestbau-gmbh",
-    subCategory: "Gerüstbau",
-    // subCategory: "Technische Dienstleistungen", // !
+    subCategory: "Bau & Renovierung",
   },
   {
     name: "Malerbetrieb Dieter Ihl",
@@ -163,15 +164,13 @@ export const subcategories = [
     name: "Morgner Haustechnik",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#morgner-haustechnik",
-    subCategory: "Haustechnik",
-    // subCategory: "Gebäudetechnik", // !
+    subCategory: "Bau & Renovierung",
   },
   {
     name: "MSD Baustoffrecycling",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#msd-baustoffrecycling-schoenwalde",
-    subCategory: "Recycling & Entsorgung",
-    // subCategory: "Baumaterialien", // !
+    subCategory: "Bau & Renovierung",
   },
   {
     name: "NOTUS energy",
@@ -183,14 +182,13 @@ export const subcategories = [
     name: "Tischlerei Schneider",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#tischlerei-schneider",
-    subCategory: "Holzverarbeitung",
+    subCategory: "Bau & Renovierung",
   },
   {
     name: "Trocknungsservice Gefreiter GmbH",
     category: "Handwerkgewerbe & Dienstleistungen",
     path: "/tradeServices#trocknungsservice-gefreiter-gmbh",
-    subCategory: "Sanierungsdienste",
-    // subCategory: "Schadensanierung", // !
+    subCategory: "Bau & Renovierung",
   },
 
   // Natur & Freizeit
@@ -198,7 +196,6 @@ export const subcategories = [
     name: "Alpakafarm",
     category: "Natur & Freizeit",
     path: "/leisure#alpakafarm",
-    // subCategory: "",
   },
   {
     name: "Dorfgemeindschaftshaus",
@@ -210,11 +207,11 @@ export const subcategories = [
     category: "Natur & Freizeit",
     path: "/leisure#jugendclub",
   },
-  {
-    name: "Lebendiges Schönwalde",
-    category: "Handwerkgewerbe & Dienstleistungen",
-    path: "/tradeServices#lebendiges-schoenwalde",
-  },
+  // {
+  //   name: "Lebendiges Schönwalde",
+  //   category: "Natur & Freizeit",
+  //   path: "/leisure#lebendiges-schoenwalde",
+  // },
   {
     name: "Mühlenverein",
     category: "Natur & Freizeit",
