@@ -291,7 +291,7 @@ Verantwortlich & Ansprechpartner: Die Leitung des Vereins liegt in den Händen d
  <!-- MUEHLENVEREIN_TEXT_END -->
 
 <!-- MUEHLENVEREIN_PHOTO_START -->
-/images/Natur_Freizeit/Muehlenverein/mainPhoto.png
+/images/Natur_Freizeit/Muehlenverein/mainPhoto.jpeg
 <!-- MUEHLENVEREIN_PHOTO_END -->
 
 ---

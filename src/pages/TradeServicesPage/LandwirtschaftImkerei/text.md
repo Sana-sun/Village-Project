@@ -20,7 +20,7 @@ Die Agrargemeinschaft mit Sitz in Bersteland betreibt einen modernen Landwirtsch
 📞 Telefon: +49 35474 702
 <!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_TEXT_END -->
 <!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_PHOTO_START -->
-/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto.png
 <!-- AGRARGEMEINSCHAFTFREIWALDESCHOENWALDE_PHOTO_END -->
 
 
