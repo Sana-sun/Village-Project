@@ -104,10 +104,10 @@
 import { useRef, useState } from "react";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import IconSearch from "../IconSearch/IconSearch";
-import { LogoBtn, LogoImage, LogoText, MenuWrapper, VideoContainer } from "./styles";
+import { LogoBtn, LogoText, MenuWrapper, VideoContainer } from "./styles";
 
 function Header() {
-  const [videoFailed, setVideoFailed] = useState(false);
+  const [_, setVideoFailed] = useState(false);
   const videoRef = useRef<HTMLVideoElement | null>(null);
 
   const handleHomePage = () => {
