@@ -134,7 +134,7 @@ Oder jederzeit nach Vereinbarung
 🌐 **Webseite:** [Mädchenträume by Eileen](https://www.xn--mdchentrume-by-eileen-51bh.de/)
 <!-- MAEDCHENBYEILEEN_TEXT_END -->
 <!-- MAEDCHENBYEILEEN_PHOTO_START -->
-/images/Handel_Dienstleistungen/Schönheitspflege/Mädchenträume_by_Eileen/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Schönheitspflege/Mädchenträume_by_Eileen/mainPhoto2.jpg
 <!-- MAEDCHENBYEILEEN_PHOTO_END -->
 
 <!-- PFLEGE, SCHÖNHEIT & BETREUUNG_SUBCATEGORY_END -->
