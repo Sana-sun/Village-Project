@@ -72,7 +72,7 @@ export const StyledNavLink = styled(NavLink)<{ $active?: boolean }>`
   padding: 10px 20px;
   font-size: 1.125rem;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 12px;
   border: 2px solid #0439ab;
   width: 100%;
   box-sizing: border-box;

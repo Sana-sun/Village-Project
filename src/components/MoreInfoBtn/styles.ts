@@ -5,7 +5,7 @@ export const BtnWrapper = styled.button<{ $active?: boolean }>`
   padding: 10px 20px;
   font-size: 1.125rem;
   font-weight: bold;
-  border-radius: 20px;
+  border-radius: 12px;
   border: none;
   cursor: pointer;
   width: 100%;

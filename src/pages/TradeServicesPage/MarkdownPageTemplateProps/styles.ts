@@ -74,7 +74,7 @@ export const SloganText = styled.div`
   align-items: center;
   margin: 20px 0;
   background-color: #0033a0;
-  border-radius: 20px;
+  border-radius: 12px;
   padding: 10px 20px;
   color: white;
   font-weight: bold;
@@ -99,7 +99,7 @@ export const FotoContainer = styled.div`
   padding: 20px;
   width: 650px;
   height: 500px;
-  border-radius: 20px;
+  border-radius: 12px;
 
   @media (max-width: 768px) {
   }
@@ -109,7 +109,7 @@ export const TextContainer = styled.div`
   padding: 20px;
   width: 650px;
   height: 500px;
-  border-radius: 20px;
+  border-radius: 12px;
   border: 2px solid #0033a0;
 
   @media (max-width: 768px) {

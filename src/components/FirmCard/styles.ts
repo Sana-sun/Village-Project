@@ -24,7 +24,7 @@ background-color: lightgray;
 padding: 20px;
 width: 650px;
 height: 500px;
-border-radius: 20px;
+border-radius: 12px;
 `
 
 
@@ -34,7 +34,7 @@ export const CardWrapper = styled.div`
 /* margin: 20px; */
 width: 650px;
 height: 500px;
-border-radius: 20px;
+border-radius: 12px;
 
 `
 

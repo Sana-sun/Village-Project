@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const MainContext = styled.div`
   padding: 40px 60px;
+
+  @media (max-width: 768px) {
+      padding: 40px 30px;
+  }
 `;
 
 

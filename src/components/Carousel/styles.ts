@@ -39,7 +39,7 @@
 //     width: 100%;
 //     height: 100%;
 //     object-fit: cover;
-//     border-radius: 20px;
+//     border-radius: 12px;
 //     /* border-radius: 10px; */
 
 //     transition: transform 8s ease-in-out, opacity 3s ease-in-out;
@@ -74,7 +74,7 @@
 //   width: 100%;
 //   height: 70%;
 //   object-fit: cover;
-//   border-radius: 20px;
+//   border-radius: 12px;
 //   /* border-radius: 10px; */
 //   /* opacity: 0.7; */
 //   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

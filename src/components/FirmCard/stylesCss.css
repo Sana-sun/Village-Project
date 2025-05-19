@@ -19,7 +19,7 @@
     background-color: #ffffff;
     border: 4px solid;
     border-color: #0033a0;
-    border-radius: 20px;
+    border-radius: 12px;
     height: 500px;
     left: 735px;
     position: absolute;
@@ -70,7 +70,7 @@
   
   .desktop .rectangle {
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: 12px;
     height: 60px;
     left: 80px;
     position: absolute;

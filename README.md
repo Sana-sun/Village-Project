@@ -14,4 +14,12 @@ Instalatuions:
 10) npm install react-quill --legacy-peer-deps
 11) npm install marked
 12) npm install gapi-script
-13) 
+
+13) Для додавання нової картки і підключення до мережі, потрібно щоб 
+name: "KOMPLETT Gerüstbau GmbH", та 
+path: "/tradeServices/bau-&-renovierung#komplett-geruestbau-gmbh", та
+<!-- KOMPLETTGERUESTBAUGMBH_NAME_START -->
+KOMPLETT Gerüstbau GmbH
+<!-- KOMPLETTGERUESTBAUGMBH_NAME_END -->
+були повністю ідентичнми - слово слово, літера до літери!
+Категорія Alle / All в бізнесі відсутня

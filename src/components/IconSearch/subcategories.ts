@@ -85,10 +85,16 @@ export const subcategories = [
     path: "/tradeServices/kfz#autohaus-vogler",
   },
   {
-    name: "Autohaus Waldow",
+    name: "KFZ Werkstatt Mathias Wenske",
     category: "Handwerkgewerbe & Dienstleistungen",
     subCategory: "Kfz",
-    path: "/tradeServices/kfz#autohaus-waldow",
+    path: "/tradeServices/kfz#kfz-werkstatt-mathias-wenske",
+    },
+  {
+    name: "KFZ Meisterbetrieb Ronny Hess",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    subCategory: "Kfz",
+    path: "/tradeServices/kfz#kfz-meisterbetrieb-ronny-hess",
   },
   {
     name: "Bäckerei & Konditorei Kuske",
@@ -161,6 +167,13 @@ export const subcategories = [
     category: "Handwerkgewerbe & Dienstleistungen",
     subCategory: "Bau & Renovierung",
     path: "/tradeServices/bau-&-renovierung#komplett-geruestbau-gmbh",
+  },
+  {
+    // name: "Mädchenträume by Eileen",
+    name: "by Eileen",
+    category: "Handwerkgewerbe & Dienstleistungen",
+    subCategory: "Pflege, Schönheit & Betreuung",
+    path: "/tradeServices/pflege-schoenheit-&-betreuung#by-eileen",
   },
   {
     name: "Malerbetrieb Dieter Ihl",

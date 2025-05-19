@@ -3,8 +3,8 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const SearchMenuContainer = styled.div`
-  position: relative;
-  z-index: 1;
+  /* position: relative; */
+  /* z-index: 1; */
 `;
 
 export const SearchButton = styled.button`
@@ -14,9 +14,9 @@ export const SearchButton = styled.button`
   color: white;
   cursor: pointer;
 
-   display: flex;
-   padding: 8px;
-  
+  display: flex;
+  padding: 8px;
+
   &:hover {
     border-radius: 4px;
     background: #002277;
@@ -47,34 +47,25 @@ export const ModalOverlay = styled.div`
 `;
 
 export const ModalContent = styled.div`
-  /* background: #0033a0; */
-  /* background: red; */
   background: white;
-  /* color: white; */
   color: #0033a0;
   padding: 30px;
   border-radius: 12px;
   width: 90%;
-  max-width: 400px;
   max-width: 500px;
-  max-height: 500px;
-  max-height: 430px;
-  /* max-height: 80vh; */
+  max-height: 80vh;
 
   position: absolute;
-  /* top: 120px; */
   top: 100px;
   right: 60px;
 
   overflow-y: auto;
-  /* scrollbar-color: gray transparent; */
   scrollbar-color: #0033a0 transparent;
 
   @media (max-width: 768px) {
     left: 30px;
-    top: 20px;
-  max-width: 350px;
-
+    max-width: 350px;
+    max-height: 80vh;
   }
 
   @media (max-width: 433px) {
@@ -118,7 +109,7 @@ export const MenuItemLabel = styled(Link)<{ $active?: boolean }>`
   /* background: #e4f1fe; */
   background: #e4f1fe9a;
   /* background: #0033A0; */
-  border-radius: 20px;
+  border-radius: 12px;
   padding: 8px 20px;
 `;
 
@@ -176,7 +167,7 @@ export const SearchInput = styled.input`
   color: #0033a0;
   transition: all 0.3s ease-in-out;
   margin-bottom: 20px;
-  
+
   &:hover {
     background: #e4f1fe;
   }

@@ -112,7 +112,7 @@
 
 // //   font-size: 16px;
 // //   margin-bottom: 10px;
-// //   border-radius: 20px;
+// //   border-radius: 12px;
 // //   background: ${({ $active }) => ($active ? "white" : "transparent")};
 // //   transition: all 0.2s ease;
 
@@ -120,7 +120,7 @@
 // //     display: block;
 // //     color: ${({ $active }) => ($active ? "#0033A0" : "white")};
 // //     padding: 8px 12px;
-// //     border-radius: 20px;
+// //     border-radius: 12px;
 // //     text-decoration: none;
 
 // //     &:hover {
@@ -140,7 +140,7 @@
 //   position: relative;
 //   font-size: 16px;
 //   margin-bottom: 10px;
-//   border-radius: 20px;
+//   border-radius: 12px;
 //   background: ${({ $active }) => ($active ? "white" : "transparent")};
 //   transition: all 0.2s ease;
 //   padding-left: 28px;
@@ -165,7 +165,7 @@
 //     display: block;
 //     color: ${({ $active }) => ($active ? "#0033A0" : "white")};
 //     padding: 8px 12px;
-//     border-radius: 20px;
+//     border-radius: 12px;
 //     text-decoration: none;
 
 //     &:hover {
@@ -176,7 +176,7 @@
 
 // export const FaItem = styled.div`
 //   padding: 6px 20px;
-//   border-radius: 20px;
+//   border-radius: 12px;
 
 //   &:hover {
 //     background: rgba(255, 255, 255, 0.1);
@@ -317,7 +317,7 @@
 
 // //   font-size: 16px;
 // //   margin-bottom: 10px;
-// //   border-radius: 20px;
+// //   border-radius: 12px;
 // //   background: ${({ $active }) => ($active ? "white" : "transparent")};
 // //   transition: all 0.2s ease;
 
@@ -325,7 +325,7 @@
 // //     display: block;
 // //     color: ${({ $active }) => ($active ? "#0033A0" : "white")};
 // //     padding: 8px 12px;
-// //     border-radius: 20px;
+// //     border-radius: 12px;
 // //     text-decoration: none;
 
 // //     &:hover {
@@ -345,7 +345,7 @@
 //   position: relative;
 //   font-size: 16px;
 //   margin-bottom: 10px;
-//   border-radius: 20px;
+//   border-radius: 12px;
 //   background: ${({ $active }) => ($active ? "white" : "transparent")};
 //   transition: all 0.2s ease;
 //   padding-left: 28px;
@@ -370,7 +370,7 @@
 //     display: block;
 //     color: ${({ $active }) => ($active ? "#0033A0" : "white")};
 //     padding: 8px 12px;
-//     border-radius: 20px;
+//     border-radius: 12px;
 //     text-decoration: none;
 
 //     &:hover {
@@ -381,7 +381,7 @@
 
 // export const FaItem = styled.div`
 //   padding: 6px 20px;
-//   border-radius: 20px;
+//   border-radius: 12px;
 
 //   &:hover {
 //     background: rgba(255, 255, 255, 0.1);
@@ -400,7 +400,7 @@
 
 //   &:hover {
 //     background: rgba(255, 255, 255, 0.1);
-//   border-radius: 20px;
+//   border-radius: 12px;
 
 //   }
 
@@ -447,8 +447,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const BurgerMenuContainer = styled.div`
-  position: relative;
-  z-index: 2;
 `;
 
 export const BurgerButton = styled.button`
@@ -485,10 +483,11 @@ export const ModalContent = styled.div`
   color: white;
   padding: 30px;
   /* border-radius: 12px; */
-  border-radius: 20px;
+  border-radius: 12px;
   width: 90%;
   /* max-width: 450px; */
   max-width: 500px;
+
   position: absolute;
   top: 100px;
   left: 60px;
@@ -557,7 +556,7 @@ export const MenuSubList = styled.ul`
 export const MenuSubItem = styled.li<{ $active?: boolean }>`
   font-size: 16px;
   margin-bottom: 8px;
-  border-radius: 20px;
+  border-radius: 12px;
 /* 
   background: ${({ $active }) => ($active ? "white" : "transparent")}; */
   background: ${({ $active }) => ($active ? "#e4f1fe63" : "transparent")};
@@ -583,7 +582,7 @@ export const MenuSubItem = styled.li<{ $active?: boolean }>`
     /* color: ${({ $active }) => ($active ? "#0033A0" : "white")}; */
     color: white;
     padding: 6px 12px;
-    border-radius: 20px;
+    border-radius: 12px;
     text-decoration: none;
     /* font-weight: ${({ $active }) => ($active ? 600 : 400)}; */
 
@@ -596,7 +595,7 @@ export const MenuSubItem = styled.li<{ $active?: boolean }>`
 export const FaItem = styled.div`
   padding: 10px 20px;
 
-  border-radius: 20px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
 
@@ -612,7 +611,7 @@ export const SubcategoryTitle = styled.div`
   padding: 6px 12px;
   color: #ddd;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 12px;
 
   transition: background 0.3s;
   width: 100%;
@@ -643,7 +642,7 @@ export const MenuSubItemArrow = styled.span<{ $active?: boolean }>`
   cursor: pointer;
   padding: 6px 10px;
   color: ${({ $active }) => ($active ? "#0033A0" : "lightgray")};
-  border-radius: 20px;
+  border-radius: 12px;
   transition: color 0.3s, background 0.3s;
 
   &:hover {

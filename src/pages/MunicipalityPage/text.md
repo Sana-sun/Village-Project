@@ -47,8 +47,8 @@ Bahnhofstr. 101a
 
 <!-- FEUERWEHRSCHOENWALDE_IMAGES_START -->
 /images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/1.jpg
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/2.jpeg
-/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/3.crdownload
+/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/5.jpg
+/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/4.jpg
 <!-- FEUERWEHRSCHOENWALDE_IMAGES_END -->
 
 ---
@@ -156,7 +156,8 @@ Zudem werden regelmäßig Hochzeiten gefeiert – ein unvergesslicher Rahmen fü
 <!-- KIRCHE_PHOTO_END -->
 
 <!-- KIRCHE_IMAGES_START -->
-/images/Gemeinde_Verwaltung/Kirche/mainPhoto.jpg
-/images/Gemeinde_Verwaltung/Kirche/2.jpg
 /images/Gemeinde_Verwaltung/Kirche/3.jpg
+/images/Gemeinde_Verwaltung/Kirche/4.jpg
+/images/Gemeinde_Verwaltung/Kirche/5.jpg
+/images/Gemeinde_Verwaltung/Kirche/7.jpg
 <!-- KIRCHE_IMAGES_END -->

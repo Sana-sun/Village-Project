@@ -65,13 +65,13 @@ const [isScrollable, setIsScrollable] = useState<boolean>(false); // 🔹 Кон
        </IntroWrapper>
 
       <Navigation>
-        <StyledNavLink
+        {/* <StyledNavLink
           to="all-services"
           $active={location.pathname.includes("all-services")}
           onClick={() => handleCategoryClick("Alle")}
         >
           Alle
-        </StyledNavLink>
+        </StyledNavLink> */}
 
         <StyledNavLink
           to="bau-&-renovierung"

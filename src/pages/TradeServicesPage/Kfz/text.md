@@ -33,8 +33,7 @@ Sa: 08:00–12:00 sowie nach Vereinbarung
 Autohaus Vogler
 <!-- AUTOHAUSVOGLER_NAME_END -->
 <!-- AUTOHAUSVOGLER_SLOGAN_START -->
-Vertrauen, Service, Qualität – Ihr Partner 
-rund ums Auto
+Vertrauen, Service, Qualität – Ihr Partner rund ums Auto
 <!-- AUTOHAUSVOGLER_SLOGAN_END -->
 <!-- AUTOHAUSVOGLER_TEXT_START -->
 🚗 **Autohaus Vogler – Mobilität mit Vertrauen**
@@ -59,21 +58,57 @@ Sa: auch nach Vereinbarung
 <!-- AUTOHAUSVOGLER_PHOTO_END -->
 
 
-<!-- AUTOHAUSWALDOW_NAME_START -->
-Autohaus Waldow
-<!-- AUTOHAUSWALDOW_NAME_END -->
-<!-- AUTOHAUSWALDOW_SLOGAN_START -->
-Mobilität beginnt hier – Autohaus Waldow
-<!-- AUTOHAUSWALDOW_SLOGAN_END -->
-<!-- AUTOHAUSWALDOW_TEXT_START -->
-🚗 **Autohaus Waldow – Fahrspaß und Qualität**  
+<!-- KFZWERKSTATTMATHIASWENSKE_NAME_START -->
+KFZ Werkstatt Mathias Wenske
+<!-- KFZWERKSTATTMATHIASWENSKE_NAME_END -->
+<!-- KFZWERKSTATTMATHIASWENSKE_SLOGAN_START -->
+Mobilität beginnt hier – Werkstatt Mathias Wenske
+<!-- KFZWERKSTATTMATHIASWENSKE_SLOGAN_END -->
+<!-- KFZWERKSTATTMATHIASWENSKE_TEXT_START -->
+🚗 **KFZ Werkstatt Mathias Wenske – Fahrspaß und Qualität**  
 
 Unsere Leidenschaft ist dein Fahrzeug! Von modernen Autos bis hin zu klassischen Reparaturen – wir bringen dich sicher auf die Straße.  
 
-📌 **Adresse:** Krausnicker Weg 7, 15910 Schönwalde  
-<!-- AUTOHAUSWALDOW_TEXT_END -->
-<!-- AUTOHAUSWALDOW_PHOTO_START -->
-/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Waldow/mainPhoto.jpg
-<!-- AUTOHAUSWALDOW_PHOTO_END -->
+🕒 **Öffnungszeiten:**  
+Mo–Di: 08:00–18:00   
+Fr: 08:00–16:00   
+Sa–So: geschlossen  
+
+📌 **Adresse:** Dorfstr 7 · 15910 Schönwald (OT Waldow)
+
+📞 **Telefon:** 035477 272
+
+✉️ **E-Mail:** dreamcars@werkstatt-wenske.de
+
+🌐 **Webseite:** [Kfz Werkstatt Wenske](http://www.werkstatt-wenske.de/ueber-uns/)
+<!-- KFZWERKSTATTMATHIASWENSKE_TEXT_END -->
+<!-- KFZWERKSTATTMATHIASWENSKE_PHOTO_START -->
+/images/Handel_Dienstleistungen/Fahrzeuge/Werkstatt_Mathias_Wenske/mainPhoto.jpeg
+<!-- KFZWERKSTATTMATHIASWENSKE_PHOTO_END -->
+
+
+<!-- MEISTERBETRIEBRONNYHESS_NAME_START -->
+KFZ Meisterbetrieb Ronny Hess
+<!-- MEISTERBETRIEBRONNYHESS_NAME_END -->
+<!-- MEISTERBETRIEBRONNYHESS_SLOGAN_START -->
+Verlässliche Fahrzeuge, persönliche Beratung – ganz in Ihrer Nähe
+<!-- MEISTERBETRIEBRONNYHESS_SLOGAN_END -->
+<!-- MEISTERBETRIEBRONNYHESS_TEXT_START -->
+🚗 **KFZ Meisterbetrieb Ronny Hess – Nachhaltig. Zuverlässig. Vor Ort.**  
+
+Wir bieten Kfz-Reparaturen aller Art. Wir stehen Ihnen immer gerne zur Verfügung. In unserer Werkstatt erhalten Sie ein faires Angebot, und Sie müssen nicht lange auf die Reparaturen warten.  
+
+🕒 **Öffnungszeiten:**  
+nach Vereinbarung
+
+📌 **Adresse:** Schönwalder Str. 4 · 15910 Schönwald bei Lübben (OT Waldow)
+
+📞 **Telefon:** 035477 659573
+
+🌐 **Webseite:** [Ronny Hess](http://www.ronny-hess.de/)
+<!-- MEISTERBETRIEBRONNYHESS_TEXT_END -->
+<!-- MEISTERBETRIEBRONNYHESS_PHOTO_START -->
+/images/Handel_Dienstleistungen/Fahrzeuge/Meisterbetrieb_Ronny_Hess/mainPhoto.jpg
+<!-- MEISTERBETRIEBRONNYHESS_PHOTO_END -->
 
 <!-- KFZ_SUBCATEGORY_END -->

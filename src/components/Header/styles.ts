@@ -35,14 +35,14 @@ export const FotoWrapper = styled.div`
   padding: 20px;
   width: 650px;
   height: 500px;
-  border-radius: 20px;
+  border-radius: 12px;
 `;
 
 export const CardWrapper = styled.div`
   width: 650px;
   height: 500px;
   width: 650px;
-  border-radius: 20px;
+  border-radius: 12px;
 `;
 
 export const LogoBtn = styled.button`

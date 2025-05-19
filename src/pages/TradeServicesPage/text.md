@@ -77,7 +77,7 @@ Natürlich, nachhaltig, regional
 🍯 **Imkerei Haus 5** – Ein Ort, an dem Bienen in naturbelassener Umgebung hochwertigen Honig produzieren. Mit traditionellen Methoden und moderner Imkereitechnik wird der Honig nachhaltig geerntet, um die Qualität und Reinheit zu bewahren.  
 <!-- IMKEREIHAUS5_TEXT_END -->
 <!-- IMKEREIHAUS5_PHOTO_START -->
-/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto.png
+/images/Handel_Dienstleistungen/Imkerei/Haus_5/mainPhoto.jpg
 <!-- IMKEREIHAUS5_PHOTO_END -->
 
 <!-- LANDWIRTSCHAFT & IMKEREI_SUBCATEGORY_END -->
@@ -143,24 +143,6 @@ Sa: auch nach Vereinbarung
 <!-- AUTOHAUSVOGLER_PHOTO_START -->
 /images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Vogler/mainPhoto.jpg
 <!-- AUTOHAUSVOGLER_PHOTO_END -->
-
-
-<!-- AUTOHAUSWALDOW_NAME_START -->
-Autohaus Waldow
-<!-- AUTOHAUSWALDOW_NAME_END -->
-<!-- AUTOHAUSWALDOW_SLOGAN_START -->
-Mobilität beginnt hier – Autohaus Waldow
-<!-- AUTOHAUSWALDOW_SLOGAN_END -->
-<!-- AUTOHAUSWALDOW_TEXT_START -->
-🚗 **Autohaus Waldow – Fahrspaß und Qualität**  
-
-Unsere Leidenschaft ist dein Fahrzeug! Von modernen Autos bis hin zu klassischen Reparaturen – wir bringen dich sicher auf die Straße.  
-
-📌 **Adresse:** Krausnicker Weg 7, 15910 Schönwalde  
-<!-- AUTOHAUSWALDOW_TEXT_END -->
-<!-- AUTOHAUSWALDOW_PHOTO_START -->
-/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Waldow/mainPhoto.jpg
-<!-- AUTOHAUSWALDOW_PHOTO_END -->
 
 <!-- KFZ_SUBCATEGORY_END -->
 
@@ -559,37 +541,6 @@ Unsere Arbeit erfolgt fachgerecht, sicher und individuell angepasst an jedes Pro
 
 ---
 
-<!-- RECYCLING & ENTSORGUNG_SUBCATEGORY_START -->
-
-<!-- MSDBAUSTOFFRECYCLING_NAME_START -->
-MSD Baustoffrecycling
-<!-- MSDBAUSTOFFRECYCLING_NAME_END -->
-<!-- MSDBAUSTOFFRECYCLING_SLOGAN_START -->
-Nachhaltige Lösungen für Baustoffe
-<!-- MSDBAUSTOFFRECYCLING_SLOGAN_END -->
-<!-- MSDBAUSTOFFRECYCLING_TEXT_START -->
-♻️ **MSD Baustoffrecycling Schönwalde – Wiederverwertung für eine saubere Zukunft**
-
-Ob Bauschutt, Beton oder Erde – hier werden Materialien fachgerecht angenommen, sortiert und für eine nachhaltige Wiederverwendung aufbereitet. Ein verlässlicher Partner für Entsorgung und Rohstoffkreislauf im Bauwesen.
-
-🕒 **Öffnungszeiten:** 
-Mo–Fr: 07:00–17:00 
-Sa: nach Vereinbarung 
-So: geschlossen
-
-📌 **Adresse:** Lubolzer Straße, 15910 Schönwald (Schönwalde)
-
-📞 **Telefon:** 0176 84753864
-
-🌐 **Webseite:** [msd-recycling.de](https://msd-recycling.de)
-<!-- MSDBAUSTOFFRECYCLING_TEXT_END -->
-<!-- MSDBAUSTOFFRECYCLING_PHOTO_START -->
-/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Bauland/mainPhoto.png
-<!-- MSDBAUSTOFFRECYCLING_PHOTO_END -->
-
-<!-- RECYCLING & ENTSORGUNG_SUBCATEGORY_END -->
-
----
 
 <!-- ENERGIE & UMWELT_SUBCATEGORY_START -->
 
@@ -656,3 +607,96 @@ Sa-So: geschlossen
 <!-- HOLZVERARBEITUNG_SUBCATEGORY_END -->
 
 ---
+
+
+
+<!-- MEISTERBETRIEBRONNYHESS_NAME_START -->
+Mädchenträume by Eileen
+<!-- MEISTERBETRIEBRONNYHESS_NAME_END -->
+<!-- MEISTERBETRIEBRONNYHESS_SLOGAN_START -->
+Dein Traumkleid – mit Liebe ausgewählt
+<!-- MEISTERBETRIEBRONNYHESS_SLOGAN_END -->
+<!-- MEISTERBETRIEBRONNYHESS_TEXT_START -->
+👗 **Mädchenträume by Eileen – dein perfektes Brautkleid wartet!**  
+
+Wir begleiten dich auf der Suche nach deinem Traumkleid – in entspannter Atmosphäre und mit individueller Beratung.
+
+
+🕒 **Öffnungszeiten:**  
+Mi: 14:00 - 19:00 Uhr  
+auch ohne Termin  
+Oder jederzeit nach Vereinbarung 
+
+📌 **Adresse:** Dorfstr. 53 · 15910 Schönwald (OT Waldow)
+
+📞 **Telefon:** 0160 97224500
+
+✉️ **E-Mail:** info@byeileen.de
+
+🅕 **Facebook:** [Mädchenträume by Eileen ](https://www.facebook.com/people/M%C3%A4dchentr%C3%A4ume-by-Eileen/100032460170590/)
+
+🌐 **Webseite:** [Mädchenträume by Eileen](https://www.xn--mdchentrume-by-eileen-51bh.de/)
+<!-- MEISTERBETRIEBRONNYHESS_TEXT_END -->
+<!-- MEISTERBETRIEBRONNYHESS_PHOTO_START -->
+/images/Handel_Dienstleistungen/Schönheitspflege/Mädchenträume_by_Eileen/mainPhoto.jpg
+<!-- MEISTERBETRIEBRONNYHESS_PHOTO_END -->
+
+---
+
+
+
+<!-- WERKSTATTMATHIASWENSKE_NAME_START -->
+KFZ Werkstatt Mathias Wenske
+<!-- WERKSTATTMATHIASWENSKE_NAME_END -->
+<!-- WERKSTATTMATHIASWENSKE_SLOGAN_START -->
+Mobilität beginnt hier – Werkstatt Mathias Wenske
+<!-- WERKSTATTMATHIASWENSKE_SLOGAN_END -->
+<!-- WERKSTATTMATHIASWENSKE_TEXT_START -->
+🚗 **KFZ Werkstatt Mathias Wenske – Fahrspaß und Qualität**  
+
+Unsere Leidenschaft ist dein Fahrzeug! Von modernen Autos bis hin zu klassischen Reparaturen – wir bringen dich sicher auf die Straße.  
+
+🕒 **Öffnungszeiten:**  
+Mo–Di: 08:00–18:00   
+Fr: 08:00–16:00   
+Sa–So: geschlossen  
+
+📌 **Adresse:** Dorfstr 7 · 15910 Schönwald (OT Waldow)
+
+📞 **Telefon:** 035477 272
+
+✉️ **E-Mail:** dreamcars@werkstatt-wenske.de
+
+🌐 **Webseite:** [Kfz Werkstatt Wenske](http://www.werkstatt-wenske.de/ueber-uns/)
+<!-- WERKSTATTMATHIASWENSKE_TEXT_END -->
+<!-- WERKSTATTMATHIASWENSKE_PHOTO_START -->
+/images/Handel_Dienstleistungen/Fahrzeuge/Werkstatt_Mathias_Wenske/mainPhoto.jpeg
+<!-- WERKSTATTMATHIASWENSKE_PHOTO_END -->
+
+
+---
+
+
+<!-- MEISTERBETRIEBRONNYHESS_NAME_START -->
+KFZ Meisterbetrieb Ronny Hess
+<!-- MEISTERBETRIEBRONNYHESS_NAME_END -->
+<!-- MEISTERBETRIEBRONNYHESS_SLOGAN_START -->
+Verlässliche Fahrzeuge, persönliche Beratung – ganz in Ihrer Nähe
+<!-- MEISTERBETRIEBRONNYHESS_SLOGAN_END -->
+<!-- MEISTERBETRIEBRONNYHESS_TEXT_START -->
+🚗 **KFZ Meisterbetrieb Ronny Hess – Nachhaltig. Zuverlässig. Vor Ort.**  
+
+Wir bieten Kfz-Reparaturen aller Art. Wir stehen Ihnen immer gerne zur Verfügung. In unserer Werkstatt erhalten Sie ein faires Angebot, und Sie müssen nicht lange auf die Reparaturen warten.  
+
+🕒 **Öffnungszeiten:**  
+nach Vereinbarung
+
+📌 **Adresse:** Schönwalder Str. 4 · 15910 Schönwald bei Lübben (OT Waldow)
+
+📞 **Telefon:** 035477 659573
+
+🌐 **Webseite:** [Ronny Hess](http://www.ronny-hess.de/)
+<!-- MEISTERBETRIEBRONNYHESS_TEXT_END -->
+<!-- MEISTERBETRIEBRONNYHESS_PHOTO_START -->
+/images/Handel_Dienstleistungen/Fahrzeuge/Meisterbetrieb_Ronny_Hess/mainPhoto.jpg
+<!-- MEISTERBETRIEBRONNYHESS_PHOTO_END -->
