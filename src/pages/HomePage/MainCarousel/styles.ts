@@ -118,7 +118,7 @@ export const MainImageContainer = styled.div`
 export const DotsContainer = styled.div`
   position: absolute;
   bottom: 10px;
-  bottom: 5px;
+  /* bottom: 5px; */
   left: 50%;
   transform: translateX(-50%);
   /* z-index: 1; */
@@ -150,13 +150,14 @@ export const Dot = styled.div<{ $isActive: boolean }>`
 export const FotoTextContainer = styled.div`
   position: absolute;
   bottom: 30px;
-  bottom: 20px;
+  /* bottom: 20px; */
   right: 50%;
   transform: translateX(50%);
 
   color: #fff;
   font-size: 1.5rem;
-  background-color: rgba(0, 51, 160, 0.8);
+  /* background-color: rgba(0, 51, 160, 0.8); */
+  background-color: #002d96d6;
   padding: 16px 24px;
   border-radius: 16px;
   font-weight: bold;

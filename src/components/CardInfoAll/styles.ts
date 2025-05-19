@@ -58,7 +58,8 @@ export const TextContainer = styled.div`
   box-sizing: border-box;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  scrollbar-color: #0033a0 transparent;
+  /* scrollbar-color: #0033a0 transparent; */
+  scrollbar-color: #002c96 transparent;
 
   p {
     margin-bottom: 0.5rem;

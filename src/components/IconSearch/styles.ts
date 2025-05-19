@@ -48,7 +48,8 @@ export const ModalOverlay = styled.div`
 
 export const ModalContent = styled.div`
   background: white;
-  color: #0033a0;
+  /* color: #0033a0; */
+  color: #002c96;
   padding: 30px;
   border-radius: 12px;
   width: 90%;
@@ -60,7 +61,8 @@ export const ModalContent = styled.div`
   right: 60px;
 
   overflow-y: auto;
-  scrollbar-color: #0033a0 transparent;
+  /* scrollbar-color: #0033a0 transparent; */
+  scrollbar-color: #002c96 transparent;
 
   @media (max-width: 768px) {
     left: 30px;

@@ -28,6 +28,7 @@ p {
 
 a {
 color: white;
+  /* color: #002c96; */
 }
 
 #root {

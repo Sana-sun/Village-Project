@@ -5,7 +5,9 @@ export const SloganText = styled.h3`
   justify-content: center;
   align-items: center;
   margin: 1.5rem 0;
-  background-color: #0033a0e8;
+  /* background-color: #0033a0e8; */
+  background-color: #002c96;
+
   border-radius: 1rem;
   padding: 0.75rem 1.5rem;
   color: white;
@@ -53,12 +55,15 @@ export const TextContainer = styled.div`
   /* padding: 30px; */
   /* margin: 1.25rem; */
   border-radius: 1rem;
-  border: 2px solid #0033a0;
+  /* border: 2px solid #0033a0; */
+  border: 2px solid #002c96;
+
   overflow-y: auto;
   box-sizing: border-box;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  scrollbar-color: #0033a0 transparent;
+  /* scrollbar-color: #0033a0 transparent; */
+  scrollbar-color: #002c96 transparent;
 
   p {
     margin-bottom: 0.5rem;

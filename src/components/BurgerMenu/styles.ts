@@ -480,6 +480,8 @@ export const ModalOverlay = styled.div`
 
 export const ModalContent = styled.div`
   background: #0033a0;
+  /* background: #002c96; */
+  
   color: white;
   padding: 30px;
   /* border-radius: 12px; */

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 export const FooterWrapper = styled.div`
   background-color: #0033a0;
+  background-color: #002c96;
+
   display: flex;
   color: white;
   justify-content: space-between;
