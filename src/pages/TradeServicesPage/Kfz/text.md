@@ -83,7 +83,7 @@ Sa–So: geschlossen
 🌐 **Webseite:** [Kfz Werkstatt Wenske](http://www.werkstatt-wenske.de/ueber-uns/)
 <!-- KFZWERKSTATTMATHIASWENSKE_TEXT_END -->
 <!-- KFZWERKSTATTMATHIASWENSKE_PHOTO_START -->
-/images/Handel_Dienstleistungen/Fahrzeuge/Werkstatt_Mathias_Wenske/mainPhoto.jpeg
+/images/Handel_Dienstleistungen/Fahrzeuge/Werkstatt_Mathias_Wenske/mainPhoto-Picsart-AiImageEnhancer.jpeg
 <!-- KFZWERKSTATTMATHIASWENSKE_PHOTO_END -->
 
 
@@ -108,7 +108,7 @@ nach Vereinbarung
 🌐 **Webseite:** [Ronny Hess](http://www.ronny-hess.de/)
 <!-- MEISTERBETRIEBRONNYHESS_TEXT_END -->
 <!-- MEISTERBETRIEBRONNYHESS_PHOTO_START -->
-/images/Handel_Dienstleistungen/Fahrzeuge/Meisterbetrieb_Ronny_Hess/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Fahrzeuge/Meisterbetrieb_Ronny_Hess/mainPhoto3.jpg
 <!-- MEISTERBETRIEBRONNYHESS_PHOTO_END -->
 
 <!-- KFZ_SUBCATEGORY_END -->
