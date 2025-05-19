@@ -11,10 +11,10 @@ const MainCarousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    "/images/StartSeite/1.jpg",
+    "images/StartSeite/1.webp",
     // "/images/StartSeite/2.jpg",
     "/images/StartSeite/3.jpeg",
-    "/images/StartSeite/4.jpg",
+    "/images/StartSeite/4.webp",
     // "/images/StartSeite/9.jpeg",
     "/images/StartSeite/10.jpeg",
     // "/images/StartSeite/11.jpeg",

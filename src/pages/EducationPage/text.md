@@ -41,7 +41,7 @@ Monatlich findet ein offener Babytreff statt – ideal für Familien, die unsere
 <!-- KITA_TEXT_END -->
 
 <!-- KITA_PHOTO_START -->
-/images/Bildung_Gemeinschaft/Kita/mainPhoto.jpg
+/images/Bildung_Gemeinschaft/Kita/mainPhoto.webp
 <!-- KITA_PHOTO_END -->
 
 <!-- KITA_IMAGES_START -->
@@ -118,11 +118,11 @@ Kommen Sie vorbei, stöbern Sie – und lassen Sie sich inspirieren.
 **Schön, was unsere Dorfgemeinschaft gemeinsam schafft!**  
 <!-- MINIBIBLIOTEK_TEXT_END -->
 <!-- MINIBIBLIOTEK_PHOTO_START -->
-/images/Bildung_Gemeinschaft/Bibliotek/mainFoto.jpg
+/images/Bildung_Gemeinschaft/Bibliotek/mainFoto.webp
 <!-- MINIBIBLIOTEK_PHOTO_END -->
 
 <!-- MINIBIBLIOTEK_IMAGES_START -->
 /images/Bildung_Gemeinschaft/Bibliotek/1.jpg
 /images/Bildung_Gemeinschaft/Bibliotek/2.jpg
-/images/Bildung_Gemeinschaft/Bibliotek/3.jpg
+/images/Bildung_Gemeinschaft/Bibliotek/3.webp
 <!-- MINIBIBLIOTEK_IMAGES_END -->
