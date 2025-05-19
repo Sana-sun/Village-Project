@@ -107,7 +107,7 @@ nach Vereinbarung
 
 
 <!-- MAEDCHENBYEILEEN_NAME_START -->
-by Eileen
+Mädchenträume by Eileen
 <!-- MAEDCHENBYEILEEN_NAME_END -->
 <!-- MAEDCHENBYEILEEN_SLOGAN_START -->
 Dein Traumkleid – mit Liebe ausgewählt

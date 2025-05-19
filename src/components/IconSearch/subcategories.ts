@@ -170,10 +170,10 @@ export const subcategories = [
   },
   {
     // name: "Mädchenträume by Eileen",
-    name: "by Eileen",
+    name: "Mädchenträume by Eileen",
     category: "Handwerkgewerbe & Dienstleistungen",
     subCategory: "Pflege, Schönheit & Betreuung",
-    path: "/tradeServices/pflege-schoenheit-&-betreuung#by-eileen",
+    path: "/tradeServices/pflege-schoenheit-&-betreuung#madchentraume-by-eileen",
   },
   {
     name: "Malerbetrieb Dieter Ihl",

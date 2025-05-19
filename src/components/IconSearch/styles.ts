@@ -88,6 +88,7 @@ export const MenuItem = styled.li<{ $active?: boolean }>`
   /* padding: 10px 20px; */
   /* padding: 8px 20px; */
   border-radius: 40px;
+  border-radius: 12px;
   border: 1px solid ${({ $active }) => ($active ? "white" : "transparent")};
   background: ${({ $active }) => ($active ? "white" : "transparent")};
   color: ${({ $active }) => ($active ? "white" : "#0033a0;")};
@@ -161,6 +162,7 @@ export const SearchInput = styled.input`
   padding: 12px 15px;
   font-size: 18px;
   border-radius: 25px;
+  border-radius: 12px;
   border: 2px solid #0033a0;
   outline: none;
   background: #f8f9fc;

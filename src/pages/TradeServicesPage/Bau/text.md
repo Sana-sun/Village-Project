@@ -37,7 +37,7 @@ Sa–So: geschlossen
 🌐 **Info:** [Ingo Richter Dachdeckermeisterbetrieb](https://www.bing.com/maps?q=Dachdeckerbetrieb+Ingo+Richter&FORM=HDRSC6&cp=51.980557%7E13.766496&lvl=19.1)
 <!-- INGORICHTERDACHDECKER_TEXT_END -->
 <!-- INGORICHTERDACHDECKER_PHOTO_START -->
-/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto.png
 <!-- INGORICHTERDACHDECKER_PHOTO_END -->
 
 
@@ -124,7 +124,7 @@ Sa–So: geschlossen
 🌐 **Webseite:** [www.morgner-haustechnik.de](http://www.morgner-haustechnik.de)
 <!-- MORGNERHAUSTECHNIK_TEXT_END -->
 <!-- MORGNERHAUSTECHNIK_PHOTO_START -->
-/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner/mainPhoto.crdownload
+/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner/mainPhoto.jpg
 <!-- MORGNERHAUSTECHNIK_PHOTO_END -->
 
 
@@ -151,7 +151,7 @@ So: geschlossen
 🌐 **Webseite:** [msd-recycling.de](https://msd-recycling.de)
 <!-- MSDBAUSTOFFRECYCLING_TEXT_END -->
 <!-- MSDBAUSTOFFRECYCLING_PHOTO_START -->
-/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Bauland/mainPhoto.png
+/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Bauland/mainPhoto.jpeg
 <!-- MSDBAUSTOFFRECYCLING_PHOTO_END -->
 
 
@@ -181,7 +181,7 @@ Ob Schimmel, Rohrbruch oder Brand – wir sanieren fachgerecht & schnell. Für P
 🔗 **Facebook:** [WasserundBrandschadenbeseitigung](https://www.facebook.com/WasserundBrandschadenbeseitigung)
 <!-- TROCKNUNGSSERVICEGEFREITERGMBH_TEXT_END -->
 <!-- TROCKNUNGSSERVICEGEFREITERGMBH_PHOTO_START -->
-/images/Handel_Dienstleistungen/Sanierungsdienste/Gefreiter_Wasser/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Trocknungservice/mainPhoto.png
 <!-- TROCKNUNGSSERVICEGEFREITERGMBH_PHOTO_END -->
 
 

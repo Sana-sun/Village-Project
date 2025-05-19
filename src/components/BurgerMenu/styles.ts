@@ -513,6 +513,7 @@ export const MenuList = styled.ul`
 export const MenuItem = styled.li<{ $active?: boolean }>`
   margin-bottom: 20px;
   border-radius: 40px;
+  border-radius: 12px;
   /* background: ${({ $active }) => ($active ? "#0843c3" : "transparent")}; */
   /* background: ${({ $active }) => ($active ? "#e4f1fe9a" : "transparent")}; */
   background: ${({ $active }) => ($active ? "#e4f1fe63" : "transparent")};
@@ -529,6 +530,8 @@ export const MenuItemName = styled(Link)<{ $active?: boolean }>`
   font-size: 18px;
   padding: 10px 16px;
   border-radius: 40px;
+  border-radius: 12px;
+
   transition: all 0.3s ease;
     width: 100%;
   &:hover {

@@ -7,7 +7,7 @@ NOTUS energy
 Innovative Energielösungen
 <!-- NOTUSENERGY_SLOGAN_END -->
 <!-- NOTUSENERGY_TEXT_START -->
-💼 **NOTUS energy – Energiezukunft aus Schönwalde**
+⚡ **NOTUS energy – Energiezukunft aus Schönwalde**
 
 Wind und Sonne – das ist die Energie von morgen. NOTUS energy plant und betreut weltweit Wind- und Solarparks – und ist auch in Schönwalde mit einem Büro vertreten. Hier verbinden sich regionale Verankerung und globale Perspektive.
 
@@ -23,7 +23,7 @@ nach Vereinbarung
 🌐 **Webseite:** [www.notus.de](https://www.notus.de)
 <!-- NOTUSENERGY_TEXT_END -->
 <!-- NOTUSENERGY_PHOTO_START -->
-/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpeg
 <!-- NOTUSENERGY_PHOTO_END -->
 
 <!-- ENERGIE & UMWELT_SUBCATEGORY_END -->
