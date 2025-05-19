@@ -24,9 +24,9 @@ Dacharbeiten mit Präzision und Qualität
 
 Ob Neueindeckung, Reparatur oder Zimmerei – wir bieten fachgerechte Dacharbeiten aus einer Hand. Regional verwurzelt, handwerklich stark und zuverlässig – seit vielen Jahren im Einsatz für Schönwalde und Umgebung.
 
-🕒 **Öffnungszeiten**: 
-Mo–Fr: nach Vereinbarung 
-Sa–So: geschlossen
+🕒 **Öffnungszeiten**:   
+Mo–Fr: nach Vereinbarung   
+Sa–So: geschlossen  
 
 📌 **Adresse:** Bahnhofstraße 105, 15910 Schönwald
 
@@ -52,9 +52,9 @@ Stabilität auf höchstem Niveau
 
 Ob Fassaden-, Modulgerüste oder Bauaufzüge – wir liefern sichere, präzise und maßgeschneiderte Gerüstbaulösungen für Bauprojekte in Berlin und Brandenburg. 
 
-🕒 **Öffnungszeiten:** 
-Mo–Fr: 07:00–19:00 
-Sa–So: geschlossen
+🕒 **Öffnungszeiten:**   
+Mo–Fr: 07:00–19:00   
+Sa–So: geschlossen  
 
 📌 **Adresse:** Bahnhofstraße 6, 15910 Schönwalde
 
@@ -80,11 +80,11 @@ Wir bringen Farbe in Ihr Zuhause
 
 Individuelle Raumgestaltung mit Farbe, Putz und Tapete – für innen und außen. Verlässliches Handwerk für Ihr Zuhause mit persönlicher Beratung direkt vor Ort.
 
-🕒 **Öffnungszeiten:** 
-Mo, Di, Do: 07:30–12:00 & 13:00–17:00 
-Mi: 07:30–12:00 & 14:00–17:00 
-Fr: 07:30–14:00 
-Sa–So: geschlossen
+🕒 **Öffnungszeiten:**   
+Mo, Di, Do: 07:30–12:00 & 13:00–17:00   
+Mi: 07:30–12:00 & 14:00–17:00   
+Fr: 07:30–14:00   
+Sa–So: geschlossen  
 
 📌 **Adresse:** Bahnhofstraße 17 A, 15910 Schönwald
 
@@ -110,10 +110,10 @@ Moderne Lösungen für Ihr Zuhause
 
 Heizung, Bad, Lüftung & Energie – wir sind Ihr Partner für moderne Gebäudetechnik in Schönwalde. Für Privat und Gewerbe – kompetent, zuverlässig, zukunftssicher.
 
-🕒 **Öffnungszeiten:** 
-Mo–Do: 08:00–16:30
-Fr: 07:00–16:00 
-Sa–So: geschlossen
+🕒 **Öffnungszeiten:**   
+Mo–Do: 08:00–16:30  
+Fr: 07:00–16:00   
+Sa–So: geschlossen  
 
 📌 **Adresse:** Hauptstraße 20, 15910 Schönwalde
 
@@ -139,10 +139,10 @@ Nachhaltige Lösungen für Baustoffe
 
 Ob Bauschutt, Beton oder Erde – hier werden Materialien fachgerecht angenommen, sortiert und für eine nachhaltige Wiederverwendung aufbereitet. Ein verlässlicher Partner für Entsorgung und Rohstoffkreislauf im Bauwesen.
 
-🕒 **Öffnungszeiten:** 
-Mo–Fr: 07:00–17:00 
-Sa: nach Vereinbarung 
-So: geschlossen
+🕒 **Öffnungszeiten:**   
+Mo–Fr: 07:00–17:00   
+Sa: nach Vereinbarung   
+So: geschlossen  
 
 📌 **Adresse:** Lubolzer Straße, 15910 Schönwald (Schönwalde)
 
@@ -178,7 +178,7 @@ Ob Schimmel, Rohrbruch oder Brand – wir sanieren fachgerecht & schnell. Für P
 
 🌐 **Webseite:** [Trocknungsservice Gefreiter - Home](https://www.gefreiter.help/)
 
-🔗 **Facebook:** [WasserundBrandschadenbeseitigung](https://www.facebook.com/WasserundBrandschadenbeseitigung)
+🅕 **Facebook:** [WasserundBrandschadenbeseitigung](https://www.facebook.com/WasserundBrandschadenbeseitigung)
 <!-- TROCKNUNGSSERVICEGEFREITERGMBH_TEXT_END -->
 <!-- TROCKNUNGSSERVICEGEFREITERGMBH_PHOTO_START -->
 /images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Trocknungservice/mainPhoto.png
@@ -199,10 +199,10 @@ Maßarbeit aus Holz
 
 Individuelle Möbel, Türen und Fenster – persönlich geplant, präzise gefertigt. Als Familienbetrieb mit eigener Werkstatt setzen wir auf echtes Handwerk, regionale Materialien und nachhaltiges Arbeiten.
 
-🕒 **Öffnungszeiten:** 
-Mo–Do: 07:00–17:00 
-Fr:  07:00–12:00 
-Sa-So: geschlossen
+🕒 **Öffnungszeiten:**   
+Mo–Do: 07:00–17:00     
+Fr:  07:00–12:00   
+Sa-So: geschlossen   
 
 📌 **Adresse:** Hauptstraße 34, 15910 Schönwald
 

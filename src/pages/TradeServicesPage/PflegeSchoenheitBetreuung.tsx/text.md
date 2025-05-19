@@ -65,9 +65,9 @@ Vertraut, erfahren und stilvoll – Ihre Frisur in besten Händen!
 
 Ob klassischer Schnitt, moderne Frisuren oder individuelle Farbberatung – hier ist Ihre Frisur in besten Händen!
 
-🕒 **Öffnungszeiten:**
-Do–Fr: 12:00-18:00 Uhr 
-Sa–Mi: geschlossen
+🕒 **Öffnungszeiten:**  
+Do–Fr: 12:00-18:00 Uhr   
+Sa–Mi: geschlossen  
 
 📌 **Adresse:** Bahnhofstraße 89, 15910 Schönwalde 
 

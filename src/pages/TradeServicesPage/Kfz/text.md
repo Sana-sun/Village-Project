@@ -13,9 +13,9 @@ Ihr Auto – unsere Leidenschaft
 
 Direkt an der L71 – wir bieten fachgerechte Inspektionen, Reparaturen und individuelle Beratung. Modern ausgestattet, familiär geführt – für alle Fahrzeugtypen und jede Generation.
 
-🕒 **Öffnungszeiten:**
-Mo–Fr: 08:00–18:00 
-Sa: 08:00–12:00 sowie nach Vereinbarung
+🕒 **Öffnungszeiten:**  
+Mo–Fr: 08:00–18:00   
+Sa: 08:00–12:00 sowie nach Vereinbarung  
 
 📌 **Adresse:** Bahnhofstraße 89, 15910 Schönwald
 
@@ -40,10 +40,10 @@ Vertrauen, Service, Qualität – Ihr Partner rund ums Auto
 
 Inspektion, Reparatur oder Fahrzeugkauf – im Autohaus Vögler bekommen Sie alles aus einer Hand. Persönlich, regional und mit fachlichem Know-how sorgt das Team für sichere Mobilität.
 
-🕒 **Öffnungszeiten:**
-Mo–Fr: 07:00–12:00 & 12:45–17:00 
-Sa–So: geschlossen
-Sa: auch nach Vereinbarung
+🕒 **Öffnungszeiten:**  
+Mo–Fr: 07:00–12:00 & 12:45–17:00  
+Sa–So: geschlossen  
+Sa: auch nach Vereinbarung 
 
 📌 **Adresse:** Briesener Weg 26, 15910 Schönwald bei Lübben
 
