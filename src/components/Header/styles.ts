@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const MenuWrapper = styled.div`
   background-color: #0033a0;
+  background-color: #002c96;
   display: flex;
   color: white;
   height: 100px;
@@ -49,13 +50,53 @@ export const LogoBtn = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 14px;
+  /* gap: 14px; */
   /* width: 200px; */
   width: 150px;
   cursor: pointer;
   border: none;
   background-color: transparent;
 `;
+
+// before video
+// export const LogoText = styled.div`
+//   cursor: pointer;
+//   border: none;
+//   background-color: transparent;
+//   color: white;
+//   color: #ffffffeb;
+//   color: #fdfdfe;
+//   font-weight: bold;
+//   font-size: 1.1rem;
+//   letter-spacing: 1px;
+
+//   @media (max-width: 430px) {
+//     font-size: 0.8rem;
+//   }
+// `;
+
+export const LogoImage = styled.img`
+  width: 120px;
+
+   @media (max-width: 430px) {
+    width: 80px;
+  }
+`;
+
+
+
+export const VideoContainer = styled.div`
+
+@media (max-width: 540px) {
+    /* padding-right: 20px; */
+  }
+
+   @media (max-width: 430px) {
+    /* width: 80px; */
+    padding-right: 20px;
+  }
+`;
+
 
 export const LogoText = styled.div`
   cursor: pointer;
@@ -68,15 +109,14 @@ export const LogoText = styled.div`
   font-size: 1.1rem;
   letter-spacing: 1px;
 
+  @media (max-width: 540px) {
+    padding-right: 40px;
+  }
+
   @media (max-width: 430px) {
     font-size: 0.8rem;
-  }
-`;
+    display: none;
+    padding-right: 0;
 
-export const LogoImage = styled.img`
-  width: 120px;
-
-   @media (max-width: 430px) {
-    width: 80px;
   }
 `;
