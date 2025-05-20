@@ -145,7 +145,8 @@ function Header() {
             Ваш браузер не підтримує відеотег.
           </video>
       </VideoContainer>
-        <LogoText>Schönwalde (Spreewald)</LogoText>
+        {/* <LogoText>Schönwalde (Spreewald)</LogoText> */}
+        <LogoText>Schönwald (Brandenburg)</LogoText>
       </LogoBtn>
 
       <IconSearch />

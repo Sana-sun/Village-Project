@@ -175,10 +175,11 @@ Ein Haus mit Geschichte, das die Dorfgemeinschaft verbindet und lebendig hält.
 
 📌 **Adresse:** Hauptstr. 48, 15910 Schönwald
 
-📞 **Telefon:** 035474 2060
+📞Telefon: 035474 543  
 
-📧 **E-Mail:** r.gefreiter@schoenwalde-spreewald.de
+📞Mobil: 0173 588 3825  
 
+📧 E-Mail: roland@gefreiter.help  
  <!-- DORFGEMEINSCHAFTSHAUS_TEXT_END -->
 
 <!-- DORFGEMEINSCHAFTSHAUS_PHOTO_START -->
@@ -284,9 +285,11 @@ Verantwortlich & Ansprechpartner: Die Leitung des Vereins liegt in den Händen d
 
 📌 **Adresse:** Hauptstr. 48, 15910 Schönwalde
 
-📞 **Telefon:** 035474 2214
+📞Telefon: 035474 543  
 
-📧 **E-Mail:** r.gefreiter@schoenwalde-spreewald.de
+📞Mobil: 0173 588 3825  
+
+📧 E-Mail: roland@gefreiter.help  
 
  <!-- MUEHLENVEREIN_TEXT_END -->
 

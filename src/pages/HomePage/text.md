@@ -3,7 +3,10 @@
 <!-- UEBERDORF_NAME_END -->
 <!-- UEBERDORF_TEXT_START -->
 **Schönwalde** ist ein malerisches Dorf im Herzen des Spreewaldes im Land
-Brandenburg. Im Jahr 2023 zählt das Dorf etwa 1.207 Einwohner
+Brandenburg. Im Jahr 2023 zählt das Dorf etwa 1.207 Einwohner.    
+    
+
+Die **Gemeinde Schönwald** besteht aus den Ortsteilen Schönwalde und Waldow/Brand
 <!-- UEBERDORF_TEXT_END -->
 <!-- UEBERDORF_PHOTO_START -->
 /images/OtherPictures/Map/mainPhoto.png
@@ -12,12 +15,13 @@ Brandenburg. Im Jahr 2023 zählt das Dorf etwa 1.207 Einwohner
 
 ---
 
+
 <!-- BUERGERMEISTER_NAME_START -->
 👤 **Bürgermeister**
 <!-- BUERGERMEISTER_NAME_END -->
 <!-- BUERGERMEISTER_TEXT_START -->
-Die Gemeinde wird von Roland Gefreiter geleitet, der seit 2003 im Amt ist. **Kontaktinformationen:**  r.gefreiter@schoenwalde
--spreewald.de
+Die Gemeinde wird von Roland Gefreiter geleitet, der seit 2003 im Amt ist. **Kontaktinformationen:**  roland@gefreiter.help
+
 <!-- BUERGERMEISTER_TEXT_END -->
 <!-- BUERGERMEISTER_PHOTO_START -->
 /images/OtherPictures/People/mainPhoto.jpg

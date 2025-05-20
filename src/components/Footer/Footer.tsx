@@ -122,7 +122,8 @@ function Footer() {
             alt="Logo"
             title="Klicken Sie auf mich, um zur Startseite zu gelangen"
           />
-          <LogoText>Schönwalde (Spreewald)</LogoText>
+          {/* <LogoText>Schönwalde (Spreewald)</LogoText> */}
+          <LogoText>Schönwald (Brandenburg)</LogoText>
         </LogoBtn>
 
         <InfoContainer>

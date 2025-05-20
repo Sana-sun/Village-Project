@@ -32,12 +32,16 @@ Amt Unterspreewald
 
 **Alternativ:** 
 
-Bürgermeister von Schönwalde
+Bürgermeister Gemeinde Schönwald OT Schönwalde und Waldow  
+
 Herr Roland Gefreiter 
 
-📞Telefon: +49 173 5883825  
+📞Telefon: 035474 543  
 
-📧 E-Mail: r.gefreiter@schoenwalde-spreewald.de  
+📞Mobil: 0173 588 3825  
+
+📧 E-Mail: roland@gefreiter.help  
+
 <!-- BAULAND_TEXT_END -->
 <!-- BAULAND_PHOTO_START -->
 /images/Bauland/mainPhoto.png
