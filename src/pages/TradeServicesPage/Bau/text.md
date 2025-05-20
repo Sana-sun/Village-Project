@@ -124,7 +124,7 @@ Sa–So: geschlossen
 🌐 **Webseite:** [www.morgner-haustechnik.de](http://www.morgner-haustechnik.de)
 <!-- MORGNERHAUSTECHNIK_TEXT_END -->
 <!-- MORGNERHAUSTECHNIK_PHOTO_START -->
-/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner/mainPhoto1.jpg
 <!-- MORGNERHAUSTECHNIK_PHOTO_END -->
 
 

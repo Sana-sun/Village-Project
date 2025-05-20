@@ -74,6 +74,8 @@
 //   }
 // `;
 
+
+
 //3
 import styled from "styled-components";
 
@@ -84,16 +86,22 @@ export const CarouselContainer = styled.div`
   min-height: 300px;
   overflow: hidden;
 
-  /* @media (max-width: 768px) {
-      height: 70vh;
-  } */
-
-  @media (max-width: 768px) {
-    height: 50vh; /* або 60vh, залежно від бажаного розміру */
+  @media (max-width: 1024px) {
+      height: 80vh;
   }
 
-  @media (max-width: 480px) {
-    height: 40vh;
+  @media (max-width: 768px) {
+    /* height: 50vh; або 60vh, залежно від бажаного розміру */
+    height: 70vh; 
+  }
+
+  @media (max-width: 580px) {
+    height: 60vh;
+  }
+
+   @media (max-width: 480px) {
+    /* height: 40vh; */
+    height: 50vh;
   }
 `;
 
@@ -111,6 +119,10 @@ export const MainImageContainer = styled.div`
 
     @media (max-width: 768px) {
       object-position: top; /* або 30% 50% — грайся значеннями */
+    }
+    
+    @media (max-width: 768px) {
+      object-position: 30%; 
     }
   }
 `;
@@ -165,9 +177,13 @@ export const FotoTextContainer = styled.div`
   max-width: 90%;
   width: 100%;
 
-  @media (max-width: 1024px) {
-    font-size: 1.2rem;
+   @media (max-width: 1240px) {
+    font-size: 1.25rem;
     padding: 12px 16px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 1.1rem;
   }
 
    @media (max-width: 768px) {
