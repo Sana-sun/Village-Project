@@ -38,8 +38,8 @@ const MainCarousel: React.FC = () => {
           <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
         </MainImageContainer>
         <FotoTextContainer>
-        Willkommen in Schönwald Brandenburg - ein Ort, an dem Natur und
-        Gemeinschaft im Einklang leben
+        Willkommen in Schönwald Brandenburg - ein Ort, an dem Natur und Gemeinschaft im Einklang leben. 
+        {/* Die Gemeinde Schönwald besteht aus den Ortsteilen Schönwalde und Waldow/Brand. */}
       </FotoTextContainer>
 
       <DotsContainer>
