@@ -26,7 +26,7 @@ Sa: 08:00–12:00 sowie nach Vereinbarung
 🌐 **Webseite:** [autohaus-kunath.de](https://autohaus-kunath.de/)
 <!-- AUTOHAUSKUNATH_TEXT_END -->
 <!-- AUTOHAUSKUNATH_PHOTO_START -->
-/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Kunath/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Kunath/mainPhoto1.jpg
 <!-- AUTOHAUSKUNATH_PHOTO_END -->
 
 <!-- AUTOHAUSVOGLER_NAME_START -->
@@ -54,7 +54,7 @@ Sa: auch nach Vereinbarung
 🌐 **Info:** [Autohaus Vogler](https://www.dasoertliche.de/Themen/Autohaus-Vogler-Service-aller-Fahrzeugtypen-Sch%C3%B6nwald-Sch%C3%B6nwalde-Briesener-Weg#)
 <!-- AUTOHAUSVOGLER_TEXT_END -->
 <!-- AUTOHAUSVOGLER_PHOTO_START -->
-/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Vogler/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Vogler/mainPhoto.webp
 <!-- AUTOHAUSVOGLER_PHOTO_END -->
 
 

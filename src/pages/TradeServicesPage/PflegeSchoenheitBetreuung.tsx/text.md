@@ -24,7 +24,7 @@ Liebevolle Betreuung und Pflege in den eigenen vier Wänden – die zeitgemäße
 🌐 **Webseite:** [ASB Lübben](https://www.asb-luebben.de/Kontakt/Kontakt.html)
 <!-- DERPFLEGEDIENST_TEXT_END -->
 <!-- DERPFLEGEDIENST_PHOTO_START -->
-/images/Handel_Dienstleistungen/Sozialdienste/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Sozialdienste/mainPhoto.webp
 <!-- DERPFLEGEDIENST_PHOTO_END -->
 
 <!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_NAME_START -->

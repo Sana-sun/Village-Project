@@ -37,11 +37,11 @@ Auch Sportbegeisterte kommen auf ihre Kosten: Die Volleyballpfosten stehen berei
 /images/Natur_Freizeit/See/mainPhoto.jpeg
 <!-- SEE_PHOTO_END -->
 <!-- SEE_IMAGES_START -->
-/images/Natur_Freizeit/See/1.jpg
+/images/Natur_Freizeit/See/1.webp
 /images/Natur_Freizeit/See/2.jpeg
 /images/Natur_Freizeit/See/3.jpeg
 /images/Natur_Freizeit/See/4.jpeg
-/images/Natur_Freizeit/See/5.jpg
+/images/Natur_Freizeit/See/5.webp
 /images/Natur_Freizeit/See/6.jpeg
 <!-- SEE_IMAGES_END -->
 
@@ -74,13 +74,13 @@ Das Sportlerheim kann auch für Familienfeiern, Vereinsabende oder Dorftreffen g
 
 <!-- SPORTHEIM_TEXT_END -->
 <!-- SPORTHEIM_PHOTO_START -->
-/images/Natur_Freizeit/Sportlerheim/mainPhoto.jpg
+/images/Natur_Freizeit/Sportlerheim/mainPhoto.webp
 <!-- SPORTHEIM_PHOTO_END -->
 <!-- SPORTHEIM_IMAGES_START -->
-/images/Natur_Freizeit/Sportlerheim/1.jpg
-/images/Natur_Freizeit/Sportlerheim/2.jpg
-/images/Natur_Freizeit/Sportlerheim/3.jpg
-/images/Natur_Freizeit/Sportlerheim/4.jpg
+/images/Natur_Freizeit/Sportlerheim/1.webp
+/images/Natur_Freizeit/Sportlerheim/2.webp
+/images/Natur_Freizeit/Sportlerheim/3.webp
+/images/Natur_Freizeit/Sportlerheim/4.webp
 <!-- SPORTHEIM_IMAGES_END -->
 
 ---
@@ -113,12 +113,12 @@ Im Hofladen gibt es handgefertigte Produkte aus Alpakawolle – von warmen Socke
 <!-- ALPAKAFARM_TEXT_END -->
 
 <!-- ALPAKAFARM_PHOTO_START -->
-/images/Natur_Freizeit/Alpaka-Farm/mainPhoto.png
+/images/Natur_Freizeit/Alpaka-Farm/mainPhoto.webp
 <!-- ALPAKAFARM_PHOTO_END -->
 <!-- ALPAKAFARM_IMAGES_START -->
 /images/Natur_Freizeit/Alpaka-Farm/1.jpg
 /images/Natur_Freizeit/Alpaka-Farm/2.png
-/images/Natur_Freizeit/Alpaka-Farm/3.jpg
+/images/Natur_Freizeit/Alpaka-Farm/3.webp
 <!-- ALPAKAFARM_IMAGES_END -->
 
 ---
@@ -149,7 +149,7 @@ Der Club ist nicht nur ein Treffpunkt, sondern auch ein Raum, in dem sich Jugend
 <!-- JUGENDCLUB_TEXT_END -->
 
 <!-- JUGENDCLUB_PHOTO_START -->
-/images/Natur_Freizeit/Jugendclub/mainPhoto.png
+/images/Natur_Freizeit/Jugendclub/mainPhoto.webp
 <!-- JUGENDCLUB_PHOTO_END -->
 
 ---
@@ -183,7 +183,7 @@ Ein Haus mit Geschichte, das die Dorfgemeinschaft verbindet und lebendig hält.
  <!-- DORFGEMEINSCHAFTSHAUS_TEXT_END -->
 
 <!-- DORFGEMEINSCHAFTSHAUS_PHOTO_START -->
-/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.jpg
+/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.webp
 <!-- DORFGEMEINSCHAFTSHAUS_PHOTO_END -->
 
 

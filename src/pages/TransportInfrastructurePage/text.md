@@ -41,8 +41,8 @@ Wer frühmorgens oder spätabends unterwegs ist, findet hier stets eine zuverlä
 <!-- BAHNHOF_PHOTO_END -->
 
 <!-- BAHNHOF_IMAGES_START -->
-/images/Verkehr_Infrastruktur/Bahnhof/1.jpg
-/images/Verkehr_Infrastruktur/Bahnhof/2.jpg
+/images/Verkehr_Infrastruktur/Bahnhof/1.webp
+/images/Verkehr_Infrastruktur/Bahnhof/2.webp
 /images/Verkehr_Infrastruktur/Bahnhof/3.jpg
 <!-- BAHNHOF_IMAGES_END -->
 

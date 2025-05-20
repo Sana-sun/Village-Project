@@ -84,11 +84,11 @@ Regelmäßige Projekte, Sportangebote und ein aktiver Förderverein machen unser
 <!-- GRUNDSCHULE_PHOTO_END -->
 
 <!-- GRUNDSCHULE_IMAGES_START -->
-/images/Bildung_Gemeinschaft/Schule/1.jpg
+/images/Bildung_Gemeinschaft/Schule/1.webp
 /images/Bildung_Gemeinschaft/Schule/2.jpg
 /images/Bildung_Gemeinschaft/Schule/3.jpg
-/images/Bildung_Gemeinschaft/Schule/4.jpg
-/images/Bildung_Gemeinschaft/Schule/5.jpg
+/images/Bildung_Gemeinschaft/Schule/4.webp
+/images/Bildung_Gemeinschaft/Schule/5.webp
 <!-- GRUNDSCHULE_IMAGES_END -->
 
 ---

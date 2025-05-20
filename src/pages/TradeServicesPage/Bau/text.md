@@ -37,7 +37,7 @@ Sa–So: geschlossen
 🌐 **Info:** [Ingo Richter Dachdeckermeisterbetrieb](https://www.bing.com/maps?q=Dachdeckerbetrieb+Ingo+Richter&FORM=HDRSC6&cp=51.980557%7E13.766496&lvl=19.1)
 <!-- INGORICHTERDACHDECKER_TEXT_END -->
 <!-- INGORICHTERDACHDECKER_PHOTO_START -->
-/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto.png
+/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto1.webp
 <!-- INGORICHTERDACHDECKER_PHOTO_END -->
 
 
@@ -181,7 +181,7 @@ Ob Schimmel, Rohrbruch oder Brand – wir sanieren fachgerecht & schnell. Für P
 🅕 **Facebook:** [WasserundBrandschadenbeseitigung](https://www.facebook.com/WasserundBrandschadenbeseitigung)
 <!-- TROCKNUNGSSERVICEGEFREITERGMBH_TEXT_END -->
 <!-- TROCKNUNGSSERVICEGEFREITERGMBH_PHOTO_START -->
-/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Trocknungservice/mainPhoto.png
+/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Trocknungservice/mainPhoto.webp
 <!-- TROCKNUNGSSERVICEGEFREITERGMBH_PHOTO_END -->
 
 
@@ -213,5 +213,5 @@ Sa-So: geschlossen
 🌐 **Webseite:** [Unternehmen | Tischlerei Schneider](https://www.schneider-schoenwalde.de/unternehmen)
 <!-- TISCHLEREISCHNEIDER_TEXT_END -->
 <!-- TISCHLEREISCHNEIDER_PHOTO_START -->
-/images/Handel_Dienstleistungen/Tischlerei/mainPhoto.png
+/images/Handel_Dienstleistungen/Tischlerei/mainPhoto.webp
 <!-- TISCHLEREISCHNEIDER_PHOTO_END -->

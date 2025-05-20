@@ -38,6 +38,6 @@ Die Gemeinde wird von Roland Gefreiter geleitet, der seit 2003 im Amt ist. **Kon
 Schönwalde blickt auf eine lange Geschichte bis ins Mittelalter zurück. Das Dorf ist bekannt für seine Traditionen und sein kulturelles Erbe.
 <!-- GESCHICHTE_TEXT_END -->
 <!-- GESCHICHTE_PHOTO_START -->
-/images/OtherPictures/Geschichte/mainPhoto.jpg
+/images/OtherPictures/Geschichte/mainPhoto.webp
 <!-- GESCHICHTE_PHOTO_END -->
 

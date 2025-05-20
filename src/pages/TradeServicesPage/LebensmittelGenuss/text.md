@@ -24,7 +24,7 @@ Mo - So: geschlossen
 🌐 **Webseite:**  [Willkommen - Bäckerei Kuske](https://xn--bckerei-kuske-bfb.de/)
 <!-- BAECKEREIKONDITOREIKUSKE_TEXT_END -->
 <!-- BAECKEREIKONDITOREIKUSKE_PHOTO_START -->
-/images/Handel_Dienstleistungen/Lebensmittel/Baekerei/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Lebensmittel/Baekerei/mainPhoto.webp
 <!-- BAECKEREIKONDITOREIKUSKE_PHOTO_END -->
 
 <!-- FLEISCHEREITISCHLER_NAME_START -->

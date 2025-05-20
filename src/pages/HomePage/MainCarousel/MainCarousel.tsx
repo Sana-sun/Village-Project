@@ -12,7 +12,7 @@ const MainCarousel: React.FC = () => {
 
   const images = [
     // "images/StartSeite/1.webp",
-    "images/StartSeite/11.jpg",
+    "images/StartSeite/11.webp",
     // "/images/StartSeite/2.jpg",
     "/images/StartSeite/3.jpeg",
     "/images/StartSeite/4.webp",

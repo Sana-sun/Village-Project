@@ -22,14 +22,14 @@ function HomePage() {
   const categories = keys.map((key) => ({ key }));
 
   const images = [
-    "/images/OtherPictures/Center/1.jpg",
-    "/images/OtherPictures/Center/2.jpg",
-    "/images/OtherPictures/Center/3.jpg",
-    "/images/OtherPictures/Center/4.jpg",
-    "/images/OtherPictures/Center/5.jpg",
-    "/images/OtherPictures/Center/6.jpg",
-    "/images/OtherPictures/Center/7.jpg",
-    "/images/OtherPictures/Center/8.jpg",
+    "/images/OtherPictures/Center/1.webp",
+    "/images/OtherPictures/Center/2.webp",
+    "/images/OtherPictures/Center/3.webp",
+    "/images/OtherPictures/Center/4.webp",
+    "/images/OtherPictures/Center/5.webp",
+    "/images/OtherPictures/Center/6.webp",
+    "/images/OtherPictures/Center/7.webp",
+    "/images/OtherPictures/Center/8.webp",
   ];
 
   const extractSection = (
