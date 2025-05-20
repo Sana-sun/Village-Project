@@ -166,7 +166,7 @@ Effektive Lösungen für Schadensanierung
 
 Ob Schimmel, Rohrbruch oder Brand – wir sanieren fachgerecht & schnell. Für Privat, Versicherungen & Bau.
 
-🕒 **24h Notfallservice** für Privatkunden, Versicherungen & Bauunternehmen
+🕒 **Öffnungszeiten:** 24h Notfallservice für Privatkunden, Versicherungen & Bauunternehmen
 
 📌 **Adresse:** Waldower Straße 16, 15910 Schönwald
 
