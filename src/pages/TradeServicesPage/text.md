@@ -4,8 +4,6 @@ In Schönwald lebt die Wirtschaft von Menschen, die man kennt – ehrlich, pers�
 
  Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch, nah und gut zu wissen, wer da ist.
 
-➡️ **Mehr erfahren:**
-
 <!-- INTRO_TEXT_END -->
 
 <!-- SEPARATE_TEXT_START -->
@@ -212,7 +210,7 @@ Mo-So: geschlossen
 
 ---
 
-<!-- PFLEGE, SCHÖNHEIT & BETREUUNG_SUBCATEGORY_START -->
+<!-- PFLEGE & BETREUUNG_SUBCATEGORY_START -->
 
 <!-- DERPFLEGEDIENST_NAME_START -->
 Der Pflegedienst
@@ -320,7 +318,7 @@ nach Vereinbarung
 <!-- HUNDESALONSCHICKSCHICK_PHOTO_END -->
 
 
-<!-- PFLEGE, SCHÖNHEIT & BETREUUNG_SUBCATEGORY_END -->
+<!-- PFLEGE & BETREUUNG_SUBCATEGORY_END -->
 
 
 ---

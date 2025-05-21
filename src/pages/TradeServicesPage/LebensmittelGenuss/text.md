@@ -13,7 +13,7 @@ Die familiengeführte Bäckerei Kuske steht für echtes Handwerk, natürliche Zu
 🕒 **Öffnungszeiten:**  
 Di–Fr: 5:30–17:00 Uhr   
 Sa: 5:30–11:00 Uhr   
-Mo - So: geschlossen  
+So-Mo: geschlossen  
 
 📌 **Adresse:** Hauptstraße 9, 15910 Schönwald
 
@@ -41,7 +41,7 @@ Unsere regionale Fleischerei bietet beste Qualität aus eigener Herstellung – 
 🕒 **Öffnungszeiten:**   
 Di–Fr: 08:00–17:00   
 Sa: 08:00–11:00   
-Mo-So: geschlossen  
+So-Mo: geschlossen  
 
 📌 **Adresse:** Hauptstraße 42, 15910 Schönwald
 

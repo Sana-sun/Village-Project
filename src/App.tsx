@@ -17,9 +17,10 @@ import LebensmittelGenuss from "./pages/TradeServicesPage/LebensmittelGenuss/Leb
 import EnergieUmwelt from "./pages/TradeServicesPage/EnergieUmwelt/EnergieUmwelt";
 import Kfz from "./pages/TradeServicesPage/Kfz/Kfz";
 import LandwirtschaftImkerei from "./pages/TradeServicesPage/LandwirtschaftImkerei/LandwirtschaftImkerei";
-import PflegeSchoenheitBetreuung from "./pages/TradeServicesPage/PflegeSchoenheitBetreuung.tsx/PflegeSchoenheitBetreuung";
+import PflegeSchoenheitBetreuung from "./pages/TradeServicesPage/PflegeBetreuung.tsx/PflegeBetreuung";
 import TechnischeDienstleistungen from "./pages/TradeServicesPage/TechnischeDienstleistungen/TechnischeDienstleistungen";
 import AllSubCategories from "./pages/TradeServicesPage/AllSubCategories/AllSubCategories";
+import Schoenheit from "./pages/TradeServicesPage/Schoenheit.tsx/Schoenheit";
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
               <Route path="landwirtschaft-&-imkerei" element={<LandwirtschaftImkerei />} />
               <Route path="kfz" element={<Kfz />} />
               <Route path="lebensmittel-&-genuss" element={<LebensmittelGenuss />} />
-              <Route path="pflege-schoenheit-&-betreuung" element={<PflegeSchoenheitBetreuung />} />
+              <Route path="pflege-&-betreuung" element={<PflegeSchoenheitBetreuung />} />
+              <Route path="schoenheit" element={<Schoenheit />} />
               <Route path="bau-&-renovierung" element={<Bau />} />
               <Route path="technische-dienstleistungen" element={<TechnischeDienstleistungen />} />
               <Route path="energie-&-umwelt" element={<EnergieUmwelt />} />

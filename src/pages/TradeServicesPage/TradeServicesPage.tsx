@@ -3,30 +3,33 @@ import { useEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import rawMd from "./text.md?raw";
 import YourAreHere from "../../components/YourAreHere/YouAreHere";
-import { ArrowButton, IntroText, IntroWrapper } from "../../components/MarkdownPageTemplateProps/styles";
+import {
+  ArrowButton,
+  IntroText,
+  IntroWrapper,
+} from "../../components/MarkdownPageTemplateProps/styles";
 import { Navigation, StyledNavLink } from "./styles";
 import ReactMarkdown from "react-markdown";
 
 function TradeServicesPage() {
   const location = useLocation(); // 🔹 Додаємо `useLocation()`
   const [myLocation, setMyLocation] = useState<string | undefined>(undefined);
-const [isScrollable, setIsScrollable] = useState<boolean>(false); // 🔹 Контроль скролу
+  const [isScrollable, setIsScrollable] = useState<boolean>(false); // 🔹 Контроль скролу
 
   useEffect(() => {
-  if (isScrollable) {
-    const target = document.getElementById("hr-section");
-    if (target) {
-      const yOffset = -100;
-      const y =
-        target.getBoundingClientRect().top + window.pageYOffset + yOffset;
-      window.scrollTo({ top: y, behavior: "smooth" });
+    if (isScrollable) {
+      const target = document.getElementById("hr-section");
+      if (target) {
+        const yOffset = -100;
+        const y =
+          target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }
+      setIsScrollable(true); // 🔹 Вимикаємо після одноразового використання
     }
-    setIsScrollable(true); // 🔹 Вимикаємо після одноразового використання
-  }
-}, [location.pathname, isScrollable]);
+  }, [location.pathname, isScrollable]);
 
-
-    const extractSection = (
+  const extractSection = (
     text: string,
     startMarker: string,
     endMarker: string
@@ -54,15 +57,15 @@ const [isScrollable, setIsScrollable] = useState<boolean>(false); // 🔹 Кон
 
   return (
     <>
-      <YourAreHere tradePageLocation={myLocation}/>
+      <YourAreHere tradePageLocation={myLocation} />
 
-       <IntroText>
-         <ReactMarkdown>{separateText}</ReactMarkdown>
-       </IntroText>
+      <IntroText>
+        <ReactMarkdown>{separateText}</ReactMarkdown>
+      </IntroText>
 
-       <IntroWrapper>
-         <ReactMarkdown>{introText}</ReactMarkdown>
-       </IntroWrapper>
+      <IntroWrapper>
+        <ReactMarkdown>{introText}</ReactMarkdown>
+      </IntroWrapper>
 
       <Navigation>
         {/* <StyledNavLink
@@ -89,11 +92,11 @@ const [isScrollable, setIsScrollable] = useState<boolean>(false); // 🔹 Кон
           Energie & Umwelt
         </StyledNavLink>
 
-        <StyledNavLink 
-          to="kfz" 
+        <StyledNavLink
+          to="kfz"
           $active={location.pathname.includes("kfz")}
           onClick={() => handleCategoryClick("Kfz")}
-          >
+        >
           Kfz
         </StyledNavLink>
 
@@ -114,11 +117,19 @@ const [isScrollable, setIsScrollable] = useState<boolean>(false); // 🔹 Кон
         </StyledNavLink>
 
         <StyledNavLink
-          to="pflege-schoenheit-&-betreuung"
-          $active={location.pathname.includes("pflege-schoenheit-&-betreuung")}
-          onClick={() => handleCategoryClick("Pflege, Schönheit & Betreuung")}
+          to="pflege-&-betreuung"
+          $active={location.pathname.includes("pflege-&-betreuung")}
+          onClick={() => handleCategoryClick("Pflege & Betreuung")}
         >
-          Pflege, Schönheit & Betreuung
+          Pflege & Betreuung
+        </StyledNavLink>
+
+        <StyledNavLink
+          to="schoenheit"
+          $active={location.pathname.includes("schoenheit")}
+          onClick={() => handleCategoryClick("Schönheit")}
+        >
+          Schönheit
         </StyledNavLink>
 
         <StyledNavLink

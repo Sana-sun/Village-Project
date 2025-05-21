@@ -105,8 +105,8 @@ export const subcategories = [
   {
     name: "Der Pflegedienst",
     category: "Handwerkgewerbe & Dienstleistungen",
-    subCategory: "Lebensmittel & Genuss",
-    path: "/tradeServices/pflege-schoenheit-&-betreuung#der-pflegedienst",
+    subCategory: "Pflege & Betreuung",
+    path: "/tradeServices/pflege-&-betreuung#der-pflegedienst",
   },
   {
     name: "Fleischerei Tischler",
@@ -117,21 +117,21 @@ export const subcategories = [
   {
     name: "Friseursalon",
     category: "Handwerkgewerbe & Dienstleistungen",
-    subCategory: "Pflege, Schönheit & Betreuung",
-    path: "/tradeServices/pflege-schoenheit-&-betreuung#friseursalon",
+    subCategory: "Schönheit",
+    path: "/tradeServices/schoenheit#friseursalon",
   },
   {
     name: "Hämmerling B. Häusliche Krankenpflege",
     category: "Handwerkgewerbe & Dienstleistungen",
-    subCategory: "Pflege, Schönheit & Betreuung",
-    path: "/tradeServices/pflege-schoenheit-&-betreuung#haemmerling-b-haeusliche-krankenpflege",
+    subCategory: "Pflege & Betreuung",
+    path: "/tradeServices/pflege-&-betreuung#haemmerling-b-haeusliche-krankenpflege",
   },
-  {
-    name: "Hundesalon Schick Schick",
-    category: "Handwerkgewerbe & Dienstleistungen",
-    subCategory: "Pflege, Schönheit & Betreuung",
-    path: "/tradeServices/pflege-schoenheit-&-betreuung#hundesalon-schick-schick",
-  },
+  // {
+  //   name: "Hundesalon Schick Schick",
+  //   category: "Handwerkgewerbe & Dienstleistungen",
+  //   subCategory: "Pflege, Schönheit & Betreuung",
+  //   path: "/tradeServices/pflege-schoenheit-&-betreuung#hundesalon-schick-schick",
+  // },
   {
     name: "Imkerei Morgner",
     category: "Handwerkgewerbe & Dienstleistungen",
@@ -172,8 +172,8 @@ export const subcategories = [
     // name: "Mädchenträume by Eileen",
     name: "Mädchenträume by Eileen",
     category: "Handwerkgewerbe & Dienstleistungen",
-    subCategory: "Pflege, Schönheit & Betreuung",
-    path: "/tradeServices/pflege-schoenheit-&-betreuung#madchentraume-by-eileen",
+    subCategory: "Schönheit",
+    path: "/tradeServices/schoenheit#madchentraume-by-eileen",
   },
   {
     name: "Malerbetrieb Dieter Ihl",

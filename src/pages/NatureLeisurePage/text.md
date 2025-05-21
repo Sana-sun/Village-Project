@@ -2,8 +2,6 @@
 
 Wenn das Dorf zur Bühne der Erholung wird, ist Schönwalde der richtige Ort dafür. Zwischen Wasser, Wiesen und Wegen finden sich stille und lebendige Ecken, die das Herz berühren und den Kopf frei machen.
 
-➡️ **Mehr erfahren:**
-
 <!-- INTRO_TEXT_END -->
 
 <!-- SEPARATE_TEXT_START -->
@@ -28,7 +26,7 @@ Ein liebevoll gepflegter Ort zum Entspannen, Toben und die Natur genießen: Unse
 Ob beim Baden an warmen Tagen, beim Picknick in der gemütlichen überdachten Sitzecke oder beim Faulenzen in mitgebrachten Hängematten – hier findet jeder seinen Platz.
 Für Kinder gibt es fest verankerte Autoreifen im Sand zum Klettern und Balancieren.
 
-Auch Sportbegeisterte kommen auf ihre Kosten: Die Volleyballpfosten stehen bereit – Netz und Ball können bei der Kontaktperson ausgeliehen werden.
+Auch Sportbegeisterte kommen auf ihre Kosten: Die Volleyballpfosten stehen bereit – bitte Netz und Ball selbst mitbringen.
 
 📌 **Adresse:** Krausnicker Weg 6, 15910 Schönwalde
 
@@ -53,12 +51,12 @@ Sportlerheim und Stadion
 <!-- SPORTHEIM_NAME_END -->
 <!-- SPORTHEIM_SLOGAN_START -->
 
-Sportlerheim & Stadion – Treffpunkt für Sport, Spiel und Feiern
+Sportlerheim & Sportplatz – Treffpunkt für Sport, Spiel und Feiern
 
 <!-- SPORTHEIM_SLOGAN_END -->
 <!-- SPORTHEIM_TEXT_START -->
 
-⚽ Unser **Sportlerheim und Stadion** sind mehr als nur Orte für Fußballspiele – sie sind das Herz des gemeinschaftlichen Lebens im Dorf.
+⚽ Unser **Sportlerheim und Sportplatz** sind mehr als nur Orte für Fußballspiele – sie sind das Herz des gemeinschaftlichen Lebens im Dorf.
 
 Hier finden regelmäßig Fußballturniere, Dart- und Billardabende statt, in entspannter Atmosphäre für Jung und Alt. Besonders aktiv ist dabei unser Sportverein Wacker 21 Schönwalde e.V., der mit Leidenschaft den Fußball fördert und die Dorfgemeinschaft stärkt.
 
@@ -118,7 +116,7 @@ Im Hofladen gibt es handgefertigte Produkte aus Alpakawolle – von warmen Socke
 <!-- ALPAKAFARM_IMAGES_START -->
 /images/Natur_Freizeit/Alpaka-Farm/1.jpg
 /images/Natur_Freizeit/Alpaka-Farm/2.png
-/images/Natur_Freizeit/Alpaka-Farm/3.webp
+/images/Natur_Freizeit/Alpaka-Farm/2.webp
 <!-- ALPAKAFARM_IMAGES_END -->
 
 ---
@@ -140,16 +138,20 @@ Jugendclub Schönwalde – Treffpunkt für die Jugend
 
 Der Club ist nicht nur ein Treffpunkt, sondern auch ein Raum, in dem sich Jugendliche untereinander austauschen und neue Ideen entwickeln können. Ob für spannende Freizeitgestaltungen oder als Ort zum Entspannen und Freunde treffen – der Jugendclub ist ein Herzstück der Gemeinschaft in Schönwalde.
 
-📌 **Adresse:** [Adresse des Jugendclubs]
+ ***Kontakt:***
 
-📞 **Telefon:** [Telefonnummer des Jugendclubs]
+Bürgermeister Gemeinde Schönwald OT Schönwalde und Waldow  
 
-📧 **E-Mail:** [E-Mail-Adresse des Jugendclubs]
+Herr Roland Gefreiter 
+
+📞 **Mobil:** 0173 588 3825  
+
+📧 **E-Mail**: roland@gefreiter.help  
 
 <!-- JUGENDCLUB_TEXT_END -->
 
 <!-- JUGENDCLUB_PHOTO_START -->
-/images/Natur_Freizeit/Jugendclub/mainPhoto.webp
+/images/Natur_Freizeit/Jugendclub/mainPhoto.jpg
 <!-- JUGENDCLUB_PHOTO_END -->
 
 ---
@@ -175,11 +177,9 @@ Ein Haus mit Geschichte, das die Dorfgemeinschaft verbindet und lebendig hält.
 
 📌 **Adresse:** Hauptstr. 48, 15910 Schönwald
 
-📞Telefon: 035474 543  
+📞 **Mobil:** 0173 588 3825  
 
-📞Mobil: 0173 588 3825  
-
-📧 E-Mail: roland@gefreiter.help  
+📧 **E-Mail:** roland@gefreiter.help  
  <!-- DORFGEMEINSCHAFTSHAUS_TEXT_END -->
 
 <!-- DORFGEMEINSCHAFTSHAUS_PHOTO_START -->
@@ -277,19 +277,15 @@ Mühlenverein Schönwalde Spreewald e. V. – Bewahren & Erleben
  <!-- MUEHLENVEREIN_SLOGAN_END -->
  <!-- MUEHLENVEREIN_TEXT_START -->
 
-🌾 Der Mühlenverein Schönwalde Spreewald e. V. setzt sich mit Leidenschaft für den Erhalt und die Pflege der historischen Mühle ein – ein Wahrzeichen der Region und ein Stück lebendige Geschichte. Hier verbinden sich Tradition und Handwerk, und die Mühle bleibt als kultureller Treffpunkt erhalten.
-
-Mit Veranstaltungen, Führungen und gemeinsamen Projekten bringt der Verein Interessierte zusammen, fördert das Bewusstsein für historische Baukunst und lädt dazu ein, ein Stück Spreewaldgeschichte hautnah zu erleben.
+🌾 Der Mühlenverein Schönwalde Spreewald e. V. setzt sich mit Leidenschaft für den Erhalt und die Pflege der historischen Mühle ein – ein Wahrzeichen der Region und ein Stück lebendige Geschichte. Hier verbinden sich Tradition und Handwerk.
 
 Verantwortlich & Ansprechpartner: Die Leitung des Vereins liegt in den Händen des Bürgermeisters, der sich aktiv für die Pflege und Weiterentwicklung des Mühlenvereins einsetzt.
 
 📌 **Adresse:** Hauptstr. 48, 15910 Schönwalde
 
-📞Telefon: 035474 543  
+📞 **Mobil:** 0173 588 3825  
 
-📞Mobil: 0173 588 3825  
-
-📧 E-Mail: roland@gefreiter.help  
+📧 **E-Mail:** roland@gefreiter.help  
 
  <!-- MUEHLENVEREIN_TEXT_END -->
 

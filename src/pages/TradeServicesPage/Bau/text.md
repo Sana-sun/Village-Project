@@ -2,7 +2,6 @@
 <!-- INTRO_TEXT_START -->
 In Schönwalde stehen Baugrundstücke und Wohnhäuser zum Verkauf – ideal für alle, die Ruhe, Natur und Dorfgemeinschaft schätzen.Ob Eigenheim, Rückzugsort oder Investition: Hier beginnt Ihr neues Kapitel.
 
-➡️ **Mehr erfahren:**
 <!-- INTRO_TEXT_END -->
 
 <!-- SEPARATE_TEXT_START -->

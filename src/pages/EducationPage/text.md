@@ -9,7 +9,6 @@ Und wer Lust auf neue Geschichten hat, kann jederzeit in unserer [**Mini-Bibliot
 
 Bildung in Schönwalde heißt: gemeinsam wachsen, lernen und entdecken.
 
-➡️ **Mehr erfahren:**
 <!-- INTRO_TEXT_END -->
 
 <!-- SEPARATE_TEXT_START -->

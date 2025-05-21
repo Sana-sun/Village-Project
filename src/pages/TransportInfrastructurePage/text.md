@@ -1,10 +1,9 @@
 
 <!-- INTRO_TEXT_START -->
-Unser [**Bahnhof**](/transport#bahnhof "Klick mich!") verbindet das Dorf stündlich mit Berlin und Senftenberg direkt – ideal für Pendler, Ausflügler und Schulbesuche. Auch Cottbus ist gut erreichbar. Wer lieber mit dem Auto unterwegs ist, erreicht Schönwalde bequem über die nahegelegene [**Autobahn**](/transport#autobahn "Klick mich!") – schnell, flexibel und direkt ins Grüne.
+Unser [**Bahnhof**](/transport#bahnhof "Klick mich!") verbindet das Dorf stündlich mit Berlin und Senftenberg – ideal für Pendler, Ausflügler und Schulbesuche. Auch Cottbus ist gut erreichbar. Wer lieber mit dem Auto unterwegs ist, erreicht Schönwalde bequem über die nahegelegene [**Autobahn**](/transport#autobahn "Klick mich!") – schnell, flexibel und direkt ins Grüne.
 
 Mobilität in Schönwalde heißt: verbunden bleiben – nachhaltig, zuverlässig und naturnah.
 
-➡️ **Mehr erfahren:**
 <!-- INTRO_TEXT_END -->
 
 <!-- SEPARATE_TEXT_START -->

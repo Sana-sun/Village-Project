@@ -4,8 +4,6 @@ In Schönwald lebt die Wirtschaft von Menschen, die man kennt – ehrlich, pers�
 
 Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch, nah und gut zu wissen, wer da ist.
 
-➡️ **Mehr erfahren:**
-
 <!-- INTRO_TEXT_END -->
 
 <!-- SEPARATE_TEXT_START -->

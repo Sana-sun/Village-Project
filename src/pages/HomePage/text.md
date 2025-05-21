@@ -6,7 +6,7 @@
 Brandenburg. Im Jahr 2023 zählt das Dorf etwa 1.207 Einwohner.    
     
 
-Die **Gemeinde Schönwald** besteht aus den Ortsteilen Schönwalde und Waldow/Brand
+Die **Gemeinde Schönwald** besteht aus den Ortsteilen Schönwalde und Waldow/Brand.
 <!-- UEBERDORF_TEXT_END -->
 <!-- UEBERDORF_PHOTO_START -->
 /images/OtherPictures/Map/mainPhoto.png
@@ -20,7 +20,7 @@ Die **Gemeinde Schönwald** besteht aus den Ortsteilen Schönwalde und Waldow/Br
 👤 **Bürgermeister**
 <!-- BUERGERMEISTER_NAME_END -->
 <!-- BUERGERMEISTER_TEXT_START -->
-Die Gemeinde wird von Roland Gefreiter geleitet, der seit 2003 im Amt ist. **Kontaktinformationen:**  roland@gefreiter.help
+Der ehrenamtliche Bürgermeister der Gemeinde Schönwald ist Roland Gefreiter, der seit 2003 im Amt ist. **Kontaktinformationen:**  roland@gefreiter.help
 
 <!-- BUERGERMEISTER_TEXT_END -->
 <!-- BUERGERMEISTER_PHOTO_START -->

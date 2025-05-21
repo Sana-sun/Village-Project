@@ -1,8 +1,7 @@
 
 <!-- INTRO_TEXT_START -->
-In Schönwalde stehen Baugrundstücke und Wohnhäuser zum Verkauf – ideal für alle, die Ruhe, Natur und Dorfgemeinschaft schätzen.Ob Eigenheim, Rückzugsort oder Investition: Hier beginnt Ihr neues Kapitel.
+In Schönwalde stehen Baugrundstücke und Wohnhäuser zum Verkauf – ideal für alle, die Ruhe, Natur und Dorfgemeinschaft schätzen. Ob Eigenheim, Rückzugsort oder Investition: Hier beginnt Ihr neues Kapitel.
 
-➡️ **Mehr erfahren:**
 <!-- INTRO_TEXT_END -->
 
 <!-- SEPARATE_TEXT_START -->
@@ -18,29 +17,27 @@ Baugrundstücke & Immobilien in Schönwalde
 <!-- BAULAND_SLOGAN_END -->
 
 <!-- BAULAND_TEXT_START -->
- **Kontakt für Auskünfte & Angebote:** 
+ ***Kontakt für Auskünfte & Angebote:***
 
 Amt Unterspreewald 
 
-📞Telefon: 035452 384-0   
+📞**Telefon:** 035452 384-0   
 
-📠 Fax: 035452 384-24   
+📠 **Fax:** 035452 384-24   
 
-📧 E-Mail: amt@unterspreewald.de   
+📧 **E-Mail:** amt@unterspreewald.de   
 
-🌐 Web: [unterspreewald.de](https://www.unterspreewald.de/)  
+🌐 **Web:** [unterspreewald.de](https://www.unterspreewald.de/)  
 
-**Alternativ:** 
+***Alternativ:*** 
 
 Bürgermeister Gemeinde Schönwald OT Schönwalde und Waldow  
 
 Herr Roland Gefreiter 
 
-📞Telefon: 035474 543  
+📞 **Mobil:** 0173 588 3825  
 
-📞Mobil: 0173 588 3825  
-
-📧 E-Mail: roland@gefreiter.help  
+📧 **E-Mail**: roland@gefreiter.help  
 
 <!-- BAULAND_TEXT_END -->
 <!-- BAULAND_PHOTO_START -->

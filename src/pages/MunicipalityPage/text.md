@@ -3,11 +3,10 @@
 
 In Schönwalde engagieren sich Menschen Tag für Tag – für Sicherheit, Gemeinschaft und das gute Leben im Dorf. Unsere Feuerwehren in [**Schönwalde**](/municipality#feuerwehr-schoenwalde) und [**Waldow**](/municipality#feuerwehr-waldow) stehen rund um die Uhr bereit, getragen von Aktiven, Jugendfeuerwehr und dem Feuerwehrverein. Dabei geht es nicht nur um Einsätze, sondern auch um Teamgeist, Nachwuchsarbeit und Dorfgemeinschaft.
 
-Wer Hilfe, Beratung oder einen Termin mit der Verwaltung braucht, findet im [**Amt Unterspreewald**](/municipality#amt-unterspreewald) die richtige Anlaufstelle – direkt vor Ort im Feuerwehrgerätehaus Schönwalde. Und mitten im Dorf lädt unsere [**Kirche**](municipality#kirche) zu stillen Momenten, Kulturabenden und besonderen Feiern ein.
+Wer Hilfe, Beratung oder einen Termin mit der Verwaltung braucht, findet im [**Amt Unterspreewald**](/municipality#amt-unterspreewald) die richtige Anlaufstelle – direkt im Schönwalde. Und mitten im Dorf lädt unsere [**Kirche**](municipality#kirche) zu stillen Momenten, Kulturabenden und besonderen Feiern ein.
 
 Engagement vor Ort – mit Herz, Hand und Zusammenhalt.
 
-➡️ **Mehr erfahren:**
 <!-- INTRO_TEXT_END -->
 
 <!-- SEPARATE_TEXT_START -->
@@ -89,13 +88,13 @@ Amt Unterspreewald
 <!-- AMTUNTERSPREEWALD_NAME_END -->
 
 <!-- AMTUNTERSPREEWALD_SLOGAN_START -->
-Lesefreude zum Mitnehmen – von Nachbarn für Nachbarn
+Bürgernah. Schnell. Zuverlässig
 <!-- AMTUNTERSPREEWALD_SLOGAN_END -->
 
 <!-- AMTUNTERSPREEWALD_TEXT_START -->
 🏛️ **Amt Unterspreewald – Verwaltung ganz nah**
 
-Hier können Bürger:innen viele Anliegen vor Ort klären – von Anträgen über Informationen bis zur persönlichen Beratung.
+Hier können Einwohner viele Anliegen vor Ort klären – von Anträgen über Informationen bis zur persönlichen Beratung.
 
 🕓 **Öffnungszeiten:**  
 Dienstag: 09:00 – 12:00 Uhr & 13:00 – 18:00 Uhr  

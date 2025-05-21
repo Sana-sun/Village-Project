@@ -23,3 +23,9 @@ KOMPLETT Gerüstbau GmbH
 <!-- KOMPLETTGERUESTBAUGMBH_NAME_END -->
 були повністю ідентичнми - слово слово, літера до літери!
 Категорія Alle / All в бізнесі відсутня
+
+14) Щоб розділити категорії потрібно: 
+- зміни subCategory та path в subcategories.ts (file: IconSearch)
+- змінити відповідний файл text.md, за потреби ств нові Page.txt + text.md файли
+- додати новий шлях в App:  <Route path="
+- якщо розділяємо в Бізнесі, то додати новий <StyledNavLink - повністю і змінити старий
