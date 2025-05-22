@@ -200,7 +200,6 @@ Mo-So: geschlossen
 
 ✉️ **E-Mail**: sv.winkel@t-online.de
 
-🌐 **Info:** [Fleischerei in Schönwald](https://branchenbuch.meinestadt.de/schoenwald-brandenburg/company/502022774)
 <!-- FLEISCHEREITISCHLER_TEXT_END -->
 <!-- FLEISCHEREITISCHLER_PHOTO_START -->
 /images/Handel_Dienstleistungen/Lebensmittel/Fleischerei/mainPhoto.jpg
@@ -259,7 +258,6 @@ Die Krankenpflege bietet individuelle Betreuung von Intensiv- und Heimbeatmungsp
 
 ✉️ **E-Mail:** hk@pflege-spreewald.de
 
-🌐 **Info:** [Häusliche Krankenpflege Birgit Hämmerling](https://www.pflegesuche.de/pflegedienst/haeusliche-krankenpflege-birgit-haemmerling-in-schlepzig_33906.html)
 <!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_TEXT_END -->
 <!-- HAEMMERLINGBHAEUSLICHEKRANKENPFLEGE_PHOTO_START -->
 /images/Handel_Dienstleistungen/Sozialdienste/mainPhoto1.jpg

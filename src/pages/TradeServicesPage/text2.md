@@ -165,7 +165,6 @@ Mo-So: geschlossen
 
 ✉️ **E-Mail**: sv.winkel@t-online.de
 
-🌐 **Info:** [Fleischerei in Schönwald](https://branchenbuch.meinestadt.de/schoenwald-brandenburg/company/502022774)
 <!-- FLEISCHEREITISCHLER_TEXT_END -->
 <!-- FLEISCHEREITISCHLER_PHOTO_START -->
 /images/Handel_Dienstleistungen/Lebensmittel/Fleischerei/mainPhoto.jpg

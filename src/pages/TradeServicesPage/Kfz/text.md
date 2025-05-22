@@ -51,7 +51,6 @@ Sa: auch nach Vereinbarung
 
 ✉️ **E-Mail:** autohausvogler@t-online.de
 
-🌐 **Info:** [Autohaus Vogler](https://www.dasoertliche.de/Themen/Autohaus-Vogler-Service-aller-Fahrzeugtypen-Sch%C3%B6nwald-Sch%C3%B6nwalde-Briesener-Weg#)
 <!-- AUTOHAUSVOGLER_TEXT_END -->
 <!-- AUTOHAUSVOGLER_PHOTO_START -->
 /images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Vogler/mainPhoto.webp
@@ -104,6 +103,8 @@ nach Vereinbarung
 📌 **Adresse:** Schönwalder Str. 4 · 15910 Schönwald bei Lübben (OT Waldow)
 
 📞 **Telefon:** 035477 659573
+
+✉️ **E-Mail:** ronny-hess@t-online.de
 
 🌐 **Webseite:** [Ronny Hess](http://www.ronny-hess.de/)
 <!-- MEISTERBETRIEBRONNYHESS_TEXT_END -->

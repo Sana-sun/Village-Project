@@ -36,7 +36,8 @@ Monatlich findet ein offener Babytreff statt – ideal für Familien, die unsere
 
 📞 **Telefon:** 035474 633  
 
-🌐 **Webseite:** Kita Regenbogen Krippe und Kindergarten  
+✉️ **E-Mail:** regenbogen.sw@t-online.de
+
 <!-- KITA_TEXT_END -->
 
 <!-- KITA_PHOTO_START -->

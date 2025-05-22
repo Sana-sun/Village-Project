@@ -185,7 +185,7 @@ export const subcategories = [
     name: "Morgner Haustechnik",
     category: "Handwerkgewerbe & Dienstleistungen",
     subCategory: "Bau & Renovierung",
-    path: "/tradeServices/bau-&-renovierung#morgner-haustechnik1",
+    path: "/tradeServices/bau-&-renovierung#morgner-haustechnik",
   },
   {
     name: "MSD Baustoffrecycling Schoenwalde",

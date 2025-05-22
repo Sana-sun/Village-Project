@@ -106,6 +106,8 @@ Im Hofladen gibt es handgefertigte Produkte aus Alpakawolle – von warmen Socke
 
 📞 **Kontakt:** Carola Mielke / 01512 8253604
 
+📧 **E-Mail**: pakahara@gmx.de
+
 🌐 **Website:** [Pakahara](https://www.pakahara.de/)
 
 <!-- ALPAKAFARM_TEXT_END -->
@@ -214,6 +216,8 @@ Jetzt buchen & den Asphalt erobern!
 
 📞 **Telefon:** 035477 4040
 
+📧 **E-Mail**: info@kart-center.de
+
 🌐 **Website:** [Spreewaldring Kart Center](https://kart-center.de/)
 
  <!-- SPREEWALDRINGKARTCENTER_TEXT_END -->
@@ -249,6 +253,8 @@ Die Rennstrecke wurde speziell als Trainingskurs für Fahrer aller Erfahrungsstu
 📌 **Adresse:** Waldhaus 2, 15910 Schoenwald
 
 📞 **Telefon:** 035477 65911
+
+ 📧 **E-Mail**: info@stc-motodrom.de
 
 🌐 **Website:** [Spreewaldring Training Center](https://spreewaldring.de/)
 

@@ -33,6 +33,7 @@ Sa–So: geschlossen
 
 ✉️ **E-Mail:** richter-dach@arcor.de
 
+🌐 **Info:** [Ingo Richter Dachdeckermeisterbetrieb](https://www.bing.com/maps?q=Dachdeckerbetrieb+Ingo+Richter&FORM=HDRSC6&cp=51.980557%7E13.766496&lvl=19.1)
 <!-- INGORICHTERDACHDECKER_TEXT_END -->
 <!-- INGORICHTERDACHDECKER_PHOTO_START -->
 /images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto1.webp
@@ -54,7 +55,7 @@ Ob Fassaden-, Modulgerüste oder Bauaufzüge – wir liefern sichere, präzise u
 Mo–Fr: 07:00–19:00   
 Sa–So: geschlossen  
 
-📌 **Adresse:** Bahnhofstraße 46, 15910 Schönwalde
+📌 **Adresse:** Bahnhofstraße 6, 15910 Schönwalde
 
 📞 **Telefon:** 035474 / 36766
 
