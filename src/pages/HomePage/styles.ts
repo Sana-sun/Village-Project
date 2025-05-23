@@ -20,3 +20,19 @@ export const InfoCardsWrapper = styled.div`
     grid-template-columns: 1fr;
   }
 `;
+
+export const HistoryWrapper = styled.div`
+ display: flex;
+  
+  img {
+    width: 600px;
+  }
+`;
+
+export const HistoryWrapper2 = styled.div`
+ display: flex;
+  
+  img {
+    width:750px;
+  }
+`;

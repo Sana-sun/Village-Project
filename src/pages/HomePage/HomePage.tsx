@@ -1,5 +1,6 @@
 import Carousel from "../../components/Carousel/Carousel";
 import YourAreHere from "../../components/YourAreHere/YouAreHere";
+import HistoryCarousel from "./HistoryCarousel/HistoryCarousel";
 import MainCarousel from "./MainCarousel/MainCarousel";
 import MainInfoCard from "./MainInfoCard/MainInfoCard";
 import { InfoCardsWrapper, MainContext } from "./styles";
@@ -30,6 +31,13 @@ function HomePage() {
     "/images/OtherPictures/Center/6.webp",
     "/images/OtherPictures/Center/7.webp",
     "/images/OtherPictures/Center/8.webp",
+  ];
+
+  const imagesHistory = [
+    "/images/OtherPictures/Geschichte/1.png",
+    "/images/OtherPictures/Geschichte/2.png",
+    "/images/OtherPictures/Geschichte/3.png",
+    "/images/OtherPictures/Geschichte/4.png",
   ];
 
   const extractSection = (
@@ -87,6 +95,8 @@ function HomePage() {
             </div>
           ))}
         </InfoCardsWrapper>
+
+          <HistoryCarousel images={imagesHistory}/>
 
         <Carousel images={images} />
       </MainContext>
