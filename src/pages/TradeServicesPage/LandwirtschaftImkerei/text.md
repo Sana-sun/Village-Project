@@ -31,10 +31,20 @@ Imkerei Morgner
 Natürlicher Honig aus der Region
 <!-- IMKEREIMORGNER_SLOGAN_END -->
 <!-- IMKEREIMORGNER_TEXT_START -->
-🐝 **Imkerei Morgner** – Seit Generationen wird hier hochwertige Imkerei betrieben, die für nachhaltige Produktion und regionale Qualität steht. Die Bienenstöcke liegen in einer naturbelassenen Umgebung, wo fleißige Bienen feinsten Honig sammeln. Dabei wird großer Wert auf artgerechte Haltung und traditionelle Methoden gelegt, um den natürlichen Geschmack zu bewahren.
+🐝 **Imkerei Morgner** – Eine junge Imkerei, entstanden aus Liebe zur Natur und den Bienen. Mit Leidenschaft und Sorgfalt betreiben wir unser Handwerk in einer naturbelassenen Umgebung, in der unsere Bienen feinsten Honig sammeln. Wir setzen auf traditionelle Methoden, um den natürlichen Geschmack zu bewahren und regionale Qualität zu bieten.
+
+📌 **Adresse:** Hauptstraße 20, 15910 Schönwalde
+
+📞 **Telefon:** 035474 615
+
+✉️ **E-Mail:** info@hls-morgner.de
+
+🅨 **Youtube:** [Imkerei](https://www.youtube.com/watch?v=BEEhv3m2B5I)
+
+🅕 **Facebook:** [Knut Morgner](https://www.facebook.com/knut.morgner)
 <!-- IMKEREIMORGNER_TEXT_END -->
 <!-- IMKEREIMORGNER_PHOTO_START -->
-/images/Handel_Dienstleistungen/Imkerei/Morgner/mainPhoto.jpg
+/images/Handel_Dienstleistungen/Imkerei/Morgner/1.png
 <!-- IMKEREIMORGNER_PHOTO_END -->
 
 <!-- IMKEREIRIPPERT_NAME_START -->
