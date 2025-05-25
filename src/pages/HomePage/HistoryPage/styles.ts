@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 
 export const CarouselContainer = styled.div`
@@ -77,8 +76,7 @@ export const SideImage = styled.img`
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   margin-top: 100px;
 
-  cursor: pointer
-
+  cursor: pointer;
 `;
 
 export const NavButton = styled.button`
@@ -159,8 +157,10 @@ export const HistoryFotoWrapper = styled.div`
     max-width: 100%;
     height: auto;
     border-radius: 12px;
-    margin: 0;
-    padding: 0;
+
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
   }
 
   img:nth-child(odd) {
@@ -177,12 +177,20 @@ export const HistoryFotoWrapper = styled.div`
   }
 
   @media (max-width: 1024px) {
-    img:nth-child(odd), img:nth-child(even) {
+    img:nth-child(odd),
+    img:nth-child(even) {
       align-self: center; /* На малих екранах всі фото центруються */
     }
 
     img {
       max-width: 90%; /* Трохи зменшуємо максимальну ширину */
+    }
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 `;
