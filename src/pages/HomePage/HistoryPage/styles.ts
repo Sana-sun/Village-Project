@@ -149,3 +149,40 @@ export const LoadingText = styled.div`
   border-radius: 0.5rem;
   text-align: center;
 `;
+
+export const HistoryFotoWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  img:nth-child(odd) {
+    align-self: flex-start;
+  }
+
+  img:nth-child(even) {
+    align-self: flex-end;
+  }
+
+  img {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  @media (max-width: 1024px) {
+    img:nth-child(odd), img:nth-child(even) {
+      align-self: center; /* На малих екранах всі фото центруються */
+    }
+
+    img {
+      max-width: 90%; /* Трохи зменшуємо максимальну ширину */
+    }
+  }
+`;

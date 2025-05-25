@@ -21,6 +21,7 @@ import PflegeSchoenheitBetreuung from "./pages/TradeServicesPage/PflegeBetreuung
 import TechnischeDienstleistungen from "./pages/TradeServicesPage/TechnischeDienstleistungen/TechnischeDienstleistungen";
 import AllSubCategories from "./pages/TradeServicesPage/AllSubCategories/AllSubCategories";
 import Schoenheit from "./pages/TradeServicesPage/Schoenheit.tsx/Schoenheit";
+import HistoryPage from "./pages/HomePage/HistoryPage/HistoryPage";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/history" element={<HistoryPage />} />
             <Route path="/education" element={<EducationPage />} />
             <Route path="/municipality" element={<MunicipalityPage />} />
             <Route path="/tradeServices" element={<TradeServicesPage />} >

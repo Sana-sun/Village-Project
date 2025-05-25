@@ -21,6 +21,7 @@ function YourAreHere({ tradePageLocation }: MoreLocationInfoProps) {
     "/transport": "Verkehr & Infrastruktur",
     "/bauLand": "Baugrundstücke",
     "/impressum": "Impressum",
+    "/history": "Geschichte",
   };
 
   // Додаємо унікальні підкатегорії до мапи

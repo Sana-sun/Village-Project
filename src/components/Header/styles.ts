@@ -78,25 +78,26 @@ export const LogoBtn = styled.button`
 export const LogoImage = styled.img`
   width: 120px;
 
-   @media (max-width: 430px) {
+  @media (max-width: 430px) {
     width: 80px;
   }
 `;
 
-
-
 export const VideoContainer = styled.div`
-
-@media (max-width: 540px) {
+  @media (max-width: 540px) {
     /* padding-right: 20px; */
   }
 
-   @media (max-width: 430px) {
+  @media (max-width: 430px) {
     /* width: 80px; */
     padding-right: 20px;
   }
-`;
 
+  video {
+    /* display: block; */
+    /* object-fit: cover; */
+  }
+`;
 
 export const LogoText = styled.div`
   cursor: pointer;
@@ -117,6 +118,5 @@ export const LogoText = styled.div`
     font-size: 0.8rem;
     display: none;
     padding-right: 0;
-
   }
 `;

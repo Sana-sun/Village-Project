@@ -29,8 +29,6 @@
 
 // export default Header;
 
-
-
 // // 2
 // import { useRef, useState } from "react";
 // import BurgerMenu from "../BurgerMenu/BurgerMenu";
@@ -98,9 +96,6 @@
 
 // export default Header;
 
-
-
-
 import { useRef, useState } from "react";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 import IconSearch from "../IconSearch/IconSearch";
@@ -126,25 +121,28 @@ function Header() {
     <MenuWrapper>
       <BurgerMenu />
 
-      
-
       <LogoBtn onClick={handleHomePage}>
         <VideoContainer>
           <video
             ref={videoRef}
-            width={200}   // 320 / 1.5 = ~213
-            height={80}  // 180 / 1.5 = ~120
+            width={200} // 320 / 1.5 = ~213
+            height={80} // 180 / 1.5 = ~120
             autoPlay
             muted
             loop
             playsInline
             onError={handleVideoError}
             onLoadedData={handleVideoLoaded}
+            disablePictureInPicture
+            controlsList="nodownload"
           >
-            <source src="/images/OtherPictures/Logos/Start_Short_Video.mp4" type="video/mp4" />
-            Ваш браузер не підтримує відеотег.
+            <source
+              src="/images/OtherPictures/Logos/Start_Short_Video.mp4"
+              type="video/mp4"
+            />
+            Ihr Browser unterstützt das Video-Tag nicht
           </video>
-      </VideoContainer>
+        </VideoContainer>
         {/* <LogoText>Schönwalde (Spreewald)</LogoText> */}
         <LogoText>Schönwald (Brandenburg)</LogoText>
       </LogoBtn>

@@ -60,7 +60,7 @@ export const Navigation = styled.nav`
   }
 `;
 
-// styles.ts
+
 export const StyledNavLink = styled(NavLink)<{ $active?: boolean }>`
   text-decoration: none;
   display: block;

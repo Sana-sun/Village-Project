@@ -18,7 +18,22 @@ function MainInfoCard({ name, text, mainPhoto }: MainInfoCardProps) {
           <img src={mainPhoto} alt="Photo" title="Main Photo" />
         </MainFoto>
         <MainText>
-          <ReactMarkdown>{text || ""}</ReactMarkdown>
+          {/* <ReactMarkdown>{text || ""}</ReactMarkdown> */}
+          <ReactMarkdown
+                    components={{
+                      a: ({ node, ...props }) => (
+                        <a
+                          {...props}
+                          // target="_blank"
+                          rel="noopener noreferrer"
+                          style={{ color: "#0033A0" }}
+                        />
+                      ),
+                    }}
+                  >
+                    {text}
+                  </ReactMarkdown>
+          
         </MainText>
       </MainWrapper>
     </>

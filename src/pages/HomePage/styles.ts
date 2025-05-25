@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 export const MainContext = styled.div`
   padding: 40px 60px;
@@ -34,5 +35,23 @@ export const HistoryWrapper2 = styled.div`
   
   img {
     width:750px;
+  }
+`;
+
+
+export const StyledNavLink = styled(NavLink)`
+  text-decoration: none;
+  display: block;
+  text-align: center;
+
+  cursor: pointer;
+
+  &:hover {
+  }
+
+  &:active {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+    transform: scale(0.98);
   }
 `;
