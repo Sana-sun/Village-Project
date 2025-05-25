@@ -37,7 +37,7 @@ Der ehrenamtliche Bürgermeister der Gemeinde Schönwald ist Roland Gefreiter, d
 <!-- GESCHICHTE_TEXT_START -->
 Schönwalde blickt auf eine lange Geschichte bis ins Mittelalter zurück. Das Dorf ist bekannt für seine Traditionen und sein kulturelles Erbe.
 
-➡️ [**Mehr erfahren:**](/history)
+➡️ [**Mehr erfahren ...**](/history)
 <!-- GESCHICHTE_TEXT_END -->
 <!-- GESCHICHTE_PHOTO_START -->
 /images/OtherPictures/Geschichte/mainPhoto.webp
