@@ -125,8 +125,8 @@ function Header() {
         <VideoContainer>
           <video
             ref={videoRef}
-            width={200} // 320 / 1.5 = ~213
-            height={80} // 180 / 1.5 = ~120
+            width={160} // 320 / 1.5 = ~213
+            height={60} // 180 / 1.5 = ~120
             autoPlay
             muted
             loop

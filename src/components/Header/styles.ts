@@ -6,9 +6,7 @@ export const MenuWrapper = styled.div`
   display: flex;
   color: white;
   height: 100px;
-  /* height: 120px; */
-  height: 80px;
-  height: 90px;
+  height: 70px;
   justify-content: space-between;
   align-items: center;
   padding: 20px 60px;
