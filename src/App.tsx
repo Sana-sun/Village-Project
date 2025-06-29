@@ -11,7 +11,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import MunicipalityPage from "./pages/MunicipalityPage/MunicipalityPage";
 import NatureLeisurePage from "./pages/NatureLeisurePage/NatureLeisurePage";
 import TradeServicesPage from "./pages/TradeServicesPage/TradeServicesPage";
-import TransportPage from "./pages/TransportInfrastructurePage/TransportPage";
+import TransportPage from "./pages/VerkehrPage/TransportPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 // sub categories for tradeService page

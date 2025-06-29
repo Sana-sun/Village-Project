@@ -166,8 +166,11 @@ export const Heading = styled.h1`
 `;
 
 export const IntroText = styled.p`
-  font-size: 1rem;
-  margin: 1.5rem 0 2rem 0;
+  /* white-space: pre-line; */
+  font-size: 1.2rem;
+  margin: 2rem 0 3rem 0;
+  /* padding: 0 1rem; */
+  line-height: 1.6;
   text-align: center;
 `;
 
@@ -183,42 +186,58 @@ export const IntroText = styled.p`
 export const CardsContainer = styled.div<{ itemCount: number }>`
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  /* gap: 1rem; */
   justify-content: ${({ itemCount }) =>
     itemCount === 1 ? "center" : "space-evenly"};
 `;
 
+// export const CardContent = styled.div`
+//   padding: 1rem 1.5rem 1.5rem;
+//   /* padding: 1.2rem; */
+// `;
 export const CardContent = styled.div`
-  padding: 1.5rem;
-  /* padding: 1.2rem; */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+   padding: 1rem 1.5rem 1.5rem;
+
 `;
 
-export const Card = styled.div`
-border: 1px solid #ccc;
-  border-radius: 12px;
-  margin-bottom: 1.5rem;
-  /* max-width: 600px; */
-  max-width: 550px;
-  /* max-width: 450px; */
-  /* margin-inline: auto; */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  background-color: #f9f9f9;
-  position: relative;
-  overflow: hidden;
-`;
 
 // export const Card = styled.div`
-//   border: 1px solid #ccc;
+// border: 1px solid #ccc;
 //   border-radius: 12px;
-//   margin-bottom: 2rem;
-//   flex: 1 1 calc(50% - 10px); /* 2 картки в рядок із gap */
+//   margin-bottom: 1.5rem;
+//   /* max-width: 600px; */
 //   max-width: 550px;
-//   min-width: 280px;
+//   /* max-width: 450px; */
+//   /* margin-inline: auto; */
 //   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 //   background-color: #f9f9f9;
 //   position: relative;
 //   overflow: hidden;
 // `;
+export const Card = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 10px);
+  min-width: 280px;
+
+   border: 1px solid #ccc;
+   border-radius: 12px;
+   margin-bottom: 1.5rem;
+   max-width: 600px;
+   margin-inline: auto;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   background-color: #f9f9f9;
+   position: relative;
+   overflow: hidden;
+`;
 
 export const CardImageWrapper = styled.div`
   text-align: center;
@@ -227,7 +246,7 @@ export const CardImageWrapper = styled.div`
     width: 100%;
     /* max-height: 350px; */
     /* max-height: 270px; */
-    max-height: 250px;
+    max-height: 300px;
     object-fit: cover;
     border-radius: 8px;
   }
@@ -246,7 +265,12 @@ export const CardText = styled.p`
   margin-bottom: 1rem;
   white-space: pre-line;
   font-size: 1rem;
+`;
 
+export const CardTextItems = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 `;
 
 export const ContactInfo = styled.div`
@@ -262,15 +286,22 @@ export const ContactInfo = styled.div`
 
 export const MoreButtonWrapper = styled.div`
   text-align: right;
-  margin-top: 1rem;
-  
+  margin-top: 3rem;
+  margin-top: auto;
 `;
+// export const MoreButtonWrapper = styled.div`
+//   margin-top: auto;
+//   text-align: right;
+//   padding-top: 1rem;
+// `;
+
 
 export const MoreButton = styled.button`
   background-color: #0033a0;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
+  margin-top: 1rem;
   border-radius: 8px;
   cursor: pointer;
   transition: transform 0.15s ease, background-color 0.15s ease;
@@ -390,25 +421,45 @@ export const Arrow = styled.button<{ left?: boolean }>`
   top: 50%;
   ${({ left }) => (left ? "left: 10px;" : "right: 10px;")}
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.7);
+  /* background: rgba(255,255,255,0.7); */
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 1.5rem;
-  z-index: 1;
+  font-size: 1rem;
+  display: flex;
+  padding: 0.3rem;
+  color: #0033a0;/* блакитна стрілка */
+
+&:hover {
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #f5faff;
+  }
+
+  &:active {
+    transform: translateY(-50%) scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
 `;
 
 export const Dots = styled.div`
   display: flex;
   justify-content: center;
+
+  position: absolute;
+  /* bottom: -50%; */
+  top: 0.5%;
+  left: 50%;
   gap: 6px;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
 `;
 
 export const Dot = styled.div<{ active: boolean }>`
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: ${({ active }) => (active ? "#0033a0" : "#ccc")};
+  /* background-color: ${({ active }) => (active ? "#fff82fff" : "rgba(255, 255, 255, 1)")}; */
+  background-color: ${({ active }) => (active ? "#ffd22fff" : "rgba(255, 255, 255, 1)")};
+  /* background-color: ${({ active }) => (active ? "black" : "rgba(255, 255, 255, 1)")}; */
   transition: background-color 0.3s;
 `;

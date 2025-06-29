@@ -1,56 +1,41 @@
 import styled from "@emotion/styled";
 import { Link } from "react-router-dom";
 
-export const FooterWrapper = styled.div`
-  background-color: #0033a0;
+export const FooterWrapper = styled.footer`
   background-color: #002c96;
-
-  display: flex;
   color: white;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 60px;
-  gap: 20px;
+  padding: 30px 60px;
 
-  @media (max-width: 600px) {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 20px 30px;
+  @media (max-width: 768px) {
+    padding: 30px 20px;
   }
 `;
 
-export const InfoContainer = styled.div`
+export const FooterGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 40px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 20px;
+  }
+`;
+
+export const FooterSection = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-
-  @media (max-width: 600px) {
-    text-align: center;
-  }
-`;
-
-export const BoldText = styled.div`
-  font-weight: bold;
-  text-decoration: none;
-`;
-
-export const StyledRouterLink = styled(Link)`
-  text-decoration: none;
-  color: inherit;
-
-  &:hover {
-    text-decoration: underline;
-  }
-`;
-
-export const CenterTextTrio = styled.div`
-  display: flex;
-  flex-direction: column;
-  line-height: 1.4;
+  font-size: 1rem;
 
   a {
     text-decoration: none;
-    margin-right: 4px;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
   }
 
   a:hover {
@@ -58,63 +43,80 @@ export const CenterTextTrio = styled.div`
   }
 `;
 
-export const Links = styled.div`
+export const FooterSectionRight = styled.div`
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  font-weight: bold;
+  font-size: 1rem;
+  margin-left: auto;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+    /* text-align: right; */
+    align-items: center
+  }
 
   a {
-    font-size: 24px;
+    text-decoration: none;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+
+    gap: 6px;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 `;
 
-
-// new logo
-export const LogoBtn = styled.button`
-  display: flex;
+export const ContactLink = styled.a`
+  font-size: 1rem;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-
-
-  gap: 14px;
-  /* width: 200px; */
-  width: 150px;
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
+  gap: 8px;
+  text-decoration: none;
   color: white;
-  /* text-shadow: 1px 1px 2px black; */
-  margin-left: 0;
-  margin-left: 40px;
 
-  @media (max-width: 1024px) {
-     display: none;
-
-   }
-
- @media (max-width: 768px) {
-     margin-left: 50px;
-     margin-left: 0;
-   }
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
+export const StyledRouterLink = styled(Link)`
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
+export const LogoBtn = styled.button`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  @media (max-width: 1024px) {
+    gap: 6px;
+  }
+`;
+
+export const LogoImage = styled.img`
+  width: 120px;
+
+  @media (max-width: 768px) {
+    width: 90px;
+  }
+`;
 
 export const LogoText = styled.div`
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
   color: white;
   font-weight: bold;
   font-size: 1.1rem;
   letter-spacing: 1px;
-`;
-
-export const LogoImage = styled.img`
-  width: 130px;
-
-   @media (max-width: 1024px) {
-     display: none;
-   }
-
 `;

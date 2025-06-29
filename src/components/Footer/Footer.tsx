@@ -87,68 +87,54 @@
 // export default Footer;
 
 import {
-  BoldText,
-  CenterTextTrio,
-  InfoContainer,
   FooterWrapper,
+  FooterSection,
   LogoImage,
   LogoBtn,
-  StyledRouterLink,
   LogoText,
+  StyledRouterLink,
+  ContactLink,
+  FooterGrid,
+  FooterSectionRight,
 } from "./styles";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
-function Footer() {
+
+export default function Footer() {
   const handleHomePage = () => {
     window.location.href = "/";
   };
 
   return (
-    <>
-      <FooterWrapper>
-        <InfoContainer>
-          {/* <BoldText>Adress</BoldText> */}
-          <CenterTextTrio>
-            <span>Schönwalde(Spreewald)</span>
-            <span>Hauptstraße 49</span>
-            <span>15910 Schönwalde</span>
-          </CenterTextTrio>
-        </InfoContainer>
+    <FooterWrapper>
+      <FooterGrid>
+        <FooterSection>
+          <span>Schönwalde (Spreewald)</span>
+          <span>Hauptstraße 49</span>
+          <span>15910 Schönwalde</span>
+        </FooterSection>
 
         <LogoBtn onClick={handleHomePage}>
           <LogoImage
-            // src="public/images/OtherPictures/Logos/Logo.png"
-            // src="/images/OtherPictures/Logos/Logo.png"
             src="/images/OtherPictures/Logos/Logo-removebg.png"
             alt="Logo"
             title="Klicken Sie auf mich, um zur Startseite zu gelangen"
           />
-          {/* <LogoText>Schönwalde (Spreewald)</LogoText> */}
           <LogoText>Schönwald (Brandenburg)</LogoText>
         </LogoBtn>
 
-        <InfoContainer>
-          {/* <BoldText>Kontakt</BoldText> */}
-
-          <CenterTextTrio>
-            <span>
-              {/* <a href="tel:0354742060">Tel: </a> */}
-              <a href="tel:0354742060"><FaPhone/></a>
-              035474 2060
-            </span>
-            <span>
-              {/* <a href="mailto:amt@unterspreewald.de"> Email: </a> */}
-              <a href="mailto:amt@unterspreewald.de"><FaEnvelope/></a>
-            amt@unterspreewald.de
-            </span>
-
-            <StyledRouterLink to="/impressum">
-              <BoldText>Impressum</BoldText>
-            </StyledRouterLink>
-          </CenterTextTrio>
-        </InfoContainer>
-      </FooterWrapper>
-    </>
+        <FooterSectionRight>
+          <ContactLink href="tel:0354742060">
+            <FaPhone /> 035474 2060
+          </ContactLink>
+          <ContactLink href="mailto:amt@unterspreewald.de">
+            <FaEnvelope /> amt@unterspreewald.de
+          </ContactLink>
+          <StyledRouterLink to="/impressum">
+            Impressum
+          </StyledRouterLink>
+        </FooterSectionRight>
+      </FooterGrid>
+    </FooterWrapper>
   );
 }
 
-export default Footer;
