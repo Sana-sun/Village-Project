@@ -247,9 +247,11 @@ export const CardImageWrapper = styled.div`
     /* max-height: 350px; */
     /* max-height: 270px; */
     max-height: 300px;
-    object-fit: cover;
+    /* max-height: 280px; */
+    object-fit: contain;
     border-radius: 8px;
   }
+
 `;
 
 export const CardSlogan = styled.h4`
@@ -347,11 +349,15 @@ export const SlideTitle = styled.h3`
   color: #0033a0;
 `;
 
-export const SlideText = styled.p`
+export const SlideText = styled.div`
+  max-height: 400px; /* або інше обмеження, яке підходить під дизайн */
+  overflow-y: auto;
   white-space: pre-line;
   font-size: 0.95rem;
   line-height: 1.6;
+  padding-right: 0.5rem; /* невеличкий відступ для скролу */
 `;
+
 
 export const SlideCloseButton = styled.button`
   position: absolute;

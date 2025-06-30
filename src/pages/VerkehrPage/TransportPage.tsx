@@ -28,9 +28,7 @@ export default function TransportPage() {
       "/images/Verkehr_Infrastruktur/Bahnhof/2.webp",
       "/images/Verkehr_Infrastruktur/Bahnhof/3.jpg",
     ],
-    Autobahn: [
-      "/images/Verkehr_Infrastruktur/Autobahn/mainPhoto.png",
-    ],
+    Autobahn: ["/images/Verkehr_Infrastruktur/Autobahn/mainPhoto.png"],
   };
 
   useEffect(() => {
@@ -44,7 +42,19 @@ export default function TransportPage() {
     <CardTemplate
       heading="🚉 Ob per Zug oder Auto – Schönwalde ist gut angebunden"
       introText={
-        "Unser Bahnhof verbindet das Dorf stündlich mit Berlin und Senftenberg – ideal für Pendler, Ausflügler und Schulbesuche. Auch Cottbus ist gut erreichbar. Wer lieber mit dem Auto unterwegs ist, erreicht Schönwalde bequem über die nahegelegene Autobahn – schnell, flexibel und direkt ins Grüne. \nMobilität in Schönwalde heißt: verbunden bleiben – nachhaltig, zuverlässig und naturnah."
+        <>
+          Unser Bahnhof verbindet das Dorf stündlich mit Berlin und Senftenberg
+          – ideal für Pendler, Ausflügler und Schulbesuche. Auch Cottbus ist gut
+          erreichbar. Wer lieber mit dem Auto unterwegs ist, erreicht Schönwalde
+          bequem über die nahegelegene Autobahn – schnell, flexibel und direkt
+          ins Grüne.
+          <br />
+          <br />
+          <strong>
+            Mobilität in Schönwalde heißt: verbunden bleiben – nachhaltig,
+            zuverlässig und naturnah.
+          </strong>
+        </>
       }
       cards={cards}
       loading={loading}

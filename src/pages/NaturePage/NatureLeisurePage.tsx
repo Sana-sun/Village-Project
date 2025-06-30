@@ -25,20 +25,20 @@ export default function NatureLeisurePage() {
     "/images/Natur_Freizeit/See/1.webp",
     "/images/Natur_Freizeit/See/2.jpeg",
     "/images/Natur_Freizeit/See/3.jpeg",
-    "/images/Natur_Freizeit/See/4.jpeg",
     "/images/Natur_Freizeit/See/5.webp",
     "/images/Natur_Freizeit/See/6.jpeg"
   ],
   "Sportlerheim & Sportplatz": [
+   "/images/Natur_Freizeit/Sportlerheim/mainPhoto.webp",
    "/images/Natur_Freizeit/Sportlerheim/1.webp",
     "/images/Natur_Freizeit/Sportlerheim/2.webp",
     "/images/Natur_Freizeit/Sportlerheim/3.webp",
     "/images/Natur_Freizeit/Sportlerheim/4.webp"
   ],
   Alpakafarm: [
+    "/images/Natur_Freizeit/Alpaka-Farm/mainPhoto.webp",
     "/images/Natur_Freizeit/Alpaka-Farm/1.jpg",
     "/images/Natur_Freizeit/Alpaka-Farm/2.png",
-    "/images/Natur_Freizeit/Alpaka-Farm/3.webp",
   ],
   Jugendclub: [
     "/images/Natur_Freizeit/Jugendclub/mainPhoto.jpg",
@@ -50,11 +50,13 @@ export default function NatureLeisurePage() {
     "/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.webp",
   ],
   "Spreewaldring Kart Center": [
+    "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/mainPhoto.jpg",
     "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/1.jpg",
     "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/2.png",
     "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/3.jpg"
   ],
   "Spreewaldring Training Center": [
+    "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/mainPhoto.png",
    "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/1.png",
     "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/2.png",
     "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/3.png"

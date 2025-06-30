@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 
 import {
   FiInfo,
@@ -81,7 +81,7 @@ function SkeletonCard() {
 
 interface CardTemplateProps {
   heading: string;
-  introText: string;
+  introText: ReactNode;
   cards: BauCard[];
   loading: boolean;
   images?: Record<string, string[]>;
@@ -134,6 +134,19 @@ export default function CardTemplate({ heading, introText, cards, loading, image
                     {item.CARD_WEB}
                     </a>
                   </CardTextItems>}
+                  {/* {item.CARD_WEB && (
+                  <CardTextItems>
+                    <FiGlobe />{" "}
+                    <a
+                      href={item.CARD_WEB?.startsWith("http") ? item.CARD_WEB : `https://${item.CARD_WEB}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Website
+                    </a>
+                  </CardTextItems>
+                )} */}
+
                 </ContactInfo>
 
                 {item.CARD_EXTRA_INFO && (
@@ -154,13 +167,18 @@ export default function CardTemplate({ heading, introText, cards, loading, image
                             {/* {item.ADD_PERSON && <strong><FiUser /> {item.ADD_PERSON}</strong>} */}
                             {item.ADD_TEL && <p><FiPhone /> {item.ADD_TEL}</p>}
                             {item.ADD_EMAIL && <p><FiMail /> {item.ADD_EMAIL}</p>}
-                            {item.WORK_TIME && <p><FiClock /> <strong>Öffnungszeiten:</strong> {item.WORK_TIME}</p>}
                             {item.ADD_FACEBOOK && (
                               <p>
-                                <FaFacebookF /> <a href={item.ADD_FACEBOOK} target="_blank" rel="noopener noreferrer">Facebook</a>
+                                <br /><FaFacebookF /> <a href={item.ADD_FACEBOOK} target="_blank" rel="noopener noreferrer">Facebook</a>
                               </p>
                             )}
-                            {item.ADD_YOUTUBE && <p><FaYoutube /> {item.ADD_YOUTUBE}</p>}
+                            {item.ADD_YOUTUBE && (
+                              <p>
+                                <FaYoutube /> <a href={item.ADD_YOUTUBE} target="_blank" rel="noopener noreferrer">YouTube</a>
+                              </p>
+                            )}
+                            {item.WORK_TIME && <p><br /><FiClock /> <strong>Öffnungszeiten:</strong><br /> {item.WORK_TIME}</p>}
+
                           </ContactInfo>
                         </SlideText>
                       </SlideContent>

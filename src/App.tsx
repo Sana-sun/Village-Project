@@ -8,8 +8,8 @@ import Impressum from "./pages/Impressum/Impressum";
 import BauLand from "./pages/BauLandPage/BauLand";
 import EducationPage from "./pages/EducationPage/EducationPage";
 import HomePage from "./pages/HomePage/HomePage";
-import MunicipalityPage from "./pages/MunicipalityPage/MunicipalityPage";
-import NatureLeisurePage from "./pages/NatureLeisurePage/NatureLeisurePage";
+import MunicipalityPage from "./pages/VerwaltungPage/VerwaltungPage";
+import NatureLeisurePage from "./pages/NaturePage/NatureLeisurePage";
 import TradeServicesPage from "./pages/TradeServicesPage/TradeServicesPage";
 import TransportPage from "./pages/VerkehrPage/TransportPage";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
@@ -25,6 +25,7 @@ import TechnischeDienstleistungen from "./pages/TradeServicesPage/TechnischeDien
 import AllSubCategories from "./pages/TradeServicesPage/AllSubCategories/AllSubCategories";
 import Schoenheit from "./pages/TradeServicesPage/Schoenheit.tsx/Schoenheit";
 import HistoryPage from "./pages/HomePage/HistoryPage/HistoryPage";
+import ServicesPage from "./pages/TradeServicesPage/ServicesPage";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
               <Route path="/history" element={<HistoryPage />} />
               <Route path="/education" element={<EducationPage />} />
               <Route path="/municipality" element={<MunicipalityPage />} />
-              <Route path="/tradeServices" element={<TradeServicesPage />} >
+              <Route path="/tradeServices" element={<ServicesPage />} >
+              {/* <Route path="/tradeServices" element={<TradeServicesPage />} > */}
                 <Route path="all-services" element={<AllSubCategories />} />
                 <Route path="landwirtschaft-&-imkerei" element={<LandwirtschaftImkerei />} />
                 <Route path="kfz" element={<Kfz />} />
