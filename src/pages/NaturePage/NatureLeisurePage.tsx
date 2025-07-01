@@ -14,6 +14,7 @@
 import { useEffect, useState } from "react";
 import { useData } from "../../context/DataContext";
 import CardTemplate from "../../components/CardTemplate/CardTemplate";
+import YourAreHere from "../../components/YourAreHere/YouAreHere";
 
 export default function NatureLeisurePage() {
   const data = useData();
@@ -74,14 +75,19 @@ export default function NatureLeisurePage() {
   }, [data]);
 
   return (
-    <CardTemplate
-      heading="🌿 Natur & Freizeit in Schönwalde & Waldow – draußen zuhause"
-      introText={
-        "Wenn das Dorf zur Bühne der Erholung wird, ist Schönwalde der richtige Ort dafür. Zwischen Wasser, Wiesen und Wegen finden sich stille und lebendige Ecken, die das Herz berühren und den Kopf frei machen."
-      }
-      cards={cards}
-      loading={loading}
-      images={images}
-    />
+    <>
+      <YourAreHere infoPageName="Natur & Freizeit" />
+
+      <CardTemplate
+        heading="🌿 Natur & Freizeit in Schönwalde & Waldow – draußen zuhause"
+        introText={
+          "Wenn das Dorf zur Bühne der Erholung wird, ist Schönwalde der richtige Ort dafür. Zwischen Wasser, Wiesen und Wegen finden sich stille und lebendige Ecken, die das Herz berühren und den Kopf frei machen."
+        }
+        cards={cards}
+        loading={loading}
+        images={images}
+      />
+    </>
+   
   );
 }

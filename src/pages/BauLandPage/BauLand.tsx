@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { useData } from "../../context/DataContext";
 import CardTemplate from "../../components/CardTemplate/CardTemplate";
+import YourAreHere from "../../components/YourAreHere/YouAreHere";
+// import SearchInfo from "../../context/SearchAllPath/SearchInfo";
 
 export default function BauLand() {
   const data = useData();
@@ -24,15 +26,21 @@ export default function BauLand() {
     }
   }, [data]);
 
+
   return (
-    <CardTemplate
-      heading="🏡 Suchen Sie ein Zuhause im Grünen?"
-      introText={
-        "In Schönwalde stehen Baugrundstücke und Wohnhäuser zum Verkauf – ideal für alle, die Ruhe, Natur, Freiraum und Dorfgemeinschaft schätzen. Ob Eigenheim, Rückzugsort oder Investition: Hier beginnt Ihr neues Kapitel."
-      }
-      cards={cards}
-      loading={loading}
-      images={images}
-    />
+    <>
+      {/* <SearchInfo /> */}
+      <YourAreHere infoPageName="Baugrundstücke" />
+
+      <CardTemplate
+        heading="🏡 Suchen Sie ein Zuhause im Grünen?"
+        introText={
+          "In Schönwalde stehen Baugrundstücke und Wohnhäuser zum Verkauf – ideal für alle, die Ruhe, Natur, Freiraum und Dorfgemeinschaft schätzen. Ob Eigenheim, Rückzugsort oder Investition: Hier beginnt Ihr neues Kapitel."
+        }
+        cards={cards}
+        loading={loading}
+        images={images}
+      />
+    </>
   );
 }

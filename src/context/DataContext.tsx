@@ -17,6 +17,8 @@ export const DataProvider = ({ children }: DataProviderProps) => {
       .catch((err) => console.error("Data fetch error:", err));
   }, []);
 
+// console.log("Data use:" , data);
+
   return <DataContext.Provider value={data}>{children}</DataContext.Provider>;
 };
 

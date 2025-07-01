@@ -174,27 +174,14 @@ export const IntroText = styled.p`
   text-align: center;
 `;
 
-// export const CardsContainer = styled.div`
-//   display: flex;
-//   flex-wrap: wrap;
-//   gap: 3rem;
-//   /* gap: 10px; */
-//   justify-content: center
-  
-// `;
-
 export const CardsContainer = styled.div<{ itemCount: number }>`
   display: flex;
   flex-wrap: wrap;
-  /* gap: 1rem; */
+  gap: 1rem;
   justify-content: ${({ itemCount }) =>
     itemCount === 1 ? "center" : "space-evenly"};
 `;
 
-// export const CardContent = styled.div`
-//   padding: 1rem 1.5rem 1.5rem;
-//   /* padding: 1.2rem; */
-// `;
 export const CardContent = styled.div`
   display: flex;
   flex-direction: column;
@@ -468,4 +455,13 @@ export const Dot = styled.div<{ active: boolean }>`
   background-color: ${({ active }) => (active ? "#ffd22fff" : "rgba(255, 255, 255, 1)")};
   /* background-color: ${({ active }) => (active ? "black" : "rgba(255, 255, 255, 1)")}; */
   transition: background-color 0.3s;
+`;
+
+export const CategoryName = styled.h3`
+  font-size: 1.2rem;
+  color: #0033a0;
+  color: #020c22bf;
+  margin-bottom: 1.8rem;
+  padding-left: 0.2rem;
+  font-weight: 500;
 `;

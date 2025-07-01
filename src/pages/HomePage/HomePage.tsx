@@ -107,7 +107,6 @@
 // export default HomePage;
 
 import Carousel from "../../components/Carousel/Carousel";
-import YourAreHere from "../../components/YourAreHere/YouAreHere";
 import MainCarousel from "./MainCarousel/MainCarousel";
 import MainInfoCard from "./MainInfoCard/MainInfoCard";
 import { InfoCardsWrapper, MainContext } from "./styles";
@@ -182,7 +181,6 @@ function HomePage() {
     <>
       <MainCarousel />
       <MainContext>
-        <YourAreHere />
 
         <InfoCardsWrapper>
           {sections.map((item, index) => (

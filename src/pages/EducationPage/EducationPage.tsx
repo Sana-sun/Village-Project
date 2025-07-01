@@ -16,6 +16,7 @@
 import { useEffect, useState } from "react";
 import { useData } from "../../context/DataContext";
 import CardTemplate from "../../components/CardTemplate/CardTemplate";
+import YourAreHere from "../../components/YourAreHere/YouAreHere";
 
 export default function EducationPage() {
   const data = useData();
@@ -53,26 +54,30 @@ export default function EducationPage() {
   }, [data]);
 
   return (
-    <CardTemplate
-      heading="🎓 Lernen im Herzen unseres Dorfes"
-      introText={
-        <>
-          In Schönwalde beginnt Bildung gleich nebenan – persönlich, naturnah
-          und herzlich. In der <strong>Kita Regenbogen</strong> entdecken Kinder spielerisch ihre
-          Welt, mit Fokus auf Handwerk und Kreativität. Die <strong>Grundschule</strong> fördert
-          Lernen in kleinen Klassen, eng verbunden mit Natur und
-          Dorfgemeinschaft. Und unsere <strong>Mini-Bibliothek</strong> lädt Groß und Klein ein:
-          Bücher nehmen, tauschen, lesen – ganz unkompliziert.
-          <br />
-          <br />
-          <strong>
-            Bildung in Schönwalde heißt: gemeinsam wachsen und entdecken!
-          </strong>
-        </>
-      }
-      cards={cards}
-      loading={loading}
-      images={images}
-    />
+   <>
+      <YourAreHere infoPageName="Bildung & Gemeinschaft" />
+      <CardTemplate
+        heading="🎓 Lernen im Herzen unseres Dorfes"
+        introText={
+          <>
+            In Schönwalde beginnt Bildung gleich nebenan – persönlich, naturnah
+            und herzlich. In der <strong>Kita Regenbogen</strong> entdecken Kinder spielerisch ihre
+            Welt, mit Fokus auf Handwerk und Kreativität. Die <strong>Grundschule</strong> fördert
+            Lernen in kleinen Klassen, eng verbunden mit Natur und
+            Dorfgemeinschaft. Und unsere <strong>Mini-Bibliothek</strong> lädt Groß und Klein ein:
+            Bücher nehmen, tauschen, lesen – ganz unkompliziert.
+            <br />
+            <br />
+            <strong>
+              Bildung in Schönwalde heißt: gemeinsam wachsen und entdecken!
+            </strong>
+          </>
+        }
+        cards={cards}
+        loading={loading}
+        images={images}
+      />
+   </>
+  
   );
 }

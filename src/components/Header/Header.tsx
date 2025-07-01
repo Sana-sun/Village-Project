@@ -97,9 +97,10 @@
 // export default Header;
 
 import { useRef, useState } from "react";
-import BurgerMenu from "../BurgerMenu/BurgerMenu";
-import IconSearch from "../IconSearch/IconSearch";
 import { LogoBtn, LogoText, MenuWrapper, VideoContainer } from "./styles";
+import BurgerMenuIcon from "../BurgerMenuIcon/BurgerMenuIcon";
+import SearchIcon from "../SearchIcon/SearchIcon";
+// import IconSearch from './../IconSearch/IconSearch';
 
 function Header() {
   const [_, setVideoFailed] = useState(false);
@@ -119,7 +120,7 @@ function Header() {
 
   return (
     <MenuWrapper>
-      <BurgerMenu />
+      <BurgerMenuIcon />
 
       <LogoBtn onClick={handleHomePage}>
         <VideoContainer>
@@ -147,7 +148,8 @@ function Header() {
         <LogoText>Schönwald (Brandenburg)</LogoText>
       </LogoBtn>
 
-      <IconSearch />
+      {/* <IconSearch /> */}
+      <SearchIcon />
     </MenuWrapper>
   );
 }

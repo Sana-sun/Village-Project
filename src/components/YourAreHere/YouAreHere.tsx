@@ -1,71 +1,102 @@
-
-// 3 - супер працює
+// new simple var
 import { FaChevronRight } from "react-icons/fa";
-import { useLocation } from "react-router-dom";
-import { NavWrapper, ArrowBox } from "./styles";
-import { subcategories } from "../IconSearch/subcategories";
+import { NavWrapper, ArrowBox, HomeLink } from "./styles";
 
 type MoreLocationInfoProps = {
-  tradePageLocation?: string;
+  infoPageName?: string;
 };
 
-function YourAreHere({ tradePageLocation }: MoreLocationInfoProps) {
-  const location = useLocation();
-
-  const pathNameMap: { [key: string]: string } = {
-    "/": "Schönwalde entdecken",
-    "/education": "Bildung & Gemeinschaft",
-    "/municipality": "Gemeinde & Verwaltung",
-    "/tradeServices": "Handwerkgewerbe & Dienstleistungen",
-    "/leisure": "Natur & Freizeit",
-    "/transport": "Verkehr & Infrastruktur",
-    "/bauLand": "Baugrundstücke",
-    "/impressum": "Impressum",
-    "/history": "Geschichte",
-  };
-
-  // Додаємо унікальні підкатегорії до мапи
-  const subCategoryMap: { [key: string]: string } = {};
-
-  subcategories.forEach((item) => {
-    if (item.path && item.subCategory && item.category === "Handwerkgewerbe & Dienstleistungen") {
-      const cleanPath = item.path.split("#")[0]; // відкидаємо якір
-      subCategoryMap[cleanPath] = item.subCategory;
-    }
-  });
-
-  const currentPath = location.pathname;
-  const subCategory = subCategoryMap[currentPath];
-  const currentPage =
-    pathNameMap[currentPath] ||
-    subCategory ||
-    tradePageLocation ||
-    "Unbekannt";
-
-  const isTradeSubcategory = Boolean(subCategory);
-
+function YourAreHere({ infoPageName }: MoreLocationInfoProps) {
   return (
     <NavWrapper>
-      <span>Sie sind hier</span>
+      <HomeLink to="/">Startseite</HomeLink>
+
       <ArrowBox>
         <FaChevronRight />
       </ArrowBox>
 
-      {isTradeSubcategory && (
-        <>
-          <span>Handwerkgewerbe & Dienstleistungen</span>
-          <ArrowBox>
-            <FaChevronRight />
-          </ArrowBox>
-        </>
-      )}
+      <span>Sie sind hier</span>
 
-      <span>{currentPage}</span>
+      <ArrowBox>
+        <FaChevronRight />
+      </ArrowBox>
+
+      <span>
+        <strong>{infoPageName}</strong>
+      </span>
     </NavWrapper>
   );
 }
 
 export default YourAreHere;
+
+// // 3 - супер працює
+// import { FaChevronRight } from "react-icons/fa";
+// import { useLocation } from "react-router-dom";
+// import { NavWrapper, ArrowBox } from "./styles";
+// import { subcategories } from "../IconSearch/subcategories";
+
+// type MoreLocationInfoProps = {
+//   tradePageLocation?: string;
+// };
+
+// function YourAreHere({ tradePageLocation }: MoreLocationInfoProps) {
+//   const location = useLocation();
+
+//   const pathNameMap: { [key: string]: string } = {
+//     "/": "Schönwalde entdecken",
+//     "/education": "Bildung & Gemeinschaft",
+//     "/municipality": "Gemeinde & Verwaltung",
+//     "/tradeServices": "Handwerkgewerbe & Dienstleistungen",
+//     "/leisure": "Natur & Freizeit",
+//     "/transport": "Verkehr & Infrastruktur",
+//     "/bauLand": "Baugrundstücke",
+//     "/impressum": "Impressum",
+//     "/history": "Geschichte",
+//   };
+
+//   // Додаємо унікальні підкатегорії до мапи
+//   const subCategoryMap: { [key: string]: string } = {};
+
+//   subcategories.forEach((item) => {
+//     if (item.path && item.subCategory && item.category === "Handwerkgewerbe & Dienstleistungen") {
+//       const cleanPath = item.path.split("#")[0]; // відкидаємо якір
+//       subCategoryMap[cleanPath] = item.subCategory;
+//     }
+//   });
+
+//   const currentPath = location.pathname;
+//   const subCategory = subCategoryMap[currentPath];
+//   const currentPage =
+//     pathNameMap[currentPath] ||
+//     subCategory ||
+//     tradePageLocation ||
+//     "Unbekannt";
+
+//   const isTradeSubcategory = Boolean(subCategory);
+
+//   return (
+//     <NavWrapper>
+//       <span>Sie sind hier</span>
+//       <ArrowBox>
+//         <FaChevronRight />
+//       </ArrowBox>
+
+//       {isTradeSubcategory && (
+//         <>
+//           <span>Handwerkgewerbe & Dienstleistungen</span>
+//           <ArrowBox>
+//             <FaChevronRight />
+//           </ArrowBox>
+//         </>
+//       )}
+
+//       <span>{currentPage}</span>
+//     </NavWrapper>
+//   );
+// }
+
+// export default YourAreHere;
 
 
 // 1й варіант де дії тільки > Handwerkgewerbe & Dienstleistungen"

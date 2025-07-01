@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useData } from "../../context/DataContext";
 import CardTemplate from "../../components/CardTemplate/CardTemplate";
+import YourAreHere from "../../components/YourAreHere/YouAreHere";
 
 export default function ServicesPage() {
   const data = useData();
@@ -8,45 +9,69 @@ export default function ServicesPage() {
   const [loading, setLoading] = useState(true);
 
   const images = {
-    See: [
-      "/images/Natur_Freizeit/See/1.webp",
-      "/images/Natur_Freizeit/See/2.jpeg",
-      "/images/Natur_Freizeit/See/3.jpeg",
-      "/images/Natur_Freizeit/See/5.webp",
-      "/images/Natur_Freizeit/See/6.jpeg",
+    "Ingo Richter Dachdecker": [
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto.jpg",
     ],
-    "Sportlerheim & Sportplatz": [
-      "/images/Natur_Freizeit/Sportlerheim/mainPhoto.webp",
-      "/images/Natur_Freizeit/Sportlerheim/1.webp",
-      "/images/Natur_Freizeit/Sportlerheim/2.webp",
-      "/images/Natur_Freizeit/Sportlerheim/3.webp",
-      "/images/Natur_Freizeit/Sportlerheim/4.webp",
+    "KOMPLETT Gerüstbau GmbH": [
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett/mainPhoto2.jpg",
     ],
-    Alpakafarm: [
-      "/images/Natur_Freizeit/Alpaka-Farm/mainPhoto.webp",
-      "/images/Natur_Freizeit/Alpaka-Farm/1.jpg",
-      "/images/Natur_Freizeit/Alpaka-Farm/2.png",
+    "Malerbetrieb Dieter Ihl": [
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb/mainPhoto.jpg",
     ],
-    Jugendclub: ["/images/Natur_Freizeit/Jugendclub/mainPhoto.jpg"],
-    "Lebendiges Schönwalde e.V.": [
-      "/images/Natur_Freizeit/Lebendiges/mainPhoto.jpg",
+    "Morgner Haustechnik": [
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner/mainPhoto.crdownload"
     ],
-    Dorfgemeinschaftshaus: [
-      "/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.webp",
+    "MSD Baustoffrecycling Schönwalde": [
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Bauland/mainPhoto.png",
     ],
-    "Spreewaldring Kart Center": [
-      "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/mainPhoto.jpg",
-      "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/1.jpg",
-      "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/2.png",
-      "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/3.jpg",
+    "Tischlerei Schneider": [
+      "/images/Handel_Dienstleistungen/Tischlerei/mainPhoto.png",
     ],
-    "Spreewaldring Training Center": [
-      "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/mainPhoto.png",
-      "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/1.png",
-      "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/2.png",
-      "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/3.png",
+    "Trocknungsservice Gefreiter GmbH": [
+      "/images/Handel_Dienstleistungen/Sanierungsdienste/Gefreiter_Wasser/mainPhoto.jpg",
     ],
-    Mühlenverein: ["/images/Natur_Freizeit/Muehlenverein/mainPhoto.jpg"],
+    "NOTUS energy": [
+      "/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpg",
+    ],
+    "Autohaus Kunath": ["/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Kunath/mainPhoto.jpg"],
+    "Autohaus Vogler": [
+      "/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Vogler/mainPhoto.jpg",
+    ],
+    "KFZ Meisterbetrieb Ronny Hess": [
+      "/images/Handel_Dienstleistungen/Fahrzeuge/Meisterbetrieb_Ronny_Hess/mainPhoto.jpg",
+    ],
+    "KFZ Werkstatt Mathias Wenske": [
+      "/images/Handel_Dienstleistungen/Fahrzeuge/Werkstatt_Mathias_Wenske/mainPhoto.jpeg",
+    ],
+    "Agrargemeinschaft Freiwalde/Schönwalde": [
+      "/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto.png"
+    ],
+    "Imkerei Haus 5": [
+      "/images/Handel_Dienstleistungen/Imkerei/Haus_5/mainPhoto.jpg",
+    ],
+    "Imkerei Morgner": [
+      "/images/Handel_Dienstleistungen/Imkerei/Morgner/mainPhoto.jpg",
+    ],
+    "Imkerei Rippert": [
+      "/images/Handel_Dienstleistungen/Imkerei/Rippert/mainPhoto.jpg",
+    ],
+    "Bäckerei & Konditorei Kuske": [
+      "/images/Handel_Dienstleistungen/Lebensmittel/Baekerei/mainPhoto.jpg",
+    ],
+    "Fleischerei Tischler": ["/images/Handel_Dienstleistungen/Lebensmittel/Fleischerei/mainPhoto.jpg"],
+     "Der Pflegedienst": [
+      "/images/Handel_Dienstleistungen/Sozialdienste/mainPhoto.jpg",
+    ],
+    "Hämmerling B. Häusliche Krankenpflege": [
+      "/images/Handel_Dienstleistungen/Sozialdienste/mainPhoto1.jpg",
+    ],
+    "Haares Zeiten": [
+      "/images/Handel_Dienstleistungen/Schönheitspflege/mainPhoto.jpg",
+    ],
+    "Mädchenträume by Eileen": ["/images/Handel_Dienstleistungen/Schönheitspflege/Mädchenträume_by_Eileen/mainPhoto.jpg"],
+    "Kampfmittelbergung & Sprengtechnik": [
+      "/images/Handel_Dienstleistungen/Technische_Dienstleistungen/mainPhoto.png"
+    ],
   };
 
   useEffect(() => {
@@ -57,33 +82,36 @@ export default function ServicesPage() {
   }, [data]);
 
   return (
-    <CardTemplate
-      heading="🛍️ Regional, persönlich, zuverlässig – alles, was du brauchst"
-      introText={
-        <>
-          In Schönwald lebt die Wirtschaft von Menschen, die man kennt –
-          ehrlich, persönlich und mit einem Gespür dafür, was gebraucht wird. Ob
-          Ziegel, Honig oder ein fachkundiger Blick unter die Motorhaube – hier
-          ist alles nah und verlässlich. Auch die Energiewende hat hier ihren
-          Platz: Ein regionales Büro der Firma Notus Energy begleitet Projekte
-          rund um erneuerbare Energien – direkt aus dem Ort. Frische und gute
-          Produkte für den Alltag findet man ebenso – direkt, regional und mit
-          Geschmack. Und wer Unterstützung braucht, findet sie bei sozialen
-          Diensten oder in der Pflege – mit Herz und Einsatz. Unternehmen im
-          Bereich Bau, Technik oder Sanierung sorgen für professionelle Hilfe
-          bei kleinen und großen Vorhaben – kompetent, erreichbar und mit kurzen
-          Wegen. 
-          <br />
-          <br />
-          <strong>
-            Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch,
-            nah und gut zu wissen, wer da ist.
-          </strong>
-        </>
-      }
-      cards={cards}
-      loading={loading}
-      images={images}
-    />
+    <>
+      <YourAreHere infoPageName="Handwerkgewerbe & Dienstleistungen" />
+      <CardTemplate
+        heading="🛍️ Regional, persönlich, zuverlässig – alles, was du brauchst"
+        introText={
+          <>
+            In Schönwald lebt die Wirtschaft von Menschen, die man kennt –
+            ehrlich, persönlich und mit einem Gespür dafür, was gebraucht wird. Ob
+            Ziegel, Honig oder ein fachkundiger Blick unter die Motorhaube – hier
+            ist alles nah und verlässlich. Auch die Energiewende hat hier ihren
+            Platz: Ein regionales Büro der Firma Notus Energy begleitet Projekte
+            rund um erneuerbare Energien – direkt aus dem Ort. Frische und gute
+            Produkte für den Alltag findet man ebenso – direkt, regional und mit
+            Geschmack. Und wer Unterstützung braucht, findet sie bei sozialen
+            Diensten oder in der Pflege – mit Herz und Einsatz. Unternehmen im
+            Bereich Bau, Technik oder Sanierung sorgen für professionelle Hilfe
+            bei kleinen und großen Vorhaben – kompetent, erreichbar und mit kurzen
+            Wegen. 
+            <br />
+            <br />
+            <strong>
+              Handwerkgewerbe & Dienstleistungen in Schönwald – praktisch,
+              nah und gut zu wissen, wer da ist.
+            </strong>
+          </>
+        }
+        cards={cards}
+        loading={loading}
+        images={images}
+      />
+    </>
   );
 }
