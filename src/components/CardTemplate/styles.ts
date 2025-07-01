@@ -128,8 +128,6 @@
 //   cursor: pointer;
 // `;
 
-
-
 // "2"
 import styled, { keyframes, css } from "styled-components";
 
@@ -186,24 +184,9 @@ export const CardContent = styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-   padding: 1rem 1.5rem 1.5rem;
-
+  padding: 1rem 1.5rem 1.5rem;
 `;
 
-
-// export const Card = styled.div`
-// border: 1px solid #ccc;
-//   border-radius: 12px;
-//   margin-bottom: 1.5rem;
-//   /* max-width: 600px; */
-//   max-width: 550px;
-//   /* max-width: 450px; */
-//   /* margin-inline: auto; */
-//   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-//   background-color: #f9f9f9;
-//   position: relative;
-//   overflow: hidden;
-// `;
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
@@ -214,16 +197,24 @@ export const Card = styled.div`
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   flex: 1 1 calc(50% - 10px);
   min-width: 280px;
+  max-width: 600px;
 
-   border: 1px solid #ccc;
-   border-radius: 12px;
-   margin-bottom: 1.5rem;
-   max-width: 600px;
-   margin-inline: auto;
-   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-   background-color: #f9f9f9;
-   position: relative;
-   overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+
+  margin-inline: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  position: relative;
+  overflow: hidden;
+
+   /* @media (min-width: 1024px) {
+    flex: 1 1 calc(33.33% - 1rem);
+  } */
+   @media (min-width: 1440px) {
+    flex: 1 1 calc(33.33% - 1rem);
+  }
 `;
 
 export const CardImageWrapper = styled.div`
@@ -238,7 +229,6 @@ export const CardImageWrapper = styled.div`
     object-fit: contain;
     border-radius: 8px;
   }
-
 `;
 
 export const CardSlogan = styled.h4`
@@ -278,12 +268,6 @@ export const MoreButtonWrapper = styled.div`
   margin-top: 3rem;
   margin-top: auto;
 `;
-// export const MoreButtonWrapper = styled.div`
-//   margin-top: auto;
-//   text-align: right;
-//   padding-top: 1rem;
-// `;
-
 
 export const MoreButton = styled.button`
   background-color: #0033a0;
@@ -345,7 +329,6 @@ export const SlideText = styled.div`
   padding-right: 0.5rem; /* невеличкий відступ для скролу */
 `;
 
-
 export const SlideCloseButton = styled.button`
   position: absolute;
   top: 0.4rem;
@@ -361,7 +344,6 @@ export const SlideCloseButton = styled.button`
     background: #bbb;
   }
 `;
-  
 
 // improve skeleton loading
 const shimmer = keyframes`
@@ -383,17 +365,16 @@ export const SkeletonBox = styled.div<{ width: string; height: string }>`
     #dddddd 37%,
     #eeeeee 63%
   ); */
-   background: linear-gradient(
-     90deg,
-     rgba(240, 240, 240, 0.9) 0%,
-     rgba(220, 220, 220, 0.9) 50%,
-     rgba(240, 240, 240, 0.9) 100%
-   );
+  background: linear-gradient(
+    90deg,
+    rgba(240, 240, 240, 0.9) 0%,
+    rgba(220, 220, 220, 0.9) 50%,
+    rgba(240, 240, 240, 0.9) 100%
+  );
   background-size: 800px 104px;
-    /* background-size: 1200px 100%; */
+  /* background-size: 1200px 100%; */
   animation: ${shimmer} 1.4s ease-in-out infinite;
 `;
-
 
 // carousel
 export const CarouselWrapper = styled.div`
@@ -421,9 +402,9 @@ export const Arrow = styled.button<{ left?: boolean }>`
   font-size: 1rem;
   display: flex;
   padding: 0.3rem;
-  color: #0033a0;/* блакитна стрілка */
+  color: #0033a0; /* блакитна стрілка */
 
-&:hover {
+  &:hover {
     transform: translateY(-50%) scale(1.1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     background-color: #f5faff;
@@ -451,9 +432,12 @@ export const Dot = styled.div<{ active: boolean }>`
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  /* background-color: ${({ active }) => (active ? "#fff82fff" : "rgba(255, 255, 255, 1)")}; */
-  background-color: ${({ active }) => (active ? "#ffd22fff" : "rgba(255, 255, 255, 1)")};
-  /* background-color: ${({ active }) => (active ? "black" : "rgba(255, 255, 255, 1)")}; */
+  /* background-color: ${({ active }) =>
+    active ? "#fff82fff" : "rgba(255, 255, 255, 1)"}; */
+  background-color: ${({ active }) =>
+    active ? "#ffd22fff" : "rgba(255, 255, 255, 1)"};
+  /* background-color: ${({ active }) =>
+    active ? "black" : "rgba(255, 255, 255, 1)"}; */
   transition: background-color 0.3s;
 `;
 
