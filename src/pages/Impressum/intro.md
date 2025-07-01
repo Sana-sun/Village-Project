@@ -7,8 +7,10 @@ Bahnhofstraße 115910 Schönwalde (Spreewald)
 📧 E-Mail: work.projects.lab@gmail.com
 
 **Redaktion & Gestaltung**
-Tetiana Makharynets Mit freundlicher Unterstützung durch:
-– Bürgermeister der Gemeinde Schönwald, Herr Roland Gefreiter – Frau Anke Gefreiter – und meine Familie, für Organisation, Inhalte und liebevolle Mitgestaltung
+Tetiana Makharynets Mit freundlicher Unterstützung durch:  
+– Bürgermeister der Gemeinde Schönwald, Herr Roland Gefreiter   
+– Frau Anke Gefreiter 
+– und meine Familie, für Organisation, Inhalte und liebevolle Mitgestaltung
 
 **Rechtsträger**
 Die Seite ist ein nicht-kommerzielles Informationsangebot zur Darstellung von Schönwald und seinen lokalen Angeboten. Es handelt sich um ein privates Projekt mit öffentlichem Nutzen.
@@ -28,5 +30,6 @@ Die auf dieser Website verwendeten Texte, Fotos und Grafiken unterliegen dem Urh
 
 Diese Seite dient ausschließlich zur Information. Über dieses Angebot können keine rechtswirksamen Erklärungen oder Anträge übermittelt werden. Bitte verwenden Sie dazu den postalischen Weg.
 
-❤️ Mit Herz & Unterstützung
+❤️ **Mit Herz & Unterstützung**
+  
 Dieses Projekt wurde mit viel Liebe zum Detail, ehrenamtlichem Engagement und echter Dorfverbundenheit realisiert.

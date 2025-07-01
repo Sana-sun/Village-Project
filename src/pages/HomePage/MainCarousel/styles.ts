@@ -141,9 +141,10 @@ export const DotsContainer = styled.div`
 `;
 
 export const Dot = styled.div<{ $isActive: boolean }>`
-  width: 12px;
-  height: 12px;
-  background-color: ${(props) => (props.$isActive ? "#66b3ff" : "#d3d3d3")};
+  width: 6px;
+  height: 6px;
+  /* background-color: ${(props) => (props.$isActive ? "#66b3ff" : "#d3d3d3")}; */
+  background-color: ${(props) => (props.$isActive ? "#ffd22fff" : "#d3d3d3")};
   border-radius: 50%;
   margin: 0 6px;
   cursor: pointer;

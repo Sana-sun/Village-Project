@@ -782,7 +782,7 @@ export const MenuSubList = styled.ul`
   margin-top: 0.5rem;
 `;
 
-export const MenuSubItem = styled.li`
+export const MenuSubItem = styled.li<{ $active?: boolean }>`
   font-size: 0.95rem;
   margin-bottom: 0.4rem;
   border-left: 3px solid #e4f1fe;
