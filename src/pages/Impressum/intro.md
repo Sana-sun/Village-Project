@@ -3,7 +3,6 @@ Seiteninhaber / Verantwortlich im Sinne des § 5 Digitale-Dienste-Gesetz (DDG)
 Projekt Schönwalde entdecken
 Vertreten durch: Tetiana Makharynets
 Bahnhofstraße 115910 Schönwalde (Spreewald)
-📞 Telefon: xxxx
 📧 E-Mail: work.projects.lab@gmail.com
 
 **Redaktion & Gestaltung**
@@ -27,9 +26,10 @@ Unsere Webseite enthält Links zu externen Webseiten Dritter, auf deren Inhalte 
 Die auf dieser Website verwendeten Texte, Fotos und Grafiken unterliegen dem Urheberrecht. Jegliche Verwendung außerhalb der engen Grenzen des Urheberrechts ist ohne schriftliche Zustimmung untersagt. Bildquellen: Privatarchiv, mit freundlicher Unterstützung der Gemeinde Schönwalde, sowie von Bürger:innen bereitgestellte Aufnahmen.
 
 **Hinweise**
-
 Diese Seite dient ausschließlich zur Information. Über dieses Angebot können keine rechtswirksamen Erklärungen oder Anträge übermittelt werden. Bitte verwenden Sie dazu den postalischen Weg.
-
-❤️ **Mit Herz & Unterstützung**
   
+**Technische Hinweise zur Datenspeicherung**
+Diese Website speichert bestimmte Informationen lokal im Browser (z. B. Ladezeit oder Datenstand), um Inhalte schneller darzustellen. Dabei handelt es sich nicht um personenbezogene Daten. Es erfolgt keine Analyse oder Weitergabe.
+  
+❤️ **Mit Herz & Unterstützung**
 Dieses Projekt wurde mit viel Liebe zum Detail, ehrenamtlichem Engagement und echter Dorfverbundenheit realisiert.
