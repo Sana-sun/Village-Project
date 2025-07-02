@@ -424,7 +424,7 @@ useEffect(() => {
               </MoreButton>
             </MoreButtonWrapper>
 
-            <SlideOverlay isVisible={openIndex === index}>
+            <SlideOverlay $isVisible={openIndex === index}>
               <SlideContent>
                 <SlideCloseButton onClick={handleClose}>✖</SlideCloseButton>
                 <SlideTitle>Weitere Informationen</SlideTitle>
@@ -481,7 +481,7 @@ useEffect(() => {
       <IntroText>{introText}</IntroText>
 
       {loading ? (
-        <CardsContainer itemCount={cards?.length || 3}>
+        <CardsContainer $itemCount={cards?.length || 3}>
           {Array.from({ length: cards?.length || 3 }).map((_, i) => <SkeletonCard key={i} />)}
         </CardsContainer>
       ) : (() => {
@@ -504,14 +504,14 @@ useEffect(() => {
               <CategoryName>
                 Kategorie: <strong>{category}</strong>
               </CategoryName>
-              <CardsContainer itemCount={grouped[category].length}>
+              <CardsContainer $itemCount={grouped[category].length}>
                 {grouped[category].map(renderCard)}
               </CardsContainer>
             </section>
           ));
         } else {
           return (
-            <CardsContainer itemCount={cards.length}>
+            <CardsContainer $itemCount={cards.length}>
               {cards.map(renderCard)}
             </CardsContainer>
           );

@@ -172,12 +172,12 @@ export const IntroText = styled.p`
   text-align: center;
 `;
 
-export const CardsContainer = styled.div<{ itemCount: number }>`
+export const CardsContainer = styled.div<{ $itemCount?: number }>`
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: ${({ itemCount }) =>
-    itemCount === 1 ? "center" : "space-evenly"};
+  justify-content: ${({ $itemCount }) =>
+    $itemCount === 1 ? "center" : "space-evenly"};
 `;
 
 export const CardContent = styled.div`
@@ -291,7 +291,7 @@ export const MoreButtonText = styled.div`
   gap: 0.5rem;
 `;
 
-export const SlideOverlay = styled.div<{ isVisible: boolean }>`
+export const SlideOverlay = styled.div<{ $isVisible?: boolean }>`
   position: absolute;
   bottom: 0;
   left: 0;
@@ -301,8 +301,8 @@ export const SlideOverlay = styled.div<{ isVisible: boolean }>`
   border-top: 1px solid #ccc;
   border-radius: 0 0 12px 12px;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-  animation: ${({ isVisible }) =>
-    isVisible
+  animation: ${({ $isVisible }) =>
+    $isVisible
       ? css`
           ${slideUp} 0.4s ease forwards;
         `
