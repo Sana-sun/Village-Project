@@ -31,12 +31,12 @@ export default function EducationPage() {
       "/images/Bildung_Gemeinschaft/Kita/3.jpg",
     ],
     "Grundschule Schönwalde": [
-      "/images/Bildung_Gemeinschaft/Schule/mainPhoto.jpg",
+      "/images/Bildung_Gemeinschaft/Schule/mainPhoto22.jpg",
       "/images/Bildung_Gemeinschaft/Schule/1.webp",
       "/images/Bildung_Gemeinschaft/Schule/2.jpg",
       "/images/Bildung_Gemeinschaft/Schule/3.jpg",
-      "/images/Bildung_Gemeinschaft/Schule/4.webp",
-      "/images/Bildung_Gemeinschaft/Schule/4.webp",
+      "/images/Bildung_Gemeinschaft/Schule/444.jpg",
+      "/images/Bildung_Gemeinschaft/Schule/5.webp",
     ],
     "Dorf-Bücherschran": [
       "/images/Bildung_Gemeinschaft/Bibliotek/mainFoto.webp",

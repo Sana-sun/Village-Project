@@ -29,9 +29,10 @@ export default function VerwaltungPage() {
       "/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/4.jpg",
     ],
     "Feuerwehr Waldow": [
-      "/images/Gemeinde_Verwaltung/FeuerwehrWaldow/mainPhoto.png",
+      "/images/Gemeinde_Verwaltung/FeuerwehrWaldow/mainPhoto1.jpg",
     ],
     "Amt Unterspreewald": [
+      "/images/Gemeinde_Verwaltung/Amt/mainPhoto2.jpg",
       "/images/Gemeinde_Verwaltung/Amt/3.jpg",
       "/images/Gemeinde_Verwaltung/Amt/2.jpg",
     ],

@@ -13,47 +13,49 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto.jpg",
     ],
     "KOMPLETT Gerüstbau GmbH": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett/mainPhoto2.jpg",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett/mainPhoto3.jpg",
     ],
     "Malerbetrieb Dieter Ihl": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb/mainPhoto2.jpg",
     ],
     "Morgner Haustechnik": [
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner/mainPhoto.crdownload"
     ],
     "MSD Baustoffrecycling Schönwalde": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Bauland/mainPhoto.png",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Bauland/mainPhoto.jpeg",
     ],
     "Tischlerei Schneider": [
-      "/images/Handel_Dienstleistungen/Tischlerei/mainPhoto.png",
+      "/images/Handel_Dienstleistungen/Tischlerei/mainPhoto1.jpg",
     ],
     "Trocknungsservice Gefreiter GmbH": [
-      "/images/Handel_Dienstleistungen/Sanierungsdienste/Gefreiter_Wasser/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Sanierungsdienste/Gefreiter_Wasser/mainPhoto1.jpg",
     ],
     "NOTUS energy": [
       "/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpg",
     ],
-    "Autohaus Kunath": ["/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Kunath/mainPhoto.jpg"],
+    "Autohaus Kunath": [
+      "/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Kunath/mainPhoto1.jpg"
+    ],
     "Autohaus Vogler": [
       "/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Vogler/mainPhoto.jpg",
     ],
     "KFZ Meisterbetrieb Ronny Hess": [
-      "/images/Handel_Dienstleistungen/Fahrzeuge/Meisterbetrieb_Ronny_Hess/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Fahrzeuge/Meisterbetrieb_Ronny_Hess/mainPhoto1.jpg",
     ],
     "KFZ Werkstatt Mathias Wenske": [
       "/images/Handel_Dienstleistungen/Fahrzeuge/Werkstatt_Mathias_Wenske/mainPhoto.jpeg",
     ],
     "Agrargemeinschaft Freiwalde/Schönwalde": [
-      "/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto.png"
+      "/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto411.jpg"
     ],
     "Imkerei Haus 5": [
-      "/images/Handel_Dienstleistungen/Imkerei/Haus_5/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Imkerei/Haus_5/mainPhoto1.jpg",
     ],
     "Imkerei Morgner": [
-      "/images/Handel_Dienstleistungen/Imkerei/Morgner/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Imkerei/Morgner/mainPhoto412.jpg",
     ],
     "Imkerei Rippert": [
-      "/images/Handel_Dienstleistungen/Imkerei/Rippert/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Imkerei/Rippert/mainPhoto1.jpg",
     ],
     "Bäckerei & Konditorei Kuske": [
       "/images/Handel_Dienstleistungen/Lebensmittel/Baekerei/mainPhoto.jpg",
@@ -66,9 +68,11 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Sozialdienste/mainPhoto1.jpg",
     ],
     "Haares Zeiten": [
-      "/images/Handel_Dienstleistungen/Schönheitspflege/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Schönheitspflege/mainPhoto2.jpg",
     ],
-    "Mädchenträume by Eileen": ["/images/Handel_Dienstleistungen/Schönheitspflege/Mädchenträume_by_Eileen/mainPhoto.jpg"],
+    "Mädchenträume by Eileen": [
+      "/images/Handel_Dienstleistungen/Schönheitspflege/Mädchenträume_by_Eileen/mainPhoto1.jpg"
+    ],
     "Kampfmittelbergung & Sprengtechnik": [
       "/images/Handel_Dienstleistungen/Technische_Dienstleistungen/mainPhoto.png"
     ],

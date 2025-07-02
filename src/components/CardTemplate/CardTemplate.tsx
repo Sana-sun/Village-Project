@@ -358,7 +358,7 @@ useEffect(() => {
         if (target) {
           const yOffset = -80;
           const y = target.getBoundingClientRect().top + window.scrollY + yOffset;
-          smoothScrollTo(y, 1000);
+          smoothScrollTo(y, 50);
         }
       }, 500); // трохи менше, ніж на категоріях
 

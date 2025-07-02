@@ -374,6 +374,7 @@ export const SkeletonBox = styled.div<{ width: string; height: string }>`
   background-size: 800px 104px;
   /* background-size: 1200px 100%; */
   animation: ${shimmer} 1.4s ease-in-out infinite;
+
 `;
 
 // carousel
