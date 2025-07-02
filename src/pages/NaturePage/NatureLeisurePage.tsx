@@ -45,7 +45,7 @@ export default function NatureLeisurePage() {
     "/images/Natur_Freizeit/Jugendclub/mainPhoto.jpg",
   ],
   "Lebendiges Schönwalde e.V.": [
-    "/images/Natur_Freizeit/Lebendiges/mainPhoto.jpg",
+    "/images/Natur_Freizeit/Lebendiges/Lebendiges.jpg",
   ],
   Dorfgemeinschaftshaus: [
     "/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.webp",

@@ -224,7 +224,7 @@ export const CardImageWrapper = styled.div`
     width: 100%;
     /* max-height: 350px; */
     /* max-height: 270px; */
-    max-height: 310px;
+    max-height: 350px;
     /* max-height: 280px; */
     object-fit: cover;
     border-radius: 8px;
@@ -418,12 +418,12 @@ export const Arrow = styled.button<{ left?: boolean }>`
 
 export const Dots = styled.div`
   display: flex;
-  justify-content: center;
-
+  justify-content: start;
+  /* align-items: center; */
   position: absolute;
   /* bottom: -50%; */
   top: 0.5%;
-  left: 50%;
+  left: 45%;
   gap: 6px;
   margin-top: 1rem;
 `;

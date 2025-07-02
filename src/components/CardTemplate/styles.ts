@@ -224,7 +224,7 @@ export const CardImageWrapper = styled.div`
     width: 100%;
     /* max-height: 350px; */
     /* max-height: 270px; */
-    max-height: 300px;
+    max-height: 330px;
     /* max-height: 280px; */
     object-fit: contain;
     border-radius: 8px;

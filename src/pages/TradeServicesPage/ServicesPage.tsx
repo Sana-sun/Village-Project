@@ -13,7 +13,7 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto.jpg",
     ],
     "KOMPLETT Gerüstbau GmbH": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett/mainPhoto3.jpg",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett/main.webp",
     ],
     "Malerbetrieb Dieter Ihl": [
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb/mainPhoto2.jpg",
@@ -31,7 +31,7 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Sanierungsdienste/Gefreiter_Wasser/mainPhoto1.jpg",
     ],
     "NOTUS energy": [
-      "/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpeg",
     ],
     "Autohaus Kunath": [
       "/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Kunath/mainPhoto1.jpg"
@@ -46,13 +46,13 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Fahrzeuge/Werkstatt_Mathias_Wenske/mainPhoto.jpeg",
     ],
     "Agrargemeinschaft Freiwalde/Schönwalde": [
-      "/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto411.jpg"
+      "/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto2.jpg"
     ],
     "Imkerei Haus 5": [
       "/images/Handel_Dienstleistungen/Imkerei/Haus_5/mainPhoto1.jpg",
     ],
     "Imkerei Morgner": [
-      "/images/Handel_Dienstleistungen/Imkerei/Morgner/mainPhoto412.jpg",
+      "/images/Handel_Dienstleistungen/Imkerei/Morgner/mainPhoto411.jpg",
     ],
     "Imkerei Rippert": [
       "/images/Handel_Dienstleistungen/Imkerei/Rippert/mainPhoto1.jpg",

@@ -375,7 +375,7 @@ useEffect(() => {
 // }, [cards]);
 
   const renderCard = (item: BauCard, index: number) => {
- const id = item.PATH?.split("#")[1];
+  const id = item.PATH?.split("#")[1];
     // console.log(`🧭 CARD ID для "${item.NAME}":`, id);
     // console.log(`🧭 CARD PATH "${item.NAME}":`, item.PATH);
 

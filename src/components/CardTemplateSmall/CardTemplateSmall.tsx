@@ -1,4 +1,4 @@
-import { type ReactNode } from "react";
+import { useState, type ReactNode } from "react";
 import {
   Card,
   CardImageWrapper,
@@ -10,11 +10,43 @@ import {
   Heading,
   IntroText,
   PageWrapper,
+  Arrow,
+  CarouselWrapper,
+  Dot,
+  Dots,
 } from "./styles";
+import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 
 interface SmallCard {
   CARD_TITLE: string;
   CARD_TEXT?: string;
+}
+
+function ImageCarousel({ images }: { images: string[] }) {
+  const [index, setIndex] = useState(0);
+  const handleNext = () => setIndex((prev) => (prev + 1) % images.length);
+  const handlePrev = () => setIndex((prev) => (prev - 1 + images.length) % images.length);
+
+  return (
+    <div>
+      <CarouselWrapper>
+        <img src={images[index]} alt={`Bild ${index + 1}`} />
+        {images.length > 1 && (
+          <>
+            <Arrow left onClick={handlePrev}><BsArrowLeftCircle /></Arrow>
+            <Arrow onClick={handleNext}><BsArrowRightCircle /></Arrow>
+          </>
+        )}
+      </CarouselWrapper>
+      {images.length > 1 && (
+        <Dots>
+          {images.map((_, i) => (
+            <Dot key={i} active={i === index} />
+          ))}
+        </Dots>
+      )}
+    </div>
+  );
 }
 
 interface SmallCardTemplateProps {
@@ -29,18 +61,36 @@ function SkeletonSmallCard() {
   return (
     <Card style={{ flex: "1 1 calc(50% - 10px)", minWidth: "280px" }}>
       <CardImageWrapper>
-        <SkeletonBox width="100%" height="240px" style={{ borderRadius: "8px" }} />
+        <SkeletonBox
+          width="100%"
+          height="240px"
+          style={{ borderRadius: "8px" }}
+        />
       </CardImageWrapper>
       <CardContent>
-        <SkeletonBox width="70%" height="20px" style={{ marginBottom: "1rem" }} />
-        <SkeletonBox width="90%" height="14px" style={{ marginBottom: "0.5rem" }} />
+        <SkeletonBox
+          width="70%"
+          height="20px"
+          style={{ marginBottom: "1rem" }}
+        />
+        <SkeletonBox
+          width="90%"
+          height="14px"
+          style={{ marginBottom: "0.5rem" }}
+        />
         <SkeletonBox width="80%" height="14px" />
       </CardContent>
     </Card>
   );
 }
 
-export default function SmallCardTemplate({ heading, introText, cards, loading, images }: SmallCardTemplateProps) {
+export default function SmallCardTemplate({
+  heading,
+  introText,
+  cards,
+  loading,
+  images,
+}: SmallCardTemplateProps) {
   return (
     <PageWrapper>
       <Heading>{heading}</Heading>
@@ -48,16 +98,29 @@ export default function SmallCardTemplate({ heading, introText, cards, loading, 
 
       <CardsContainer itemCount={cards.length}>
         {loading
-          ? Array.from({ length: 2 }).map((_, i) => <SkeletonSmallCard key={i} />)
+          ? Array.from({ length: 2 }).map((_, i) => (
+              <SkeletonSmallCard key={i} />
+            ))
           : cards.map((item, index) => (
               <Card key={`${item.CARD_TITLE}-${index}`}>
-                <CardImageWrapper>
+                {/* <CardImageWrapper>
                   {images?.[item.CARD_TITLE]?.length ? (
                     <img src={images[item.CARD_TITLE][0]} alt={item.CARD_TITLE} />
                   ) : (
                     <img src="/images/Bauland/mainPhoto.png" alt={item.CARD_TITLE} />
                   )}
+                </CardImageWrapper> */}
+                <CardImageWrapper>
+                  {images?.[item.CARD_TITLE]?.length ? (
+                    <ImageCarousel images={images[item.CARD_TITLE]} />
+                  ) : (
+                    <img
+                      src="/images/Bauland/mainPhoto.png"
+                      alt={item.CARD_TITLE}
+                    />
+                  )}
                 </CardImageWrapper>
+
                 <CardContent>
                   <CardSlogan>{item.CARD_TITLE}</CardSlogan>
                   <CardText>{item.CARD_TEXT}</CardText>
