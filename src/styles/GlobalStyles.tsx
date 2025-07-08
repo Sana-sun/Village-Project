@@ -39,6 +39,11 @@ color: white;
   font-family: Lato, sans-serif;
   font-size: 1.125rem;
 }
+
+::selection {
+  background: #99caff; /* світло-блакитний */
+  color: #000;
+}
 `
 
 function GlobalStyles() {

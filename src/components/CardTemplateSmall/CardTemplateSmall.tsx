@@ -17,15 +17,19 @@ import {
 } from "./styles";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 
+import { FiPhone, FiMail } from "react-icons/fi";
 interface SmallCard {
   CARD_TITLE: string;
   CARD_TEXT?: string;
+  CARD_CONTACTS_EMAIL?: string;
+  CARD_CONTACTS_PHONE?: string;
 }
 
 function ImageCarousel({ images }: { images: string[] }) {
   const [index, setIndex] = useState(0);
   const handleNext = () => setIndex((prev) => (prev + 1) % images.length);
-  const handlePrev = () => setIndex((prev) => (prev - 1 + images.length) % images.length);
+  const handlePrev = () =>
+    setIndex((prev) => (prev - 1 + images.length) % images.length);
 
   return (
     <div>
@@ -33,8 +37,12 @@ function ImageCarousel({ images }: { images: string[] }) {
         <img src={images[index]} alt={`Bild ${index + 1}`} />
         {images.length > 1 && (
           <>
-            <Arrow left onClick={handlePrev}><BsArrowLeftCircle /></Arrow>
-            <Arrow onClick={handleNext}><BsArrowRightCircle /></Arrow>
+            <Arrow left onClick={handlePrev}>
+              <BsArrowLeftCircle />
+            </Arrow>
+            <Arrow onClick={handleNext}>
+              <BsArrowRightCircle />
+            </Arrow>
           </>
         )}
       </CarouselWrapper>
@@ -124,6 +132,16 @@ export default function SmallCardTemplate({
                 <CardContent>
                   <CardSlogan>{item.CARD_TITLE}</CardSlogan>
                   <CardText>{item.CARD_TEXT}</CardText>
+                  {item.CARD_CONTACTS_PHONE && (
+                    <CardText>
+                      <FiPhone /> {item.CARD_CONTACTS_PHONE}
+                    </CardText>
+                  )}
+                  {item.CARD_CONTACTS_EMAIL && (
+                    <CardText>
+                      <FiMail /> {item.CARD_CONTACTS_EMAIL}
+                    </CardText>
+                  )}
                 </CardContent>
               </Card>
             ))}

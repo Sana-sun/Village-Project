@@ -7,7 +7,7 @@ Bahnhofstraße 115910 Schönwalde (Spreewald)
 
 **Redaktion & Gestaltung**
 Tetiana Makharynets Mit freundlicher Unterstützung durch:  
-– Bürgermeister der Gemeinde Schönwald, Herr Roland Gefreiter   
+– Bürgermeister der Gemeinde Schönwald, Herr Roland Gefreiter
 – Frau Anke Gefreiter 
 – und meine Familie, für Organisation, Inhalte und liebevolle Mitgestaltung
 
