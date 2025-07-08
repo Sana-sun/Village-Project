@@ -201,7 +201,7 @@ import { useEffect, useState, type ReactNode } from "react";
 import {
   FiInfo, FiPhone, FiMail, FiGlobe, FiMapPin, FiClock, FiUser
 } from "react-icons/fi";
-import { FaFacebookF, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaYoutube, FaInstagram } from "react-icons/fa";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
 
 import {
@@ -249,6 +249,7 @@ export interface BauCard {
   ADD_TEL?: string;
   ADD_EMAIL?: string;
   ADD_FACEBOOK?: string;
+  ADD_INSTAGRAM?: string;
   ADD_YOUTUBE?: string;
   PATH?: string;
   CATEGORY_PATH?: string;
@@ -440,7 +441,12 @@ useEffect(() => {
                     )}
                     {item.ADD_YOUTUBE && (
                       <p>
-                        <FaYoutube /> <a href={item.ADD_YOUTUBE} target="_blank" rel="noopener noreferrer">YouTube</a>
+                        <br /><FaYoutube /> <a href={item.ADD_YOUTUBE} target="_blank" rel="noopener noreferrer">YouTube</a>
+                      </p>
+                    )}
+                    {item.ADD_INSTAGRAM && (
+                      <p>
+                        <br /><FaInstagram /> <a href={item.ADD_INSTAGRAM} target="_blank" rel="noopener noreferrer">Instagram</a>
                       </p>
                     )}
                     {item.WORK_TIME && <p><br /><FiClock /> <strong>Öffnungszeiten:</strong><br /> {item.WORK_TIME}</p>}
