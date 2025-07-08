@@ -28,7 +28,7 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Tischlerei/mainPhoto1.jpg",
     ],
     "Trocknungsservice Gefreiter GmbH": [
-      "/images/Handel_Dienstleistungen/Sanierungsdienste/Gefreiter_Wasser/mainPhoto1.jpg",
+      "/images/Handel_Dienstleistungen/Sanierungsdienste/Gefreiter_Wasser/mainPhoto3.png",
     ],
     "NOTUS energy": [
       "/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpeg",
