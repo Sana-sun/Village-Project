@@ -422,7 +422,172 @@
 // }
 
 // with new useSearchList для категорій та allPathInfo для заг сторінок
-import { useState } from "react";
+// import { useState } from "react";
+// import {
+//   FiX,
+//   FiHome,
+//   FiMenu,
+//   FiChevronDown,
+//   FiChevronUp,
+// } from "react-icons/fi";
+// import { GiFlowerEmblem } from "react-icons/gi";
+// import {
+//   CloseButton,
+//   LogoLink,
+//   MenuGroup,
+//   MenuPageLink,
+//   MenuSection,
+//   OpenButton,
+//   SidebarContainer,
+//   SidebarContent,
+//   SidebarOverlay,
+//   HerzText,
+//   SunUpperHome,
+//   MenuCategory,
+//   SkeletonLine,
+//   BtnCategoryOpen,
+// } from "./styles";
+// import { allPathInfo } from "../../context/SearchAllPath/allPathInfo";
+// import useSearchList from "../SearchInfoTemplate/useSearchList";
+
+// function capitalizeWords(input: string) {
+//   return input
+//     .split(" ")
+//     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+//     .join(" ");
+// }
+
+// export default function BurgerMenuIcon() {
+//   const [open, setOpen] = useState(false);
+//   const [expandedCategories, setExpandedCategories] = useState(false);
+//   const { searchList, isLoading } = useSearchList();
+
+//   const allPages = Array.from(
+//     new Set(allPathInfo.map((item) => item.page))
+//   ).sort((a, b) => a.localeCompare(b));
+
+//   return (
+//     <>
+//       <OpenButton onClick={() => setOpen(true)} title="Menü öffnen">
+//         <FiMenu />
+//       </OpenButton>
+
+//       {open && (
+//         <>
+//           <SidebarOverlay onClick={() => setOpen(false)} />
+//           <SidebarContainer>
+//             <SidebarContent>
+//               <CloseButton onClick={() => setOpen(false)}>
+//                 <FiX />
+//               </CloseButton>
+
+//               <LogoLink to="/" onClick={() => setOpen(false)}>
+//                 <FiHome /> Schönwald
+//                 <SunUpperHome>
+//                   <GiFlowerEmblem
+//                     style={{ color: "#FFD700", fontSize: "1rem" }}
+//                   />
+//                 </SunUpperHome>
+//               </LogoLink>
+
+//               <MenuGroup>
+//                 {allPages.map((page) => {
+//                   const pageSlug =
+//                     "/" + page.toLowerCase().replace(/\s+/g, "-");
+//                   const isHandwerk =
+//                     page === "Handwerkgewerbe & Dienstleistungen";
+
+//                   // Категорії тільки з useSearchList
+//                   const categories = isHandwerk
+//                     ? Array.from(
+//                         new Set(
+//                           searchList
+//                             .filter(
+//                               (item) => item.page === page && item.category
+//                             )
+//                             .map((item) => item.category)
+//                         )
+//                       )
+//                     : [];
+
+//                   return (
+//                     <MenuSection key={page}>
+//                       {/* Посилання на сторінку */}
+//                       <div
+//                         style={{
+//                           display: "flex",
+//                           justifyContent: "space-between",
+//                         }}
+//                       >
+//                         <MenuPageLink
+//                           to={pageSlug}
+//                           onClick={() => setOpen(false)}
+//                         >
+//                           {capitalizeWords(page)}
+//                         </MenuPageLink>
+
+//                         {isHandwerk && (
+//                           <BtnCategoryOpen
+//                             onClick={() =>
+//                               setExpandedCategories((prev) => !prev)
+//                             }
+//                             title={expandedCategories ? "Schließen" : "Öffnen"}
+//                           >
+//                             {expandedCategories ? (
+//                               <FiChevronUp />
+//                             ) : (
+//                               <FiChevronDown />
+//                             )}
+//                           </BtnCategoryOpen>
+//                         )}
+//                       </div>
+
+//                       {/* Категорії (підменю) */}
+//                       {isHandwerk && expandedCategories && (
+//                         <div
+//                           style={{ paddingLeft: "0.5rem", marginTop: "0.5rem" }}
+//                         >
+//                           {isLoading
+//                             ? Array.from({ length: 4 }).map((_, i) => (
+//                                 <SkeletonLine key={i} />
+//                               ))
+//                             : categories.map((category) => {
+//                                 const categoryPath = searchList.find(
+//                                   (item) =>
+//                                     item.page === page &&
+//                                     item.category === category
+//                                 )?.path;
+
+//                                 return (
+//                                   <MenuCategory
+//                                     key={category}
+//                                     to={categoryPath || "#"}
+//                                     onClick={() => setOpen(false)}
+//                                   >
+//                                     {category}
+//                                   </MenuCategory>
+//                                 );
+//                               })}
+//                         </div>
+//                       )}
+//                     </MenuSection>
+//                   );
+//                 })}
+
+//                 <HerzText>
+//                   Danke, dass du uns besucht hast – komm bald wieder vorbei! ❤️
+//                 </HerzText>
+//               </MenuGroup>
+//             </SidebarContent>
+//           </SidebarContainer>
+//         </>
+//       )}
+//     </>
+//   );
+// }
+
+// + Barrierefreiheit
+import { useEffect, useRef, useState } from "react";
 import {
   FiX,
   FiHome,
@@ -461,27 +626,79 @@ export default function BurgerMenuIcon() {
   const [open, setOpen] = useState(false);
   const [expandedCategories, setExpandedCategories] = useState(false);
   const { searchList, isLoading } = useSearchList();
+  const sidebarRef = useRef<HTMLDivElement | null>(null);
+
+  const closeBtnRef = useRef<HTMLButtonElement | null>(null);
 
   const allPages = Array.from(
     new Set(allPathInfo.map((item) => item.page))
   ).sort((a, b) => a.localeCompare(b));
 
+  // Коли меню відкривається — фокус переходить на сайдбар
+  useEffect(() => {
+    if (open) {
+      setTimeout(() => {
+        closeBtnRef.current?.focus(); // Фокусуємо кнопку закриття
+      }, 50);
+    }
+  }, [open]);
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setOpen(false);
+      }
+    };
+
+    if (open) {
+      document.addEventListener("keydown", handleKeyDown);
+    }
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [open]);
+
   return (
     <>
-      <OpenButton onClick={() => setOpen(true)} title="Menü öffnen">
+      <OpenButton
+        onClick={() => setOpen(true)}
+        title="Menü öffnen"
+        aria-label="Menü öffnen"
+        aria-haspopup="true"
+        aria-expanded={open}
+      >
         <FiMenu />
       </OpenButton>
 
       {open && (
         <>
-          <SidebarOverlay onClick={() => setOpen(false)} />
-          <SidebarContainer>
+          <SidebarOverlay onClick={() => setOpen(false)} aria-hidden="true" />
+          <SidebarContainer
+            role="dialog"
+            aria-modal="true"
+            aria-label="Seitennavigation"
+            tabIndex={-1}
+            ref={sidebarRef}
+            //
+            aria-hidden={!open}
+          >
             <SidebarContent>
-              <CloseButton onClick={() => setOpen(false)}>
+              <CloseButton
+                ref={closeBtnRef} // <-- додаємо
+                onClick={() => setOpen(false)}
+                aria-label="Menü schließen"
+              >
                 <FiX />
               </CloseButton>
 
-              <LogoLink to="/" onClick={() => setOpen(false)}>
+              <LogoLink
+                to="/"
+                onClick={() => setOpen(false)}
+                //
+                tabIndex={open ? 0 : -1}
+                aria-hidden={!open}
+              >
                 <FiHome /> Schönwald
                 <SunUpperHome>
                   <GiFlowerEmblem
@@ -497,7 +714,6 @@ export default function BurgerMenuIcon() {
                   const isHandwerk =
                     page === "Handwerkgewerbe & Dienstleistungen";
 
-                  // Категорії тільки з useSearchList
                   const categories = isHandwerk
                     ? Array.from(
                         new Set(
@@ -512,7 +728,6 @@ export default function BurgerMenuIcon() {
 
                   return (
                     <MenuSection key={page}>
-                      {/* Посилання на сторінку */}
                       <div
                         style={{
                           display: "flex",
@@ -522,6 +737,9 @@ export default function BurgerMenuIcon() {
                         <MenuPageLink
                           to={pageSlug}
                           onClick={() => setOpen(false)}
+                          //
+                          tabIndex={open ? 0 : -1}
+                          aria-hidden={!open}
                         >
                           {capitalizeWords(page)}
                         </MenuPageLink>
@@ -532,6 +750,14 @@ export default function BurgerMenuIcon() {
                               setExpandedCategories((prev) => !prev)
                             }
                             title={expandedCategories ? "Schließen" : "Öffnen"}
+                            aria-label={
+                              expandedCategories
+                                ? "Kategorien schließen"
+                                : "Kategorien öffnen"
+                            }
+                            //
+                            tabIndex={open ? 0 : -1}
+                            aria-hidden={!open}
                           >
                             {expandedCategories ? (
                               <FiChevronUp />
@@ -542,7 +768,6 @@ export default function BurgerMenuIcon() {
                         )}
                       </div>
 
-                      {/* Категорії (підменю) */}
                       {isHandwerk && expandedCategories && (
                         <div
                           style={{ paddingLeft: "0.5rem", marginTop: "0.5rem" }}
@@ -563,6 +788,9 @@ export default function BurgerMenuIcon() {
                                     key={category}
                                     to={categoryPath || "#"}
                                     onClick={() => setOpen(false)}
+                                    //
+                                    tabIndex={open ? 0 : -1}
+                                    aria-hidden={!open}
                                   >
                                     {category}
                                   </MenuCategory>
@@ -574,7 +802,7 @@ export default function BurgerMenuIcon() {
                   );
                 })}
 
-                <HerzText>
+                <HerzText tabIndex={0}>
                   Danke, dass du uns besucht hast – komm bald wieder vorbei! ❤️
                 </HerzText>
               </MenuGroup>

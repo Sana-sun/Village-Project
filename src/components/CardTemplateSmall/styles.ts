@@ -1,134 +1,4 @@
-//  "1"
-// import styled from "styled-components";
 
-// export const PageWrapper = styled.div`
-//   padding: 1rem;
-// `;
-
-// export const Heading = styled.h1`
-//   font-size: 1.8rem;
-//   margin-bottom: 0.5rem;
-// `;
-
-// export const IntroText = styled.p`
-//   font-size: 1rem;
-//   margin-bottom: 2rem;
-// `;
-
-// export const CardsContainer = styled.div`
-//   display: flex;
-//   flex-wrap: wrap;
-//   gap: 0.5rem;
-//   justify-content: center;
-// `;
-
-// export const Card = styled.div`
-//   border: 1px solid #ccc;
-//   border-radius: 12px;
-//   padding: 1.5rem;
-//   margin-bottom: 2rem;
-//   max-width: 600px;
-//   margin-inline: auto;
-//   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-//   background-color: #f9f9f9;
-//   position: relative;
-// `;
-
-// export const CardImageWrapper = styled.div`
-//   text-align: center;
-//   margin-bottom: 1rem;
-
-//   img {
-//     width: 100%;
-//     max-height: 250px;
-//     object-fit: cover;
-//     border-radius: 8px;
-//   }
-// `;
-
-// export const CardSlogan = styled.h2`
-//   color: #0033a0;
-//   font-size: 1.4rem;
-//   margin-bottom: 1rem;
-//   word-break: break-word;
-//   text-align: center;
-// `;
-
-// export const CardText = styled.p`
-//   margin-bottom: 1rem;
-//   white-space: pre-line;
-// `;
-
-// export const ContactInfo = styled.div`
-//   font-size: 0.95rem;
-//   line-height: 1.6;
-
-//   a {
-//     color: #0033a0;
-//     text-decoration: underline;
-//   }
-// `;
-
-// export const MoreButtonWrapper = styled.div`
-//   text-align: right;
-//   margin-top: 1rem;
-// `;
-
-// export const MoreButton = styled.button`
-//   background-color: #0033a0;
-//   color: #fff;
-//   border: none;
-//   padding: 0.5rem 1rem;
-//   border-radius: 8px;
-//   cursor: pointer;
-// `;
-
-// export const ModalOverlay = styled.div`
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100vw;
-//   height: 100vh;
-//   background-color: rgba(0, 0, 0, 0.6);
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   z-index: 999;
-// `;
-
-// export const ModalContent = styled.div`
-//   background-color: #fff;
-//   padding: 2rem;
-//   border-radius: 12px;
-//   max-width: 500px;
-//   width: 90%;
-//   text-align: left;
-//   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-// `;
-
-// export const ModalTitle = styled.h3`
-//   margin-bottom: 1rem;
-//   color: #0033a0;
-// `;
-
-// export const ModalText = styled.p`
-//   white-space: pre-line;
-// `;
-
-// export const ModalCloseButtonWrapper = styled.div`
-//   text-align: right;
-//   margin-top: 1.5rem;
-// `;
-
-// export const ModalCloseButton = styled.button`
-//   background-color: #ccc;
-//   border: none;
-//   padding: 0.5rem 1rem;
-//   border-radius: 8px;
-//   cursor: pointer;
-// `;
-
-// "2"
 import styled, { keyframes, css } from "styled-components";
 
 const slideUp = keyframes`
@@ -172,7 +42,9 @@ export const IntroText = styled.p`
   text-align: center;
 `;
 
-export const CardsContainer = styled.div<{ itemCount: number }>`
+export const CardsContainer = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== "itemCount",
+})<{ itemCount: number }>`
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -390,19 +262,20 @@ export const CarouselWrapper = styled.div`
   }
 `;
 
-export const Arrow = styled.button<{ left?: boolean }>`
+export const Arrow = styled.button.withConfig({
+  shouldForwardProp: (prop) => prop !== "left",
+})<{ left?: boolean }>`
   position: absolute;
   top: 50%;
   ${({ left }) => (left ? "left: 10px;" : "right: 10px;")}
   transform: translateY(-50%);
-  /* background: rgba(255,255,255,0.7); */
   border: none;
   border-radius: 50%;
   cursor: pointer;
   font-size: 1rem;
   display: flex;
   padding: 0.3rem;
-  color: #0033a0; /* блакитна стрілка */
+  color: #0033a0;
 
   &:hover {
     transform: translateY(-50%) scale(1.1);
@@ -428,16 +301,14 @@ export const Dots = styled.div`
   margin-top: 1rem;
 `;
 
-export const Dot = styled.div<{ active: boolean }>`
+export const Dot = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== "active",
+})<{ active: boolean }>`
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  /* background-color: ${({ active }) =>
-    active ? "#fff82fff" : "rgba(255, 255, 255, 1)"}; */
   background-color: ${({ active }) =>
     active ? "#ffd22fff" : "rgba(255, 255, 255, 1)"};
-  /* background-color: ${({ active }) =>
-    active ? "black" : "rgba(255, 255, 255, 1)"}; */
   transition: background-color 0.3s;
 `;
 

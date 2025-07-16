@@ -44,6 +44,11 @@ color: white;
   background: #99caff; /* світло-блакитний */
   color: #000;
 }
+
+:focus-visible {
+  outline-offset: 4px;
+}
+
 `
 
 function GlobalStyles() {

@@ -34,13 +34,16 @@ export const SkeletonBox = styled.div<{ width: string; height: string }>`
 
 // geschichte cards
 
-export const CardsContainer = styled.div<{ itemCount: number }>`
+export const CardsContainer = styled.div.withConfig({
+  shouldForwardProp: (prop) => prop !== "itemCount",
+})<{ itemCount: number }>`
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: ${({ itemCount }) =>
     itemCount === 1 ? "center" : "space-evenly"};
 `;
+
 
 export const Card = styled.div`
   display: flex;

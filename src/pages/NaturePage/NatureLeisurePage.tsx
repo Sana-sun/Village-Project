@@ -1,16 +1,3 @@
-// import rawMd from "./text.md?raw";
-// import MarkdownPageTemplate from "../../components/MarkdownPageTemplateProps/MarkdownPageTemplateProps";
-
-// function NatureLeisurePage() {
-//   return (
-//     <MarkdownPageTemplate
-//       markdown={rawMd}
-//     />
-//   );
-// }
-
-// export default NatureLeisurePage;
-
 import { useEffect, useState } from "react";
 import { useData } from "../../context/DataContext";
 import CardTemplate from "../../components/CardTemplate/CardTemplate";
@@ -73,6 +60,10 @@ export default function NatureLeisurePage() {
       setLoading(false);
     }
   }, [data]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

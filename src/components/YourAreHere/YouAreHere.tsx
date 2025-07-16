@@ -1,4 +1,39 @@
-// new simple var
+// // new simple var
+// import { FaChevronRight } from "react-icons/fa";
+// import { NavWrapper, ArrowBox, HomeLink } from "./styles";
+
+// type MoreLocationInfoProps = {
+//   infoPageName?: string;
+// };
+
+// function YourAreHere({ infoPageName }: MoreLocationInfoProps) {
+//   return (
+//     <NavWrapper>
+//       <HomeLink to="/">Startseite</HomeLink>
+
+//       <ArrowBox>
+//         <FaChevronRight />
+//       </ArrowBox>
+
+//       <span>Sie sind hier</span>
+
+//       <ArrowBox>
+//         <FaChevronRight />
+//       </ArrowBox>
+
+//       <span>
+//         <strong>{infoPageName}</strong>
+//       </span>
+//     </NavWrapper>
+//   );
+// }
+
+// export default YourAreHere;
+
+
+
+
+// + Barrierefreiheit
 import { FaChevronRight } from "react-icons/fa";
 import { NavWrapper, ArrowBox, HomeLink } from "./styles";
 
@@ -6,18 +41,18 @@ type MoreLocationInfoProps = {
   infoPageName?: string;
 };
 
-function YourAreHere({ infoPageName }: MoreLocationInfoProps) {
+export default function YouAreHere({ infoPageName }: MoreLocationInfoProps) {
   return (
-    <NavWrapper>
-      <HomeLink to="/">Startseite</HomeLink>
+    <NavWrapper aria-label="Breadcrumb">
+      <HomeLink to="/" aria-label="Zur Startseite">Startseite</HomeLink>
 
-      <ArrowBox>
+      <ArrowBox aria-hidden="true">
         <FaChevronRight />
       </ArrowBox>
 
       <span>Sie sind hier</span>
 
-      <ArrowBox>
+      <ArrowBox aria-hidden="true">
         <FaChevronRight />
       </ArrowBox>
 
@@ -28,7 +63,10 @@ function YourAreHere({ infoPageName }: MoreLocationInfoProps) {
   );
 }
 
-export default YourAreHere;
+ 
+
+
+
 
 // // 3 - супер працює
 // import { FaChevronRight } from "react-icons/fa";
