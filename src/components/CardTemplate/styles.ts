@@ -167,7 +167,6 @@ export const IntroText = styled.p`
   /* white-space: pre-line; */
   font-size: 1.2rem;
   margin: 2rem 0 3rem 0;
-  /* padding: 0 1rem; */
   line-height: 1.6;
   text-align: center;
 `;
