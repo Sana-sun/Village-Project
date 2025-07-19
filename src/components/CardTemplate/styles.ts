@@ -131,27 +131,27 @@
 // "2"
 import styled, { keyframes, css } from "styled-components";
 
-const slideUp = keyframes`
-  from {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-`;
+// const slideUp = keyframes`
+//   from {
+//     transform: translateY(100%);
+//     opacity: 0;
+//   }
+//   to {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+// `;
 
-const slideDown = keyframes`
-  from {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  to {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-`;
+// const slideDown = keyframes`
+//   from {
+//     transform: translateY(0);
+//     opacity: 1;
+//   }
+//   to {
+//     transform: translateY(100%);
+//     opacity: 0;
+//   }
+// `;
 
 export const PageWrapper = styled.div`
   /* padding: 1rem; */

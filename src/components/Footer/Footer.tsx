@@ -97,7 +97,7 @@ import {
   FooterGrid,
   FooterSectionRight,
 } from "./styles";
-import { FaEnvelope, FaPhone, FaGlobe } from "react-icons/fa";
+import { FaPhone, FaGlobe } from "react-icons/fa";
 
 export default function Footer() {
   const handleHomePage = () => {
