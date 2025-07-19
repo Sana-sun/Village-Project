@@ -189,14 +189,15 @@ function ImageCarousel({ images }: { images: string[] }) {
   const handlePrev = () =>
     setIndex((prev) => (prev - 1 + images.length) % images.length);
 
-  const scrollCardIntoView = () => {
-    if (carouselRef.current) {
-      const rect = carouselRef.current.getBoundingClientRect();
-      const scrollY = window.scrollY || window.pageYOffset;
-      const y = scrollY + rect.top - window.innerHeight / 4 + rect.height / 4;
-      window.scrollTo({ top: y, behavior: "smooth" });
-    }
-  };
+   // Скрол при фокусі
+  // const scrollCardIntoView = () => {
+  //   if (carouselRef.current) {
+  //     const rect = carouselRef.current.getBoundingClientRect();
+  //     const scrollY = window.scrollY || window.pageYOffset;
+  //     const y = scrollY + rect.top - window.innerHeight / 4 + rect.height / 4;
+  //     window.scrollTo({ top: y, behavior: "smooth" });
+  //   }
+  // };
 
   return (
     <div
@@ -216,7 +217,7 @@ function ImageCarousel({ images }: { images: string[] }) {
               left
               onClick={handlePrev}
               aria-label="Vorheriges Bild"
-              onFocus={scrollCardIntoView}
+              // onFocus={scrollCardIntoView}
               tabIndex={0}
             >
               <BsArrowLeftCircle aria-hidden="true" />
@@ -225,7 +226,7 @@ function ImageCarousel({ images }: { images: string[] }) {
             <Arrow
               onClick={handleNext}
               aria-label="Nächstes Bild"
-              onFocus={scrollCardIntoView}
+              // onFocus={scrollCardIntoView}
               tabIndex={0}
             >
               <BsArrowRightCircle aria-hidden="true" />

@@ -15,6 +15,7 @@ Instalatuions:
 11) npm install marked
 12) npm install gapi-script
 
+// застаріла інфо
 13) Для додавання нової картки і підключення до мережі, потрібно щоб 
 name: "KOMPLETT Gerüstbau GmbH", та 
 path: "/tradeServices/bau-&-renovierung#komplett-geruestbau-gmbh", та
@@ -29,3 +30,8 @@ KOMPLETT Gerüstbau GmbH
 - змінити відповідний файл text.md, за потреби ств нові Page.txt + text.md файли
 - додати новий шлях в App:  <Route path="
 - якщо розділяємо в Бізнесі, то додати новий <StyledNavLink - повністю і змінити старий
+
+
+// нова інфо
+
+Щоб додати нову сторінку саочатку додаємо шлях в allPathInfo і потім сторінка - лист з Екселю зявляється 

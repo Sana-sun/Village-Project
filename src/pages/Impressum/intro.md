@@ -3,7 +3,7 @@ Seiteninhaber / Verantwortlich im Sinne des § 5 Digitale-Dienste-Gesetz (DDG)
 Projekt Schönwalde entdecken
 Vertreten durch: Tetiana Makharynets
 Bahnhofstraße 115910 Schönwalde (Spreewald)
-📧 E-Mail: work.projects.lab@gmail.com
+📧 E-Mail: sana@sana-sun.com
 
 **Redaktion & Gestaltung**
 Tetiana Makharynets mit freundlicher Unterstützung durch:

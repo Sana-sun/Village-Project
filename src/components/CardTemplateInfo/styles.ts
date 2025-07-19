@@ -1,134 +1,3 @@
-//  "1"
-// import styled from "styled-components";
-
-// export const PageWrapper = styled.div`
-//   padding: 1rem;
-// `;
-
-// export const Heading = styled.h1`
-//   font-size: 1.8rem;
-//   margin-bottom: 0.5rem;
-// `;
-
-// export const IntroText = styled.p`
-//   font-size: 1rem;
-//   margin-bottom: 2rem;
-// `;
-
-// export const CardsContainer = styled.div`
-//   display: flex;
-//   flex-wrap: wrap;
-//   gap: 0.5rem;
-//   justify-content: center;
-// `;
-
-// export const Card = styled.div`
-//   border: 1px solid #ccc;
-//   border-radius: 12px;
-//   padding: 1.5rem;
-//   margin-bottom: 2rem;
-//   max-width: 600px;
-//   margin-inline: auto;
-//   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-//   background-color: #f9f9f9;
-//   position: relative;
-// `;
-
-// export const CardImageWrapper = styled.div`
-//   text-align: center;
-//   margin-bottom: 1rem;
-
-//   img {
-//     width: 100%;
-//     max-height: 250px;
-//     object-fit: cover;
-//     border-radius: 8px;
-//   }
-// `;
-
-// export const CardSlogan = styled.h2`
-//   color: #0033a0;
-//   font-size: 1.4rem;
-//   margin-bottom: 1rem;
-//   word-break: break-word;
-//   text-align: center;
-// `;
-
-// export const CardText = styled.p`
-//   margin-bottom: 1rem;
-//   white-space: pre-line;
-// `;
-
-// export const ContactInfo = styled.div`
-//   font-size: 0.95rem;
-//   line-height: 1.6;
-
-//   a {
-//     color: #0033a0;
-//     text-decoration: underline;
-//   }
-// `;
-
-// export const MoreButtonWrapper = styled.div`
-//   text-align: right;
-//   margin-top: 1rem;
-// `;
-
-// export const MoreButton = styled.button`
-//   background-color: #0033a0;
-//   color: #fff;
-//   border: none;
-//   padding: 0.5rem 1rem;
-//   border-radius: 8px;
-//   cursor: pointer;
-// `;
-
-// export const ModalOverlay = styled.div`
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   width: 100vw;
-//   height: 100vh;
-//   background-color: rgba(0, 0, 0, 0.6);
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   z-index: 999;
-// `;
-
-// export const ModalContent = styled.div`
-//   background-color: #fff;
-//   padding: 2rem;
-//   border-radius: 12px;
-//   max-width: 500px;
-//   width: 90%;
-//   text-align: left;
-//   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-// `;
-
-// export const ModalTitle = styled.h3`
-//   margin-bottom: 1rem;
-//   color: #0033a0;
-// `;
-
-// export const ModalText = styled.p`
-//   white-space: pre-line;
-// `;
-
-// export const ModalCloseButtonWrapper = styled.div`
-//   text-align: right;
-//   margin-top: 1.5rem;
-// `;
-
-// export const ModalCloseButton = styled.button`
-//   background-color: #ccc;
-//   border: none;
-//   padding: 0.5rem 1rem;
-//   border-radius: 8px;
-//   cursor: pointer;
-// `;
-
-// "2"
 import styled, { keyframes, css } from "styled-components";
 
 const slideUp = keyframes`
@@ -184,7 +53,7 @@ export const CardContent = styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 1rem 1.5rem 1.5rem;
+  padding: 2rem 1.5rem 2.5rem;
 `;
 
 export const Card = styled.div`
@@ -209,10 +78,10 @@ export const Card = styled.div`
   position: relative;
   overflow: hidden;
 
-   /* @media (min-width: 1024px) {
+  /* @media (min-width: 1024px) {
     flex: 1 1 calc(33.33% - 1rem);
   } */
-   @media (min-width: 1440px) {
+  @media (min-width: 1440px) {
     flex: 1 1 calc(33.33% - 1rem);
   }
 `;
@@ -291,38 +160,26 @@ export const MoreButtonText = styled.div`
   gap: 0.5rem;
 `;
 
-// export const SlideOverlay = styled.div<{ $isVisible?: boolean }>`
-//   position: absolute;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-//   /* z-index: 10; */
-//   background: white;
-//   padding: 1.5rem;
-//   border-top: 1px solid #ccc;
-//   border-radius: 0 0 12px 12px;
-//   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
-//   animation: ${({ $isVisible }) =>
-//     $isVisible
-//       ? css`
-//           ${slideUp} 0.4s ease forwards;
-//         `
-//       : css`
-//           ${slideDown} 0.4s ease forwards;
-//         `};
-// `;
-
 export const SlideOverlay = styled.div<{ $isVisible?: boolean }>`
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  /* z-index: 2; */
   background: white;
   padding: 1.5rem;
   border-top: 1px solid #ccc;
   border-radius: 0 0 12px 12px;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+
+  // картинка стрибає
+  /* animation: ${({ $isVisible }) =>
+    $isVisible
+      ? css`
+          ${slideUp} 0.4s ease forwards;
+        `
+      : css`
+          ${slideDown} 0.4s ease forwards;
+        `}; */
 
   transform: translateY(100%);
   opacity: 0;
@@ -338,7 +195,6 @@ export const SlideOverlay = styled.div<{ $isVisible?: boolean }>`
 
   transition: transform 0.4s ease, opacity 0.4s ease;
 `;
-
 
 export const SlideContent = styled.div`
   position: relative;
@@ -360,7 +216,7 @@ export const SlideText = styled.div`
 
 export const SlideCloseButton = styled.button`
   position: absolute;
-  top: 0;
+  top: 0.4rem;
   right: 0.4rem;
   background: #ccc;
   border: none;
@@ -403,7 +259,6 @@ export const SkeletonBox = styled.div<{ width: string; height: string }>`
   background-size: 800px 104px;
   /* background-size: 1200px 100%; */
   animation: ${shimmer} 1.4s ease-in-out infinite;
-
 `;
 
 // carousel
@@ -453,8 +308,7 @@ export const Dots = styled.div`
   position: absolute;
   /* bottom: -50%; */
   top: 0.5%;
-  /* left: 50%; */
-  left: 46%;
+  left: 50%;
   gap: 6px;
   margin-top: 1rem;
 `;
@@ -479,4 +333,16 @@ export const CategoryName = styled.h3`
   margin-bottom: 1.8rem;
   padding-left: 0.2rem;
   font-weight: 500;
+`;
+
+export const DateText = styled.h3`
+  position: absolute;
+  /* top: -1rem; */
+  bottom: -1.5rem;
+  right: 0;
+  font-size: 0.75rem;
+  /* font-size: 0.8rem; */
+  color: #888;
+  padding: 0.5rem 0;
+  margin: 2em 1.5rem 2rem;
 `;

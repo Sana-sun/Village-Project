@@ -14,6 +14,7 @@ import TransportPage from "./pages/VerkehrPage/TransportPage";
 
 // import HistoryPage from "./pages/HomePage/HistoryPage/HistoryPage";
 import ServicesPage from "./pages/TradeServicesPage/ServicesPage";
+import Ankündigungen from "./pages/AnkündigungenPage/Ankündigungen";
 
 export default function App() {
   return (
@@ -26,6 +27,8 @@ export default function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               {/* <Route path="/history" element={<HistoryPage />} /> */}
+
+              <Route path="/ankündigungen" element={<Ankündigungen />} />
 
               <Route path="/baugrundstücke" element={<BauLand />} />
 

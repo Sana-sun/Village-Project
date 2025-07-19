@@ -97,7 +97,7 @@ import {
   FooterGrid,
   FooterSectionRight,
 } from "./styles";
-import { FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaGlobe } from "react-icons/fa";
 
 export default function Footer() {
   const handleHomePage = () => {
@@ -126,15 +126,16 @@ export default function Footer() {
           <ContactLink href="tel:0354742060">
             <FaPhone /> 035474 2060
           </ContactLink>
-          <ContactLink href="mailto:amt@unterspreewald.de">
-            <FaEnvelope /> amt@unterspreewald.de
+
+          {/* <ContactLink href="mailto:amt@unterspreewald.de">
+            <FaEnvelope /> amt@unterspreewald.de */}
+
+          <ContactLink target="_blank" href="https://www.unterspreewald.de/">
+            <FaGlobe /> Amt Unterspreewald
           </ContactLink>
-          <StyledRouterLink to="/impressum">
-            Impressum
-          </StyledRouterLink>
+          <StyledRouterLink to="/impressum">Impressum</StyledRouterLink>
         </FooterSectionRight>
       </FooterGrid>
     </FooterWrapper>
   );
 }
-

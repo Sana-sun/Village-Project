@@ -401,18 +401,18 @@ function ImageCarousel({ images }: { images: string[] }) {
   const carouselRef = useRef<HTMLDivElement | null>(null);
 
   // Функція прокрутки картинки в центр вьюпорту
-  const scrollCardIntoView = () => {
-    if (carouselRef.current) {
-      const rect = carouselRef.current.getBoundingClientRect();
-      const scrollY = window.scrollY || window.pageYOffset;
-      const y = scrollY + rect.top - window.innerHeight / 4 + rect.height / 4;
+  // const scrollCardIntoView = () => {
+  //   if (carouselRef.current) {
+  //     const rect = carouselRef.current.getBoundingClientRect();
+  //     const scrollY = window.scrollY || window.pageYOffset;
+  //     const y = scrollY + rect.top - window.innerHeight / 4 + rect.height / 4;
 
-      window.scrollTo({
-        top: y,
-        behavior: "smooth",
-      });
-    }
-  };
+  //     window.scrollTo({
+  //       top: y,
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
 
   return (
     <div role="region" aria-label="Bildergalerie" ref={carouselRef}>
@@ -428,7 +428,7 @@ function ImageCarousel({ images }: { images: string[] }) {
               left
               onClick={handlePrev}
               aria-label="Vorheriges Bild"
-              onFocus={scrollCardIntoView} // Скрол при фокусі
+              // onFocus={scrollCardIntoView} // Скрол при фокусі
               tabIndex={0}
 
             >
@@ -437,7 +437,7 @@ function ImageCarousel({ images }: { images: string[] }) {
             <Arrow
               onClick={handleNext}
               aria-label="Nächstes Bild"
-              onFocus={scrollCardIntoView} // Скрол при фокусі
+              // onFocus={scrollCardIntoView} // Скрол при фокусі
               tabIndex={0}
 
             >

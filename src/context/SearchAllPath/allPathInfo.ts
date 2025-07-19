@@ -1,5 +1,10 @@
 export const allPathInfo = [
   {
+    "page": "Ankündigungen",
+    "name": "Ankündigungen",
+    "path": "/ankündigungen#ankündigungen"
+  },
+  {
     "page": "Baugrundstücke",
     "name": "Baugrundstücke",
     "path": "/baugrundstücke#baugrundstücke"
