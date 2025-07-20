@@ -127,9 +127,6 @@ export default function Footer() {
             <FaPhone /> 035474 2060
           </ContactLink>
 
-          {/* <ContactLink href="mailto:amt@unterspreewald.de">
-            <FaEnvelope /> amt@unterspreewald.de */}
-
           <ContactLink target="_blank" href="https://www.unterspreewald.de/">
             <FaGlobe /> Amt Unterspreewald
           </ContactLink>
