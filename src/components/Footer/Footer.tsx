@@ -119,7 +119,7 @@ export default function Footer() {
             alt="Logo"
             title="Klicken Sie auf mich, um zur Startseite zu gelangen"
           />
-          <LogoText>Schönwald (Brandenburg)</LogoText>
+          <LogoText>Schönwald (Spreewald)</LogoText>
         </LogoBtn>
 
         <FooterSectionRight>
