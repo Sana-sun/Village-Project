@@ -148,7 +148,7 @@ function HomePage() {
 
         <section aria-labelledby="geschichte-heading">
           <Heading as="h2" id="geschichte-heading">
-            🏰 Geschichte von Schönwalde (15910 Brandenburg)
+            🏰 Geschichte von Schönwalde (15910 Spreewald)
           </Heading>
           <IntroText>
             Schönwalde ist nicht nur ein Dorf, sondern ein Ort mit tief
