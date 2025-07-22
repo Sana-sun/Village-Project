@@ -77,7 +77,7 @@
 
 
 //3
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const CarouselContainer = styled.div`
   width: 100%;
@@ -141,9 +141,9 @@ export const DotsContainer = styled.div`
 `;
 
 export const Dot = styled.div<{ $isActive: boolean }>`
-  width: 6px;
-  height: 6px;
-  /* background-color: ${(props) => (props.$isActive ? "#66b3ff" : "#d3d3d3")}; */
+  width: 8px;
+  height: 8px;
+  /* background-color: ${(props) => (props.$isActive ? "#66b3ff" : "#ffffff")}; */
   background-color: ${(props) => (props.$isActive ? "#ffd22fff" : "#d3d3d3")};
   border-radius: 50%;
   margin: 0 6px;
@@ -194,4 +194,32 @@ export const FotoTextContainer = styled.div`
   @media (max-width: 430px) {
     font-size: 0.6rem;
   }
+`;
+
+
+// shimmer-ефект
+const shimmer = keyframes`
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+`;
+
+export const Skeleton = styled.div`
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    #f0f0f0 25%,
+    #e0e0e0 37%,
+    #f0f0f0 63%
+  );
+  background-size: 1000px 100%;
+  animation: ${shimmer} 1.5s infinite linear;
+  position: absolute;
+  top: 0;
+  left: 0;
 `;

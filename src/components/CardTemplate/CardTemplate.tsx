@@ -327,6 +327,9 @@
 //   );
 // }
 
+
+
+
 // + Barrierefreiheit
 import { useEffect, useState, type ReactNode } from "react";
 import {
@@ -360,6 +363,7 @@ import {
   MoreButton,
   MoreButtonText,
   MoreButtonWrapper,
+  OverlayControls,
   PageWrapper,
   SkeletonBox,
   SlideCloseButton,
@@ -414,60 +418,94 @@ function ImageCarousel({ images }: { images: string[] }) {
   //   }
   // };
 
-  return (
-    <div role="region" aria-label="Bildergalerie" ref={carouselRef}>
-      <CarouselWrapper>
-        <img
-          src={images[index]}
-          alt={`Bild ${index + 1} von ${images.length}`}
-          role="img"
-        />
-        {images.length > 1 && (
-          <>
-            <Arrow
-              left
-              onClick={handlePrev}
-              aria-label="Vorheriges Bild"
-              // onFocus={scrollCardIntoView} // Скрол при фокусі
-              tabIndex={0}
+//   return (
+//   <div role="region" aria-label="Bildergalerie" ref={carouselRef}>
+//     <CarouselWrapper>
+//       <img
+//         src={images[index]}
+//         alt={`Bild ${index + 1} von ${images.length}`}
+//         role="img"
+//       />
 
-            >
-              <BsArrowLeftCircle aria-hidden="true" />
-            </Arrow>
-            <Arrow
-              onClick={handleNext}
-              aria-label="Nächstes Bild"
-              // onFocus={scrollCardIntoView} // Скрол при фокусі
-              tabIndex={0}
+//       {images.length > 1 && (
+//         <>
+//           <Arrow left onClick={handlePrev} aria-label="Vorheriges Bild" tabIndex={0}>
+//             <BsArrowLeftCircle aria-hidden="true" />
+//           </Arrow>
 
-            >
-              <BsArrowRightCircle aria-hidden="true" />
-            </Arrow>
-          </>
-        )}
-      </CarouselWrapper>
+//           <Arrow right onClick={handleNext} aria-label="Nächstes Bild" tabIndex={0}>
+//             <BsArrowRightCircle aria-hidden="true" />
+//           </Arrow>
+
+//           <Dots role="tablist" aria-label="Bildnavigation">
+//             {images.map((_, i) => (
+//               <Dot
+//                 key={i}
+//                 active={i === index}
+//                 role="tab"
+//                 aria-selected={i === index}
+//                 aria-label={`Bild ${i + 1}`}
+//                 tabIndex={0}
+//                 onClick={() => setIndex(i)}
+//                 onKeyDown={(e) => {
+//                   if (e.key === "Enter" || e.key === " ") {
+//                     setIndex(i);
+//                   }
+//                 }}
+//               />
+//             ))}
+//           </Dots>
+//         </>
+//       )}
+//     </CarouselWrapper>
+//   </div>
+// );
+
+return (
+  <div role="region" aria-label="Bildergalerie" ref={carouselRef}>
+    <CarouselWrapper>
+      <img
+        src={images[index]}
+        alt={`Bild ${index + 1} von ${images.length}`}
+        role="img"
+      />
+
       {images.length > 1 && (
-        <Dots role="tablist" aria-label="Bildnavigation">
-          {images.map((_, i) => (
-            <Dot
-              key={i}
-              active={i === index}
-              role="tab"
-              aria-selected={i === index}
-              aria-label={`Bild ${i + 1}`}
-              tabIndex={0}
-              onClick={() => setIndex(i)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" || e.key === " ") {
-                  setIndex(i);
-                }
-              }}
-            />
-          ))}
-        </Dots>
+        <OverlayControls>
+          <Arrow left onClick={handlePrev} aria-label="Vorheriges Bild" tabIndex={0}>
+            <BsArrowLeftCircle aria-hidden="true" />
+          </Arrow>
+
+          <Dots role="tablist" aria-label="Bildnavigation">
+            {images.map((_, i) => (
+              <Dot
+                key={i}
+                active={i === index}
+                role="tab"
+                aria-selected={i === index}
+                aria-label={`Bild ${i + 1}`}
+                tabIndex={0}
+                onClick={() => setIndex(i)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    setIndex(i);
+                  }
+                }}
+              />
+            ))}
+          </Dots>
+
+          <Arrow right onClick={handleNext} aria-label="Nächstes Bild" tabIndex={0}>
+            <BsArrowRightCircle aria-hidden="true" />
+          </Arrow>
+        </OverlayControls>
       )}
-    </div>
-  );
+    </CarouselWrapper>
+  </div>
+);
+
+
+
 }
 
 // ... (the rest of the component remains unchanged, now augmented with accessibility attributes)
@@ -526,8 +564,6 @@ function slugify(name: string = "") {
   return (
     name
       .toLowerCase()
-      // .replace(/[^\w&]+/g, "-") // збережено `&`
-      // .replace(/^-+|-+$/g, "");
       .replace(/\s+/g, "-")
   );
 }
@@ -571,17 +607,15 @@ export default function CardTemplate({
   const lastFocusedRef = useRef<HTMLElement | null>(null);
   const overlayRef = useRef<HTMLDivElement | null>(null);
 
-  const handleOpen = (index: number) => {
-    lastFocusedRef.current = document.activeElement as HTMLElement;
-    setOpenIndex(index);
-  };
+  const [openId, setOpenId] = useState<string | null>(null);
 
-  const handleClose = () => {
-    setOpenIndex(null);
-    setTimeout(() => {
-      lastFocusedRef.current?.focus(); // повертаємо фокус
-    }, 10);
-  };
+const handleOpen = (id: string) => {
+  setOpenId(id);
+};
+
+const handleClose = () => {
+  setOpenId(null);
+};
 
   useEffect(() => {
     if (openIndex !== null) {
@@ -633,7 +667,6 @@ useEffect(() => {
   return () => document.removeEventListener("keydown", handleKey);
 }, [openIndex]);
 
-
   // прокрутка для імен
   useEffect(() => {
     if (!loading && location.hash && cards?.length) {
@@ -656,24 +689,12 @@ useEffect(() => {
     }
   }, [location.hash, loading, cards]);
 
-  // useEffect(() => {
-  //   cards.forEach((item) => {
-  //     console.log(`🔗Cat: ${item.NAME} → ${item.CATEGORY_PATH}`);
-  //     console.log(`Path: 🔗 ${item.NAME} → ${item.PATH}`);
-  //   });
-  // }, [cards]);
-
-  const renderCard = (item: BauCard, index: number) => {
-    const id = item.PATH?.split("#")[1];
-    // console.log(`🧭 CARD ID для "${item.NAME}":`, id);
-    // console.log(`🧭 CARD PATH "${item.NAME}":`, item.PATH);
-
+const renderCard = (item: BauCard, index: number) => {
+  const id = item.PATH?.split("#")[1] ?? item.NAME ?? `card-${index}`;
     return (
       <Card
-        // id={item.path?.split("#")[1]}
-        // id={item.NAME?.toLowerCase()}
         id={id}
-        key={`${item.NAME ?? "item"}-${index}`}
+        key={id}
       >
         <CardImageWrapper>
           {images?.[item.NAME ?? ""]?.length ? (
@@ -731,16 +752,16 @@ useEffect(() => {
             <>
               <MoreButtonWrapper>
                 <MoreButton
-                  onClick={() => handleOpen(index)}
+                  onClick={() => handleOpen(id)}
                   onKeyDown={(e) => {
                     if (e.key === "Enter" || e.key === " ") {
                       e.preventDefault();
-                      handleOpen(index);
+                      handleOpen(id);
                     }
                   }}
-                  className={openIndex === index ? "active" : ""}
-                  aria-expanded={openIndex === index}
-                  aria-controls={`slide-${index}`}
+                  className={openId === id ? "active" : ""}
+                  aria-expanded={openId === id}
+                  aria-controls={`slide-${id}`}
                 >
                   <MoreButtonText>
                     <FiInfo /> Mehr erfahren
@@ -748,9 +769,9 @@ useEffect(() => {
                 </MoreButton>
               </MoreButtonWrapper>
 
-              {openIndex === index && (
+              {openId === id && (
                 <SlideOverlay
-                  id={`slide-${index}`}
+                  id={`slide-${id}`}
                   $isVisible={true}
                   role="dialog"
                   aria-modal="true"
@@ -910,3 +931,4 @@ useEffect(() => {
     </PageWrapper>
   );
 }
+
