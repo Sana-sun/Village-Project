@@ -102,19 +102,19 @@ function HomePage() {
   const images = {
     "Über das Dorf": [
       "/images/OtherPictures/Map/mainPhoto.png",
-      "/images/OtherPictures/Center/2.webp",
-      "/images/OtherPictures/Center/3.webp",
-      "/images/OtherPictures/Center/6.webp",
-      "/images/OtherPictures/Center/8.webp",
+      "/images/OtherPictures/Center/2.avif",
+      "/images/OtherPictures/Center/3.avif",
+      "/images/OtherPictures/Center/6.avif",
+      "/images/OtherPictures/Center/8.avif",
     ],
-    Bürgermeister: ["/images/OtherPictures/People/mainPhoto.jpg"],
+    Bürgermeister: ["/images/OtherPictures/People/mainPhoto.avif"],
   };
 
   const geschichteImages = [
-    "/images/OtherPictures/Geschichte/1.png",
-    "/images/OtherPictures/Geschichte/2.png",
-    "/images/OtherPictures/Geschichte/3.png",
-    "/images/OtherPictures/Geschichte/4.png",
+    "/images/OtherPictures/Geschichte/1.avif",
+    "/images/OtherPictures/Geschichte/2.avif",
+    "/images/OtherPictures/Geschichte/3.avif",
+    "/images/OtherPictures/Geschichte/4.avif",
   ];
 
   useEffect(() => {

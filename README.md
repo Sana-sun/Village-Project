@@ -15,6 +15,8 @@ Instalatuions:
 11) npm install marked
 12) npm install gapi-script
 
+13) npm install next/image
+
 // застаріла інфо
 13) Для додавання нової картки і підключення до мережі, потрібно щоб 
 name: "KOMPLETT Gerüstbau GmbH", та 

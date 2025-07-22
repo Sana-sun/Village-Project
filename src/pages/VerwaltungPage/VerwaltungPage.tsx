@@ -10,24 +10,24 @@ export default function VerwaltungPage() {
 
   const images = {
     "Feuerwehrgerätehaus Schönwalde": [
-      "/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/mainPhoto.webp",
-      "/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/4.jpg",
+      "/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/mainPhoto.avif",
+      "/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/4.avif",
     ],
     "Feuerwehr Waldow": [
-      "/images/Gemeinde_Verwaltung/FeuerwehrWaldow/mainPhoto1.jpg",
+      "/images/Gemeinde_Verwaltung/FeuerwehrWaldow/mainPhoto1.avif",
     ],
     "Amt Unterspreewald": [
-      "/images/Gemeinde_Verwaltung/Amt/mainPhoto2.jpg",
-      "/images/Gemeinde_Verwaltung/Amt/3.jpg",
-      "/images/Gemeinde_Verwaltung/Amt/2.jpg",
+      "/images/Gemeinde_Verwaltung/Amt/mainPhoto2.avif",
+      "/images/Gemeinde_Verwaltung/Amt/3.avif",
+      "/images/Gemeinde_Verwaltung/Amt/2.avif",
     ],
     "Kirche": [
-      "/images/Gemeinde_Verwaltung/Kirche/mainPhoto.jpg",
-      "/images/Gemeinde_Verwaltung/Kirche/1.jpg",
-      "/images/Gemeinde_Verwaltung/Kirche/3.webp",
-      "/images/Gemeinde_Verwaltung/Kirche/4.jpg",
-      "/images/Gemeinde_Verwaltung/Kirche/5.jpg",
-      "/images/Gemeinde_Verwaltung/Kirche/7.jpg",
+      "/images/Gemeinde_Verwaltung/Kirche/mainPhoto.avif",
+      "/images/Gemeinde_Verwaltung/Kirche/1.avif",
+      "/images/Gemeinde_Verwaltung/Kirche/3.avif",
+      "/images/Gemeinde_Verwaltung/Kirche/4.avif",
+      "/images/Gemeinde_Verwaltung/Kirche/5.avif",
+      "/images/Gemeinde_Verwaltung/Kirche/7.avif",
     ],
   };
 
