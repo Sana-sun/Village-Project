@@ -13,7 +13,7 @@ import NatureLeisurePage from "./pages/NaturePage/NatureLeisurePage";
 import TransportPage from "./pages/VerkehrPage/TransportPage";
 
 // import HistoryPage from "./pages/HomePage/HistoryPage/HistoryPage";
-import ServicesPage from "./pages/TradeServicesPage/ServicesPage";
+import ServicesPage from "./pages/ServicesPage/ServicesPage";
 import Ankündigungen from "./pages/AnkündigungenPage/Ankündigungen";
 
 export default function App() {

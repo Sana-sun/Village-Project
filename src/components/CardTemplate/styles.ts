@@ -316,7 +316,6 @@ export const SlideOverlay = styled.div<{ $isVisible?: boolean }>`
   bottom: 0;
   left: 0;
   right: 0;
-  /* z-index: 2; */
   background: white;
   padding: 1.5rem;
   border-top: 1px solid #ccc;
@@ -405,7 +404,21 @@ export const SkeletonBox = styled.div<{ width: string; height: string }>`
 
 `;
 
+
+
+export const CategoryName = styled.h3`
+  font-size: 1.2rem;
+  color: #0033a0;
+  color: #020c22bf;
+  margin-bottom: 1.8rem;
+  padding-left: 0.2rem;
+  font-weight: 500;
+`;
+
+
+
 // carousel
+
 export const CarouselWrapper = styled.div`
   position: relative;
   width: 100%;
@@ -416,66 +429,99 @@ export const CarouselWrapper = styled.div`
     height: auto;
     border-radius: 8px;
     object-fit: cover;
+    display: block;
   }
 `;
 
-export const Arrow = styled.button<{ left?: boolean }>`
+export const OverlayControls = styled.div`
   position: absolute;
-  top: 50%;
-  ${({ left }) => (left ? "left: 10px;" : "right: 10px;")}
-  transform: translateY(-50%);
-  /* background: rgba(255,255,255,0.7); */
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 1rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none; /* не впливає на зображення */
+
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  > * {
+    pointer-events: auto; /* включає доступність для елементів всередині */
+  }
+`;
+
+export const Arrow = styled.button<{ left?: boolean; right?: boolean }>`
+  border: none;
+  background: transparent;
+  background: white;
+  background: rgba(255, 255, 255, 0.642);
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 1.2rem;
   padding: 0.3rem;
-  color: #0033a0; /* блакитна стрілка */
+  color: #0033a0; 
+  /* color: white;  */
+  margin: 0 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
-    transform: translateY(-50%) scale(1.1);
+    transform: scale(1.1);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     background-color: #f5faff;
   }
 
   &:active {
-    transform: translateY(-50%) scale(0.95);
+    transform: scale(0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 `;
 
 export const Dots = styled.div`
   display: flex;
-  justify-content: center;
-
-  position: absolute;
-  /* bottom: -50%; */
-  top: 0.5%;
-  /* left: 50%; */
-  left: 46%;
   gap: 6px;
-  margin-top: 1rem;
+  /* background: rgba(255, 255, 255, 0.7); */
+  /* background: rgba(255, 255, 255, 0.429); */
+  padding: 4px 8px;
+  border-radius: 12px;
+  justify-content: center;
+  position: relative;
+  top: -45%;
 `;
+
+/* export const Dot = styled.div<{ active: boolean }>`
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: ${({ active }) =>
+    active ? "#ffd22fff" : "rgba(255, 255, 255, 1)"};
+  border: 1px solid #ccc;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  
+`; */
+
 
 export const Dot = styled.div<{ active: boolean }>`
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  /* background-color: ${({ active }) =>
-    active ? "#fff82fff" : "rgba(255, 255, 255, 1)"}; */
   background-color: ${({ active }) =>
     active ? "#ffd22fff" : "rgba(255, 255, 255, 1)"};
-  /* background-color: ${({ active }) =>
-    active ? "black" : "rgba(255, 255, 255, 1)"}; */
+  border: 1px solid #ccc;
   transition: background-color 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #338bff;
+  }
+
+  @media (max-width: 768px) {
+    width: 10px;
+    height: 10px;
+  }
 `;
 
-export const CategoryName = styled.h3`
-  font-size: 1.2rem;
-  color: #0033a0;
-  color: #020c22bf;
-  margin-bottom: 1.8rem;
-  padding-left: 0.2rem;
-  font-weight: 500;
-`;
+

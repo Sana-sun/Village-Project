@@ -272,10 +272,11 @@ export const Arrow = styled.button.withConfig({
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: flex;
   padding: 0.3rem;
   color: #0033a0;
+background: rgba(255, 255, 255, 0.642);
 
   &:hover {
     transform: translateY(-50%) scale(1.1);
@@ -310,6 +311,10 @@ export const Dot = styled.div.withConfig({
   background-color: ${({ active }) =>
     active ? "#ffd22fff" : "rgba(255, 255, 255, 1)"};
   transition: background-color 0.3s;
+
+    &:hover {
+    background-color: #338bff;
+  }
 `;
 
 export const CategoryName = styled.h3`
