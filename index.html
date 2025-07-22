@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
@@ -26,11 +26,7 @@
     <link rel="canonical" href="https://schönwald-spreewald.de" />
 
     <!-- Favicon -->
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="/src/assets/BubbleSmall-rm.png"
-    />
+    <link rel="icon" type="image/svg+xml" href="/BubbleSmall-rm.png" />
 
     <!-- Open Graph: покращення вигляду при поширенні в соцмережах -->
     <meta property="og:title" content="Schönwald im Spreewald – Dorfwebseite" />
@@ -47,10 +43,28 @@
 
     <!-- Language declaration -->
     <meta http-equiv="Content-Language" content="de" />
+
+    <!-- noch -->
+    <meta name="author" content="Gemeinde Schönwald" />
   </head>
-  
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Gemeinde Schönwald",
+        "url": "https://schönwald-spreewald.de",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Schönwald",
+          "addressRegion": "Brandenburg",
+          "postalCode": "15910",
+          "addressCountry": "DE"
+        }
+      }
+    </script>
   </body>
 </html>
