@@ -599,12 +599,12 @@ export default function CardTemplate({
 }: CardTemplateProps) {
   // console.log("📦 cards:", cards); // ← ось тут
 
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openIndex, _] = useState<number | null>(null);
   // const handleOpen = (index: number) => setOpenIndex(index);
   // const handleClose = () => setOpenIndex(null);
   const location = useLocation();
 
-  const lastFocusedRef = useRef<HTMLElement | null>(null);
+  // const lastFocusedRef = useRef<HTMLElement | null>(null);
   const overlayRef = useRef<HTMLDivElement | null>(null);
 
   const [openId, setOpenId] = useState<string | null>(null);
