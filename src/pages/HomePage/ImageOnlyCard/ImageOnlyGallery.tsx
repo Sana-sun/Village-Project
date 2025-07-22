@@ -74,6 +74,11 @@ export function ImageOnlyGallery({
                   src={src}
                   alt={`Bild ${index + 1} von ${images.length}`}
                   role="img"
+                  // new
+                  width={400} // наприклад, 400px ширина
+                  height={300} // 300px висота
+                  loading="lazy"
+                  style={{ objectFit: "cover", maxWidth: "100%", height: "auto" }}
                 />
               </CardImageWrapper>
             </Card>

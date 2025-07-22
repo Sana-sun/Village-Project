@@ -71,10 +71,10 @@ const MainCarousel: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    "images/StartSeite/11.webp",
-    "/images/StartSeite/3.jpeg",
-    "/images/StartSeite/4.webp",
-    "/images/StartSeite/10.jpeg",
+    "images/StartSeite/11.avif",
+    "/images/StartSeite/3.avif",
+    "/images/StartSeite/4.avif",
+    "/images/StartSeite/10.avif",
   ];
 
   useEffect(() => {

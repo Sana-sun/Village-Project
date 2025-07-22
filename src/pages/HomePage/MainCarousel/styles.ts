@@ -108,7 +108,8 @@ export const CarouselContainer = styled.div`
 export const MainImageContainer = styled.div`
   width: 100%;
   height: 100%;
-  background-color: #ccc;
+  /* background-color: #ccc; */
+  background-color: #fff;
 
   img {
     width: 100%;

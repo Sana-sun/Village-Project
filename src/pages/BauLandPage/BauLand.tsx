@@ -61,10 +61,10 @@ export default function BauLand() {
   const [loading, setLoading] = useState(true);
 
   const images = {
-    Baugrundstücke: ["/images/Bauland/mainPhoto.png"],
+    Baugrundstücke: ["/images/Bauland/mainPhoto.jpg"],
     Bauland: [
-      "/images/OtherPictures/Center/4.webp",
-      "/images/OtherPictures/Center/2.webp",
+      "/images/OtherPictures/Center/4.avif",
+      "/images/OtherPictures/Center/2.avif",
     ],
   };
 

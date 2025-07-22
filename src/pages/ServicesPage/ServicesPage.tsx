@@ -10,25 +10,25 @@ export default function ServicesPage() {
 
   const images = {
     "Ingo Richter Dachdecker": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto.webp",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Ingo.avif",
     ],
     "KOMPLETT Gerüstbau GmbH": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett/main.webp",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett.avif",
     ],
     "Malerbetrieb Dieter Ihl": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb/mainPhoto.webp",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb.avif",
     ],
     "Morgner Haustechnik": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner/mainPhoto.crdownload"
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner.avif" // new make
     ],
     "MSD Baustoffrecycling Schönwalde": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Bauland/mainPhoto.jpeg",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Baustoffrecycling.avif",
     ],
     "Tischlerei Schneider": [
-      "/images/Handel_Dienstleistungen/Tischlerei/mainPhoto1.jpg",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Tischlerei.avif",
     ],
     "Trocknungsservice Gefreiter GmbH": [
-      "/images/Handel_Dienstleistungen/Sanierungsdienste/Gefreiter_Wasser/mainPhoto3.png",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Gefreiter_Wasser.avif",
     ],
     "NOTUS energy": [
       "/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpeg",
@@ -48,17 +48,11 @@ export default function ServicesPage() {
     "Agrargemeinschaft Freiwalde/Schönwalde": [
       "/images/Handel_Dienstleistungen/Agrargemeinschaft/mainPhoto2.jpg"
     ],
-    "Imkerei Haus 5": [
-      "/images/Handel_Dienstleistungen/Imkerei/Haus_5/mainPhoto1.jpg",
-    ],
     "Imkerei Morgner": [
       "/images/Handel_Dienstleistungen/Imkerei/Morgner/mainPhoto411.jpg",
     ],
-    "Imkerei Rippert": [
-      "/images/Handel_Dienstleistungen/Imkerei/Rippert/mainPhoto1.jpg",
-    ],
     "Bäckerei & Konditorei Kuske": [
-      "/images/Handel_Dienstleistungen/Lebensmittel/Baekerei/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Lebensmittel/Baekerei/mainPhoto.avif",
     ],
     "Fleischerei Tischler": ["/images/Handel_Dienstleistungen/Lebensmittel/Fleischerei/mainPhoto.jpg"],
      "Der Pflegedienst": [

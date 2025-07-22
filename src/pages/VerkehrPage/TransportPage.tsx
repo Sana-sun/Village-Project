@@ -10,12 +10,12 @@ export default function TransportPage() {
 
   const images = {
     Bahnhof: [
-      "/images/Verkehr_Infrastruktur/Bahnhof/mainPhoto.jpg",
-      "/images/Verkehr_Infrastruktur/Bahnhof/1.webp",
-      "/images/Verkehr_Infrastruktur/Bahnhof/2.webp",
-      "/images/Verkehr_Infrastruktur/Bahnhof/3.jpg",
+      "/images/Verkehr_Infrastruktur/Bahnhof/mainPhoto.avif",
+      "/images/Verkehr_Infrastruktur/Bahnhof/1.avif",
+      "/images/Verkehr_Infrastruktur/Bahnhof/2.avif",
+      "/images/Verkehr_Infrastruktur/Bahnhof/3.avif",
     ],
-    Autobahn: ["/images/Verkehr_Infrastruktur/Autobahn/mainPhoto.png"],
+    Autobahn: ["/images/Verkehr_Infrastruktur/Autobahn/mainPhoto.avif"],
   };
 
   useEffect(() => {

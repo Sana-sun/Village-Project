@@ -10,47 +10,44 @@ export default function NatureLeisurePage() {
 
   const images = {
   See: [
-    "/images/Natur_Freizeit/See/1.webp",
-    "/images/Natur_Freizeit/See/2.jpeg",
-    "/images/Natur_Freizeit/See/3.jpeg",
-    "/images/Natur_Freizeit/See/5.webp",
-    "/images/Natur_Freizeit/See/6.jpeg"
+    "/images/Natur_Freizeit/See/1.avif",
+    "/images/Natur_Freizeit/See/2.avif",
+    "/images/Natur_Freizeit/See/3.avif",
+    "/images/Natur_Freizeit/See/5.avif",
+    "/images/Natur_Freizeit/See/6.avif"
   ],
   "Sportlerheim & Sportplatz": [
-   "/images/Natur_Freizeit/Sportlerheim/mainPhoto.webp",
-   "/images/Natur_Freizeit/Sportlerheim/1.webp",
-    "/images/Natur_Freizeit/Sportlerheim/2.webp",
-    "/images/Natur_Freizeit/Sportlerheim/3.webp",
-    "/images/Natur_Freizeit/Sportlerheim/4.webp"
+   "/images/Natur_Freizeit/Sportlerheim/mainPhoto.avif",
+   "/images/Natur_Freizeit/Sportlerheim/1.avif",
+    "/images/Natur_Freizeit/Sportlerheim/2.avif",
+    "/images/Natur_Freizeit/Sportlerheim/3.avif",
+    "/images/Natur_Freizeit/Sportlerheim/4.avif"
   ],
   Alpakafarm: [
-    "/images/Natur_Freizeit/Alpaka-Farm/mainPhoto.webp",
-    "/images/Natur_Freizeit/Alpaka-Farm/1.jpg",
-    "/images/Natur_Freizeit/Alpaka-Farm/2.png",
+    "/images/Natur_Freizeit/Alpaka-Farm/mainPhoto.avif",
+    "/images/Natur_Freizeit/Alpaka-Farm/1.avif",
+    "/images/Natur_Freizeit/Alpaka-Farm/2.avif",
   ],
   Jugendclub: [
-    "/images/Natur_Freizeit/Jugendclub/mainPhoto.jpg",
+    "/images/Natur_Freizeit/Jugendclub/mainPhoto.avif",
   ],
   "Lebendiges Schönwalde e.V.": [
-    "/images/Natur_Freizeit/Lebendiges/Lebendiges.jpg",
+    "/images/Natur_Freizeit/Lebendiges/Lebendiges.avif",
   ],
   Dorfgemeinschaftshaus: [
-    "/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.webp",
+    "/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.avif",
   ],
   "Spreewaldring Kart Center": [
-    "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/mainPhoto.jpg",
-    "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/1.jpg",
-    "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/2.png",
-    "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/3.jpg"
+    "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/mainPhoto.avif",
+    "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/1.avif",
+    "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/2.avif",
+    "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/3.avif"
   ],
   "Spreewaldring Training Center": [
-    "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/mainPhoto.png",
-   "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/1.png",
-    "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/2.png",
-    "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/3.png"
-  ],
-  Mühlenverein: [
-    "/images/Natur_Freizeit/Muehlenverein/mainPhoto.jpg",
+    "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/mainPhoto.avif",
+   "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/1.avif",
+    "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/2.avif",
+    "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/3.avif"
   ],
 };
 
