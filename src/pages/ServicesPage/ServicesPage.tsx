@@ -10,13 +10,13 @@ export default function ServicesPage() {
 
   const images = {
     "Ingo Richter Dachdecker": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Dachbetrieb/mainPhoto.webp",
     ],
     "KOMPLETT Gerüstbau GmbH": [
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett/main.webp",
     ],
     "Malerbetrieb Dieter Ihl": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb/mainPhoto2.jpg",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb/mainPhoto.webp",
     ],
     "Morgner Haustechnik": [
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner/mainPhoto.crdownload"
@@ -37,7 +37,7 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Kunath/mainPhoto1.jpg"
     ],
     "Autohaus Vogler": [
-      "/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Vogler/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Vogler/mainPhoto.webp",
     ],
     "KFZ Meisterbetrieb Ronny Hess": [
       "/images/Handel_Dienstleistungen/Fahrzeuge/Meisterbetrieb_Ronny_Hess/mainPhoto1.jpg",
@@ -62,7 +62,7 @@ export default function ServicesPage() {
     ],
     "Fleischerei Tischler": ["/images/Handel_Dienstleistungen/Lebensmittel/Fleischerei/mainPhoto.jpg"],
      "Der Pflegedienst": [
-      "/images/Handel_Dienstleistungen/Sozialdienste/mainPhoto.jpg",
+      "/images/Handel_Dienstleistungen/Sozialdienste/mainPhoto.webp",
     ],
     "Hämmerling B. Häusliche Krankenpflege": [
       "/images/Handel_Dienstleistungen/Sozialdienste/mainPhoto1.jpg",
