@@ -2,7 +2,6 @@
 // import { createContext, useContext, useEffect, useState } from "react";
 // import type { ReactNode } from "react";
 
-
 // const DataContext = createContext<any>(null);
 
 // interface DataProviderProps {
@@ -12,7 +11,7 @@
 // export const DataProvider = ({ children }: DataProviderProps) => {
 //   const [data, setData] = useState<any>(null);
 
-//   useEffect(() => {    
+//   useEffect(() => {
 //     fetch(import.meta.env.VITE_DATA_URL)
 //     .then((res) => res.json())
 //       .then(setData)
@@ -25,7 +24,6 @@
 // };
 
 // export const useData = () => useContext(DataContext);
-
 
 // 3 - try to cach and update 1 time pro day
 // import { createContext, useContext, useEffect, useState } from "react";
@@ -89,7 +87,6 @@
 
 // export const useData = () => useContext(DataContext);
 
-
 // без часу та кешування
 // import { createContext, useContext, useEffect, useState } from "react";
 // import type { ReactNode } from "react";
@@ -118,7 +115,6 @@
 // };
 
 // export const useData = () => useContext(DataContext);
-
 
 // 4 з кешуванням
 
@@ -160,47 +156,147 @@
 // export const useData = () => useContext(DataContext);
 
 
+
+
+
+
+
 // миттєве відображення сховиша
+// import { createContext, useContext, useEffect, useState } from "react";
+// import type { ReactNode } from "react";
+
+// const DataContext = createContext<any>(null);
+// const STORAGE_KEY = "village_project_data";
+
+// interface DataProviderProps {
+//   children: ReactNode;
+// }
+
+// export const DataProvider = ({ children }: DataProviderProps) => {
+//   const [data, setData] = useState<any>(null);
+
+//   // 1. одразу читаємо з localStorage
+//   useEffect(() => {
+//     const cachedData = localStorage.getItem(STORAGE_KEY);
+//     if (cachedData) {
+//       setData(JSON.parse(cachedData));
+//     }
+
+//     // 2. паралельно оновлюємо з сервера
+//     fetch(import.meta.env.VITE_DATA_URL)
+//       .then((res) => res.json())
+//       .then((freshData) => {
+//         const cached = localStorage.getItem(STORAGE_KEY);
+//         const cachedJson = cached ? JSON.parse(cached) : null;
+
+//         const freshStr = JSON.stringify(freshData);
+//         const cachedStr = JSON.stringify(cachedJson);
+
+//         // 3. якщо нові дані відрізняються — оновлюємо
+//         if (freshStr !== cachedStr) {
+//           setData(freshData);
+//           localStorage.setItem(STORAGE_KEY, freshStr);
+//         }
+//       })
+//       .catch((err) => {
+//         console.error("Data fetch error:", err);
+//       });
+//   }, []);
+
+//   return <DataContext.Provider value={data}>{children}</DataContext.Provider>;
+// };
+
+// export const useData = () => useContext(DataContext);
+
+
+
+
+
+
+// миттєве відображення сховища + фонова перевірка
+// import { createContext, useContext, useEffect, useState } from "react";
+// import type { ReactNode } from "react";
+
+// const DataContext = createContext<any>(null);
+// const STORAGE_KEY = "village_project_data";
+
+// interface DataProviderProps {
+//   children: ReactNode;
+// }
+
+// export const DataProvider = ({ children }: DataProviderProps) => {
+//   const [data, setData] = useState<any>(() => {
+//     const cached = localStorage.getItem(STORAGE_KEY);
+//     return cached ? JSON.parse(cached) : null;
+//   });
+
+//   useEffect(() => {
+//     fetch(import.meta.env.VITE_DATA_URL)
+//       .then((res) => res.json())
+//       .then((freshData) => {
+//         const cachedStr = localStorage.getItem(STORAGE_KEY);
+//         const freshStr = JSON.stringify(freshData);
+
+//         if (cachedStr !== freshStr) {
+//           setData(freshData);
+//           localStorage.setItem(STORAGE_KEY, freshStr);
+//         }
+//       })
+//       .catch((err) => {
+//         console.error("Data fetch error:", err);
+//       });
+//   }, []);
+
+//   return <DataContext.Provider value={data}>{children}</DataContext.Provider>;
+// };
+
+// export const useData = () => useContext(DataContext);
+
+
+
+
+// new
 import { createContext, useContext, useEffect, useState } from "react";
 import type { ReactNode } from "react";
 
 const DataContext = createContext<any>(null);
+const STORAGE_KEY = "village_project_data";
+const TIMESTAMP_KEY = "village_project_timestamp";
 
 interface DataProviderProps {
   children: ReactNode;
 }
 
-const STORAGE_KEY = "village_project_data";
-
+// 1. швидке зчитування кешу + попереднє парсення
 export const DataProvider = ({ children }: DataProviderProps) => {
-  const [data, setData] = useState<any>(null);
+  const cachedStr = localStorage.getItem(STORAGE_KEY);
+  const cachedJson = cachedStr ? JSON.parse(cachedStr) : null;
 
-  // 1. одразу читаємо з localStorage
+  const [data, setData] = useState<any>(cachedJson);
+
   useEffect(() => {
-    const cachedData = localStorage.getItem(STORAGE_KEY);
-    if (cachedData) {
-      setData(JSON.parse(cachedData));
-    }
+    let didCancel = false;
 
-    // 2. паралельно оновлюємо з сервера
     fetch(import.meta.env.VITE_DATA_URL)
       .then((res) => res.json())
       .then((freshData) => {
-        const cached = localStorage.getItem(STORAGE_KEY);
-        const cachedJson = cached ? JSON.parse(cached) : null;
+        if (didCancel) return;
 
         const freshStr = JSON.stringify(freshData);
-        const cachedStr = JSON.stringify(cachedJson);
 
-        // 3. якщо нові дані відрізняються — оновлюємо
         if (freshStr !== cachedStr) {
           setData(freshData);
           localStorage.setItem(STORAGE_KEY, freshStr);
+          localStorage.setItem(TIMESTAMP_KEY, new Date().toISOString());
         }
       })
       .catch((err) => {
         console.error("Data fetch error:", err);
       });
+
+    return () => {
+      didCancel = true;
+    };
   }, []);
 
   return <DataContext.Provider value={data}>{children}</DataContext.Provider>;

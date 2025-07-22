@@ -327,9 +327,6 @@
 //   );
 // }
 
-
-
-
 // + Barrierefreiheit
 import { useEffect, useState, type ReactNode } from "react";
 import {
@@ -418,94 +415,106 @@ function ImageCarousel({ images }: { images: string[] }) {
   //   }
   // };
 
-//   return (
-//   <div role="region" aria-label="Bildergalerie" ref={carouselRef}>
-//     <CarouselWrapper>
-//       <img
-//         src={images[index]}
-//         alt={`Bild ${index + 1} von ${images.length}`}
-//         role="img"
-//       />
+  //   return (
+  //   <div role="region" aria-label="Bildergalerie" ref={carouselRef}>
+  //     <CarouselWrapper>
+  //       <img
+  //         src={images[index]}
+  //         alt={`Bild ${index + 1} von ${images.length}`}
+  //         role="img"
+  //       />
 
-//       {images.length > 1 && (
-//         <>
-//           <Arrow left onClick={handlePrev} aria-label="Vorheriges Bild" tabIndex={0}>
-//             <BsArrowLeftCircle aria-hidden="true" />
-//           </Arrow>
+  //       {images.length > 1 && (
+  //         <>
+  //           <Arrow left onClick={handlePrev} aria-label="Vorheriges Bild" tabIndex={0}>
+  //             <BsArrowLeftCircle aria-hidden="true" />
+  //           </Arrow>
 
-//           <Arrow right onClick={handleNext} aria-label="Nächstes Bild" tabIndex={0}>
-//             <BsArrowRightCircle aria-hidden="true" />
-//           </Arrow>
+  //           <Arrow right onClick={handleNext} aria-label="Nächstes Bild" tabIndex={0}>
+  //             <BsArrowRightCircle aria-hidden="true" />
+  //           </Arrow>
 
-//           <Dots role="tablist" aria-label="Bildnavigation">
-//             {images.map((_, i) => (
-//               <Dot
-//                 key={i}
-//                 active={i === index}
-//                 role="tab"
-//                 aria-selected={i === index}
-//                 aria-label={`Bild ${i + 1}`}
-//                 tabIndex={0}
-//                 onClick={() => setIndex(i)}
-//                 onKeyDown={(e) => {
-//                   if (e.key === "Enter" || e.key === " ") {
-//                     setIndex(i);
-//                   }
-//                 }}
-//               />
-//             ))}
-//           </Dots>
-//         </>
-//       )}
-//     </CarouselWrapper>
-//   </div>
-// );
+  //           <Dots role="tablist" aria-label="Bildnavigation">
+  //             {images.map((_, i) => (
+  //               <Dot
+  //                 key={i}
+  //                 active={i === index}
+  //                 role="tab"
+  //                 aria-selected={i === index}
+  //                 aria-label={`Bild ${i + 1}`}
+  //                 tabIndex={0}
+  //                 onClick={() => setIndex(i)}
+  //                 onKeyDown={(e) => {
+  //                   if (e.key === "Enter" || e.key === " ") {
+  //                     setIndex(i);
+  //                   }
+  //                 }}
+  //               />
+  //             ))}
+  //           </Dots>
+  //         </>
+  //       )}
+  //     </CarouselWrapper>
+  //   </div>
+  // );
 
-return (
-  <div role="region" aria-label="Bildergalerie" ref={carouselRef}>
-    <CarouselWrapper>
-      <img
-        src={images[index]}
-        alt={`Bild ${index + 1} von ${images.length}`}
-        role="img"
-      />
+  return (
+    <div role="region" aria-label="Bildergalerie" ref={carouselRef}>
+      <CarouselWrapper>
+        <img
+          src={images[index]}
+          alt={`Bild ${index + 1} von ${images.length}`}
+          role="img"
+          // new
+          width={400} // наприклад, 400px ширина
+          height={300} // 300px висота
+          loading="lazy"
+          style={{ objectFit: "cover", maxWidth: "100%", height: "auto" }}
+        />
 
-      {images.length > 1 && (
-        <OverlayControls>
-          <Arrow left onClick={handlePrev} aria-label="Vorheriges Bild" tabIndex={0}>
-            <BsArrowLeftCircle aria-hidden="true" />
-          </Arrow>
+        {images.length > 1 && (
+          <OverlayControls>
+            <Arrow
+              left
+              onClick={handlePrev}
+              aria-label="Vorheriges Bild"
+              tabIndex={0}
+            >
+              <BsArrowLeftCircle aria-hidden="true" />
+            </Arrow>
 
-          <Dots role="tablist" aria-label="Bildnavigation">
-            {images.map((_, i) => (
-              <Dot
-                key={i}
-                active={i === index}
-                role="tab"
-                aria-selected={i === index}
-                aria-label={`Bild ${i + 1}`}
-                tabIndex={0}
-                onClick={() => setIndex(i)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    setIndex(i);
-                  }
-                }}
-              />
-            ))}
-          </Dots>
+            <Dots role="tablist" aria-label="Bildnavigation">
+              {images.map((_, i) => (
+                <Dot
+                  key={i}
+                  active={i === index}
+                  role="tab"
+                  aria-selected={i === index}
+                  aria-label={`Bild ${i + 1}`}
+                  tabIndex={0}
+                  onClick={() => setIndex(i)}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      setIndex(i);
+                    }
+                  }}
+                />
+              ))}
+            </Dots>
 
-          <Arrow right onClick={handleNext} aria-label="Nächstes Bild" tabIndex={0}>
-            <BsArrowRightCircle aria-hidden="true" />
-          </Arrow>
-        </OverlayControls>
-      )}
-    </CarouselWrapper>
-  </div>
-);
-
-
-
+            <Arrow
+              right
+              onClick={handleNext}
+              aria-label="Nächstes Bild"
+              tabIndex={0}
+            >
+              <BsArrowRightCircle aria-hidden="true" />
+            </Arrow>
+          </OverlayControls>
+        )}
+      </CarouselWrapper>
+    </div>
+  );
 }
 
 // ... (the rest of the component remains unchanged, now augmented with accessibility attributes)
@@ -561,11 +570,7 @@ interface CardTemplateProps {
 }
 
 function slugify(name: string = "") {
-  return (
-    name
-      .toLowerCase()
-      .replace(/\s+/g, "-")
-  );
+  return name.toLowerCase().replace(/\s+/g, "-");
 }
 
 function smoothScrollTo(yTarget: number, duration: number = 700) {
@@ -609,13 +614,13 @@ export default function CardTemplate({
 
   const [openId, setOpenId] = useState<string | null>(null);
 
-const handleOpen = (id: string) => {
-  setOpenId(id);
-};
+  const handleOpen = (id: string) => {
+    setOpenId(id);
+  };
 
-const handleClose = () => {
-  setOpenId(null);
-};
+  const handleClose = () => {
+    setOpenId(null);
+  };
 
   useEffect(() => {
     if (openIndex !== null) {
@@ -625,47 +630,47 @@ const handleClose = () => {
     }
   }, [openIndex]);
 
-useEffect(() => {
-  const handleKey = (e: KeyboardEvent) => {
-    if (openIndex === null) return;
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      if (openIndex === null) return;
 
-    if (e.key === "Escape") {
-      e.preventDefault();
-      handleClose();
-    }
-
-    if (e.key === "Tab") {
-      const focusable = overlayRef.current?.querySelectorAll<HTMLElement>(
-        'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
-      );
-
-      if (!focusable || focusable.length === 0) {
+      if (e.key === "Escape") {
         e.preventDefault();
         handleClose();
-        return;
       }
 
-      const first = focusable[0];
-      const last = focusable[focusable.length - 1];
+      if (e.key === "Tab") {
+        const focusable = overlayRef.current?.querySelectorAll<HTMLElement>(
+          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
 
-      if (e.shiftKey) {
-        if (document.activeElement === first) {
-          e.preventDefault();
-          last.focus();
-        }
-      } else {
-        if (document.activeElement === last) {
-          // Якщо фокус стоїть на останньому елементі й натискаємо Tab
+        if (!focusable || focusable.length === 0) {
           e.preventDefault();
           handleClose();
+          return;
+        }
+
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (e.shiftKey) {
+          if (document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          }
+        } else {
+          if (document.activeElement === last) {
+            // Якщо фокус стоїть на останньому елементі й натискаємо Tab
+            e.preventDefault();
+            handleClose();
+          }
         }
       }
-    }
-  };
+    };
 
-  document.addEventListener("keydown", handleKey);
-  return () => document.removeEventListener("keydown", handleKey);
-}, [openIndex]);
+    document.addEventListener("keydown", handleKey);
+    return () => document.removeEventListener("keydown", handleKey);
+  }, [openIndex]);
 
   // прокрутка для імен
   useEffect(() => {
@@ -689,13 +694,10 @@ useEffect(() => {
     }
   }, [location.hash, loading, cards]);
 
-const renderCard = (item: BauCard, index: number) => {
-  const id = item.PATH?.split("#")[1] ?? item.NAME ?? `card-${index}`;
+  const renderCard = (item: BauCard, index: number) => {
+    const id = item.PATH?.split("#")[1] ?? item.NAME ?? `card-${index}`;
     return (
-      <Card
-        id={id}
-        key={id}
-      >
+      <Card id={id} key={id}>
         <CardImageWrapper>
           {images?.[item.NAME ?? ""]?.length ? (
             <ImageCarousel images={images[item.NAME ?? ""]} />
@@ -931,4 +933,3 @@ const renderCard = (item: BauCard, index: number) => {
     </PageWrapper>
   );
 }
-

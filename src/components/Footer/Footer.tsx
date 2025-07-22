@@ -118,6 +118,11 @@ export default function Footer() {
             src="/images/OtherPictures/Logos/Logo-removebg.png"
             alt="Logo"
             title="Klicken Sie auf mich, um zur Startseite zu gelangen"
+            // new
+            width={400} // наприклад, 400px ширина
+            height={300} // 300px висота
+            loading="lazy"
+            style={{ objectFit: "cover", maxWidth: "100%", height: "auto" }}
           />
           <LogoText>Schönwald (Spreewald)</LogoText>
         </LogoBtn>

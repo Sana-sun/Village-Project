@@ -214,6 +214,11 @@ export const Card = styled.div`
    @media (min-width: 1440px) {
     flex: 1 1 calc(33.33% - 1rem);
   }
+
+  @media (max-width: 1024px) {
+  flex: 1 1 100%;
+}
+
 `;
 
 export const CardImageWrapper = styled.div`

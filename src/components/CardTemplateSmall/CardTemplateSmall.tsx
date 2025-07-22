@@ -406,6 +406,11 @@ function ImageCarousel({ images }: { images: string[] }) {
           src={images[index]}
           alt={`Bild ${index + 1} von ${images.length}`}
           role="img"
+          // new
+          width={400} // наприклад, 400px ширина
+          height={300} // 300px висота
+          loading="lazy"
+          style={{ objectFit: "cover", maxWidth: "100%", height: "auto" }}
         />
         {images.length > 1 && (
           <>
