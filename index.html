@@ -2,11 +2,53 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <link rel="icon" type="image/svg+xml" href="/src/assets/BubbleSmall-rm.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title, який бачить користувач і Google -->
     <title>Schönwald (Spreewald)</title>
+
+    <!-- SEO: Опис сторінки (до 160 символів) -->
+    <meta
+      name="description"
+      content="Die offizielle Webseite der Gemeinde Schönwald in Brandenburg mit den Ortsteilen Schönwalde und Waldow/Brand. Aktuelle Informationen, Veranstaltungen und Kontaktmöglichkeiten."
+    />
+
+    <!-- SEO: Ключові слова (не дуже критично, але краще мати) -->
+    <meta
+      name="keywords"
+      content="Schönwald, Spreewald, Dorf, Brandenburg, Verwaltung, Veranstaltungen, Gemeinde, Tourismus"
+    />
+
+    <!-- SEO: дозвіл на індексацію -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Canonical URL для уникнення дублів -->
+    <link rel="canonical" href="https://schönwald-spreewald.de" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/src/assets/BubbleSmall-rm.png"
+    />
+
+    <!-- Open Graph: покращення вигляду при поширенні в соцмережах -->
+    <meta property="og:title" content="Schönwald im Spreewald – Dorfwebseite" />
+    <meta
+      property="og:description"
+      content="Offizielle Informationen über das Dorf Schönwald im Spreewald, Veranstaltungen, Verwaltung, Geschichte und mehr."
+    />
+    <meta
+      property="og:image"
+      content="https://schönwald-spreewald.de/og-image.jpg"
+    />
+    <meta property="og:url" content="https://schönwald-spreewald.de" />
+    <meta property="og:type" content="website" />
+
+    <!-- Language declaration -->
+    <meta http-equiv="Content-Language" content="de" />
   </head>
+  
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
