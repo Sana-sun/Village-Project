@@ -16,26 +16,26 @@ export default function NatureLeisurePage() {
     "/images/Natur_Freizeit/See/5.avif",
     "/images/Natur_Freizeit/See/6.avif"
   ],
-  "Sportlerheim & Sportplatz": [
-   "/images/Natur_Freizeit/Sportlerheim/mainPhoto.avif",
-   "/images/Natur_Freizeit/Sportlerheim/1.avif",
-    "/images/Natur_Freizeit/Sportlerheim/2.avif",
-    "/images/Natur_Freizeit/Sportlerheim/3.avif",
-    "/images/Natur_Freizeit/Sportlerheim/4.avif"
-  ],
   Alpakafarm: [
     "/images/Natur_Freizeit/Alpaka-Farm/mainPhoto.avif",
     "/images/Natur_Freizeit/Alpaka-Farm/1.avif",
     "/images/Natur_Freizeit/Alpaka-Farm/2.avif",
+  ],
+  "SV Wacker 21 Schönwalde e.V.": [
+    "/images/Natur_Freizeit/Sportlerheim/mainPhoto.jpg",
+    "/images/Natur_Freizeit/Sportlerheim/3.avif",
+
+  ],
+  "Sportlerheim Schönwalde": [
+   "/images/Natur_Freizeit/Sportlerheim/mainPhoto.avif",
+    "/images/Natur_Freizeit/Sportlerheim/2.avif",
+    "/images/Natur_Freizeit/Sportlerheim/4.avif"
   ],
   Jugendclub: [
     "/images/Natur_Freizeit/Jugendclub/mainPhoto.avif",
   ],
   "Lebendiges Schönwalde e.V.": [
     "/images/Natur_Freizeit/Lebendiges/Lebendiges.avif",
-  ],
-  Dorfgemeinschaftshaus: [
-    "/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.avif",
   ],
   "Spreewaldring Kart Center": [
     "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/mainPhoto.avif",
@@ -48,6 +48,9 @@ export default function NatureLeisurePage() {
    "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/1.avif",
     "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/2.avif",
     "/images/Natur_Freizeit/Spreewald_Ring_Training_Center/3.avif"
+  ],
+  Dorfgemeinschaftshaus: [
+    "/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.avif",
   ],
 };
 
