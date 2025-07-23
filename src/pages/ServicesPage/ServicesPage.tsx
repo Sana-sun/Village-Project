@@ -16,7 +16,7 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett.avif",
     ],
     "Malerbetrieb Dieter Ihl": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb.avif",
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb.avif", // new added
     ],
     "Morgner Haustechnik": [
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner.avif" // new make
