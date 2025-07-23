@@ -16,10 +16,10 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett.avif",
     ],
     "Malerbetrieb Ihl GmbH & Co.KG": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb.avif", // new added
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb.avif", 
     ],
     "Morgner Haustechnik": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner.avif" // new make
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner.avif" 
     ],
     "MSD Baustoffrecycling Schönwalde": [
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Baustoffrecycling.avif",
@@ -31,7 +31,7 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Gefreiter_Wasser.avif",
     ],
     "NOTUS energy": [
-      "/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpeg",
+      "/images/Handel_Dienstleistungen/Buero_und_Verwaltung/Notus/mainPhoto.jpeg", 
     ],
     "Autohaus Kunath": [
       "/images/Handel_Dienstleistungen/Fahrzeuge/Autohaus_Kunath/mainPhoto1.jpg"
