@@ -15,8 +15,8 @@ export default function ServicesPage() {
     "KOMPLETT Gerüstbau GmbH": [
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Komplett.avif",
     ],
-    "Malerbetrieb Dieter Ihl": [
-      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb/Malerbetrieb1.webp", // new added
+    "Malerbetrieb Ihl GmbH & Co.KG": [
+      "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Malerbetrieb.avif", // new added
     ],
     "Morgner Haustechnik": [
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Morgner.avif" // new make

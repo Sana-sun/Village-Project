@@ -77,7 +77,7 @@ export function ImageOnlyGallery({
                   // new
                   width={400} // наприклад, 400px ширина
                   height={300} // 300px висота
-                  loading="lazy"
+                  // loading="lazy"
                   style={{ objectFit: "cover", maxWidth: "100%", height: "auto" }}
                 />
               </CardImageWrapper>
