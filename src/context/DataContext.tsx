@@ -256,8 +256,63 @@
 
 
 // new
+// import { createContext, useContext, useEffect, useState } from "react";
+// import type { ReactNode } from "react";
+
+// const DataContext = createContext<any>(null);
+// const STORAGE_KEY = "village_project_data";
+// const TIMESTAMP_KEY = "village_project_timestamp";
+
+// interface DataProviderProps {
+//   children: ReactNode;
+// }
+
+// // 1. швидке зчитування кешу + попереднє парсення
+// export const DataProvider = ({ children }: DataProviderProps) => {
+//   const cachedStr = localStorage.getItem(STORAGE_KEY);
+//   const cachedJson = cachedStr ? JSON.parse(cachedStr) : null;
+
+//   const [data, setData] = useState<any>(cachedJson);
+
+//   useEffect(() => {
+//     let didCancel = false;
+
+//     fetch(import.meta.env.VITE_DATA_URL)
+//       .then((res) => res.json())
+//       .then((freshData) => {
+//         if (didCancel) return;
+
+//         const freshStr = JSON.stringify(freshData);
+
+//         if (freshStr !== cachedStr) {
+//           setData(freshData);
+//           localStorage.setItem(STORAGE_KEY, freshStr);
+//           localStorage.setItem(TIMESTAMP_KEY, new Date().toISOString());
+//         }
+//       })
+//       .catch((err) => {
+//         console.error("Data fetch error:", err);
+//       });
+
+//     return () => {
+//       didCancel = true;
+//     };
+//   }, []);
+
+//   return <DataContext.Provider value={data}>{children}</DataContext.Provider>;
+// };
+
+// export const useData = () => useContext(DataContext);
+
+
+
+
+
+// data.lson + normal api at 7 am
+
 import { createContext, useContext, useEffect, useState } from "react";
 import type { ReactNode } from "react";
+import jsonData from "./data.json"; // <- локальні дані
 
 const DataContext = createContext<any>(null);
 const STORAGE_KEY = "village_project_data";
@@ -267,36 +322,44 @@ interface DataProviderProps {
   children: ReactNode;
 }
 
-// 1. швидке зчитування кешу + попереднє парсення
 export const DataProvider = ({ children }: DataProviderProps) => {
-  const cachedStr = localStorage.getItem(STORAGE_KEY);
-  const cachedJson = cachedStr ? JSON.parse(cachedStr) : null;
-
-  const [data, setData] = useState<any>(cachedJson);
+  const [data, setData] = useState<any>(jsonData); // спочатку з data.json
 
   useEffect(() => {
-    let didCancel = false;
+    const now = new Date();
+    const lastFetchStr = localStorage.getItem(TIMESTAMP_KEY);
+    const lastFetch = lastFetchStr ? new Date(lastFetchStr) : null;
+
+    const shouldUpdate =
+      !lastFetch ||
+      now.getDate() !== lastFetch.getDate() ||
+      (now.getHours() >= 7 && lastFetch.getHours() < 7);
+
+    // Якщо вже сьогодні після 7 ранку – не апдейтити
+    if (!shouldUpdate) {
+      const cachedStr = localStorage.getItem(STORAGE_KEY);
+      if (cachedStr) {
+        const cachedJson = JSON.parse(cachedStr);
+        setData(cachedJson);
+      }
+      return;
+    }
 
     fetch(import.meta.env.VITE_DATA_URL)
       .then((res) => res.json())
       .then((freshData) => {
-        if (didCancel) return;
-
-        const freshStr = JSON.stringify(freshData);
-
-        if (freshStr !== cachedStr) {
-          setData(freshData);
-          localStorage.setItem(STORAGE_KEY, freshStr);
-          localStorage.setItem(TIMESTAMP_KEY, new Date().toISOString());
-        }
+        setData(freshData);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(freshData));
+        localStorage.setItem(TIMESTAMP_KEY, new Date().toISOString());
       })
       .catch((err) => {
         console.error("Data fetch error:", err);
+        // fallback до кешу
+        const cachedStr = localStorage.getItem(STORAGE_KEY);
+        if (cachedStr) {
+          setData(JSON.parse(cachedStr));
+        }
       });
-
-    return () => {
-      didCancel = true;
-    };
   }, []);
 
   return <DataContext.Provider value={data}>{children}</DataContext.Provider>;
