@@ -92,6 +92,7 @@ import { useData } from "../../context/DataContext";
 import MainCarousel from "./MainCarousel/MainCarousel";
 import { Heading, IntroText, MainContext } from "./styles";
 import { ImageOnlyGallery } from "./ImageOnlyCard/ImageOnlyGallery";
+import { Helmet } from "react-helmet"; // ✅ ОЦЕ — нове
 
 function HomePage() {
   const data = useData();
@@ -126,6 +127,17 @@ function HomePage() {
 
   return (
     <main role="main">
+
+      {/* ✅ SEO МЕТАДАНІ */}
+      <Helmet>
+        <title>Gemeinde Schönwald (Spreewald) – Offizielle Webseite</title>
+        <meta
+          name="description"
+          content="Willkommen in Schönwald (15910 Brandenburg) – Informationen zur Gemeinde, den Ortsteilen Schönwalde & Waldow/Brand, Geschichte, Veranstaltungen und mehr."
+        />
+      </Helmet>
+
+      {/* ✅ Головне карусельне зображення */}
       <MainCarousel aria-label="Bilderkarussell der Gemeinde" />
 
       <MainContext>
