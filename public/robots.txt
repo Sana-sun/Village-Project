@@ -1,0 +1,16 @@
+# robots.txt für schönwald-spreewald.de
+
+# Дозволити всім ботам
+User-agent: *
+
+# Заборонити індексацію технічних або службових директорій (якщо такі існують)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /internal/
+Disallow: /private/
+
+# Дозволити все інше
+Allow: /
+
+# Вказати розташування Sitemap
+Sitemap: https://schönwald-spreewald.de/sitemap.xml
