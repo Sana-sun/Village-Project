@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Title, який бачить користувач і Google -->
-    <title>Schönwald (Spreewald)</title>
+    <!-- <title>Schönwald (Spreewald)</title> -->
+    <title>
+      Schönwald im Spreewald – Gemeinde, Veranstaltungen & Tourismus
+    </title>
 
     <!-- SEO: Опис сторінки (до 160 символів) -->
     <meta
@@ -25,15 +28,16 @@
     <!-- Canonical URL для уникнення дублів -->
     <link rel="canonical" href="https://schönwald-spreewald.de" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/BubbleSmall-rm.png" />
-
     <!-- Open Graph: покращення вигляду при поширенні в соцмережах -->
-    <meta property="og:title" content="Schönwald im Spreewald – Dorfwebseite" />
+    <meta
+      property="og:title"
+      content="Schönwald im Spreewald – Dorf, Gemeinde & Veranstaltungen"
+    />
     <meta
       property="og:description"
-      content="Offizielle Informationen über das Dorf Schönwald im Spreewald, Veranstaltungen, Verwaltung, Geschichte und mehr."
+      content="Die offizielle Webseite der Gemeinde Schönwald im Spreewald mit aktuellen Informationen zu Verwaltung, Veranstaltungen und Leben im Dorf."
     />
+
     <meta
       property="og:image"
       content="https://schönwald-spreewald.de/og-image.jpg"
@@ -46,25 +50,38 @@
 
     <!-- noch -->
     <meta name="author" content="Gemeinde Schönwald" />
-  </head>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://schönwald-spreewald.de" />
+
+    <!-- Structured Data für Google (Schema.org) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Gemeinde Schönwald",
-        "url": "https://schönwald-spreewald.de",
+        "@type": "Place",
+        "name": "Schönwald im Spreewald",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Schönwald",
           "addressRegion": "Brandenburg",
           "postalCode": "15910",
           "addressCountry": "DE"
-        }
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 51.954,
+          "longitude": 13.767
+        },
+        "url": "https://schönwald-spreewald.de"
       }
     </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/BubbleSmall-rm.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
