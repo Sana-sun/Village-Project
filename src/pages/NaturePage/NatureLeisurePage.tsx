@@ -35,7 +35,7 @@ export default function NatureLeisurePage() {
     "/images/Natur_Freizeit/Jugendclub/mainPhoto.avif",
   ],
   "Lebendiges Schönwalde e.V.": [
-    "/images/Natur_Freizeit/Lebendiges/Lebendiges.avif",
+    "/images/Natur_Freizeit/Lebendiges/LSW_eV_Logo.png",
   ],
   "Spreewaldring Kart Center": [
     "/images/Natur_Freizeit/Spreewald_Ring_Kart_Center/mainPhoto.avif",
