@@ -133,11 +133,10 @@ function HomePage() {
         <title>Gemeinde Schönwald (Spreewald) – Offizielle Webseite</title>
         <meta
           name="description"
-          content="Willkommen in Schönwald (15910 Brandenburg) – Informationen zur Gemeinde, den Ortsteilen Schönwalde & Waldow/Brand, Geschichte, Veranstaltungen und mehr."
+          content="Willkommen in Schönwald (15910 Spreewald) – Informationen zur Gemeinde, den Ortsteilen Schönwalde & Waldow/Brand, Geschichte, Veranstaltungen und mehr."
         />
       </Helmet>
 
-      {/* ✅ Головне карусельне зображення */}
       <MainCarousel aria-label="Bilderkarussell der Gemeinde" />
 
       <MainContext>
