@@ -145,7 +145,7 @@ function HomePage() {
 
 
           <CardTemplateSmall
-            heading="🌞 Willkommen in Schönwald Brandenburg - ein Ort, an dem Natur und Gemeinschaft im Einklang leben."
+            heading="🌞 Willkommen in Schönwald Spreewald - ein Ort, an dem Natur und Gemeinschaft im Einklang leben."
             introText={
               <>
                 Die Gemeinde Schönwald besteht aus den Ortsteilen Schönwalde und
