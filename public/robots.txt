@@ -12,5 +12,8 @@ Disallow: /private/
 # Дозволити все інше
 Allow: /
 
+Allow: /favicon.ico
+Allow: /favicon.svg
+
 # Вказати розташування Sitemap
 Sitemap: https://schönwald-spreewald.de/sitemap.xml
