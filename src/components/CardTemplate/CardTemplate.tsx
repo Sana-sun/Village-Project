@@ -694,6 +694,27 @@ export default function CardTemplate({
     }
   }, [location.hash, loading, cards]);
 
+  // функція для форматування слогана
+  const formatCardSlogan = (slogan?: string): React.ReactNode => {
+  if (!slogan) return null;
+
+  const tripleSpaceIndex = slogan.indexOf("   ");
+  if (tripleSpaceIndex !== -1) {
+    const before = slogan.slice(0, tripleSpaceIndex).trim();
+    const after = slogan.slice(tripleSpaceIndex + 3).trim();
+    return (
+      <>
+        {before}
+        <br />
+        {after}
+      </>
+    );
+  }
+
+  return slogan;
+  };
+
+
   const renderCard = (item: BauCard, index: number) => {
     const id = item.PATH?.split("#")[1] ?? item.NAME ?? `card-${index}`;
     return (
@@ -707,7 +728,9 @@ export default function CardTemplate({
         </CardImageWrapper>
 
         <CardContent>
-          <CardSlogan>{item.CARD_SLOGAN}</CardSlogan>
+          {/* <CardSlogan>{item.CARD_SLOGAN}</CardSlogan> */}
+          <CardSlogan>{formatCardSlogan(item.CARD_SLOGAN)}</CardSlogan>
+
           <CardText>{item.CARD_TEXT}</CardText>
           <ContactInfo>
             {item.ADD_PERSON && (

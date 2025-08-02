@@ -23,11 +23,12 @@ export default function NatureLeisurePage() {
   ],
   "SV Wacker 21 Schönwalde e.V.": [
     "/images/Natur_Freizeit/Sportlerheim/mainPhoto.jpg",
+   "/images/Natur_Freizeit/Sportlerheim/mainPhoto.avif",
     "/images/Natur_Freizeit/Sportlerheim/3.avif",
 
   ],
   "Sportlerheim Schönwalde": [
-   "/images/Natur_Freizeit/Sportlerheim/mainPhoto.avif",
+   "/images/Natur_Freizeit/Sportlerheim/mF.jpg",
     "/images/Natur_Freizeit/Sportlerheim/2.avif",
     "/images/Natur_Freizeit/Sportlerheim/4.avif"
   ],
