@@ -206,7 +206,7 @@ export const SlideTitle = styled.h3`
 `;
 
 export const SlideText = styled.div`
-  max-height: 400px; /* або інше обмеження, яке підходить під дизайн */
+  max-height: 200px; /* або інше обмеження, яке підходить під дизайн */
   overflow-y: auto;
   white-space: pre-line;
   font-size: 0.95rem;
