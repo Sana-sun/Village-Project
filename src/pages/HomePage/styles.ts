@@ -121,3 +121,13 @@ export const Card = styled.div`
     flex: 1 1 calc(33.33% - 1rem);
   }
 `;
+
+
+export const HinweiseWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  margin: 4rem 0;
+`;

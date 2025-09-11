@@ -90,9 +90,10 @@ import { useEffect, useState } from "react";
 import CardTemplateSmall from "../../components/CardTemplateSmall/CardTemplateSmall";
 import { useData } from "../../context/DataContext";
 import MainCarousel from "./MainCarousel/MainCarousel";
-import { Heading, IntroText, MainContext } from "./styles";
+import { Heading, HinweiseWrapper, IntroText, MainContext } from "./styles";
 import { ImageOnlyGallery } from "./ImageOnlyCard/ImageOnlyGallery";
 import { Helmet } from "react-helmet"; // ✅ ОЦЕ — нове
+import HinweiseBtn from "../../components/HinweiseBtn/HinweiseBtn";
 
 function HomePage() {
   const data = useData();
@@ -156,6 +157,11 @@ function HomePage() {
             images={images}
           />
         </section>
+
+        <HinweiseWrapper>
+          <h2>Noch im Aufbau</h2>
+          <HinweiseBtn />
+        </HinweiseWrapper>
 
         <section aria-labelledby="geschichte-heading">
           <Heading as="h2" id="geschichte-heading">
