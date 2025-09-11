@@ -3,7 +3,7 @@ import { HinweiseButton, HinweiseText } from "./styles";
 export default function HinweiseBtn() {
   return (
     <div>
-      <HinweiseButton href="mailto:roland.sanlal@gemeinde-schoenwalde.de">
+      <HinweiseButton href="mailto:roland@gefreiter.help">
         ✉️ Hinweise oder Änderungen schicken
       </HinweiseButton>
 
