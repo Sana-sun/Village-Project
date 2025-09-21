@@ -53,6 +53,12 @@ export default function NatureLeisurePage() {
   Dorfgemeinschaftshaus: [
     "/images/Natur_Freizeit/Dorfgemeindschaftshaus/mainPhoto.avif",
   ],
+  "Veranstaltungstechnik J. und M. Musik": [
+    "/images/Natur_Freizeit/Musik/S_Musik_Logo.png",
+  ],
+  "Sängerin Juliane Stoffregen": [
+    "/images/Natur_Freizeit/Musik/Unbenannt2.png",
+  ],
 };
 
   useEffect(() => {

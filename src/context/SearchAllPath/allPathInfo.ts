@@ -250,6 +250,16 @@ export const allPathInfo = [
     "name": "Spreewaldring Training Center",
     "path": "/natur-&-freizeit#spreewaldring-training-center"
   },
+   {
+    "page": "Natur & Freizeit",
+    "name": "Veranstaltungstechnik J. und M. Musik",
+    "path": "/natur-&-freizeit#veranstaltungstechnik-j.-und-m.-musik"
+  },
+   {
+    "page": "Natur & Freizeit",
+    "name": "Sängerin Juliane Stoffregen",
+    "path": "/natur-&-freizeit#sängerin-juliane-stoffregen"
+  },
   {
     "page": "Verkehr & Infrastruktur",
     "name": "Bahnhof",
