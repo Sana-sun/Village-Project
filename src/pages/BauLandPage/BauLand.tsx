@@ -59,7 +59,7 @@ export default function BauLand() {
   const data = useData();
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
-
+/*
   const images = {
     Baugrundstücke: ["/images/Bauland/mainPhoto.jpg"],
     Bauland: [
@@ -67,7 +67,7 @@ export default function BauLand() {
       "/images/OtherPictures/Center/2.avif",
     ],
   };
-
+*/
   useEffect(() => {
     const bauData = data?.["Baugrundstücke"];
     if (bauData) {
@@ -89,7 +89,7 @@ export default function BauLand() {
         introText="In Schönwalde stehen Baugrundstücke und Wohnhäuser zum Verkauf – ideal für alle, die Ruhe, Natur, Freiraum und Dorfgemeinschaft schätzen. Ob Eigenheim, Rückzugsort oder Investition: Hier beginnt Ihr neues Kapitel."
         cards={cards}
         loading={loading}
-        images={images}
+        //images={images}
       />
     </>
   );

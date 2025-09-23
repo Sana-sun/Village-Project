@@ -8,6 +8,7 @@ export default function TransportPage() {
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  /*
   const images = {
     Bahnhof: [
       "/images/Verkehr_Infrastruktur/Bahnhof/mainPhoto.avif",
@@ -17,9 +18,10 @@ export default function TransportPage() {
     ],
     Autobahn: ["/images/Verkehr_Infrastruktur/Autobahn/mainPhoto.avif"],
   };
-
+*/
   useEffect(() => {
     if (data?.["Verkehr & Infrastruktur"]) {
+
       setCards(data["Verkehr & Infrastruktur"]);
       setLoading(false);
     }
@@ -28,6 +30,7 @@ export default function TransportPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
 
   return (
     <>
@@ -51,7 +54,7 @@ export default function TransportPage() {
         }
         cards={cards}
         loading={loading}
-        images={images}
+        //images={images}
       />
     </>
   );

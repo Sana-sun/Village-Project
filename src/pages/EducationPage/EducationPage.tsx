@@ -7,7 +7,7 @@ export default function EducationPage() {
   const data = useData();
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
-
+/*
   const images = {
     "Kita Regenbogen": [
       "/images/Bildung_Gemeinschaft/Kita/mainPhoto.avif",
@@ -28,7 +28,7 @@ export default function EducationPage() {
       "/images/Bildung_Gemeinschaft/Bibliotek/3.avif",
     ]
   };
-
+*/
   useEffect(() => {
     if (data?.["Bildung & Gemeinschaft"]) {
       setCards(data["Bildung & Gemeinschaft"]);
@@ -62,7 +62,7 @@ export default function EducationPage() {
         }
         cards={cards}
         loading={loading}
-        images={images}
+        // images={images}
       />
    </>
   

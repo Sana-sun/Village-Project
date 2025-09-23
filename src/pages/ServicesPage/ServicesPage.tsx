@@ -8,6 +8,7 @@ export default function ServicesPage() {
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  /*
   const images = {
     "Ingo Richter Dachdecker": [
       "/images/Handel_Dienstleistungen/Bau_und_Gebäudeservice/Ingo.avif",
@@ -71,7 +72,7 @@ export default function ServicesPage() {
       "/images/Handel_Dienstleistungen/Technische_Dienstleistungen/mainPhoto.png"
     ],
   };
-
+*/
   useEffect(() => {
     if (data?.["Handwerkgewerbe & Dienstleistungen"]) {
       setCards(data["Handwerkgewerbe & Dienstleistungen"]);
@@ -112,7 +113,7 @@ export default function ServicesPage() {
         }
         cards={cards}
         loading={loading}
-        images={images}
+        //images={images}
       />
     </>
   );

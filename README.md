@@ -43,3 +43,13 @@ KOMPLETT Gerüstbau GmbH
 - нове: скачати, змінити розмір, вставити фото
 
 (npm run dev запускає localhost)
+git checkout -b xxx
+git add .
+git commit -m "add ..."
+git push origin xxx
+
+-> check github
+
+
+TODO 
+- додати авто копіювання при клікі на пошту?
