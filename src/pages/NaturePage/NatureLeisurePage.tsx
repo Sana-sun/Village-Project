@@ -7,7 +7,7 @@ export default function NatureLeisurePage() {
   const data = useData();
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
-
+/*
   const images = {
   See: [
     "/images/Natur_Freizeit/See/1.avif",
@@ -60,7 +60,7 @@ export default function NatureLeisurePage() {
     "/images/Natur_Freizeit/Musik/Unbenannt2.png",
   ],
 };
-
+*/
   useEffect(() => {
     if (data?.["Natur & Freizeit"]) {
       setCards(data["Natur & Freizeit"]);
@@ -83,7 +83,7 @@ export default function NatureLeisurePage() {
         }
         cards={cards}
         loading={loading}
-        images={images}
+        //images={images}
       />
     </>
    

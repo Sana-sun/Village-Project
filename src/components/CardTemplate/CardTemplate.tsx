@@ -391,7 +391,18 @@ export interface BauCard {
   ADD_YOUTUBE?: string;
   PATH?: string;
   CATEGORY_PATH?: string;
+  IMAGES?: string | string[];
 }
+
+function normalizeImages(images?: string | string[]): string[] {
+  if (!images) return [];
+  if (Array.isArray(images)) return images;
+  return images
+    .split(",")        // розбиваємо по комах
+    .map((s) => s.trim()) // прибираємо пробіли
+    .filter(Boolean);  // забираємо пусті
+}
+
 
 function ImageCarousel({ images }: { images: string[] }) {
   const [index, setIndex] = useState(0);
@@ -716,12 +727,17 @@ export default function CardTemplate({
 
 
   const renderCard = (item: BauCard, index: number) => {
+
     const id = item.PATH?.split("#")[1] ?? item.NAME ?? `card-${index}`;
+
+    const imagesArr = normalizeImages(item.IMAGES);
+
     return (
       <Card id={id} key={id}>
         <CardImageWrapper>
-          {images?.[item.NAME ?? ""]?.length ? (
-            <ImageCarousel images={images[item.NAME ?? ""]} />
+
+          {imagesArr.length ? (
+            <ImageCarousel images={imagesArr} />
           ) : (
             <img src="/images/Bauland/mainPhoto.png" alt={item.NAME} />
           )}

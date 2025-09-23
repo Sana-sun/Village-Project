@@ -53,6 +53,7 @@ export interface BauCard {
   ADD_INSTAGRAM?: string;
   ADD_YOUTUBE?: string;
   PATH?: string;
+  IMAGES?: string[];
 }
 
 function SkeletonCard() {

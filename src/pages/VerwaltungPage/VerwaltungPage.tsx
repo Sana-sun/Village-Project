@@ -7,7 +7,7 @@ export default function VerwaltungPage() {
   const data = useData();
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
-
+/*
   const images = {
     "Feuerwehrgerätehaus Schönwalde": [
       "/images/Gemeinde_Verwaltung/FeuerwehrSchoenwalde/mainPhoto.avif",
@@ -30,7 +30,7 @@ export default function VerwaltungPage() {
       "/images/Gemeinde_Verwaltung/Kirche/7.avif",
     ],
   };
-
+*/
   useEffect(() => {
     if (data?.["Gemeinde & Verwaltung"]) {
       setCards(data["Gemeinde & Verwaltung"]);
@@ -66,7 +66,7 @@ export default function VerwaltungPage() {
         }
         cards={cards}
         loading={loading}
-        images={images}
+        //images={images}
       />
     </>
    
