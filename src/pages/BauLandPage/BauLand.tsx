@@ -106,6 +106,22 @@ export default function BauLand() {
           alt="Plan der Bebauung 2"
         />
       </LargeImageContainer>
+
+{/* 
+      <LargeImageContainer>
+        <ZoomableImage
+          src="https://rhejakzdfjatxokeqpkt.supabase.co/storage/v1/object/public/Website%20cards%20images/Baugrundstuecke/1.jpg"
+          alt="Plan der Bebauung 1"
+        />
+      </LargeImageContainer>
+
+      <LargeImageContainer>
+        <ZoomableImage
+          src="https://rhejakzdfjatxokeqpkt.supabase.co/storage/v1/object/public/Website%20cards%20images/Baugrundstuecke/2.jpg"
+          alt="Plan der Bebauung 2"
+        />
+      </LargeImageContainer> */}
+
     </>
   );
 }

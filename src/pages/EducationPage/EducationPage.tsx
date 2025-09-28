@@ -7,28 +7,7 @@ export default function EducationPage() {
   const data = useData();
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
-/*
-  const images = {
-    "Kita Regenbogen": [
-      "/images/Bildung_Gemeinschaft/Kita/mainPhoto.avif",
-      "/images/Bildung_Gemeinschaft/Kita/1.avif",
-      "/images/Bildung_Gemeinschaft/Kita/2.avif",
-      "/images/Bildung_Gemeinschaft/Kita/3.avif",
-    ],
-    "Grundschule Schönwalde": [
-      "/images/Bildung_Gemeinschaft/Schule/mainPhoto22.avif",
-      "/images/Bildung_Gemeinschaft/Schule/1.avif",
-      "/images/Bildung_Gemeinschaft/Schule/444.avif",
-      "/images/Bildung_Gemeinschaft/Schule/5.avif",
-    ],
-    "Dorf-Bücherschran": [
-      "/images/Bildung_Gemeinschaft/Bibliotek/mainFoto.avif",
-      "/images/Bildung_Gemeinschaft/Bibliotek/1.avif",
-      "/images/Bildung_Gemeinschaft/Bibliotek/2.avif",
-      "/images/Bildung_Gemeinschaft/Bibliotek/3.avif",
-    ]
-  };
-*/
+
   useEffect(() => {
     if (data?.["Bildung & Gemeinschaft"]) {
       setCards(data["Bildung & Gemeinschaft"]);
@@ -62,7 +41,6 @@ export default function EducationPage() {
         }
         cards={cards}
         loading={loading}
-        // images={images}
       />
    </>
   
