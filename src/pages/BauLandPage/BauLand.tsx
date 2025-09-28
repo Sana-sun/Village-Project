@@ -54,6 +54,7 @@ import { useEffect, useState } from "react";
 import { useData } from "../../context/DataContext";
 import CardTemplate from "../../components/CardTemplate/CardTemplate";
 import YourAreHere from "../../components/YourAreHere/YouAreHere";
+import { LargeImageContainer, LargeImage } from "./styles";
 
 export default function BauLand() {
   const data = useData();
@@ -91,6 +92,36 @@ export default function BauLand() {
         loading={loading}
         //images={images}
       />
+
+      <LargeImageContainer>
+        <LargeImage
+          src="https://rhejakzdfjatxokeqpkt.supabase.co/storage/v1/object/public/Website%20cards%20images/Baugrundstuecke/1.jpg"
+          alt="Plan der Bebauung 1"
+        />
+      </LargeImageContainer>
+
+      <LargeImageContainer>
+        <LargeImage
+          src="https://rhejakzdfjatxokeqpkt.supabase.co/storage/v1/object/public/Website%20cards%20images/Baugrundstuecke/2.jpg"
+          alt="Plan der Bebauung 2"
+        />
+      </LargeImageContainer>
+
+{/* 
+      <LargeImageContainer>
+        <ZoomableImage
+          src="https://rhejakzdfjatxokeqpkt.supabase.co/storage/v1/object/public/Website%20cards%20images/Baugrundstuecke/1.jpg"
+          alt="Plan der Bebauung 1"
+        />
+      </LargeImageContainer>
+
+      <LargeImageContainer>
+        <ZoomableImage
+          src="https://rhejakzdfjatxokeqpkt.supabase.co/storage/v1/object/public/Website%20cards%20images/Baugrundstuecke/2.jpg"
+          alt="Plan der Bebauung 2"
+        />
+      </LargeImageContainer> */}
+
     </>
   );
 }

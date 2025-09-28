@@ -355,6 +355,7 @@ export default function CardTemplate({
             <ImageCarousel images={imagesArr} />
           ) : (
             <img src="/images/Bauland/mainPhoto.png" alt={item.NAME} />
+
           )}
         </CardImageWrapper>
 
