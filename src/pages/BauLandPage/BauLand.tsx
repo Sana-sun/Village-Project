@@ -54,7 +54,7 @@ import { useEffect, useState } from "react";
 import { useData } from "../../context/DataContext";
 import CardTemplate from "../../components/CardTemplate/CardTemplate";
 import YourAreHere from "../../components/YourAreHere/YouAreHere";
-import { LargeImageContainer, LargeImage } from "./styles";
+import { LargeImageContainer, LargeImage, FotoName } from "./styles";
 
 export default function BauLand() {
   const data = useData();
@@ -93,12 +93,16 @@ export default function BauLand() {
         //images={images}
       />
 
+      <FotoName>B-Plan Gartenstraße</FotoName>
+      
       <LargeImageContainer>
         <LargeImage
           src="https://rhejakzdfjatxokeqpkt.supabase.co/storage/v1/object/public/Website%20cards%20images/Baugrundstuecke/1.jpg"
           alt="Plan der Bebauung 1"
         />
       </LargeImageContainer>
+
+      <FotoName>B-Plan Mühlenhof</FotoName>
 
       <LargeImageContainer>
         <LargeImage
@@ -107,20 +111,6 @@ export default function BauLand() {
         />
       </LargeImageContainer>
 
-{/* 
-      <LargeImageContainer>
-        <ZoomableImage
-          src="https://rhejakzdfjatxokeqpkt.supabase.co/storage/v1/object/public/Website%20cards%20images/Baugrundstuecke/1.jpg"
-          alt="Plan der Bebauung 1"
-        />
-      </LargeImageContainer>
-
-      <LargeImageContainer>
-        <ZoomableImage
-          src="https://rhejakzdfjatxokeqpkt.supabase.co/storage/v1/object/public/Website%20cards%20images/Baugrundstuecke/2.jpg"
-          alt="Plan der Bebauung 2"
-        />
-      </LargeImageContainer> */}
 
     </>
   );
