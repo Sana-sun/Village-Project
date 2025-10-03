@@ -13,19 +13,6 @@ function HomePage() {
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  /*
-  // Зображення з описами для alt
-  const images = {
-    "Über das Dorf": [
-      "/images/OtherPictures/Map/mainPhoto.png",
-      "/images/OtherPictures/Center/2.avif",
-      "/images/OtherPictures/Center/3.avif",
-      "/images/OtherPictures/Center/6.avif",
-      "/images/OtherPictures/Center/8.avif",
-    ],
-    Bürgermeister: ["/images/OtherPictures/People/mainPhoto.avif"],
-  };
-*/
   const geschichteImages = [
     "/images/OtherPictures/Geschichte/1.avif",
     "/images/OtherPictures/Geschichte/2.avif",
@@ -68,7 +55,6 @@ function HomePage() {
             }
             cards={cards}
             loading={loading}
-           // images={images}
           />
         </section>
 
@@ -95,6 +81,41 @@ function HomePage() {
             ariaLabel="Bildergalerie zur Geschichte von Schönwalde"
           />
         </section>
+        
+        <section aria-labelledby="heute-heading">
+          <Heading as="h2" id="heute-heading">
+            Happy in Schönwalde (Pharrell Williams)
+          </Heading>
+          <IntroText>
+            Im April und Mai 2014 haben ca. 150 Schönwalder und Waldower ihre Video-Version des Hits "Happy" gedreht. Am 20.6.2014 gab es die Premieren-Vorstellung in der Kirche von 15910 Schönwalde (Spreewald).
+          </IntroText>
+        </section>
+
+        <div
+          style={{
+            margin: "2rem 0",
+            display: "flex",
+            justifyContent: "center",
+          }}
+        >
+          <div style={{ position: "relative", width: "100%", paddingTop: "60%" }}>
+            <iframe
+              src="https://www.youtube.com/embed/0r2kwb1qceU"
+              title="Geschichte von Schönwalde"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                border: "none",
+                borderRadius: "8px",
+              }}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div>
+        </div>
 
         <section aria-labelledby="heute-heading">
           <Heading as="h2" id="heute-heading">
