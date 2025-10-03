@@ -100,7 +100,7 @@ function HomePage() {
         >
           <div style={{ position: "relative", width: "100%", paddingTop: "60%" }}>
             <iframe
-              src="https://www.youtube.com/embed/0r2kwb1qceU"
+              src="https://www.youtube.com/embed/0r2kwb1qceU?hl=de"
               title="Geschichte von Schönwalde"
               style={{
                 position: "absolute",
