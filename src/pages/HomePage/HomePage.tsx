@@ -3,22 +3,22 @@ import { useEffect, useState } from "react";
 import CardTemplateSmall from "../../components/CardTemplateSmall/CardTemplateSmall";
 import { useData } from "../../context/DataContext";
 import MainCarousel from "./MainCarousel/MainCarousel";
-import { Heading, HinweiseWrapper, IntroText, MainContext } from "./styles";
+import { Heading, IntroText, MainContext } from "./styles";
 import { ImageOnlyGallery } from "./ImageOnlyCard/ImageOnlyGallery";
 import { Helmet } from "react-helmet"; // ✅ ОЦЕ — нове
-import HinweiseBtn from "../../components/HinweiseBtn/HinweiseBtn";
+// import HinweiseBtn from "../../components/HinweiseBtn/HinweiseBtn";
 
 function HomePage() {
   const data = useData();
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const geschichteImages = [
-    "/images/OtherPictures/Geschichte/1.avif",
-    "/images/OtherPictures/Geschichte/2.avif",
-    "/images/OtherPictures/Geschichte/3.avif",
-    "/images/OtherPictures/Geschichte/4.avif",
-  ];
+  // const geschichteImages = [
+  //   "/images/OtherPictures/Geschichte/1.avif",
+  //   "/images/OtherPictures/Geschichte/2.avif",
+  //   "/images/OtherPictures/Geschichte/3.avif",
+  //   "/images/OtherPictures/Geschichte/4.avif",
+  // ];
 
   useEffect(() => {
     if (data?.["Schönwalde entdecken"]) {
@@ -58,10 +58,10 @@ function HomePage() {
           />
         </section>
 
-        <HinweiseWrapper>
+        {/* <HinweiseWrapper>
           <h2>Noch im Aufbau</h2>
           <HinweiseBtn />
-        </HinweiseWrapper>
+        </HinweiseWrapper> */}
 
         <section aria-labelledby="geschichte-heading">
           <Heading as="h2" id="geschichte-heading">
@@ -76,7 +76,7 @@ function HomePage() {
           </IntroText>
 
           <ImageOnlyGallery
-            images={geschichteImages}
+            data={data}
             loading={false}
             ariaLabel="Bildergalerie zur Geschichte von Schönwalde"
           />
