@@ -162,7 +162,7 @@ export default function SmallCardTemplate({
           ? Array.from({ length: 2 }).map((_, i) => (
               <SkeletonSmallCard key={i} />
             ))
-          : cards.map((item, index) => (
+          : cards.filter((item) => item.CARD_TITLE !== "Main-Geschichte").map((item, index) => (
               <Card key={`${item.CARD_TITLE}-${index}`}>
 
                 <CardImageWrapper>

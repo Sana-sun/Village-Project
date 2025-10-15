@@ -13,12 +13,12 @@ function HomePage() {
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const geschichteImages = [
-    "/images/OtherPictures/Geschichte/1.avif",
-    "/images/OtherPictures/Geschichte/2.avif",
-    "/images/OtherPictures/Geschichte/3.avif",
-    "/images/OtherPictures/Geschichte/4.avif",
-  ];
+  // const geschichteImages = [
+  //   "/images/OtherPictures/Geschichte/1.avif",
+  //   "/images/OtherPictures/Geschichte/2.avif",
+  //   "/images/OtherPictures/Geschichte/3.avif",
+  //   "/images/OtherPictures/Geschichte/4.avif",
+  // ];
 
   useEffect(() => {
     if (data?.["Schönwalde entdecken"]) {
@@ -76,7 +76,7 @@ function HomePage() {
           </IntroText>
 
           <ImageOnlyGallery
-            images={geschichteImages}
+            data={data}
             loading={false}
             ariaLabel="Bildergalerie zur Geschichte von Schönwalde"
           />
